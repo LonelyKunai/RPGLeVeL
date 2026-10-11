@@ -1,0 +1,95 @@
+subclasses:
+  tirador:
+    abilities:
+      tirador_tiro_penetrante:
+        name: Tiro Penetrante
+        description: Dispara contra un objetivo (45 bloques)
+        icon: SPECTRAL_ARROW
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.3
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 45
+          damage: 12
+          damage_per_level: 3
+          particle: CRIT
+          sound: ENTITY_ARROW_SHOOT
+          statuses:
+          - bleed:4:1
+      tirador_ojo_de_halcon:
+        name: Ojo de Halcón
+        description: Otorga mejoras temporales
+        icon: ENDER_EYE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            tirador_tiro_penetrante: 1
+        effect:
+          type: buff
+          potions:
+          - night_vision:20:0
+          - speed:10:0
+          duration_per_level: 3
+          particle: END_ROD
+          sound: ENTITY_PARROT_FLY
+      tirador_tiro_doble:
+        name: Tiro Doble
+        description: Dispara una andanada de proyectiles
+        icon: CROSSBOW
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            tirador_tiro_penetrante: 1
+        effect:
+          type: volley
+          arrows: 3
+          arrows_per_level: 1
+          damage: 6
+          damage_per_level: 1.5
+          spread: 0.08
+          speed: 3.0
+      tirador_disparo_mortal:
+        name: Disparo Mortal
+        description: Dispara contra un objetivo (50 bloques)
+        icon: BOW
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            tirador_ojo_de_halcon: 2
+            tirador_tiro_doble: 2
+        effect:
+          type: bolt
+          range: 50
+          damage: 28
+          damage_per_level: 7
+          particle: CRIT
+          sound: ENTITY_ARROW_HIT_PLAYER
+          execute_below: 0.4
+          execute_mult: 1.5
+          statuses:
+          - bleed:6:2

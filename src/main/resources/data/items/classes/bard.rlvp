@@ -1,0 +1,1111 @@
+items:
+  bard_weapon_t1:
+    material: GOLDEN_SWORD
+    custom_model_data: 910241
+    display_name: "§6§lArma Principal de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      cooldown_reduction: 1.5
+      mana_regen: 0.3
+      mana_on_hit: 0.5
+      shock_chance: 0.6
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "GOLDEN_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_weapon_t2:
+    material: GOLDEN_SWORD
+    custom_model_data: 910242
+    display_name: "§6§lArma Principal de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      cooldown_reduction: 2.7
+      mana_regen: 0.54
+      mana_on_hit: 0.9
+      shock_chance: 1.08
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_weapon_t3:
+    material: GOLDEN_SWORD
+    custom_model_data: 910243
+    display_name: "§6§lArma Principal de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      cooldown_reduction: 4.5
+      mana_regen: 0.9
+      mana_on_hit: 1.5
+      shock_chance: 1.8
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_weapon_t4:
+    material: GOLDEN_SWORD
+    custom_model_data: 910244
+    display_name: "§6§lArma Principal de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      cooldown_reduction: 6.75
+      mana_regen: 1.35
+      mana_on_hit: 2.25
+      shock_chance: 2.7
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_weapon_t5:
+    material: GOLDEN_SWORD
+    custom_model_data: 910245
+    display_name: "§6§lArma Principal de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      cooldown_reduction: 9.75
+      mana_regen: 1.95
+      mana_on_hit: 3.25
+      shock_chance: 3.9
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard
+  bard_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910246
+    display_name: "§6§lCasco de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.42
+      status_resist: 0.56
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910247
+    display_name: "§6§lCasco de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 0.756
+      status_resist: 1.008
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910248
+    display_name: "§6§lCasco de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 1.26
+      status_resist: 1.68
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910249
+    display_name: "§6§lCasco de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 1.89
+      status_resist: 2.52
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910250
+    display_name: "§6§lCasco de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 2.73
+      status_resist: 3.64
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard
+  bard_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910251
+    display_name: "§6§lPechera de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      cooldown_reduction: 1.04
+      movement_speed: 0.003
+      xp_bonus: 0.78
+      status_resist: 1.04
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910252
+    display_name: "§6§lPechera de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      cooldown_reduction: 1.872
+      movement_speed: 0.005
+      xp_bonus: 1.404
+      status_resist: 1.872
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910253
+    display_name: "§6§lPechera de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      cooldown_reduction: 3.12
+      movement_speed: 0.008
+      xp_bonus: 2.34
+      status_resist: 3.12
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910254
+    display_name: "§6§lPechera de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      cooldown_reduction: 4.68
+      movement_speed: 0.012
+      xp_bonus: 3.51
+      status_resist: 4.68
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910255
+    display_name: "§6§lPechera de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      cooldown_reduction: 6.76
+      movement_speed: 0.017
+      xp_bonus: 5.07
+      status_resist: 6.76
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard
+  bard_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910256
+    display_name: "§6§lPantalones de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      cooldown_reduction: 0.8
+      movement_speed: 0.002
+      xp_bonus: 0.6
+      status_resist: 0.8
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910257
+    display_name: "§6§lPantalones de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      cooldown_reduction: 1.44
+      movement_speed: 0.004
+      xp_bonus: 1.08
+      status_resist: 1.44
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910258
+    display_name: "§6§lPantalones de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      cooldown_reduction: 2.4
+      movement_speed: 0.006
+      xp_bonus: 1.8
+      status_resist: 2.4
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910259
+    display_name: "§6§lPantalones de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      cooldown_reduction: 3.6
+      movement_speed: 0.009
+      xp_bonus: 2.7
+      status_resist: 3.6
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910260
+    display_name: "§6§lPantalones de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      cooldown_reduction: 5.2
+      movement_speed: 0.013
+      xp_bonus: 3.9
+      status_resist: 5.2
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard
+  bard_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910261
+    display_name: "§6§lBotas de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.42
+      status_resist: 0.56
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910262
+    display_name: "§6§lBotas de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 0.756
+      status_resist: 1.008
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910263
+    display_name: "§6§lBotas de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 1.26
+      status_resist: 1.68
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910264
+    display_name: "§6§lBotas de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 1.89
+      status_resist: 2.52
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910265
+    display_name: "§6§lBotas de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 2.73
+      status_resist: 3.64
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard
+  bard_offhand_extra_t1:
+    material: GOAT_HORN
+    custom_model_data: 910266
+    display_name: "§6§lObjeto Secundario de Bardo - Nivel I"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      cooldown_reduction: 0.75
+      mana_regen: 0.15
+      mana_on_hit: 0.25
+      shock_chance: 0.3
+    requires:
+      class: bardo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: bard
+      tier: 1
+      ingredients:
+      - "GOAT_HORN:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: bard
+  bard_offhand_extra_t2:
+    material: GOAT_HORN
+    custom_model_data: 910267
+    display_name: "§6§lObjeto Secundario de Bardo - Nivel II"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      cooldown_reduction: 1.35
+      mana_regen: 0.27
+      mana_on_hit: 0.45
+      shock_chance: 0.54
+    requires:
+      class: bardo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 2
+      ingredients:
+      - "bard_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: bard
+  bard_offhand_extra_t3:
+    material: GOAT_HORN
+    custom_model_data: 910268
+    display_name: "§6§lObjeto Secundario de Bardo - Nivel III"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      cooldown_reduction: 2.25
+      mana_regen: 0.45
+      mana_on_hit: 0.75
+      shock_chance: 0.9
+    requires:
+      class: bardo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 3
+      ingredients:
+      - "bard_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: bard
+  bard_offhand_extra_t4:
+    material: GOAT_HORN
+    custom_model_data: 910269
+    display_name: "§6§lObjeto Secundario de Bardo - Nivel IV"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      cooldown_reduction: 3.375
+      mana_regen: 0.675
+      mana_on_hit: 1.125
+      shock_chance: 1.35
+    requires:
+      class: bardo
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 4
+      ingredients:
+      - "bard_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: bard
+  bard_offhand_extra_t5:
+    material: GOAT_HORN
+    custom_model_data: 910270
+    display_name: "§6§lObjeto Secundario de Bardo - Nivel V"
+    lore:
+    - "§8Set: Bardo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: bard
+      name: Bardo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      cooldown_reduction: 4.875
+      mana_regen: 0.975
+      mana_on_hit: 1.625
+      shock_chance: 1.95
+    requires:
+      class: bardo
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: bard
+      tier: 5
+      ingredients:
+      - "bard_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: bard

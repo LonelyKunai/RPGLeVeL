@@ -1,0 +1,59 @@
+cooldown: 86400
+permission_required: false
+items:
+  1:
+    id: BREAD
+    amount: 8
+  2:
+    id: IRON_NUGGET
+    amount: 8
+actions:
+  claim:
+    1:
+      action: "console_command: rlv coins give %player% 100"
+    2:
+      action: "playsound: ENTITY_PLAYER_LEVELUP;10;1"
+  error:
+    1:
+      action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1"
+requirements:
+  one_time_requirements: false
+  price: 0
+display:
+  default:
+    id: GOLD_NUGGET
+    name: '&e&lKit Diario'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x8 Pan, x8 Pepitas de hierro'
+      - '&8- &7100 monedas'
+      - ''
+      - '&7Espera: &c24 h'
+      - ''
+      - '&aClic izquierdo para reclamar'
+    item_flags:
+      - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&e&lKit Diario'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x8 Pan, x8 Pepitas de hierro'
+      - '&8- &7100 monedas'
+      - ''
+      - '&cNo tienes permiso para este kit.'
+  cooldown:
+    id: GOLD_NUGGET
+    name: '&e&lKit Diario'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x8 Pan, x8 Pepitas de hierro'
+      - '&8- &7100 monedas'
+      - ''
+      - '&cDebes esperar &7%time%'
+      - '&cpara reclamarlo de nuevo.'
+    item_flags:
+      - HIDE_ATTRIBUTES

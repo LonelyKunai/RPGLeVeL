@@ -1,0 +1,23 @@
+jobs:
+  lumberjack:
+    name: Leñador
+    description: Mejora la tala de árboles.
+    icon: IRON_AXE
+    bonus: logging
+    global: true
+    perks:
+      5:
+        stats:
+          attack_damage: 0.3
+      10:
+        stats:
+          movement_speed: 0.004
+      20:
+        stats:
+          max_health: 2
+      30:
+        stats:
+          attack_damage: 0.5
+      50:
+        stats:
+          crit_damage: 5

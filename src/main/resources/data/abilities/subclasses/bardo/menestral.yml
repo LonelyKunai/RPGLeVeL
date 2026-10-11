@@ -1,0 +1,97 @@
+subclasses:
+  menestral:
+    abilities:
+      menestral_cancion_de_vida:
+        name: Canción de Vida
+        description: Cura a los aliados cercanos
+        icon: MUSIC_DISC_13
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: heal
+          amount: 7
+          amount_per_level: 1.5
+          radius: 10
+          potions:
+          - regeneration:6:0
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_HARP
+      menestral_ritmo_incansable:
+        name: Ritmo Incansable
+        description: Otorga mejoras temporales
+        icon: CLOCK
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            menestral_cancion_de_vida: 1
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - speed:15:1
+          - haste:15:1
+          - saturation:3:0
+          duration_per_level: 2
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_PLING
+      menestral_himno_de_resiliencia:
+        name: Himno de Resiliencia
+        description: Otorga mejoras temporales
+        icon: NAUTILUS_SHELL
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            menestral_cancion_de_vida: 1
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - resistance:15:1
+          - absorption:15:2
+          duration_per_level: 3
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_CHIME
+      menestral_concierto_de_vida:
+        name: Concierto de Vida
+        description: Cura a los aliados cercanos
+        icon: JUKEBOX
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 65
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            menestral_ritmo_incansable: 2
+            menestral_himno_de_resiliencia: 2
+        effect:
+          type: heal
+          amount: 24
+          amount_per_level: 5
+          radius: 14
+          cleanse: true
+          potions:
+          - regeneration:12:2
+          particle: NOTE
+          sound: ITEM_TOTEM_USE

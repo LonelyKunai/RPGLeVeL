@@ -1,0 +1,1121 @@
+items:
+  trapper_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910541
+    display_name: "§6§lArma Principal de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      crit_chance: 1.5
+      attack_damage: 0.4
+      execute: 1.5
+      bleed_chance: 1.0
+      stun_chance: 0.6
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910542
+    display_name: "§6§lArma Principal de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      crit_chance: 2.7
+      attack_damage: 0.72
+      execute: 2.7
+      bleed_chance: 1.8
+      stun_chance: 1.08
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910543
+    display_name: "§6§lArma Principal de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      crit_chance: 4.5
+      attack_damage: 1.2
+      execute: 4.5
+      bleed_chance: 3.0
+      stun_chance: 1.8
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910544
+    display_name: "§6§lArma Principal de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      crit_chance: 6.75
+      attack_damage: 1.8
+      execute: 6.75
+      bleed_chance: 4.5
+      stun_chance: 2.7
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910545
+    display_name: "§6§lArma Principal de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      crit_chance: 9.75
+      attack_damage: 2.6
+      execute: 9.75
+      bleed_chance: 6.5
+      stun_chance: 3.9
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper
+  trapper_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910546
+    display_name: "§6§lCasco de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.28
+      status_resist: 0.56
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910547
+    display_name: "§6§lCasco de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.504
+      status_resist: 1.008
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910548
+    display_name: "§6§lCasco de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.84
+      status_resist: 1.68
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910549
+    display_name: "§6§lCasco de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 1.26
+      status_resist: 2.52
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910550
+    display_name: "§6§lCasco de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 1.82
+      status_resist: 3.64
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper
+  trapper_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910551
+    display_name: "§6§lPechera de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      evasion: 1.04
+      max_health: 1.04
+      luck: 0.52
+      status_resist: 1.04
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910552
+    display_name: "§6§lPechera de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      evasion: 1.872
+      max_health: 1.872
+      luck: 0.936
+      status_resist: 1.872
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910553
+    display_name: "§6§lPechera de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      evasion: 3.12
+      max_health: 3.12
+      luck: 1.56
+      status_resist: 3.12
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910554
+    display_name: "§6§lPechera de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      evasion: 4.68
+      max_health: 4.68
+      luck: 2.34
+      status_resist: 4.68
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910555
+    display_name: "§6§lPechera de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      evasion: 6.76
+      max_health: 6.76
+      luck: 3.38
+      status_resist: 6.76
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper
+  trapper_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910556
+    display_name: "§6§lPantalones de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      evasion: 0.8
+      max_health: 0.8
+      luck: 0.4
+      status_resist: 0.8
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910557
+    display_name: "§6§lPantalones de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      evasion: 1.44
+      max_health: 1.44
+      luck: 0.72
+      status_resist: 1.44
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910558
+    display_name: "§6§lPantalones de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      evasion: 2.4
+      max_health: 2.4
+      luck: 1.2
+      status_resist: 2.4
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910559
+    display_name: "§6§lPantalones de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      evasion: 3.6
+      max_health: 3.6
+      luck: 1.8
+      status_resist: 3.6
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910560
+    display_name: "§6§lPantalones de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      evasion: 5.2
+      max_health: 5.2
+      luck: 2.6
+      status_resist: 5.2
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper
+  trapper_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910561
+    display_name: "§6§lBotas de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.28
+      status_resist: 0.56
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910562
+    display_name: "§6§lBotas de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.504
+      status_resist: 1.008
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910563
+    display_name: "§6§lBotas de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.84
+      status_resist: 1.68
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910564
+    display_name: "§6§lBotas de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 1.26
+      status_resist: 2.52
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910565
+    display_name: "§6§lBotas de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 1.82
+      status_resist: 3.64
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper
+  trapper_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910566
+    display_name: "§6§lObjeto Secundario de Trampero - Nivel I"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      crit_chance: 0.75
+      attack_damage: 0.2
+      execute: 0.75
+      bleed_chance: 0.5
+      stun_chance: 0.3
+    requires:
+      subclass: trampero
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: trapper
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: trapper
+  trapper_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910567
+    display_name: "§6§lObjeto Secundario de Trampero - Nivel II"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      crit_chance: 1.35
+      attack_damage: 0.36
+      execute: 1.35
+      bleed_chance: 0.9
+      stun_chance: 0.54
+    requires:
+      subclass: trampero
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 2
+      ingredients:
+      - "trapper_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: trapper
+  trapper_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910568
+    display_name: "§6§lObjeto Secundario de Trampero - Nivel III"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      crit_chance: 2.25
+      attack_damage: 0.6
+      execute: 2.25
+      bleed_chance: 1.5
+      stun_chance: 0.9
+    requires:
+      subclass: trampero
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 3
+      ingredients:
+      - "trapper_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: trapper
+  trapper_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910569
+    display_name: "§6§lObjeto Secundario de Trampero - Nivel IV"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      crit_chance: 3.375
+      attack_damage: 0.9
+      execute: 3.375
+      bleed_chance: 2.25
+      stun_chance: 1.35
+    requires:
+      subclass: trampero
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 4
+      ingredients:
+      - "trapper_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: trapper
+  trapper_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910570
+    display_name: "§6§lObjeto Secundario de Trampero - Nivel V"
+    lore:
+    - "§8Set: Trampero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: trapper
+      name: Trampero
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      crit_chance: 4.875
+      attack_damage: 1.3
+      execute: 4.875
+      bleed_chance: 3.25
+      stun_chance: 1.95
+    requires:
+      subclass: trampero
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: trapper
+      tier: 5
+      ingredients:
+      - "trapper_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: trapper

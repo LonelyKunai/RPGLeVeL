@@ -1,0 +1,25 @@
+# ============================================================================
+# RPGLeVeL - Habilidades (árbol de habilidades)
+# ----------------------------------------------------------------------------
+# settings.skill_point_every_levels : cada N niveles de clase/subclase ganas 1 punto de habilidad
+# settings.initial_skill_points     : puntos con los que empiezas (nivel 1)
+# settings.ability_xp_per_level     : ability xp que se gana por cada nivel de clase/subclase
+# settings.ability_xp_cost_base     : subir una habilidad de nivel N a N+1 cuesta base * N ability xp
+#
+# classes.<clase>.abilities.<id>    : árbol de la clase (row 0-4, col 0-8 = posición en el menú)
+# subclasses.<subclase>.abilities   : árbol de la subclase
+# items.<id>                        : habilidades de ítems RPG (se activan por tier del ítem)
+#
+# requires.level      : nivel de clase/subclase necesario
+# requires.abilities  : habilidades previas {id: nivel mínimo}
+# effect              : tipo (bolt, aoe, heal, buff, dash, blink, slam, lightning, chain, drain, volley)
+#                       cualquier número admite <nombre>_per_level (se suma por nivel de habilidad)
+#                       potions: ["efecto:segundos:amplificador"]
+# ============================================================================
+settings:
+  skill_point_every_levels: 3
+  initial_skill_points: 1
+  ability_xp_per_level: 150
+  ability_xp_cost_base: 100
+  pvp: false
+  cast_message: true

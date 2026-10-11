@@ -1,0 +1,5 @@
+classes:
+  nigromante:
+    name: Nigromante
+    description: Invocador de las artes oscuras que manipula a los muertos y la energía vital.
+    icon: SKULL

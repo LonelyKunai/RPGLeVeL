@@ -1,0 +1,1151 @@
+items:
+  death_knight_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910361
+    display_name: "§6§lArma Principal de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      attack_damage: 0.6
+      crit_damage: 3.0
+      attack_speed: 0.01
+      stun_chance: 0.8
+      execute: 1.5
+      poison_chance: 0.8
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910362
+    display_name: "§6§lArma Principal de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      attack_damage: 1.08
+      crit_damage: 5.4
+      attack_speed: 0.018
+      stun_chance: 1.44
+      execute: 2.7
+      poison_chance: 1.44
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910363
+    display_name: "§6§lArma Principal de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      attack_damage: 1.8
+      crit_damage: 9.0
+      attack_speed: 0.03
+      stun_chance: 2.4
+      execute: 4.5
+      poison_chance: 2.4
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910364
+    display_name: "§6§lArma Principal de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      attack_damage: 2.7
+      crit_damage: 13.5
+      attack_speed: 0.045
+      stun_chance: 3.6
+      execute: 6.75
+      poison_chance: 3.6
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910365
+    display_name: "§6§lArma Principal de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      attack_damage: 3.9
+      crit_damage: 19.5
+      attack_speed: 0.065
+      stun_chance: 5.2
+      execute: 9.75
+      poison_chance: 5.2
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight
+  death_knight_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910366
+    display_name: "§6§lCasco de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.014
+      health_regen: 0.028
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910367
+    display_name: "§6§lCasco de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0252
+      health_regen: 0.0504
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910368
+    display_name: "§6§lCasco de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.042
+      health_regen: 0.084
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910369
+    display_name: "§6§lCasco de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.063
+      health_regen: 0.126
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910370
+    display_name: "§6§lCasco de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.091
+      health_regen: 0.182
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight
+  death_knight_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910371
+    display_name: "§6§lPechera de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      damage_reduction: 1.04
+      max_health: 1.3
+      thorns: 1.3
+      knockback_resistance: 0.026
+      health_regen: 0.052
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910372
+    display_name: "§6§lPechera de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      damage_reduction: 1.872
+      max_health: 2.34
+      thorns: 2.34
+      knockback_resistance: 0.0468
+      health_regen: 0.0936
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910373
+    display_name: "§6§lPechera de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      damage_reduction: 3.12
+      max_health: 3.9
+      thorns: 3.9
+      knockback_resistance: 0.078
+      health_regen: 0.156
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910374
+    display_name: "§6§lPechera de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      damage_reduction: 4.68
+      max_health: 5.85
+      thorns: 5.85
+      knockback_resistance: 0.117
+      health_regen: 0.234
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910375
+    display_name: "§6§lPechera de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      damage_reduction: 6.76
+      max_health: 8.45
+      thorns: 8.45
+      knockback_resistance: 0.169
+      health_regen: 0.338
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight
+  death_knight_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910376
+    display_name: "§6§lPantalones de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      damage_reduction: 0.8
+      max_health: 1.0
+      thorns: 1.0
+      knockback_resistance: 0.02
+      health_regen: 0.04
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910377
+    display_name: "§6§lPantalones de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      damage_reduction: 1.44
+      max_health: 1.8
+      thorns: 1.8
+      knockback_resistance: 0.036
+      health_regen: 0.072
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910378
+    display_name: "§6§lPantalones de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      damage_reduction: 2.4
+      max_health: 3.0
+      thorns: 3.0
+      knockback_resistance: 0.06
+      health_regen: 0.12
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910379
+    display_name: "§6§lPantalones de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      damage_reduction: 3.6
+      max_health: 4.5
+      thorns: 4.5
+      knockback_resistance: 0.09
+      health_regen: 0.18
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910380
+    display_name: "§6§lPantalones de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      damage_reduction: 5.2
+      max_health: 6.5
+      thorns: 6.5
+      knockback_resistance: 0.13
+      health_regen: 0.26
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight
+  death_knight_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910381
+    display_name: "§6§lBotas de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.014
+      health_regen: 0.028
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910382
+    display_name: "§6§lBotas de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0252
+      health_regen: 0.0504
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910383
+    display_name: "§6§lBotas de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.042
+      health_regen: 0.084
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910384
+    display_name: "§6§lBotas de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.063
+      health_regen: 0.126
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910385
+    display_name: "§6§lBotas de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.091
+      health_regen: 0.182
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight
+  death_knight_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910386
+    display_name: "§6§lObjeto Secundario de Caballero de la Muerte - Nivel I"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      attack_damage: 0.3
+      crit_damage: 1.5
+      attack_speed: 0.005
+      stun_chance: 0.4
+      execute: 0.75
+      poison_chance: 0.4
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: death_knight
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: death_knight
+  death_knight_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910387
+    display_name: "§6§lObjeto Secundario de Caballero de la Muerte - Nivel II"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      attack_damage: 0.54
+      crit_damage: 2.7
+      attack_speed: 0.009
+      stun_chance: 0.72
+      execute: 1.35
+      poison_chance: 0.72
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 2
+      ingredients:
+      - "death_knight_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: death_knight
+  death_knight_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910388
+    display_name: "§6§lObjeto Secundario de Caballero de la Muerte - Nivel III"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      attack_damage: 0.9
+      crit_damage: 4.5
+      attack_speed: 0.015
+      stun_chance: 1.2
+      execute: 2.25
+      poison_chance: 1.2
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 3
+      ingredients:
+      - "death_knight_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: death_knight
+  death_knight_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910389
+    display_name: "§6§lObjeto Secundario de Caballero de la Muerte - Nivel IV"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      attack_damage: 1.35
+      crit_damage: 6.75
+      attack_speed: 0.0225
+      stun_chance: 1.8
+      execute: 3.375
+      poison_chance: 1.8
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 4
+      ingredients:
+      - "death_knight_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: death_knight
+  death_knight_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910390
+    display_name: "§6§lObjeto Secundario de Caballero de la Muerte - Nivel V"
+    lore:
+    - "§8Set: Caballero de la Muerte"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: death_knight
+      name: "Caballero de la Muerte"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      attack_damage: 1.95
+      crit_damage: 9.75
+      attack_speed: 0.0325
+      stun_chance: 2.6
+      execute: 4.875
+      poison_chance: 2.6
+    requires:
+      subclass: caballero_de_la_muerte
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: death_knight
+      tier: 5
+      ingredients:
+      - "death_knight_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: death_knight

@@ -1,0 +1,82 @@
+# Jefes mundiales. Se invocan con /rlv boss spawn <id>, por el calendario de config.yml (bosses.schedule),
+# por eventos (boss_night) o por mazmorras.
+# abilities: lista de habilidades que usa cada N segundos (every). Tipos:
+#   slam {radius, damage}          golpe en área con empuje
+#   summon {entity, count}         invoca esbirros
+#   leap {damage, radius}          salta hacia un jugador y aplasta
+#   fire_ring {radius, seconds}    quema a los jugadores cercanos
+#   lightning {damage}             rayo sobre un jugador al azar
+#   pull {radius}                  atrae a los jugadores
+#   poison_cloud {radius, seconds} veneno en área
+#   stun {radius, seconds}         aturde en área
+#   heal {percent}                 se cura un % de su vida
+# loot: guaranteed (toda persona que haya hecho al menos min_damage_percent del daño),
+#       top_rolls (extras para quien más daño hizo).
+bosses:
+  rey_esqueleto:
+    name: "§c§lRey Esqueleto"
+    entity: WITHER_SKELETON
+    level: 30
+    health: 700
+    damage: 12
+    armor: 8
+    speed: 0.05
+    bar_color: RED
+    equipment: {mainhand: DIAMOND_SWORD, helmet: IRON_HELMET}
+    enrage_below: 0.3
+    abilities:
+      - {type: slam, every: 10, radius: 6, damage: 10}
+      - {type: summon, every: 22, entity: SKELETON, count: 3}
+      - {type: leap, every: 16, damage: 8, radius: 4}
+    rewards:
+      min_damage_percent: 5
+      class_xp: 600
+      ranking_points: 40
+      coins: [80, 160]
+      guaranteed: [{type: gear, tier: [3, 4]}, {type: gem, level: [1, 2]}]
+      top_rolls: [{type: gear, tier: [4, 5]}, {type: material, id: sky_ingot, amount: [1, 2]}]
+  titan_de_fuego:
+    name: "§6§lTitán de Fuego"
+    entity: MAGMA_CUBE
+    size: 6
+    level: 40
+    health: 1000
+    damage: 16
+    armor: 6
+    speed: 0.04
+    bar_color: YELLOW
+    enrage_below: 0.25
+    abilities:
+      - {type: fire_ring, every: 12, radius: 8, seconds: 5}
+      - {type: slam, every: 14, radius: 7, damage: 14}
+      - {type: lightning, every: 18, damage: 12}
+      - {type: heal, every: 40, percent: 4}
+    rewards:
+      min_damage_percent: 5
+      class_xp: 900
+      ranking_points: 60
+      coins: [120, 260]
+      guaranteed: [{type: gear, tier: [4, 4]}, {type: gem, level: [2, 3]}, {type: material, id: cobalt_ingot, amount: [2, 3]}]
+      top_rolls: [{type: gear, tier: [5, 5]}, {type: material, id: dragon_core, amount: [1, 1]}]
+  reina_arana:
+    name: "§5§lReina Araña"
+    entity: SPIDER
+    level: 25
+    health: 500
+    damage: 9
+    armor: 4
+    speed: 0.1
+    bar_color: PURPLE
+    enrage_below: 0.3
+    abilities:
+      - {type: poison_cloud, every: 10, radius: 7, seconds: 6}
+      - {type: summon, every: 18, entity: CAVE_SPIDER, count: 4}
+      - {type: pull, every: 20, radius: 9}
+      - {type: stun, every: 25, radius: 5, seconds: 2}
+    rewards:
+      min_damage_percent: 5
+      class_xp: 450
+      ranking_points: 30
+      coins: [60, 120]
+      guaranteed: [{type: gear, tier: [2, 3]}, {type: gem, level: [1, 2]}]
+      top_rolls: [{type: gear, tier: [4, 4]}]

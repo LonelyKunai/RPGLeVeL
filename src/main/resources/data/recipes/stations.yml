@@ -1,0 +1,286 @@
+stations:
+  warrior:
+    name: Guerrero
+    kind: class
+    item: station_warrior
+    block: SMITHING_TABLE
+    owner: guerrero
+  mage:
+    name: Mago
+    kind: class
+    item: station_mage
+    block: SMITHING_TABLE
+    owner: mago
+  hunter:
+    name: Cazador
+    kind: class
+    item: station_hunter
+    block: SMITHING_TABLE
+    owner: cazador
+  rogue:
+    name: Pícaro
+    kind: class
+    item: station_rogue
+    block: SMITHING_TABLE
+    owner: picaro
+  cleric:
+    name: Clérigo
+    kind: class
+    item: station_cleric
+    block: SMITHING_TABLE
+    owner: clerigo
+  necromancer:
+    name: Nigromante
+    kind: class
+    item: station_necromancer
+    block: SMITHING_TABLE
+    owner: nigromante
+  druid:
+    name: Druida
+    kind: class
+    item: station_druid
+    block: SMITHING_TABLE
+    owner: druida
+  artificer:
+    name: Artífice
+    kind: class
+    item: station_artificer
+    block: SMITHING_TABLE
+    owner: artificie
+  bard:
+    name: Bardo
+    kind: class
+    item: station_bard
+    block: SMITHING_TABLE
+    owner: bardo
+  warlock:
+    name: Brujo
+    kind: class
+    item: station_warlock
+    block: SMITHING_TABLE
+    owner: brujo
+  paladin:
+    name: Paladín
+    kind: subclass
+    item: station_paladin
+    block: CARTOGRAPHY_TABLE
+    owner: paladin
+    parent: guerrero
+  barbarian:
+    name: Bárbaro
+    kind: subclass
+    item: station_barbarian
+    block: CARTOGRAPHY_TABLE
+    owner: barbaro
+    parent: guerrero
+  death_knight:
+    name: "Caballero de la Muerte"
+    kind: subclass
+    item: station_death_knight
+    block: CARTOGRAPHY_TABLE
+    owner: caballero_de_la_muerte
+    parent: guerrero
+  pyromancer:
+    name: Piroamante
+    kind: subclass
+    item: station_pyromancer
+    block: CARTOGRAPHY_TABLE
+    owner: piroamante
+    parent: mago
+  cryomancer:
+    name: Criomante
+    kind: subclass
+    item: station_cryomancer
+    block: CARTOGRAPHY_TABLE
+    owner: criomante
+    parent: mago
+  electromancer:
+    name: Electromante
+    kind: subclass
+    item: station_electromancer
+    block: CARTOGRAPHY_TABLE
+    owner: electromante
+    parent: mago
+  marksman:
+    name: Tirador
+    kind: subclass
+    item: station_marksman
+    block: CARTOGRAPHY_TABLE
+    owner: tirador
+    parent: cazador
+  beastmaster:
+    name: "Maestro de Bestias"
+    kind: subclass
+    item: station_beastmaster
+    block: CARTOGRAPHY_TABLE
+    owner: maestro_de_bestias
+    parent: cazador
+  trapper:
+    name: Trampero
+    kind: subclass
+    item: station_trapper
+    block: CARTOGRAPHY_TABLE
+    owner: trampero
+    parent: cazador
+  assassin:
+    name: Asesino
+    kind: subclass
+    item: station_assassin
+    block: CARTOGRAPHY_TABLE
+    owner: asesino
+    parent: picaro
+  venomancer:
+    name: Envenenador
+    kind: subclass
+    item: station_venomancer
+    block: CARTOGRAPHY_TABLE
+    owner: envenenador
+    parent: picaro
+  shadow_duelist:
+    name: "Sombra / Duelista"
+    kind: subclass
+    item: station_shadow_duelist
+    block: CARTOGRAPHY_TABLE
+    owner: duquista_sombra
+    parent: picaro
+  priest_of_light:
+    name: "Sacerdote de Luz"
+    kind: subclass
+    item: station_priest_of_light
+    block: CARTOGRAPHY_TABLE
+    owner: sacerdote_de_luz
+    parent: clerigo
+  inquisitor:
+    name: Inquisidor
+    kind: subclass
+    item: station_inquisitor
+    block: CARTOGRAPHY_TABLE
+    owner: inquisidor
+    parent: clerigo
+  monk:
+    name: Monje
+    kind: subclass
+    item: station_monk
+    block: CARTOGRAPHY_TABLE
+    owner: monje
+    parent: clerigo
+  shadow_lord:
+    name: "Señor de las Sombras"
+    kind: subclass
+    item: station_shadow_lord
+    block: CARTOGRAPHY_TABLE
+    owner: senor_de_las_sombras
+    parent: nigromante
+  reaper:
+    name: Cosechador
+    kind: subclass
+    item: station_reaper
+    block: CARTOGRAPHY_TABLE
+    owner: cosechador
+    parent: nigromante
+  plaguer:
+    name: Plagador
+    kind: subclass
+    item: station_plaguer
+    block: CARTOGRAPHY_TABLE
+    owner: plagador
+    parent: nigromante
+  wild_guardian:
+    name: "Guardián Salvaje"
+    kind: subclass
+    item: station_wild_guardian
+    block: CARTOGRAPHY_TABLE
+    owner: guardian_salvaje
+    parent: druida
+  apex_hunter:
+    name: "Cazador Depredador"
+    kind: subclass
+    item: station_apex_hunter
+    block: CARTOGRAPHY_TABLE
+    owner: cazador_predador
+    parent: druida
+  earth_shaman:
+    name: "Chamán Terrestre"
+    kind: subclass
+    item: station_earth_shaman
+    block: CARTOGRAPHY_TABLE
+    owner: chaman_terrestre
+    parent: druida
+  alchemist:
+    name: "Maestro Alquimista"
+    kind: subclass
+    item: station_alchemist
+    block: CARTOGRAPHY_TABLE
+    owner: maestro_alquimista
+    parent: artificie
+  engineer:
+    name: Ingeniero
+    kind: subclass
+    item: station_engineer
+    block: CARTOGRAPHY_TABLE
+    owner: ingeniero
+    parent: artificie
+  demolitionist:
+    name: Demoledor
+    kind: subclass
+    item: station_demolitionist
+    block: CARTOGRAPHY_TABLE
+    owner: demoledor
+    parent: artificie
+  valor_herald:
+    name: "Ladrador del Valor"
+    kind: subclass
+    item: station_valor_herald
+    block: CARTOGRAPHY_TABLE
+    owner: ladrador_del_valor
+    parent: bardo
+  discord_master:
+    name: "Maestro de la Discordia"
+    kind: subclass
+    item: station_discord_master
+    block: CARTOGRAPHY_TABLE
+    owner: maestro_de_la_discordia
+    parent: bardo
+  minstrel:
+    name: Menestral
+    kind: subclass
+    item: station_minstrel
+    block: CARTOGRAPHY_TABLE
+    owner: menestral
+    parent: bardo
+  demon_summoner:
+    name: "Invocador Demoníaco"
+    kind: subclass
+    item: station_demon_summoner
+    block: CARTOGRAPHY_TABLE
+    owner: invocador_demoniaco
+    parent: brujo
+  cursed:
+    name: Maldito
+    kind: subclass
+    item: station_cursed
+    block: CARTOGRAPHY_TABLE
+    owner: maldito
+    parent: brujo
+  soul_eater:
+    name: "Devorador de Almas"
+    kind: subclass
+    item: station_soul_eater
+    block: CARTOGRAPHY_TABLE
+    owner: devorador_de_almas
+    parent: brujo
+  adventurer:
+    name: Aventurero
+    kind: universal
+    item: station_adventurer
+    block: FLETCHING_TABLE
+  wanderer:
+    name: Caminante
+    kind: universal
+    item: station_wanderer
+    block: FLETCHING_TABLE
+  guardian:
+    name: Guardián
+    kind: universal
+    item: station_guardian
+    block: FLETCHING_TABLE

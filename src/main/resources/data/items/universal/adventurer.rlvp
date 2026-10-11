@@ -1,0 +1,1081 @@
+items:
+  adventurer_weapon_t1:
+    material: IRON_SWORD
+    custom_model_data: 911201
+    display_name: "§6§lArma Principal de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      max_health: 0.8
+      evasion: 0.5
+      luck: 0.2
+      xp_bonus: 0.5
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "IRON_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_weapon_t2:
+    material: IRON_SWORD
+    custom_model_data: 911202
+    display_name: "§6§lArma Principal de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      max_health: 1.44
+      evasion: 0.9
+      luck: 0.36
+      xp_bonus: 0.9
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_weapon_t3:
+    material: IRON_SWORD
+    custom_model_data: 911203
+    display_name: "§6§lArma Principal de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      max_health: 2.4
+      evasion: 1.5
+      luck: 0.6
+      xp_bonus: 1.5
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_weapon_t4:
+    material: IRON_SWORD
+    custom_model_data: 911204
+    display_name: "§6§lArma Principal de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      max_health: 3.6
+      evasion: 2.25
+      luck: 0.9
+      xp_bonus: 2.25
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_weapon_t5:
+    material: IRON_SWORD
+    custom_model_data: 911205
+    display_name: "§6§lArma Principal de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      max_health: 5.2
+      evasion: 3.25
+      luck: 1.3
+      xp_bonus: 3.25
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer
+  adventurer_helmet_t1:
+    material: IRON_HELMET
+    custom_model_data: 911206
+    display_name: "§6§lCasco de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.56
+      evasion: 0.35
+      luck: 0.14
+      xp_bonus: 0.35
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "IRON_HELMET:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_helmet_t2:
+    material: IRON_HELMET
+    custom_model_data: 911207
+    display_name: "§6§lCasco de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.008
+      evasion: 0.63
+      luck: 0.252
+      xp_bonus: 0.63
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_helmet_t3:
+    material: IRON_HELMET
+    custom_model_data: 911208
+    display_name: "§6§lCasco de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 1.68
+      evasion: 1.05
+      luck: 0.42
+      xp_bonus: 1.05
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_helmet_t4:
+    material: IRON_HELMET
+    custom_model_data: 911209
+    display_name: "§6§lCasco de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 2.52
+      evasion: 1.575
+      luck: 0.63
+      xp_bonus: 1.575
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_helmet_t5:
+    material: IRON_HELMET
+    custom_model_data: 911210
+    display_name: "§6§lCasco de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 3.64
+      evasion: 2.275
+      luck: 0.91
+      xp_bonus: 2.275
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer
+  adventurer_chestplate_t1:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911211
+    display_name: "§6§lPechera de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.04
+      evasion: 0.65
+      luck: 0.26
+      xp_bonus: 0.65
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "IRON_CHESTPLATE:1"
+      - "IRON_INGOT:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_chestplate_t2:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911212
+    display_name: "§6§lPechera de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 1.872
+      evasion: 1.17
+      luck: 0.468
+      xp_bonus: 1.17
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_chestplate_t3:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911213
+    display_name: "§6§lPechera de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.12
+      evasion: 1.95
+      luck: 0.78
+      xp_bonus: 1.95
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_chestplate_t4:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911214
+    display_name: "§6§lPechera de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 4.68
+      evasion: 2.925
+      luck: 1.17
+      xp_bonus: 2.925
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_chestplate_t5:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911215
+    display_name: "§6§lPechera de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 6.76
+      evasion: 4.225
+      luck: 1.69
+      xp_bonus: 4.225
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer
+  adventurer_leggings_t1:
+    material: IRON_LEGGINGS
+    custom_model_data: 911216
+    display_name: "§6§lPantalones de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 0.8
+      evasion: 0.5
+      luck: 0.2
+      xp_bonus: 0.5
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "IRON_LEGGINGS:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_leggings_t2:
+    material: IRON_LEGGINGS
+    custom_model_data: 911217
+    display_name: "§6§lPantalones de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.44
+      evasion: 0.9
+      luck: 0.36
+      xp_bonus: 0.9
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_leggings_t3:
+    material: IRON_LEGGINGS
+    custom_model_data: 911218
+    display_name: "§6§lPantalones de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 2.4
+      evasion: 1.5
+      luck: 0.6
+      xp_bonus: 1.5
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_leggings_t4:
+    material: IRON_LEGGINGS
+    custom_model_data: 911219
+    display_name: "§6§lPantalones de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 3.6
+      evasion: 2.25
+      luck: 0.9
+      xp_bonus: 2.25
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_leggings_t5:
+    material: IRON_LEGGINGS
+    custom_model_data: 911220
+    display_name: "§6§lPantalones de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 5.2
+      evasion: 3.25
+      luck: 1.3
+      xp_bonus: 3.25
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer
+  adventurer_boots_t1:
+    material: IRON_BOOTS
+    custom_model_data: 911221
+    display_name: "§6§lBotas de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.56
+      evasion: 0.35
+      luck: 0.14
+      xp_bonus: 0.35
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "IRON_BOOTS:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_boots_t2:
+    material: IRON_BOOTS
+    custom_model_data: 911222
+    display_name: "§6§lBotas de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.008
+      evasion: 0.63
+      luck: 0.252
+      xp_bonus: 0.63
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_boots_t3:
+    material: IRON_BOOTS
+    custom_model_data: 911223
+    display_name: "§6§lBotas de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 1.68
+      evasion: 1.05
+      luck: 0.42
+      xp_bonus: 1.05
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_boots_t4:
+    material: IRON_BOOTS
+    custom_model_data: 911224
+    display_name: "§6§lBotas de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 2.52
+      evasion: 1.575
+      luck: 0.63
+      xp_bonus: 1.575
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_boots_t5:
+    material: IRON_BOOTS
+    custom_model_data: 911225
+    display_name: "§6§lBotas de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 3.64
+      evasion: 2.275
+      luck: 0.91
+      xp_bonus: 2.275
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer
+  adventurer_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911226
+    display_name: "§6§lObjeto Secundario de Aventurero - Nivel I"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      max_health: 0.4
+      evasion: 0.25
+      luck: 0.1
+      xp_bonus: 0.25
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: adventurer
+  adventurer_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911227
+    display_name: "§6§lObjeto Secundario de Aventurero - Nivel II"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      max_health: 0.72
+      evasion: 0.45
+      luck: 0.18
+      xp_bonus: 0.45
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "adventurer_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: adventurer
+  adventurer_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911228
+    display_name: "§6§lObjeto Secundario de Aventurero - Nivel III"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      max_health: 1.2
+      evasion: 0.75
+      luck: 0.3
+      xp_bonus: 0.75
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "adventurer_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: adventurer
+  adventurer_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911229
+    display_name: "§6§lObjeto Secundario de Aventurero - Nivel IV"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      max_health: 1.8
+      evasion: 1.125
+      luck: 0.45
+      xp_bonus: 1.125
+    requires:
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "adventurer_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: adventurer
+  adventurer_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911230
+    display_name: "§6§lObjeto Secundario de Aventurero - Nivel V"
+    lore:
+    - "§8Set: Aventurero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: adventurer
+      name: Aventurero
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      max_health: 2.6
+      evasion: 1.625
+      luck: 0.65
+      xp_bonus: 1.625
+    requires:
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "adventurer_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: adventurer

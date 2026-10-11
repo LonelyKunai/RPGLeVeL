@@ -1,0 +1,194 @@
+# Misiones de rango B (rank_index 4). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_b_01:
+    name: '[B] Caza de Evoker x32'
+    description: Elimina 32 Evoker.
+    type: kill
+    target: EVOKER
+    amount: 32
+    rank_index: 4
+    reward_xp: 257
+  q_b_02:
+    name: '[B] Caza de Ravager x32'
+    description: Elimina 32 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 32
+    rank_index: 4
+    reward_xp: 257
+  q_b_03:
+    name: '[B] Caza de Hoglin x32'
+    description: Elimina 32 Hoglin.
+    type: kill
+    target: HOGLIN
+    amount: 32
+    rank_index: 4
+    reward_xp: 257
+  q_b_04:
+    name: '[B] Caza de Zoglin x32'
+    description: Elimina 32 Zoglin.
+    type: kill
+    target: ZOGLIN
+    amount: 32
+    rank_index: 4
+    reward_xp: 257
+  q_b_05:
+    name: '[B] Caza de Shulker x32'
+    description: Elimina 32 Shulker.
+    type: kill
+    target: SHULKER
+    amount: 32
+    rank_index: 4
+    reward_xp: 257
+  q_b_06:
+    name: '[B] Caza de Evoker x64'
+    description: Elimina 64 Evoker.
+    type: kill
+    target: EVOKER
+    amount: 64
+    rank_index: 4
+    reward_xp: 364
+  q_b_07:
+    name: '[B] Caza de Ravager x64'
+    description: Elimina 64 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 64
+    rank_index: 4
+    reward_xp: 364
+  q_b_08:
+    name: '[B] Caza de Hoglin x64'
+    description: Elimina 64 Hoglin.
+    type: kill
+    target: HOGLIN
+    amount: 64
+    rank_index: 4
+    reward_xp: 364
+  q_b_09:
+    name: '[B] Caza de Zoglin x64'
+    description: Elimina 64 Zoglin.
+    type: kill
+    target: ZOGLIN
+    amount: 64
+    rank_index: 4
+    reward_xp: 364
+  q_b_10:
+    name: '[B] Caza de Shulker x64'
+    description: Elimina 64 Shulker.
+    type: kill
+    target: SHULKER
+    amount: 64
+    rank_index: 4
+    reward_xp: 364
+  q_b_11:
+    name: '[B] Recolección de Deepslate Diamond Ore x64'
+    description: Recolecta 64 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 64
+    rank_index: 4
+    reward_xp: 257
+  q_b_12:
+    name: '[B] Recolección de Deepslate Emerald Ore x64'
+    description: Recolecta 64 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 64
+    rank_index: 4
+    reward_xp: 257
+  q_b_13:
+    name: '[B] Recolección de Glowstone x64'
+    description: Recolecta 64 Glowstone.
+    type: gather
+    target: GLOWSTONE
+    amount: 64
+    rank_index: 4
+    reward_xp: 257
+  q_b_14:
+    name: '[B] Recolección de Deepslate Lapis Ore x64'
+    description: Recolecta 64 Deepslate Lapis Ore.
+    type: gather
+    target: DEEPSLATE_LAPIS_ORE
+    amount: 64
+    rank_index: 4
+    reward_xp: 257
+  q_b_15:
+    name: '[B] Recolección de Obsidian x64'
+    description: Recolecta 64 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 64
+    rank_index: 4
+    reward_xp: 257
+  q_b_16:
+    name: '[B] Recolección de Deepslate Diamond Ore x128'
+    description: Recolecta 128 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 128
+    rank_index: 4
+    reward_xp: 364
+  q_b_17:
+    name: '[B] Recolección de Deepslate Emerald Ore x128'
+    description: Recolecta 128 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 128
+    rank_index: 4
+    reward_xp: 364
+  q_b_18:
+    name: '[B] Recolección de Glowstone x128'
+    description: Recolecta 128 Glowstone.
+    type: gather
+    target: GLOWSTONE
+    amount: 128
+    rank_index: 4
+    reward_xp: 364
+  q_b_19:
+    name: '[B] Recolección de Deepslate Lapis Ore x128'
+    description: Recolecta 128 Deepslate Lapis Ore.
+    type: gather
+    target: DEEPSLATE_LAPIS_ORE
+    amount: 128
+    rank_index: 4
+    reward_xp: 364
+  q_b_20:
+    name: '[B] Recolección de Obsidian x128'
+    description: Recolecta 128 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 128
+    rank_index: 4
+    reward_xp: 364
+  q_b_21:
+    name: '[B] Pesca de Enchanted Book x10'
+    description: Pesca 10 Enchanted Book.
+    type: fish
+    target: ENCHANTED_BOOK
+    amount: 10
+    rank_index: 4
+    reward_xp: 144
+  q_b_22:
+    name: '[B] Pesca de Fishing Rod x10'
+    description: Pesca 10 Fishing Rod.
+    type: fish
+    target: FISHING_ROD
+    amount: 10
+    rank_index: 4
+    reward_xp: 144
+  q_b_23:
+    name: '[B] Pesca de Bow x10'
+    description: Pesca 10 Bow.
+    type: fish
+    target: BOW
+    amount: 10
+    rank_index: 4
+    reward_xp: 144
+  q_b_24:
+    name: '[B] Pesca de Name Tag x10'
+    description: Pesca 10 Name Tag.
+    type: fish
+    target: NAME_TAG
+    amount: 10
+    rank_index: 4
+    reward_xp: 144

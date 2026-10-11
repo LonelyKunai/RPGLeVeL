@@ -1,0 +1,1131 @@
+items:
+  barbarian_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910331
+    display_name: "§6§lArma Principal de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      attack_damage: 0.6
+      crit_damage: 3.0
+      attack_speed: 0.01
+      stun_chance: 0.8
+      execute: 1.5
+      bleed_chance: 1.0
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910332
+    display_name: "§6§lArma Principal de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      attack_damage: 1.08
+      crit_damage: 5.4
+      attack_speed: 0.018
+      stun_chance: 1.44
+      execute: 2.7
+      bleed_chance: 1.8
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910333
+    display_name: "§6§lArma Principal de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      attack_damage: 1.8
+      crit_damage: 9.0
+      attack_speed: 0.03
+      stun_chance: 2.4
+      execute: 4.5
+      bleed_chance: 3.0
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910334
+    display_name: "§6§lArma Principal de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      attack_damage: 2.7
+      crit_damage: 13.5
+      attack_speed: 0.045
+      stun_chance: 3.6
+      execute: 6.75
+      bleed_chance: 4.5
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910335
+    display_name: "§6§lArma Principal de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      attack_damage: 3.9
+      crit_damage: 19.5
+      attack_speed: 0.065
+      stun_chance: 5.2
+      execute: 9.75
+      bleed_chance: 6.5
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian
+  barbarian_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910336
+    display_name: "§6§lCasco de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.028
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910337
+    display_name: "§6§lCasco de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0504
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910338
+    display_name: "§6§lCasco de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.084
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910339
+    display_name: "§6§lCasco de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.126
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910340
+    display_name: "§6§lCasco de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.182
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian
+  barbarian_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910341
+    display_name: "§6§lPechera de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      damage_reduction: 1.04
+      max_health: 1.3
+      thorns: 1.3
+      knockback_resistance: 0.052
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910342
+    display_name: "§6§lPechera de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      damage_reduction: 1.872
+      max_health: 2.34
+      thorns: 2.34
+      knockback_resistance: 0.0936
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910343
+    display_name: "§6§lPechera de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      damage_reduction: 3.12
+      max_health: 3.9
+      thorns: 3.9
+      knockback_resistance: 0.156
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910344
+    display_name: "§6§lPechera de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      damage_reduction: 4.68
+      max_health: 5.85
+      thorns: 5.85
+      knockback_resistance: 0.234
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910345
+    display_name: "§6§lPechera de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      damage_reduction: 6.76
+      max_health: 8.45
+      thorns: 8.45
+      knockback_resistance: 0.338
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian
+  barbarian_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910346
+    display_name: "§6§lPantalones de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      damage_reduction: 0.8
+      max_health: 1.0
+      thorns: 1.0
+      knockback_resistance: 0.04
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910347
+    display_name: "§6§lPantalones de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      damage_reduction: 1.44
+      max_health: 1.8
+      thorns: 1.8
+      knockback_resistance: 0.072
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910348
+    display_name: "§6§lPantalones de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      damage_reduction: 2.4
+      max_health: 3.0
+      thorns: 3.0
+      knockback_resistance: 0.12
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910349
+    display_name: "§6§lPantalones de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      damage_reduction: 3.6
+      max_health: 4.5
+      thorns: 4.5
+      knockback_resistance: 0.18
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910350
+    display_name: "§6§lPantalones de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      damage_reduction: 5.2
+      max_health: 6.5
+      thorns: 6.5
+      knockback_resistance: 0.26
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian
+  barbarian_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910351
+    display_name: "§6§lBotas de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.028
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910352
+    display_name: "§6§lBotas de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0504
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910353
+    display_name: "§6§lBotas de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.084
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910354
+    display_name: "§6§lBotas de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.126
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910355
+    display_name: "§6§lBotas de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.182
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian
+  barbarian_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910356
+    display_name: "§6§lObjeto Secundario de Bárbaro - Nivel I"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      attack_damage: 0.3
+      crit_damage: 1.5
+      attack_speed: 0.005
+      stun_chance: 0.4
+      execute: 0.75
+      bleed_chance: 0.5
+    requires:
+      subclass: barbaro
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: barbarian
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: barbarian
+  barbarian_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910357
+    display_name: "§6§lObjeto Secundario de Bárbaro - Nivel II"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      attack_damage: 0.54
+      crit_damage: 2.7
+      attack_speed: 0.009
+      stun_chance: 0.72
+      execute: 1.35
+      bleed_chance: 0.9
+    requires:
+      subclass: barbaro
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 2
+      ingredients:
+      - "barbarian_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: barbarian
+  barbarian_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910358
+    display_name: "§6§lObjeto Secundario de Bárbaro - Nivel III"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      attack_damage: 0.9
+      crit_damage: 4.5
+      attack_speed: 0.015
+      stun_chance: 1.2
+      execute: 2.25
+      bleed_chance: 1.5
+    requires:
+      subclass: barbaro
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 3
+      ingredients:
+      - "barbarian_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: barbarian
+  barbarian_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910359
+    display_name: "§6§lObjeto Secundario de Bárbaro - Nivel IV"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      attack_damage: 1.35
+      crit_damage: 6.75
+      attack_speed: 0.0225
+      stun_chance: 1.8
+      execute: 3.375
+      bleed_chance: 2.25
+    requires:
+      subclass: barbaro
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 4
+      ingredients:
+      - "barbarian_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: barbarian
+  barbarian_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910360
+    display_name: "§6§lObjeto Secundario de Bárbaro - Nivel V"
+    lore:
+    - "§8Set: Bárbaro"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: barbarian
+      name: Bárbaro
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      attack_damage: 1.95
+      crit_damage: 9.75
+      attack_speed: 0.0325
+      stun_chance: 2.6
+      execute: 4.875
+      bleed_chance: 3.25
+    requires:
+      subclass: barbaro
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: barbarian
+      tier: 5
+      ingredients:
+      - "barbarian_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: barbarian

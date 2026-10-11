@@ -1,0 +1,5 @@
+classes:
+  brujo:
+    name: Brujo
+    description: Usuario de magia caótica y pactos demoníacos que sacrifica sus propios recursos para obtener gran poder.
+    icon: NETHER_STAR

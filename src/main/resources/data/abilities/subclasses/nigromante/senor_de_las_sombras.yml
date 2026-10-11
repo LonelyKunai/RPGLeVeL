@@ -1,0 +1,92 @@
+subclasses:
+  senor_de_las_sombras:
+    abilities:
+      senor_de_las_sombras_ejercito_esqueletico:
+        name: Ejército Esquelético
+        description: Dispara una andanada de proyectiles
+        icon: BONE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: volley
+          arrows: 10
+          arrows_per_level: 2
+          damage: 3.5
+          damage_per_level: 0.8
+          spread: 0.3
+          speed: 2.2
+      senor_de_las_sombras_ola_de_no_muertos:
+        name: Ola de No-Muertos
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: ROTTEN_FLESH
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 15
+        cooldown_per_level: -0.7
+        requires:
+          level: 5
+          abilities:
+            senor_de_las_sombras_ejercito_esqueletico: 1
+        effect:
+          type: aoe
+          damage: 7
+          damage_per_level: 2
+          radius: 6
+          potions:
+          - slowness:4:1
+          particle: SOUL
+          sound: ENTITY_ZOMBIE_AMBIENT
+      senor_de_las_sombras_sombra_protectora:
+        name: Sombra Protectora
+        description: Otorga mejoras temporales
+        icon: SCULK_CATALYST
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            senor_de_las_sombras_ejercito_esqueletico: 1
+        effect:
+          type: buff
+          potions:
+          - absorption:20:3
+          - resistance:10:1
+          duration_per_level: 3
+          particle: SQUID_INK
+          sound: ENTITY_WARDEN_HEARTBEAT
+      senor_de_las_sombras_legion_eterna:
+        name: Legión Eterna
+        description: Dispara una andanada de proyectiles
+        icon: WITHER_SKELETON_SKULL
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            senor_de_las_sombras_ola_de_no_muertos: 2
+            senor_de_las_sombras_sombra_protectora: 2
+        effect:
+          type: volley
+          arrows: 24
+          arrows_per_level: 4
+          damage: 5
+          damage_per_level: 1
+          spread: 0.55
+          speed: 2.6

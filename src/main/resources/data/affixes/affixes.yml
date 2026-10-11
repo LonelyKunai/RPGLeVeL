@@ -1,0 +1,36 @@
+# Afijos aleatorios para ítems (/rlv roll, drops de loot, forja de herrero).
+# value = min + (max - min) * azar, multiplicado por (1 + tier_scale * (tier - 1)).
+# slots: weapon | armor | offhand | any
+settings:
+  tier_scale: 0.35
+  # cantidad de afijos [min, max] segun el tier del ítem
+  count_by_tier:
+    1: [0, 1]
+    2: [1, 1]
+    3: [1, 2]
+    4: [2, 3]
+    5: [3, 4]
+affixes:
+  keen:      {name: Agudo,        stat: crit_chance,        min: 1.0,   max: 3.0,  slots: [weapon]}
+  brutal:    {name: Brutal,       stat: crit_damage,        min: 4.0,   max: 12.0, slots: [weapon]}
+  piercing:  {name: Perforante,   stat: penetration,        min: 2.0,   max: 6.0,  slots: [weapon]}
+  vampiric:  {name: Vampírico,    stat: lifesteal,          min: 0.8,   max: 2.5,  slots: [weapon]}
+  arcane:    {name: Arcano,       stat: spell_power,        min: 3.0,   max: 9.0,  slots: [weapon, offhand]}
+  swift:     {name: Veloz,        stat: cooldown_reduction, min: 1.0,   max: 4.0,  slots: [weapon, offhand, armor]}
+  mighty:    {name: Poderoso,     stat: attack_damage,      min: 0.4,   max: 1.2,  slots: [weapon]}
+  bleeding:  {name: Sangrante,    stat: bleed_chance,       min: 3.0,   max: 8.0,  slots: [weapon]}
+  flaming:   {name: Ardiente,     stat: burn_chance,        min: 3.0,   max: 8.0,  slots: [weapon]}
+  venomous:  {name: Venenoso,     stat: poison_chance,      min: 3.0,   max: 8.0,  slots: [weapon]}
+  frozen:    {name: Gélido,       stat: freeze_chance,      min: 3.0,   max: 8.0,  slots: [weapon]}
+  stunning:  {name: Aturdidor,    stat: stun_chance,        min: 1.5,   max: 4.0,  slots: [weapon]}
+  shocking:  {name: Electrizante, stat: shock_chance,       min: 3.0,   max: 8.0,  slots: [weapon]}
+  sturdy:    {name: Robusto,      stat: max_health,         min: 1.0,   max: 3.0,  slots: [armor]}
+  warding:   {name: Protector,    stat: damage_reduction,   min: 0.8,   max: 2.5,  slots: [armor, offhand]}
+  evasive:   {name: Evasivo,      stat: evasion,            min: 0.8,   max: 2.5,  slots: [armor]}
+  resilient: {name: Resistente,   stat: status_resist,      min: 4.0,   max: 12.0, slots: [armor]}
+  fortified: {name: Fortificado,  stat: armor,              min: 0.5,   max: 1.5,  slots: [armor]}
+  wise:      {name: Sabio,        stat: mana_max,           min: 6.0,   max: 18.0, slots: [armor, offhand]}
+  flowing:   {name: Fluyente,     stat: mana_regen,         min: 0.15,  max: 0.5,  slots: [armor, offhand]}
+  nimble:    {name: Ágil,         stat: movement_speed,     min: 0.002, max: 0.006, slots: [armor]}
+  learned:   {name: Erudito,      stat: xp_bonus,           min: 2.0,   max: 6.0,  slots: [armor, offhand]}
+  lucky:     {name: Afortunado,   stat: luck,               min: 0.3,   max: 1.0,  slots: [any]}

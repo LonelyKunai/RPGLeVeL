@@ -1,0 +1,5 @@
+classes:
+  mago:
+    name: Mago
+    description: Maestro de las artes arcánicas y la manipulación elemental para infligir daño masivo a distancia o en área.
+    icon: BLAZE_ROD

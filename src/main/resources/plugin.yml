@@ -1,0 +1,188 @@
+name: RPGLeVeL
+version: '1.1.0'
+main: com.arclinker.rpglevelitems.RPGLevelTier
+api-version: '1.21'
+author: Arclinker
+description: 'RPG completo para Paper 1.21 - clases, subclases, oficios, misiones, rangos, estaciones de forja, items con afijos y gemas, jefes, mazmorras, gremios, comercio y tienda dinamica.'
+softdepend: [Oraxen, Vault, PlaceholderAPI]
+
+commands:
+  rpglevel:
+    description: Comandos de administracion de RPGLeVeL
+    permission: rpgleveltier.admin
+    aliases: [rpgtier, rlv]
+  class:
+    description: Selecciona una clase
+    permission: rpgleveltier.class
+  subclass:
+    description: Selecciona una subclase
+    permission: rpgleveltier.subclass
+  jobs:
+    description: Gestiona trabajos
+    permission: rpgleveltier.jobs
+  quest:
+    description: Gestiona misiones diarias
+    permission: rpgleveltier.quest
+  quests:
+    description: Alias de quest
+    permission: rpgleveltier.quest
+  language:
+    description: Cambia el idioma del plugin
+    permission: rpgleveltier.language
+  ability:
+    description: Árbol de habilidades de clase y subclase
+    permission: rpgleveltier.ability
+    aliases: [abilities, habilidades]
+  station:
+    description: Estaciones de trabajo de clase y subclase (recetas)
+    permission: rpgleveltier.station
+    aliases: [estacion, estaciones, stations]
+  stats:
+    description: Muestra tus estadísticas totales (ítems, sets, clase...)
+    permission: rpgleveltier.stats
+    aliases: [estadisticas]
+  coins:
+    description: Muestra tu dinero
+    permission: rpgleveltier.economy
+    aliases: [monedas]
+  pay:
+    description: Envía dinero a otro jugador
+    permission: rpgleveltier.economy
+  title:
+    description: Títulos de logros
+    permission: rpgleveltier.title
+    aliases: [titulo]
+  prestige:
+    description: Prestigio de clase
+    permission: rpgleveltier.prestige
+    aliases: [prestigio]
+  party:
+    description: Party (grupo) con XP compartida
+    permission: rpgleveltier.party
+    aliases: [grupo]
+  pc:
+    description: Chat de party
+    permission: rpgleveltier.party
+  duel:
+    description: Duelos PvP con ranking
+    permission: rpgleveltier.duel
+    aliases: [duelo]
+  achievements:
+    description: Logros
+    permission: rpgleveltier.achievements
+    aliases: [logros]
+  dungeon:
+    description: Mazmorras
+    permission: rpgleveltier.dungeon
+    aliases: [mazmorra]
+  talent:
+    description: Talentos pasivos
+    permission: rpgleveltier.talent
+    aliases: [talentos]
+  guild:
+    description: Gremios
+    permission: rpgleveltier.guild
+    aliases: [gremio, g]
+  gc:
+    description: Chat de gremio
+    permission: rpgleveltier.guild
+  trade:
+    description: Intercambio seguro entre jugadores
+    permission: rpgleveltier.trade
+    aliases: [intercambio]
+  ah:
+    description: Casa de subastas
+    permission: rpgleveltier.auction
+    aliases: [subasta, auction]
+  shop:
+    description: Tienda del servidor (stock dinámico, relleno semanal)
+    permission: rpgleveltier.shop
+    aliases: [tienda]
+  rank:
+    description: Rankings entre jugadores (F, E, D, C, B, A, S, S+, U)
+    permission: rpgleveltier.rank
+    aliases: [ranking, rangos]
+
+
+permissions:
+  rpgleveltier.admin:
+    description: Permite administrar niveles y tiers de RPG
+    default: op
+  rpgleveltier.items:
+    description: Permite usar /rlv give y /rlv itemlist
+    default: op
+  rpgleveltier.utility:
+    description: Permite usar los objetos de utilidad (mochilas, estaciones portátiles...)
+    default: true
+  rpgleveltier.class:
+    description: Permite usar /class
+    default: true
+  rpgleveltier.subclass:
+    description: Permite usar /subclass
+    default: true
+  rpgleveltier.subclass.gui:
+    description: Permite abrir el menu de subclases
+    default: true
+  rpgleveltier.jobs:
+    description: Permite usar /jobs
+    default: true
+  rpgleveltier.quest:
+    description: Permite usar /quest
+    default: true
+  rpgleveltier.language:
+    description: Permite usar /language
+    default: true
+  rpgleveltier.station:
+    description: Permite usar las estaciones de trabajo
+    default: true
+  rpgleveltier.rank:
+    description: Permite ver los rankings
+    default: true
+  rpgleveltier.ability:
+    description: Permite usar el arbol de habilidades
+    default: true
+  rpgleveltier.ability.copy:
+    description: Permite copiar habilidades desbloqueadas a tomos
+    default: true
+  rpgleveltier.bypass:
+    description: Ignora los requisitos de los ítems
+    default: op
+  rpgleveltier.stats:
+    description: Permite usar /stats
+    default: true
+  rpgleveltier.economy:
+    description: Permite usar /economy
+    default: true
+  rpgleveltier.title:
+    description: Permite usar /title
+    default: true
+  rpgleveltier.prestige:
+    description: Permite usar /prestige
+    default: true
+  rpgleveltier.party:
+    description: Permite usar /party
+    default: true
+  rpgleveltier.duel:
+    description: Permite usar /duel
+    default: true
+  rpgleveltier.achievements:
+    description: Permite usar /achievements
+    default: true
+  rpgleveltier.dungeon:
+    description: Permite usar /dungeon
+    default: true
+  rpgleveltier.talent:
+    description: Permite usar /talent
+    default: true
+  rpgleveltier.guild:
+    description: Permite usar /guild
+    default: true
+  rpgleveltier.trade:
+    description: Permite usar /trade
+    default: true
+  rpgleveltier.auction:
+    description: Permite usar /auction
+    default: true
+  rpgleveltier.shop:
+    description: Permite usar /shop
+    default: true

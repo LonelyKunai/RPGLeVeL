@@ -1,0 +1,1111 @@
+items:
+  minstrel_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 911081
+    display_name: "§6§lArma Principal de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      cooldown_reduction: 1.5
+      mana_regen: 0.3
+      mana_on_hit: 1.0
+      shock_chance: 0.6
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 911082
+    display_name: "§6§lArma Principal de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      cooldown_reduction: 2.7
+      mana_regen: 0.54
+      mana_on_hit: 1.8
+      shock_chance: 1.08
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 911083
+    display_name: "§6§lArma Principal de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      cooldown_reduction: 4.5
+      mana_regen: 0.9
+      mana_on_hit: 3.0
+      shock_chance: 1.8
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 911084
+    display_name: "§6§lArma Principal de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      cooldown_reduction: 6.75
+      mana_regen: 1.35
+      mana_on_hit: 4.5
+      shock_chance: 2.7
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 911085
+    display_name: "§6§lArma Principal de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      cooldown_reduction: 9.75
+      mana_regen: 1.95
+      mana_on_hit: 6.5
+      shock_chance: 3.9
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel
+  minstrel_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 911086
+    display_name: "§6§lCasco de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.77
+      status_resist: 0.56
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 911087
+    display_name: "§6§lCasco de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 1.386
+      status_resist: 1.008
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 911088
+    display_name: "§6§lCasco de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 2.31
+      status_resist: 1.68
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 911089
+    display_name: "§6§lCasco de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 3.465
+      status_resist: 2.52
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 911090
+    display_name: "§6§lCasco de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 5.005
+      status_resist: 3.64
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel
+  minstrel_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911091
+    display_name: "§6§lPechera de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      cooldown_reduction: 1.04
+      movement_speed: 0.003
+      xp_bonus: 1.43
+      status_resist: 1.04
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911092
+    display_name: "§6§lPechera de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      cooldown_reduction: 1.872
+      movement_speed: 0.005
+      xp_bonus: 2.574
+      status_resist: 1.872
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911093
+    display_name: "§6§lPechera de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      cooldown_reduction: 3.12
+      movement_speed: 0.008
+      xp_bonus: 4.29
+      status_resist: 3.12
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911094
+    display_name: "§6§lPechera de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      cooldown_reduction: 4.68
+      movement_speed: 0.012
+      xp_bonus: 6.435
+      status_resist: 4.68
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911095
+    display_name: "§6§lPechera de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      cooldown_reduction: 6.76
+      movement_speed: 0.017
+      xp_bonus: 9.295
+      status_resist: 6.76
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel
+  minstrel_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911096
+    display_name: "§6§lPantalones de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      cooldown_reduction: 0.8
+      movement_speed: 0.002
+      xp_bonus: 1.1
+      status_resist: 0.8
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911097
+    display_name: "§6§lPantalones de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      cooldown_reduction: 1.44
+      movement_speed: 0.004
+      xp_bonus: 1.98
+      status_resist: 1.44
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911098
+    display_name: "§6§lPantalones de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      cooldown_reduction: 2.4
+      movement_speed: 0.006
+      xp_bonus: 3.3
+      status_resist: 2.4
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911099
+    display_name: "§6§lPantalones de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      cooldown_reduction: 3.6
+      movement_speed: 0.009
+      xp_bonus: 4.95
+      status_resist: 3.6
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911100
+    display_name: "§6§lPantalones de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      cooldown_reduction: 5.2
+      movement_speed: 0.013
+      xp_bonus: 7.15
+      status_resist: 5.2
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel
+  minstrel_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 911101
+    display_name: "§6§lBotas de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.77
+      status_resist: 0.56
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 911102
+    display_name: "§6§lBotas de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 1.386
+      status_resist: 1.008
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 911103
+    display_name: "§6§lBotas de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 2.31
+      status_resist: 1.68
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 911104
+    display_name: "§6§lBotas de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 3.465
+      status_resist: 2.52
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 911105
+    display_name: "§6§lBotas de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 5.005
+      status_resist: 3.64
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel
+  minstrel_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911106
+    display_name: "§6§lObjeto Secundario de Menestral - Nivel I"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      cooldown_reduction: 0.75
+      mana_regen: 0.15
+      mana_on_hit: 0.5
+      shock_chance: 0.3
+    requires:
+      subclass: menestral
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: minstrel
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: minstrel
+  minstrel_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911107
+    display_name: "§6§lObjeto Secundario de Menestral - Nivel II"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      cooldown_reduction: 1.35
+      mana_regen: 0.27
+      mana_on_hit: 0.9
+      shock_chance: 0.54
+    requires:
+      subclass: menestral
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 2
+      ingredients:
+      - "minstrel_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: minstrel
+  minstrel_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911108
+    display_name: "§6§lObjeto Secundario de Menestral - Nivel III"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      cooldown_reduction: 2.25
+      mana_regen: 0.45
+      mana_on_hit: 1.5
+      shock_chance: 0.9
+    requires:
+      subclass: menestral
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 3
+      ingredients:
+      - "minstrel_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: minstrel
+  minstrel_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911109
+    display_name: "§6§lObjeto Secundario de Menestral - Nivel IV"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      cooldown_reduction: 3.375
+      mana_regen: 0.675
+      mana_on_hit: 2.25
+      shock_chance: 1.35
+    requires:
+      subclass: menestral
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 4
+      ingredients:
+      - "minstrel_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: minstrel
+  minstrel_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911110
+    display_name: "§6§lObjeto Secundario de Menestral - Nivel V"
+    lore:
+    - "§8Set: Menestral"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: minstrel
+      name: Menestral
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      cooldown_reduction: 4.875
+      mana_regen: 0.975
+      mana_on_hit: 3.25
+      shock_chance: 1.95
+    requires:
+      subclass: menestral
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: minstrel
+      tier: 5
+      ingredients:
+      - "minstrel_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: minstrel

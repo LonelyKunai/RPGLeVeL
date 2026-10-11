@@ -1,0 +1,1111 @@
+items:
+  shadow_lord_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910751
+    display_name: "§6§lArma Principal de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      lifesteal: 1.0
+      spell_power: 3.0
+      poison_chance: 1.0
+      mana_on_hit: 0.9
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910752
+    display_name: "§6§lArma Principal de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      lifesteal: 1.8
+      spell_power: 5.4
+      poison_chance: 1.8
+      mana_on_hit: 1.62
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910753
+    display_name: "§6§lArma Principal de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      lifesteal: 3.0
+      spell_power: 9.0
+      poison_chance: 3.0
+      mana_on_hit: 2.7
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910754
+    display_name: "§6§lArma Principal de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      lifesteal: 4.5
+      spell_power: 13.5
+      poison_chance: 4.5
+      mana_on_hit: 4.05
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910755
+    display_name: "§6§lArma Principal de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      lifesteal: 6.5
+      spell_power: 19.5
+      poison_chance: 6.5
+      mana_on_hit: 5.85
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord
+  shadow_lord_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910756
+    display_name: "§6§lCasco de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.98
+      health_regen: 0.021
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910757
+    display_name: "§6§lCasco de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.764
+      health_regen: 0.0378
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910758
+    display_name: "§6§lCasco de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 2.94
+      health_regen: 0.063
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910759
+    display_name: "§6§lCasco de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 4.41
+      health_regen: 0.0945
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910760
+    display_name: "§6§lCasco de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 6.37
+      health_regen: 0.1365
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord
+  shadow_lord_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910761
+    display_name: "§6§lPechera de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.04
+      lifesteal: 0.65
+      thorns: 1.82
+      health_regen: 0.039
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910762
+    display_name: "§6§lPechera de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 1.872
+      lifesteal: 1.17
+      thorns: 3.276
+      health_regen: 0.0702
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910763
+    display_name: "§6§lPechera de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.12
+      lifesteal: 1.95
+      thorns: 5.46
+      health_regen: 0.117
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910764
+    display_name: "§6§lPechera de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 4.68
+      lifesteal: 2.925
+      thorns: 8.19
+      health_regen: 0.1755
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910765
+    display_name: "§6§lPechera de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 6.76
+      lifesteal: 4.225
+      thorns: 11.83
+      health_regen: 0.2535
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord
+  shadow_lord_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910766
+    display_name: "§6§lPantalones de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 0.8
+      lifesteal: 0.5
+      thorns: 1.4
+      health_regen: 0.03
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910767
+    display_name: "§6§lPantalones de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.44
+      lifesteal: 0.9
+      thorns: 2.52
+      health_regen: 0.054
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910768
+    display_name: "§6§lPantalones de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 2.4
+      lifesteal: 1.5
+      thorns: 4.2
+      health_regen: 0.09
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910769
+    display_name: "§6§lPantalones de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 3.6
+      lifesteal: 2.25
+      thorns: 6.3
+      health_regen: 0.135
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910770
+    display_name: "§6§lPantalones de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 5.2
+      lifesteal: 3.25
+      thorns: 9.1
+      health_regen: 0.195
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord
+  shadow_lord_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910771
+    display_name: "§6§lBotas de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.98
+      health_regen: 0.021
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910772
+    display_name: "§6§lBotas de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.764
+      health_regen: 0.0378
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910773
+    display_name: "§6§lBotas de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 2.94
+      health_regen: 0.063
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910774
+    display_name: "§6§lBotas de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 4.41
+      health_regen: 0.0945
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910775
+    display_name: "§6§lBotas de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 6.37
+      health_regen: 0.1365
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord
+  shadow_lord_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910776
+    display_name: "§6§lObjeto Secundario de Señor de las Sombras - Nivel I"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      lifesteal: 0.5
+      spell_power: 1.5
+      poison_chance: 0.5
+      mana_on_hit: 0.45
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: shadow_lord
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: shadow_lord
+  shadow_lord_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910777
+    display_name: "§6§lObjeto Secundario de Señor de las Sombras - Nivel II"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      lifesteal: 0.9
+      spell_power: 2.7
+      poison_chance: 0.9
+      mana_on_hit: 0.81
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 2
+      ingredients:
+      - "shadow_lord_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: shadow_lord
+  shadow_lord_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910778
+    display_name: "§6§lObjeto Secundario de Señor de las Sombras - Nivel III"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      lifesteal: 1.5
+      spell_power: 4.5
+      poison_chance: 1.5
+      mana_on_hit: 1.35
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 3
+      ingredients:
+      - "shadow_lord_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: shadow_lord
+  shadow_lord_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910779
+    display_name: "§6§lObjeto Secundario de Señor de las Sombras - Nivel IV"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      lifesteal: 2.25
+      spell_power: 6.75
+      poison_chance: 2.25
+      mana_on_hit: 2.025
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 4
+      ingredients:
+      - "shadow_lord_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: shadow_lord
+  shadow_lord_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910780
+    display_name: "§6§lObjeto Secundario de Señor de las Sombras - Nivel V"
+    lore:
+    - "§8Set: Señor de las Sombras"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: shadow_lord
+      name: "Señor de las Sombras"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      lifesteal: 3.25
+      spell_power: 9.75
+      poison_chance: 3.25
+      mana_on_hit: 2.925
+    requires:
+      subclass: senor_de_las_sombras
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: shadow_lord
+      tier: 5
+      ingredients:
+      - "shadow_lord_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: shadow_lord

@@ -1,0 +1,11 @@
+subclasses:
+  druida:
+    guardian_salvaje:
+      name: Guardián Salvaje
+      description: Se transforma en oso para obtener un alto bonus de vida, armadura y amenaza (aggro) como tanque.
+    cazador_predador:
+      name: Cazador Depredador
+      description: Se transforma en felino/lobo para adquirir alta velocidad de ataque, sigilo y daño hemorrágico.
+    chaman_terrestre:
+      name: Chamán Terrestre
+      description: Permanece en forma humana/espiritual para curar con magia de la naturaleza y controlar el terreno con raíces.

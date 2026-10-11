@@ -1,0 +1,1121 @@
+items:
+  demolitionist_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910991
+    display_name: "§6§lArma Principal de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      penetration: 2.0
+      crit_chance: 1.0
+      shock_chance: 0.8
+      execute: 1.0
+      burn_chance: 1.0
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910992
+    display_name: "§6§lArma Principal de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      penetration: 3.6
+      crit_chance: 1.8
+      shock_chance: 1.44
+      execute: 1.8
+      burn_chance: 1.8
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910993
+    display_name: "§6§lArma Principal de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      penetration: 6.0
+      crit_chance: 3.0
+      shock_chance: 2.4
+      execute: 3.0
+      burn_chance: 3.0
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910994
+    display_name: "§6§lArma Principal de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      penetration: 9.0
+      crit_chance: 4.5
+      shock_chance: 3.6
+      execute: 4.5
+      burn_chance: 4.5
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910995
+    display_name: "§6§lArma Principal de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      penetration: 13.0
+      crit_chance: 6.5
+      shock_chance: 5.2
+      execute: 6.5
+      burn_chance: 6.5
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist
+  demolitionist_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910996
+    display_name: "§6§lCasco de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      armor: 0.42
+      penetration: 0.7
+      knockback_resistance: 0.028
+      thorns: 0.56
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910997
+    display_name: "§6§lCasco de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      armor: 0.756
+      penetration: 1.26
+      knockback_resistance: 0.0504
+      thorns: 1.008
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910998
+    display_name: "§6§lCasco de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      armor: 1.26
+      penetration: 2.1
+      knockback_resistance: 0.084
+      thorns: 1.68
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910999
+    display_name: "§6§lCasco de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      armor: 1.89
+      penetration: 3.15
+      knockback_resistance: 0.126
+      thorns: 2.52
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 911000
+    display_name: "§6§lCasco de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      armor: 2.73
+      penetration: 4.55
+      knockback_resistance: 0.182
+      thorns: 3.64
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist
+  demolitionist_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911001
+    display_name: "§6§lPechera de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      armor: 0.78
+      penetration: 1.3
+      knockback_resistance: 0.052
+      thorns: 1.04
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911002
+    display_name: "§6§lPechera de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      armor: 1.404
+      penetration: 2.34
+      knockback_resistance: 0.0936
+      thorns: 1.872
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911003
+    display_name: "§6§lPechera de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      armor: 2.34
+      penetration: 3.9
+      knockback_resistance: 0.156
+      thorns: 3.12
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911004
+    display_name: "§6§lPechera de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      armor: 3.51
+      penetration: 5.85
+      knockback_resistance: 0.234
+      thorns: 4.68
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911005
+    display_name: "§6§lPechera de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      armor: 5.07
+      penetration: 8.45
+      knockback_resistance: 0.338
+      thorns: 6.76
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist
+  demolitionist_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911006
+    display_name: "§6§lPantalones de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      armor: 0.6
+      penetration: 1.0
+      knockback_resistance: 0.04
+      thorns: 0.8
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911007
+    display_name: "§6§lPantalones de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      armor: 1.08
+      penetration: 1.8
+      knockback_resistance: 0.072
+      thorns: 1.44
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911008
+    display_name: "§6§lPantalones de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      armor: 1.8
+      penetration: 3.0
+      knockback_resistance: 0.12
+      thorns: 2.4
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911009
+    display_name: "§6§lPantalones de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      armor: 2.7
+      penetration: 4.5
+      knockback_resistance: 0.18
+      thorns: 3.6
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911010
+    display_name: "§6§lPantalones de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      armor: 3.9
+      penetration: 6.5
+      knockback_resistance: 0.26
+      thorns: 5.2
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist
+  demolitionist_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 911011
+    display_name: "§6§lBotas de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      armor: 0.42
+      penetration: 0.7
+      knockback_resistance: 0.028
+      thorns: 0.56
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 911012
+    display_name: "§6§lBotas de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      armor: 0.756
+      penetration: 1.26
+      knockback_resistance: 0.0504
+      thorns: 1.008
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 911013
+    display_name: "§6§lBotas de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      armor: 1.26
+      penetration: 2.1
+      knockback_resistance: 0.084
+      thorns: 1.68
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 911014
+    display_name: "§6§lBotas de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      armor: 1.89
+      penetration: 3.15
+      knockback_resistance: 0.126
+      thorns: 2.52
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 911015
+    display_name: "§6§lBotas de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      armor: 2.73
+      penetration: 4.55
+      knockback_resistance: 0.182
+      thorns: 3.64
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist
+  demolitionist_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911016
+    display_name: "§6§lObjeto Secundario de Demoledor - Nivel I"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      penetration: 1.0
+      crit_chance: 0.5
+      shock_chance: 0.4
+      execute: 0.5
+      burn_chance: 0.5
+    requires:
+      subclass: demoledor
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demolitionist
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demolitionist
+  demolitionist_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911017
+    display_name: "§6§lObjeto Secundario de Demoledor - Nivel II"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      penetration: 1.8
+      crit_chance: 0.9
+      shock_chance: 0.72
+      execute: 0.9
+      burn_chance: 0.9
+    requires:
+      subclass: demoledor
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 2
+      ingredients:
+      - "demolitionist_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demolitionist
+  demolitionist_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911018
+    display_name: "§6§lObjeto Secundario de Demoledor - Nivel III"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      penetration: 3.0
+      crit_chance: 1.5
+      shock_chance: 1.2
+      execute: 1.5
+      burn_chance: 1.5
+    requires:
+      subclass: demoledor
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 3
+      ingredients:
+      - "demolitionist_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demolitionist
+  demolitionist_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911019
+    display_name: "§6§lObjeto Secundario de Demoledor - Nivel IV"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      penetration: 4.5
+      crit_chance: 2.25
+      shock_chance: 1.8
+      execute: 2.25
+      burn_chance: 2.25
+    requires:
+      subclass: demoledor
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 4
+      ingredients:
+      - "demolitionist_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demolitionist
+  demolitionist_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911020
+    display_name: "§6§lObjeto Secundario de Demoledor - Nivel V"
+    lore:
+    - "§8Set: Demoledor"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demolitionist
+      name: Demoledor
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      penetration: 6.5
+      crit_chance: 3.25
+      shock_chance: 2.6
+      execute: 3.25
+      burn_chance: 3.25
+    requires:
+      subclass: demoledor
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: demolitionist
+      tier: 5
+      ingredients:
+      - "demolitionist_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demolitionist

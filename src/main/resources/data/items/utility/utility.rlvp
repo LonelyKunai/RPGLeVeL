@@ -1,0 +1,653 @@
+items:
+  util_workbench:
+    material: CRAFTING_TABLE
+    custom_model_data: 914001
+    display_name: "§b§lMesa de Crafteo Portátil"
+    lore:
+    - "§7Abre una mesa de crafteo sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 1
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "CRAFTING_TABLE:1"
+      - "ENDER_PEARL:1"
+      - "IRON_INGOT:4"
+  util_anvil:
+    material: ANVIL
+    custom_model_data: 914002
+    display_name: "§b§lYunque Portátil"
+    lore:
+    - "§7Abre un yunque sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "ANVIL:1"
+      - "ENDER_PEARL:1"
+      - "steel_ingot:2"
+  util_smithing:
+    material: SMITHING_TABLE
+    custom_model_data: 914003
+    display_name: "§b§lMesa de Herrería Portátil"
+    lore:
+    - "§7Abre una mesa de herrería sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "SMITHING_TABLE:1"
+      - "ENDER_PEARL:1"
+      - "steel_ingot:2"
+  util_grindstone:
+    material: GRINDSTONE
+    custom_model_data: 914004
+    display_name: "§b§lAfilador Portátil"
+    lore:
+    - "§7Abre una piedra de afilar sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "GRINDSTONE:1"
+      - "ENDER_PEARL:1"
+      - "IRON_INGOT:4"
+  util_stonecutter:
+    material: STONECUTTER
+    custom_model_data: 914005
+    display_name: "§b§lCortapiedras Portátil"
+    lore:
+    - "§7Abre un cortapiedras sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "STONECUTTER:1"
+      - "ENDER_PEARL:1"
+      - "IRON_INGOT:4"
+  util_loom:
+    material: LOOM
+    custom_model_data: 914006
+    display_name: "§b§lTelar Portátil"
+    lore:
+    - "§7Abre un telar sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "LOOM:1"
+      - "ENDER_PEARL:1"
+      - "STRING:8"
+  util_cartography:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 914007
+    display_name: "§b§lMesa de Cartografía Portátil"
+    lore:
+    - "§7Abre una mesa de cartografía sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "CARTOGRAPHY_TABLE:1"
+      - "ENDER_PEARL:1"
+      - "PAPER:8"
+  util_enchanting:
+    material: ENCHANTING_TABLE
+    custom_model_data: 914008
+    display_name: "§b§lMesa de Encantamientos Portátil"
+    lore:
+    - "§7Abre una mesa de encantamientos (sin estanterías: hasta nivel 8) sin colocarla."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: station
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "ENCHANTING_TABLE:1"
+      - "ENDER_PEARL:2"
+      - "cobalt_ingot:1"
+  util_station_class:
+    material: SMITHING_TABLE
+    custom_model_data: 914009
+    display_name: "§6§lEstación de Clase Portátil"
+    lore:
+    - "§7Abre la estación de tu §fclase§7 sin colocarla."
+    - "§7Se necesita la clase / subclase correspondiente para forjar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: rpg_station
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "ENDER_PEARL:2"
+      - "steel_ingot:4"
+      - "cobalt_ingot:2"
+  util_station_subclass:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 914010
+    display_name: "§6§lEstación de Subclase Portátil"
+    lore:
+    - "§7Abre la estación de tu §fsubclase§7 sin colocarla."
+    - "§7Se necesita la clase / subclase correspondiente para forjar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: rpg_station
+      tier: 4
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "ENDER_PEARL:2"
+      - "steel_ingot:6"
+      - "cobalt_ingot:4"
+  util_station_adventurer:
+    material: FLETCHING_TABLE
+    custom_model_data: 914011
+    display_name: "§6§lEstación de Aventurero Portátil"
+    lore:
+    - "§7Abre la estación del set §fAventurero§7 sin colocarla."
+    - "§7Se necesita la clase / subclase correspondiente para forjar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: rpg_station
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "ENDER_PEARL:2"
+      - "steel_ingot:4"
+      - "cobalt_ingot:2"
+  util_station_wanderer:
+    material: FLETCHING_TABLE
+    custom_model_data: 914012
+    display_name: "§6§lEstación de Caminante Portátil"
+    lore:
+    - "§7Abre la estación del set §fCaminante§7 sin colocarla."
+    - "§7Se necesita la clase / subclase correspondiente para forjar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: rpg_station
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "ENDER_PEARL:2"
+      - "steel_ingot:4"
+      - "cobalt_ingot:2"
+  util_station_guardian:
+    material: FLETCHING_TABLE
+    custom_model_data: 914013
+    display_name: "§6§lEstación de Guardián Portátil"
+    lore:
+    - "§7Abre la estación del set §fGuardián§7 sin colocarla."
+    - "§7Se necesita la clase / subclase correspondiente para forjar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: rpg_station
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "ENDER_PEARL:2"
+      - "steel_ingot:4"
+      - "cobalt_ingot:2"
+  util_backpack_t1:
+    material: LEATHER_HORSE_ARMOR
+    custom_model_data: 914014
+    display_name: "§6§lMochila de Cuero"
+    lore:
+    - "§7Capacidad: §f9 §7espacios."
+    - "§7Clic derecho para abrirla (también clic derecho sobre ella en el inventario)."
+    - "§8No admite mochilas ni shulkers dentro."
+    - "§7Mejórala con un §eKit de Mejora §7de nivel 2."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack
+      tier: 1
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "LEATHER:8"
+      - "STRING:4"
+      - "IRON_INGOT:2"
+  util_backpack_t2:
+    material: LEATHER_HORSE_ARMOR
+    custom_model_data: 914015
+    display_name: "§f§lMochila Reforzada"
+    lore:
+    - "§7Capacidad: §f18 §7espacios."
+    - "§7Clic derecho para abrirla (también clic derecho sobre ella en el inventario)."
+    - "§8No admite mochilas ni shulkers dentro."
+    - "§7Mejórala con un §eKit de Mejora §7de nivel 3."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack
+      tier: 2
+  util_backpack_t3:
+    material: LEATHER_HORSE_ARMOR
+    custom_model_data: 914016
+    display_name: "§b§lMochila de Acero"
+    lore:
+    - "§7Capacidad: §f27 §7espacios."
+    - "§7Clic derecho para abrirla (también clic derecho sobre ella en el inventario)."
+    - "§8No admite mochilas ni shulkers dentro."
+    - "§7Mejórala con un §eKit de Mejora §7de nivel 4."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack
+      tier: 3
+  util_backpack_t4:
+    material: LEATHER_HORSE_ARMOR
+    custom_model_data: 914017
+    display_name: "§9§lMochila de Cobalto"
+    lore:
+    - "§7Capacidad: §f36 §7espacios."
+    - "§7Clic derecho para abrirla (también clic derecho sobre ella en el inventario)."
+    - "§8No admite mochilas ni shulkers dentro."
+    - "§7Mejórala con un §eKit de Mejora §7de nivel 5."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack
+      tier: 4
+  util_backpack_t5:
+    material: LEATHER_HORSE_ARMOR
+    custom_model_data: 914018
+    display_name: "§d§lMochila del Cielo"
+    lore:
+    - "§7Capacidad: §f54 §7espacios."
+    - "§7Clic derecho para abrirla (también clic derecho sobre ella en el inventario)."
+    - "§8No admite mochilas ni shulkers dentro."
+    - "§aNivel máximo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack
+      tier: 5
+  util_backpack_kit_t2:
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    custom_model_data: 914019
+    display_name: "§e§lKit de Mejora: Mochila Reforzada"
+    lore:
+    - "§7Mejora una §fMochila nivel 1 §7a §fMochila Reforzada§7 (§f18 §7espacios)."
+    - "§7El contenido se conserva."
+    - "§eUso: §7con el kit en el cursor, haz clic sobre la mochila en tu inventario;"
+    - "§7o clic derecho con el kit en una mano y la mochila en la otra."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack_kit
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "IRON_INGOT:8"
+      - "LEATHER:8"
+      - "steel_ingot:2"
+  util_backpack_kit_t3:
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    custom_model_data: 914020
+    display_name: "§e§lKit de Mejora: Mochila de Acero"
+    lore:
+    - "§7Mejora una §fMochila nivel 2 §7a §fMochila de Acero§7 (§f27 §7espacios)."
+    - "§7El contenido se conserva."
+    - "§eUso: §7con el kit en el cursor, haz clic sobre la mochila en tu inventario;"
+    - "§7o clic derecho con el kit en una mano y la mochila en la otra."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack_kit
+      tier: 3
+    recipe:
+      station: adventurer
+      tier: 3
+      ingredients:
+      - "steel_ingot:8"
+      - "LEATHER:12"
+      - "cobalt_ingot:1"
+  util_backpack_kit_t4:
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    custom_model_data: 914021
+    display_name: "§e§lKit de Mejora: Mochila de Cobalto"
+    lore:
+    - "§7Mejora una §fMochila nivel 3 §7a §fMochila de Cobalto§7 (§f36 §7espacios)."
+    - "§7El contenido se conserva."
+    - "§eUso: §7con el kit en el cursor, haz clic sobre la mochila en tu inventario;"
+    - "§7o clic derecho con el kit en una mano y la mochila en la otra."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack_kit
+      tier: 4
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "cobalt_ingot:6"
+      - "steel_ingot:8"
+      - "LEATHER:16"
+  util_backpack_kit_t5:
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    custom_model_data: 914022
+    display_name: "§e§lKit de Mejora: Mochila del Cielo"
+    lore:
+    - "§7Mejora una §fMochila nivel 4 §7a §fMochila del Cielo§7 (§f54 §7espacios)."
+    - "§7El contenido se conserva."
+    - "§eUso: §7con el kit en el cursor, haz clic sobre la mochila en tu inventario;"
+    - "§7o clic derecho con el kit en una mano y la mochila en la otra."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: backpack_kit
+      tier: 5
+    recipe:
+      station: adventurer
+      tier: 5
+      ingredients:
+      - "sky_ingot:4"
+      - "cobalt_ingot:8"
+      - "dragon_core:1"
+  util_ender_pouch:
+    material: ENDER_CHEST
+    custom_model_data: 914023
+    display_name: "§5§lBolsa de Ender"
+    lore:
+    - "§7Abre tu cofre de ender sin colocarlo."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: ender
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "ENDER_CHEST:1"
+      - "LEATHER:4"
+      - "ENDER_PEARL:2"
+  util_trash_bag:
+    material: CAULDRON
+    custom_model_data: 914024
+    display_name: "§8§lBolsa de Basura"
+    lore:
+    - "§7Abre un contenedor para tirar objetos."
+    - "§c¡Lo que dejes dentro se destruye al cerrar!"
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: trash
+      tier: 1
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "LEATHER:4"
+      - "STRING:2"
+  util_repair_kit:
+    material: PRISMARINE_SHARD
+    custom_model_data: 914025
+    display_name: "§a§lKit de Reparación"
+    lore:
+    - "§7Repara un §f40% §7de la durabilidad de tu armadura equipada"
+    - "§7y del objeto de la mano secundaria. Se consume."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: repair
+      tier: 2
+    recipe:
+      station: adventurer
+      tier: 2
+      ingredients:
+      - "IRON_INGOT:6"
+      - "steel_ingot:1"
+  util_repair_kit_big:
+    material: PRISMARINE_CRYSTALS
+    custom_model_data: 914026
+    display_name: "§a§lKit de Reparación Superior"
+    lore:
+    - "§7Repara el §f100% §7de la durabilidad de tu armadura equipada"
+    - "§7y del objeto de la mano secundaria. Se consume."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: repair
+      tier: 4
+    recipe:
+      station: adventurer
+      tier: 4
+      ingredients:
+      - "steel_ingot:6"
+      - "cobalt_ingot:2"
+  util_recall_scroll:
+    material: PAPER
+    custom_model_data: 914027
+    display_name: "§d§lPergamino de Regreso"
+    lore:
+    - "§7Te teletransporta a tu cama (o al spawn) tras §f5 s §7sin moverte."
+    - "§7Se consume al teletransportar."
+    - "§7Usa §eclic derecho §7para usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: recall
+      tier: 1
+    recipe:
+      station: adventurer
+      tier: 1
+      ingredients:
+      - "PAPER:2"
+      - "ENDER_PEARL:1"
+  util_coin_pouch_s:
+    material: GOLD_NUGGET
+    custom_model_data: 914028
+    display_name: "§6§lBolsa de Monedas Pequeña"
+    lore:
+    - "§7Contiene §e500 §7monedas."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarla."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: coins
+      tier: 0
+  util_coin_pouch_m:
+    material: GOLD_INGOT
+    custom_model_data: 914029
+    display_name: "§6§lBolsa de Monedas Mediana"
+    lore:
+    - "§7Contiene §e5000 §7monedas."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarla."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: coins
+      tier: 0
+  util_coin_pouch_l:
+    material: RAW_GOLD
+    custom_model_data: 914030
+    display_name: "§6§lBolsa de Monedas Grande"
+    lore:
+    - "§7Contiene §e50000 §7monedas."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarla."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: coins
+      tier: 0
+  util_xp_tome_s:
+    material: BOOK
+    custom_model_data: 914031
+    display_name: "§3§lTomo de Experiencia Menor"
+    lore:
+    - "§7Otorga §b500 XP §7a tu clase activa."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: xp
+      tier: 0
+  util_xp_tome_m:
+    material: ENCHANTED_BOOK
+    custom_model_data: 914032
+    display_name: "§3§lTomo de Experiencia"
+    lore:
+    - "§7Otorga §b3000 XP §7a tu clase activa."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: xp
+      tier: 0
+  util_xp_tome_l:
+    material: KNOWLEDGE_BOOK
+    custom_model_data: 914033
+    display_name: "§3§lTomo de Experiencia Mayor"
+    lore:
+    - "§7Otorga §b20000 XP §7a tu clase activa."
+    - "§7Usa §eclic derecho §7para usarlo."
+    - "§8Se consume al usarlo."
+    list:
+      category: utility
+      name: "Utilidades"
+      group: utility
+      type: utility
+      piece: xp
+      tier: 0

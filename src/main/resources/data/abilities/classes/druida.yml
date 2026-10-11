@@ -1,0 +1,172 @@
+classes:
+  druida:
+    abilities:
+      druida_espina_viva:
+        name: Espina Viva
+        description: Dispara contra un objetivo (18 bloques)
+        icon: CACTUS
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 18
+          damage: 5
+          damage_per_level: 1.5
+          potions:
+          - poison:4:0
+          particle: HAPPY_VILLAGER
+          sound: ENTITY_ARROW_SHOOT
+          statuses:
+          - poison:5:1
+      druida_piel_de_corteza:
+        name: Piel de Corteza
+        description: Otorga mejoras temporales
+        icon: OAK_LOG
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 3
+          abilities:
+            druida_espina_viva: 1
+        effect:
+          type: buff
+          potions:
+          - resistance:12:0
+          - regeneration:5:0
+          duration_per_level: 2
+          particle: COMPOSTER
+          sound: BLOCK_WOOD_BREAK
+      druida_arraigo:
+        name: Arraigo
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: VINE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 3
+          abilities:
+            druida_espina_viva: 1
+        effect:
+          type: aoe
+          damage: 2
+          damage_per_level: 1
+          radius: 5
+          potions:
+          - slowness:5:3
+          duration_per_level: 1
+          particle: SPORE_BLOSSOM_AIR
+          sound: BLOCK_GRASS_BREAK
+      druida_curar_naturaleza:
+        name: Curar Naturaleza
+        description: Cura a los aliados cercanos
+        icon: SWEET_BERRIES
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.6
+        requires:
+          level: 6
+          abilities:
+            druida_piel_de_corteza: 2
+        effect:
+          type: heal
+          amount: 5
+          amount_per_level: 1.5
+          radius: 7
+          potions:
+          - regeneration:5:0
+          particle: HAPPY_VILLAGER
+          sound: BLOCK_AZALEA_LEAVES_BREAK
+      druida_salto_del_lobo:
+        name: Salto del Lobo
+        description: Te lanzas con impulso
+        icon: RABBIT_FOOT
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 8
+          abilities:
+            druida_piel_de_corteza: 2
+            druida_arraigo: 2
+        effect:
+          type: dash
+          power: 1.5
+          up: 0.35
+          damage: 0
+          radius: 0
+          potions:
+          - jump_boost:4:1
+          particle: CLOUD
+          sound: ENTITY_WOLF_GROWL
+      druida_enjambre:
+        name: Enjambre
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: HONEYCOMB
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 6
+          abilities:
+            druida_arraigo: 2
+        effect:
+          type: aoe
+          damage: 4
+          damage_per_level: 1.2
+          radius: 5
+          potions:
+          - poison:5:1
+          particle: SPORE_BLOSSOM_AIR
+          sound: ENTITY_BEE_LOOP_AGGRESSIVE
+          statuses:
+          - poison:6:1
+      druida_furia_de_la_naturaleza:
+        name: Furia de la Naturaleza
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: FLOWERING_AZALEA
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            druida_salto_del_lobo: 3
+        effect:
+          type: aoe
+          damage: 15
+          damage_per_level: 4
+          radius: 7
+          knockback: 1.0
+          potions:
+          - poison:6:1
+          particle: CHERRY_LEAVES
+          sound: ENTITY_RAVAGER_ROAR
+          statuses:
+          - poison:6:2

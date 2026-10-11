@@ -1,0 +1,282 @@
+# ==========================================================
+# RPGLeVeL - Configuración
+# Sistema de Progresión de 30 Niveles y 10 Tiers (t1 lv31 = t2 lv1)
+# ==========================================================
+
+progression:
+  max_tier: 10
+  allow_all_weapons: true
+
+  # Configurable namespace for custom items (leave empty for vanilla materials only)
+  custom-item-namespace: "AnacroniCraft"
+
+  # Command enabling/disabling
+  enable-jobs: true
+  enable-classes: true
+  enable-quests: true
+  enable-subclasses: true
+
+  # Items folder configuration
+  items-folder: "items"
+
+  # RPVp file support - files with .rlvp extension loaded from items folder
+  # Format: {item_id}:
+  #   material: "MATERIAL_NAME"
+  #   display_name: "Display Name"
+  #   lore: ["line1", "line2"]
+  #   enchantments:
+  #     - type: "DAMAGE_ALL"
+  #       level: 5
+  #   unbreakable: true
+  #   custom_data:
+  #     key: "value"
+
+  levels_per_tier: 30
+
+  # Fórmula de XP: base_xp * nivel (ej: Nivel 1 -> 100 XP, Nivel 2 -> 200 XP...)
+  base_xp_per_level: 100
+
+  # Ganancia de experiencia para armas (por golpe y por muerte)
+  weapon_xp_per_hit: 2
+  weapon_xp_per_kill: 15
+  boss_kill_xp: 300
+
+  # Ganancia de experiencia para armaduras (cuando el jugador recibe daño)
+  armor_xp_per_hit_taken: 3
+
+scaling:
+  # Bono de daño para armas:
+  # Daño extra = (Tier - 1) * bonus_damage_per_tier + (Level - 1) * bonus_damage_per_level
+  bonus_damage_per_level: 0.25
+  bonus_damage_per_tier: 2.0
+
+  # Reducción de daño porcentual por pieza de armadura equipada (en %):
+  armor_reduction_per_level: 0.2   # 0.2% por nivel (Lv 30 = 6% por pieza)
+  armor_reduction_per_tier: 1.5    # 1.5% por tier (Tier 10 = 15% por pieza)
+
+messages:
+  prefix: "<gradient:#FFD700:#FFA500><b>[RPG]</b></gradient> "
+  level_up_actionbar: "<green>¡Tu arma subió al <yellow><b>Nivel {level}</b></yellow>! <gray>(+{bonus_damage} daño)"
+  tier_ascend_title: "<gold><b>¡ASCENSIÓN DE TIER!</b>"
+  tier_ascend_subtitle: "<yellow>{item_name} <white>ascendió a <gold><b>Tier {tier_roman} (Nivel 1)</b>"
+  armor_level_up: "<aqua>¡Tu armadura subió al <yellow><b>Nivel {level}</b></yellow>!"
+  max_reached: "<gold>¡Este ítem ha alcanzado el nivel y tier máximo (Tier X Lv 30)!"
+
+lore:
+  level_format: "<gray>• <white>Nivel: <yellow>{level}<gray>/30"
+  tier_format: "<gray>• <white>Tier: <gold>{tier_roman} <gray>(Tier {tier}/10)"
+  progress_format: "<gray>• <white>Progreso: <green>{progress_bar} <gray>({xp}/{needed_xp} XP)"
+  progress_bar_length: 10
+  progress_bar_symbol: "■"
+
+
+rarities:
+  COMMON: 1
+  UNCOMMON: 2
+  RARE: 3
+  EPIC: 4
+  LEGENDARY: 5
+  MYTHIC: 6
+
+# ==========================================================
+# Rangos: F < E < D < C < B < A < S < S+ < U (Ultimate)
+# Cada seccion (clase, subclase, trabajo, misiones) tiene sus puntos y su ranking.
+# thresholds = puntos minimos para F, E, D, C, B, A, S, S+, U
+# ==========================================================
+ranks:
+  # Rangos de TEMPORADA (F-S1 ... U-S1): puntos minimos para F, E, D, C, B, A, S, S+, U
+  thresholds: [0, 100, 300, 700, 1500, 3000, 6000, 12000, 25000]
+  # Rangos PERMANENTES (F ... U): no se reinician, cuestan mas (umbral de temporada x multiplicador)
+  permanent_multiplier: 5
+  # Comandos de consola al alcanzar un rango PERMANENTE (por categoría). Placeholders: %player% %category% %rank%
+  # Ej. (sustituye a un plugin de rankup): S: ["lp user %player% parent add rango_s", "broadcast %player% alcanzó el rango S"]
+  permanent_rewards: {}
+  season:
+    duration_days: 30   # 0 = temporadas manuales (/rlv season end)
+    rewards: {}         # ej: S: ["give %player% diamond 5"]  (comandos de consola al terminar la temporada)
+  points:
+    kill: 1          # puntos de clase/subclase por matar un mob hostil
+    boss_kill: 25    # por matar un jefe (Ender Dragon, Wither, Warden, Elder Guardian)
+
+quests:
+  remind_on_join: true
+
+# ==========================================================
+# Niveles de clase / subclase: mejoran las estadisticas (data/stats/) y dan ability XP
+# Subir del nivel L al L+1 cuesta base_xp * L. Los puntos de habilidad y la ability XP
+# se configuran en data/abilities/settings.yml
+# ==========================================================
+class_levels:
+  max_level: 50
+  base_xp: 100
+  xp:
+    kill: 5          # XP de clase y subclase por matar un mob hostil
+    boss_kill: 100   # por matar un jefe
+    quest_share: 0.5 # fraccion de la recompensa de una mision que se convierte en XP de clase/subclase
+
+
+# ==========================================================
+# Estaciones de trabajo (data/recipes/): el equipo de cada clase / subclase se forja en su estacion.
+# Las estaciones y los materiales de forja se fabrican en estaciones vanilla (mesa de crafteo, alto horno).
+# ==========================================================
+stations:
+  require_owner: true            # solo la clase / subclase dueña puede forjar en su estacion
+  tier_levels: [1, 5, 12, 20, 30] # nivel de clase / subclase minimo para forjar equipo de tier 1..5
+  discover_recipes: true         # mostrar recetas vanilla en el libro de recetas al entrar
+
+# ==========================================================
+# Anti-abuso
+# ==========================================================
+anti_abuse:
+  track_placed_blocks: true      # bloques colocados por jugadores no dan XP de trabajo ni progreso de mision al romperse
+  max_tracked_per_chunk: 3000
+  kills_per_minute: 25           # kills del mismo mob por minuto antes de reducir recompensas (0 = sin limite)
+  over_limit_multiplier: 0.25    # multiplicador al pasar el limite (el doble del limite = 0)
+  spawner_multiplier: 0.2        # mobs de spawner dan solo esta fraccion de XP / puntos
+
+# Cambio de clase / subclase (la primera elección es gratis; los admins no pagan)
+class:
+  change_cost: 300
+  change_cooldown_hours: 6   # espera entre cambios de clase. Al cambiar se guardan la subclase y la barra de habilidades de la clase que dejas y se recuperan al volver
+integrations:
+  luckperms:
+    class_groups: true       # al elegir clase: quita el grupo de la anterior y añade <group_prefix><clase> (ver docs/LUCKPERMS.md)
+    group_prefix: "class_"
+subclass:
+  min_class_level: 10        # nivel de clase necesario para elegir subclase
+  change_cost: 150
+
+# ==========================================================
+# Requisitos de ítems (class, subclass, class_level, subclass_level, rank, prestige) en el .rlvp (requires:)
+# ==========================================================
+requirements:
+  enabled: true
+  bypass_permission: rpgleveltier.bypass   # op por defecto: los admins ignoran los requisitos
+
+# ==========================================================
+# Maná, enfriamientos y hotbar de habilidades
+# ==========================================================
+mana:
+  enabled: true
+  base: 100
+  per_class_level: 1.5       # maná máximo extra por nivel de clase (subclase cuenta x0.6)
+  regen_base: 2.0            # por segundo (+ estadística mana_regen)
+  cost_base: 10              # coste de una habilidad = cost_base + cost_per_node_cost * coste del nodo del árbol
+  cost_per_node_cost: 4
+  cost_growth_per_level: 0.04
+  item_cost: 8               # coste de las habilidades activas de ítems
+  actionbar: true
+hotbar:
+  enabled: true              # tecla F (cambiar mano) lanza la ranura elegida, Shift+F cambia de ranura
+respec:
+  cost: 200                  # monedas
+
+# ==========================================================
+# Combate
+# ==========================================================
+combat:
+  base_crit_chance: 3.0      # %
+  base_crit_damage: 50.0     # % extra
+  proc_seconds: 4.0          # duración de estados provocados por *_chance
+  shock_bonus: 0.15          # daño extra recibido por nivel de electrocución
+pvp:
+  default: false             # PvP fuera de zonas con flag pvp (solo si enforce: true se bloquea el PvP normal)
+  enforce: false
+party:
+  max_size: 5
+  share_range: 40
+  xp_share: 0.5
+  class_bonus: 0.05          # +5% XP por cada clase distinta en la party (máx 4)
+  friendly_fire: false
+duel:
+  max_seconds: 300
+  points_win: 25
+  bet_tax: 0.05
+
+# ==========================================================
+# Prestigio: al nivel máximo de clase (/prestige confirm)
+# ==========================================================
+prestige:
+  max: 10
+  skill_points_per_prestige: 1
+  stats_per_prestige:        # por cada prestigio (total)
+    max_health: 1.0
+    attack_damage: 0.2
+    crit_damage: 2.0
+    xp_bonus: 1.0
+
+# ==========================================================
+# Economía (monedas internas; usa Vault si está instalado)
+# ==========================================================
+economy:
+  mode: auto                 # auto | vault | internal
+  currency: monedas
+
+# ==========================================================
+# Mobs con nivel, jefes, eventos
+# ==========================================================
+mobs:
+  enabled: true
+  blocks_per_level: 150      # nivel = 1 + distancia al spawn / blocks_per_level (o flag mob_level de la zona)
+  max_level: 60
+  health_per_level: 0.07
+  damage_per_level: 0.035
+  xp_per_level: 0.04         # recompensas x(1 + 0.04 * (nivel-1))
+  show_name: true
+  world_bonus: {world_nether: 12, world_the_end: 25}
+bosses:
+  max_minutes: 30
+  schedule: {}               # ej: { sample: { boss: rey_esqueleto, interval_minutes: 120, world: world, x: 100, y: 70, z: 100 } }
+events:
+  enabled: false   # TEMPORAL: eventos aleatorios desactivados (poner true para reactivar)
+  check_interval_minutes: 15
+  random_chance: 0.2
+  types:
+    double_xp: {name: "XP doble", duration_minutes: 30, xp: 2.0, drops: 1.0, bar_color: GREEN}
+    double_drops: {name: "Botín doble", duration_minutes: 30, xp: 1.0, drops: 2.0, bar_color: YELLOW}
+    blood_moon: {name: "Luna de sangre", duration_minutes: 20, xp: 1.5, drops: 1.5, mob_level_bonus: 10, bar_color: RED}
+    invasion: {name: "Invasión", duration_minutes: 10, xp: 1.5, drops: 1.5, kind: invasion, bar_color: PURPLE}
+    boss_night: {name: "Noche de jefes", duration_minutes: 20, xp: 1.0, drops: 1.5, kind: boss_night, bar_color: RED}
+
+# ==========================================================
+# Almacenamiento de datos de jugadores
+# ==========================================================
+storage:
+  type: yaml                 # yaml (players.yml) | sqlite (players.db) | mysql
+  mysql: {host: localhost, port: 3306, database: rpgleveltier, user: root, password: ""}
+  backups: {enabled: true, keep: 7, interval_hours: 24}   # copias de players.yml en backups/ (solo modo yaml)
+
+# ==========================================================
+# Gremios y subasta
+# ==========================================================
+guild:
+  create_cost: 1000
+  xp_base: 1000              # XP para el nivel siguiente = xp_base * nivel^1.4
+  xp_share: 0.5              # fracción del XP de combate / misiones de un miembro que va al gremio
+  base_members: 10           # miembros máximos al nivel 1 (+2 por nivel)
+  max_members_cap: 40
+  stats_per_level:           # bonos para todos los miembros por nivel de gremio (nivel-1)
+    max_health: 0.5
+    xp_bonus: 0.5
+    attack_damage: 0.05
+trade:
+  money_tax: 0.0             # impuesto sobre el dinero intercambiado en /trade (0 = ninguno)
+auction:
+  tax: 0.05                  # impuesto sobre el precio de venta
+  listing_fee: 0.0           # tarifa de publicación (fracción del precio)
+  duration_hours: 48
+  max_listings: 8
+  min_price: 1
+  max_price: 10000000
+
+# ==========================================================
+# Chat: prefijo con prestigio, título y etiqueta de gremio
+# ==========================================================
+chat:
+  prefix: true
+
+# ==========================================================
+# Trabajos: ingresos
+# ==========================================================
+jobs:
+  coins_per_xp: 0.5          # monedas (o dinero Vault) por punto de XP de trabajo; 0 = sin ingresos

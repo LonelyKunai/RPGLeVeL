@@ -1,0 +1,5 @@
+classes:
+  bardo:
+    name: Bardo
+    description: Especialista en potenciar aliados y debilitar enemigos mediante canciones y auras de área.
+    icon: MUSIC_DISC

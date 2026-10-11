@@ -1,0 +1,167 @@
+classes:
+  bardo:
+    abilities:
+      bardo_himno_de_valor:
+        name: Himno de Valor
+        description: Otorga mejoras temporales
+        icon: NOTE_BLOCK
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1.2
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - strength:10:0
+          - speed:10:0
+          duration_per_level: 2
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_BELL
+      bardo_balada_curativa:
+        name: Balada Curativa
+        description: Cura a los aliados cercanos
+        icon: MUSIC_DISC_CAT
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.6
+        requires:
+          level: 3
+          abilities:
+            bardo_himno_de_valor: 1
+        effect:
+          type: heal
+          amount: 4
+          amount_per_level: 1
+          radius: 8
+          potions:
+          - regeneration:6:0
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_HARP
+      bardo_cancion_de_cuna:
+        name: Canción de Cuna
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: LEAD
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 3
+          abilities:
+            bardo_himno_de_valor: 1
+        effect:
+          type: aoe
+          damage: 0
+          radius: 6
+          potions:
+          - slowness:5:2
+          - weakness:5:0
+          - nausea:4:0
+          duration_per_level: 1
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_FLUTE
+      bardo_acorde_disonante:
+        name: Acorde Disonante
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: BELL
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 13
+        cooldown_per_level: -0.6
+        requires:
+          level: 6
+          abilities:
+            bardo_balada_curativa: 2
+        effect:
+          type: aoe
+          damage: 6
+          damage_per_level: 1.5
+          radius: 5
+          knockback: 1.0
+          particle: NOTE
+          sound: BLOCK_BELL_USE
+      bardo_marcha_vigorosa:
+        name: Marcha Vigorosa
+        description: Otorga mejoras temporales
+        icon: GOLDEN_BOOTS
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 8
+          abilities:
+            bardo_balada_curativa: 2
+            bardo_cancion_de_cuna: 2
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - speed:12:1
+          - jump_boost:12:1
+          duration_per_level: 2
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_BASS
+      bardo_solo_virtuoso:
+        name: Solo Virtuoso
+        description: Un ataque que salta entre enemigos cercanos
+        icon: JUKEBOX
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 6
+          abilities:
+            bardo_cancion_de_cuna: 2
+        effect:
+          type: chain
+          damage: 6
+          damage_per_level: 1.2
+          targets: 5
+          range: 8
+          falloff: 0.9
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_GUITAR
+      bardo_sinfonia_epica:
+        name: Sinfonía Épica
+        description: Otorga mejoras temporales
+        icon: ENCHANTED_GOLDEN_APPLE
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 75
+        cooldown_per_level: -3.5
+        requires:
+          level: 15
+          abilities:
+            bardo_marcha_vigorosa: 3
+        effect:
+          type: buff
+          radius: 12
+          potions:
+          - strength:15:1
+          - resistance:15:1
+          - regeneration:10:1
+          - speed:15:1
+          duration_per_level: 3
+          particle: NOTE
+          sound: UI_TOAST_CHALLENGE_COMPLETE

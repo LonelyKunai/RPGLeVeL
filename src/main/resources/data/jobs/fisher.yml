@@ -1,0 +1,23 @@
+jobs:
+  fisher:
+    name: Pescador
+    description: Mejora la pesca.
+    icon: FISHING_ROD
+    bonus: fishing
+    global: true
+    perks:
+      5:
+        stats:
+          luck: 0.5
+      10:
+        stats:
+          evasion: 1
+      20:
+        stats:
+          luck: 1
+      30:
+        stats:
+          mana_regen: 0.2
+      50:
+        stats:
+          luck: 1.5

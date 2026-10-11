@@ -1,0 +1,172 @@
+classes:
+  artificie:
+    abilities:
+      artificie_granada_explosiva:
+        name: Granada Explosiva
+        description: Golpea a los enemigos en un radio de 3.5 bloques
+        icon: TNT
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          at_target: true
+          range: 20
+          damage: 7
+          damage_per_level: 2
+          radius: 3.5
+          knockback: 0.9
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - burn:3:1
+      artificie_pocion_curativa:
+        name: Poción Curativa
+        description: Cura a los aliados cercanos
+        icon: SPLASH_POTION
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.6
+        requires:
+          level: 3
+          abilities:
+            artificie_granada_explosiva: 1
+        effect:
+          type: heal
+          amount: 6
+          amount_per_level: 1.5
+          radius: 4
+          particle: HEART
+          sound: ENTITY_SPLASH_POTION_BREAK
+      artificie_pocion_corrosiva:
+        name: Poción Corrosiva
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: FERMENTED_SPIDER_EYE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 3
+          abilities:
+            artificie_granada_explosiva: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 20
+          damage: 3
+          damage_per_level: 1
+          radius: 4
+          potions:
+          - poison:6:1
+          - slowness:5:0
+          particle: SQUID_INK
+          sound: ENTITY_SPLASH_POTION_BREAK
+          statuses:
+          - poison:5:1
+      artificie_reflejos_mecanicos:
+        name: Reflejos Mecánicos
+        description: Otorga mejoras temporales
+        icon: REDSTONE
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 6
+          abilities:
+            artificie_pocion_curativa: 2
+        effect:
+          type: buff
+          potions:
+          - speed:12:1
+          - haste:12:1
+          duration_per_level: 2
+          particle: ELECTRIC_SPARK
+          sound: BLOCK_PISTON_EXTEND
+      artificie_torreta_de_campo:
+        name: Torreta de Campo
+        description: Dispara una andanada de proyectiles
+        icon: DISPENSER
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 8
+          abilities:
+            artificie_pocion_curativa: 2
+            artificie_pocion_corrosiva: 2
+        effect:
+          type: volley
+          arrows: 8
+          arrows_per_level: 1
+          damage: 3
+          damage_per_level: 0.7
+          spread: 0.2
+          speed: 2.4
+      artificie_pulso_electromagnetico:
+        name: Pulso Electromagnético
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: REPEATER
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 6
+          abilities:
+            artificie_pocion_corrosiva: 2
+        effect:
+          type: aoe
+          damage: 6
+          damage_per_level: 1.5
+          radius: 6
+          knockback: 1.5
+          particle: ELECTRIC_SPARK
+          sound: BLOCK_BEACON_DEACTIVATE
+          statuses:
+          - shock:4:1
+      artificie_bomba_de_fragmentacion:
+        name: Bomba de Fragmentación
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: TNT_MINECART
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            artificie_torreta_de_campo: 3
+        effect:
+          type: aoe
+          at_target: true
+          range: 25
+          damage: 20
+          damage_per_level: 5
+          radius: 6
+          knockback: 1.6
+          particle: EXPLOSION_EMITTER
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - bleed:5:1

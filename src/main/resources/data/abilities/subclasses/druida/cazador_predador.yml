@@ -1,0 +1,97 @@
+subclasses:
+  cazador_predador:
+    abilities:
+      cazador_predador_zarpazo:
+        name: Zarpazo
+        description: Dispara contra un objetivo (4 bloques)
+        icon: IRON_NUGGET
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 4
+          damage: 9
+          damage_per_level: 2.5
+          particle: DAMAGE_INDICATOR
+          sound: ENTITY_CAT_HISS
+          statuses:
+          - bleed:5:1
+      cazador_predador_salto_felino:
+        name: Salto Felino
+        description: Te lanzas con impulso
+        icon: RABBIT_FOOT
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            cazador_predador_zarpazo: 1
+        effect:
+          type: dash
+          power: 2.0
+          up: 0.3
+          damage: 5
+          damage_per_level: 1.5
+          radius: 2
+          particle: CLOUD
+          sound: ENTITY_OCELOT_AMBIENT
+      cazador_predador_sentidos_agudos:
+        name: Sentidos Agudos
+        description: Otorga mejoras temporales
+        icon: SPIDER_EYE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            cazador_predador_zarpazo: 1
+        effect:
+          type: buff
+          potions:
+          - night_vision:20:0
+          - speed:15:2
+          - jump_boost:15:1
+          duration_per_level: 3
+          particle: END_ROD
+          sound: ENTITY_FOX_SNIFF
+      cazador_predador_caceria_final:
+        name: Cacería Final
+        description: Dispara contra un objetivo (6 bloques)
+        icon: NETHERITE_SWORD
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            cazador_predador_salto_felino: 2
+            cazador_predador_sentidos_agudos: 2
+        effect:
+          type: bolt
+          range: 6
+          damage: 24
+          damage_per_level: 6
+          particle: DAMAGE_INDICATOR
+          sound: ENTITY_WOLF_GROWL
+          execute_below: 0.4
+          execute_mult: 2.0
+          statuses:
+          - bleed:7:2

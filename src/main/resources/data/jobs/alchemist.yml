@@ -1,0 +1,23 @@
+jobs:
+  alchemist:
+    name: Alquimista
+    description: XP al sacar pociones de un soporte de pociones.
+    icon: BREWING_STAND
+    bonus: brewing
+    global: true
+    perks:
+      5:
+        stats:
+          mana_max: 8
+      10:
+        stats:
+          mana_regen: 0.15
+      20:
+        stats:
+          status_resist: 5
+      30:
+        stats:
+          mana_max: 15
+      50:
+        stats:
+          cooldown_reduction: 3

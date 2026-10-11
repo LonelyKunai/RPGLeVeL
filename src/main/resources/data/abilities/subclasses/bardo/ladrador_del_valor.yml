@@ -1,0 +1,96 @@
+subclasses:
+  ladrador_del_valor:
+    abilities:
+      ladrador_del_valor_grito_de_valor:
+        name: Grito de Valor
+        description: Otorga mejoras temporales
+        icon: GOAT_HORN
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - strength:12:1
+          duration_per_level: 2
+          particle: NOTE
+          sound: ENTITY_RAVAGER_ROAR
+      ladrador_del_valor_escudo_de_honor:
+        name: Escudo de Honor
+        description: Otorga mejoras temporales
+        icon: SHIELD
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 28
+        cooldown_per_level: -1.4
+        requires:
+          level: 5
+          abilities:
+            ladrador_del_valor_grito_de_valor: 1
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - resistance:15:1
+          - absorption:15:1
+          duration_per_level: 3
+          particle: NOTE
+          sound: ITEM_SHIELD_BLOCK
+      ladrador_del_valor_carga_heroica:
+        name: Carga Heroica
+        description: Otorga mejoras temporales
+        icon: GOLDEN_BOOTS
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            ladrador_del_valor_grito_de_valor: 1
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - speed:12:2
+          - jump_boost:12:1
+          - haste:12:1
+          duration_per_level: 2
+          particle: NOTE
+          sound: ENTITY_HORSE_GALLOP
+      ladrador_del_valor_estandarte_epico:
+        name: Estandarte Épico
+        description: Otorga mejoras temporales
+        icon: WHITE_BANNER
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 70
+        cooldown_per_level: -3.5
+        requires:
+          level: 15
+          abilities:
+            ladrador_del_valor_escudo_de_honor: 2
+            ladrador_del_valor_carga_heroica: 2
+        effect:
+          type: buff
+          radius: 14
+          potions:
+          - strength:20:2
+          - resistance:20:1
+          - regeneration:12:1
+          duration_per_level: 3
+          particle: NOTE
+          sound: UI_TOAST_CHALLENGE_COMPLETE

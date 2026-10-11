@@ -1,0 +1,94 @@
+subclasses:
+  duquista_sombra:
+    abilities:
+      duquista_sombra_salto_sombrio:
+        name: Salto Sombrío
+        description: Te teletransportas hacia adelante
+        icon: ENDER_EYE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: blink
+          distance: 9
+          distance_per_level: 1
+          particle: SMOKE
+          sound: ENTITY_ENDERMAN_TELEPORT
+      duquista_sombra_clon_de_sombra:
+        name: Clon de Sombra
+        description: Otorga mejoras temporales
+        icon: PHANTOM_MEMBRANE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            duquista_sombra_salto_sombrio: 1
+        effect:
+          type: buff
+          potions:
+          - invisibility:6:0
+          - speed:6:2
+          duration_per_level: 1.5
+          particle: SMOKE
+          sound: ENTITY_PHANTOM_FLAP
+      duquista_sombra_estocada_veloz:
+        name: Estocada Veloz
+        description: Te lanzas con impulso
+        icon: IRON_SWORD
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            duquista_sombra_salto_sombrio: 1
+        effect:
+          type: dash
+          power: 1.8
+          damage: 6
+          damage_per_level: 2
+          radius: 2
+          particle: CRIT
+          sound: ENTITY_PLAYER_ATTACK_SWEEP
+          statuses:
+          - bleed:4:1
+      duquista_sombra_baile_de_sombras:
+        name: Baile de Sombras
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: NETHERITE_SWORD
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            duquista_sombra_clon_de_sombra: 2
+            duquista_sombra_estocada_veloz: 2
+        effect:
+          type: aoe
+          damage: 16
+          damage_per_level: 4
+          radius: 5
+          potions:
+          - blindness:3:0
+          particle: SMOKE
+          sound: ENTITY_PLAYER_ATTACK_SWEEP
+          statuses:
+          - bleed:4:1

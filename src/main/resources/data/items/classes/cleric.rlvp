@@ -1,0 +1,1111 @@
+items:
+  cleric_weapon_t1:
+    material: MACE
+    custom_model_data: 910121
+    display_name: "§6§lArma Principal de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      spell_power: 3.0
+      mana_regen: 0.3
+      stun_chance: 0.6
+      health_regen: 0.05
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "MACE:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_weapon_t2:
+    material: MACE
+    custom_model_data: 910122
+    display_name: "§6§lArma Principal de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      spell_power: 5.4
+      mana_regen: 0.54
+      stun_chance: 1.08
+      health_regen: 0.09
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_weapon_t3:
+    material: MACE
+    custom_model_data: 910123
+    display_name: "§6§lArma Principal de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      spell_power: 9.0
+      mana_regen: 0.9
+      stun_chance: 1.8
+      health_regen: 0.15
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_weapon_t4:
+    material: MACE
+    custom_model_data: 910124
+    display_name: "§6§lArma Principal de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      spell_power: 13.5
+      mana_regen: 1.35
+      stun_chance: 2.7
+      health_regen: 0.225
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_weapon_t5:
+    material: MACE
+    custom_model_data: 910125
+    display_name: "§6§lArma Principal de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      spell_power: 19.5
+      mana_regen: 1.95
+      stun_chance: 3.9
+      health_regen: 0.325
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric
+  cleric_helmet_t1:
+    material: CHAINMAIL_HELMET
+    custom_model_data: 910126
+    display_name: "§6§lCasco de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.84
+      mana_regen: 0.14
+      status_resist: 0.7
+      health_regen: 0.035
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "CHAINMAIL_HELMET:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_helmet_t2:
+    material: CHAINMAIL_HELMET
+    custom_model_data: 910127
+    display_name: "§6§lCasco de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.512
+      mana_regen: 0.252
+      status_resist: 1.26
+      health_regen: 0.063
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_helmet_t3:
+    material: CHAINMAIL_HELMET
+    custom_model_data: 910128
+    display_name: "§6§lCasco de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 2.52
+      mana_regen: 0.42
+      status_resist: 2.1
+      health_regen: 0.105
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_helmet_t4:
+    material: CHAINMAIL_HELMET
+    custom_model_data: 910129
+    display_name: "§6§lCasco de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 3.78
+      mana_regen: 0.63
+      status_resist: 3.15
+      health_regen: 0.1575
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_helmet_t5:
+    material: CHAINMAIL_HELMET
+    custom_model_data: 910130
+    display_name: "§6§lCasco de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 5.46
+      mana_regen: 0.91
+      status_resist: 4.55
+      health_regen: 0.2275
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric
+  cleric_chestplate_t1:
+    material: CHAINMAIL_CHESTPLATE
+    custom_model_data: 910131
+    display_name: "§6§lPechera de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.56
+      mana_regen: 0.26
+      status_resist: 1.3
+      health_regen: 0.065
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "CHAINMAIL_CHESTPLATE:1"
+      - "IRON_INGOT:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_chestplate_t2:
+    material: CHAINMAIL_CHESTPLATE
+    custom_model_data: 910132
+    display_name: "§6§lPechera de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 2.808
+      mana_regen: 0.468
+      status_resist: 2.34
+      health_regen: 0.117
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_chestplate_t3:
+    material: CHAINMAIL_CHESTPLATE
+    custom_model_data: 910133
+    display_name: "§6§lPechera de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 4.68
+      mana_regen: 0.78
+      status_resist: 3.9
+      health_regen: 0.195
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_chestplate_t4:
+    material: CHAINMAIL_CHESTPLATE
+    custom_model_data: 910134
+    display_name: "§6§lPechera de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 7.02
+      mana_regen: 1.17
+      status_resist: 5.85
+      health_regen: 0.2925
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_chestplate_t5:
+    material: CHAINMAIL_CHESTPLATE
+    custom_model_data: 910135
+    display_name: "§6§lPechera de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 10.14
+      mana_regen: 1.69
+      status_resist: 8.45
+      health_regen: 0.4225
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric
+  cleric_leggings_t1:
+    material: CHAINMAIL_LEGGINGS
+    custom_model_data: 910136
+    display_name: "§6§lPantalones de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 1.2
+      mana_regen: 0.2
+      status_resist: 1.0
+      health_regen: 0.05
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "CHAINMAIL_LEGGINGS:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_leggings_t2:
+    material: CHAINMAIL_LEGGINGS
+    custom_model_data: 910137
+    display_name: "§6§lPantalones de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 2.16
+      mana_regen: 0.36
+      status_resist: 1.8
+      health_regen: 0.09
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_leggings_t3:
+    material: CHAINMAIL_LEGGINGS
+    custom_model_data: 910138
+    display_name: "§6§lPantalones de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 3.6
+      mana_regen: 0.6
+      status_resist: 3.0
+      health_regen: 0.15
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_leggings_t4:
+    material: CHAINMAIL_LEGGINGS
+    custom_model_data: 910139
+    display_name: "§6§lPantalones de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 5.4
+      mana_regen: 0.9
+      status_resist: 4.5
+      health_regen: 0.225
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_leggings_t5:
+    material: CHAINMAIL_LEGGINGS
+    custom_model_data: 910140
+    display_name: "§6§lPantalones de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 7.8
+      mana_regen: 1.3
+      status_resist: 6.5
+      health_regen: 0.325
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric
+  cleric_boots_t1:
+    material: CHAINMAIL_BOOTS
+    custom_model_data: 910141
+    display_name: "§6§lBotas de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.84
+      mana_regen: 0.14
+      status_resist: 0.7
+      health_regen: 0.035
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "CHAINMAIL_BOOTS:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_boots_t2:
+    material: CHAINMAIL_BOOTS
+    custom_model_data: 910142
+    display_name: "§6§lBotas de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.512
+      mana_regen: 0.252
+      status_resist: 1.26
+      health_regen: 0.063
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_boots_t3:
+    material: CHAINMAIL_BOOTS
+    custom_model_data: 910143
+    display_name: "§6§lBotas de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 2.52
+      mana_regen: 0.42
+      status_resist: 2.1
+      health_regen: 0.105
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_boots_t4:
+    material: CHAINMAIL_BOOTS
+    custom_model_data: 910144
+    display_name: "§6§lBotas de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 3.78
+      mana_regen: 0.63
+      status_resist: 3.15
+      health_regen: 0.1575
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_boots_t5:
+    material: CHAINMAIL_BOOTS
+    custom_model_data: 910145
+    display_name: "§6§lBotas de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 5.46
+      mana_regen: 0.91
+      status_resist: 4.55
+      health_regen: 0.2275
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric
+  cleric_offhand_extra_t1:
+    material: GLOWSTONE_DUST
+    custom_model_data: 910146
+    display_name: "§6§lObjeto Secundario de Clérigo - Nivel I"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      spell_power: 1.5
+      mana_regen: 0.15
+      stun_chance: 0.3
+      health_regen: 0.025
+    requires:
+      class: clerigo
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: cleric
+      tier: 1
+      ingredients:
+      - "GLOWSTONE_DUST:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cleric
+  cleric_offhand_extra_t2:
+    material: GLOWSTONE_DUST
+    custom_model_data: 910147
+    display_name: "§6§lObjeto Secundario de Clérigo - Nivel II"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      spell_power: 2.7
+      mana_regen: 0.27
+      stun_chance: 0.54
+      health_regen: 0.045
+    requires:
+      class: clerigo
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 2
+      ingredients:
+      - "cleric_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cleric
+  cleric_offhand_extra_t3:
+    material: GLOWSTONE_DUST
+    custom_model_data: 910148
+    display_name: "§6§lObjeto Secundario de Clérigo - Nivel III"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      spell_power: 4.5
+      mana_regen: 0.45
+      stun_chance: 0.9
+      health_regen: 0.075
+    requires:
+      class: clerigo
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 3
+      ingredients:
+      - "cleric_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cleric
+  cleric_offhand_extra_t4:
+    material: GLOWSTONE_DUST
+    custom_model_data: 910149
+    display_name: "§6§lObjeto Secundario de Clérigo - Nivel IV"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      spell_power: 6.75
+      mana_regen: 0.675
+      stun_chance: 1.35
+      health_regen: 0.1125
+    requires:
+      class: clerigo
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 4
+      ingredients:
+      - "cleric_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cleric
+  cleric_offhand_extra_t5:
+    material: GLOWSTONE_DUST
+    custom_model_data: 910150
+    display_name: "§6§lObjeto Secundario de Clérigo - Nivel V"
+    lore:
+    - "§8Set: Clérigo"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cleric
+      name: Clérigo
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      spell_power: 9.75
+      mana_regen: 0.975
+      stun_chance: 1.95
+      health_regen: 0.1625
+    requires:
+      class: clerigo
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: cleric
+      tier: 5
+      ingredients:
+      - "cleric_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cleric

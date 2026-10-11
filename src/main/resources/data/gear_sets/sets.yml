@@ -1,0 +1,549 @@
+sets:
+  warrior:
+    name: Guerrero
+    bonuses:
+      2:
+        stats:
+          damage_reduction: 2.4
+      4:
+        stats:
+          attack_damage: 1.8
+      6:
+        stats:
+          crit_damage: 12
+          max_health: 4.0
+  mage:
+    name: Mago
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          mana_max: 40
+          cooldown_reduction: 3.2
+  hunter:
+    name: Cazador
+    bonuses:
+      2:
+        stats:
+          evasion: 2.4
+      4:
+        stats:
+          crit_chance: 4.5
+      6:
+        stats:
+          attack_damage: 1.6
+          max_health: 3.2
+  rogue:
+    name: Pícaro
+    bonuses:
+      2:
+        stats:
+          evasion: 3.6
+      4:
+        stats:
+          crit_chance: 6
+      6:
+        stats:
+          crit_damage: 16
+          movement_speed: 0.008
+  cleric:
+    name: Clérigo
+    bonuses:
+      2:
+        stats:
+          max_health: 3.6
+      4:
+        stats:
+          spell_power: 9
+      6:
+        stats:
+          mana_regen: 0.8
+  necromancer:
+    name: Nigromante
+    bonuses:
+      2:
+        stats:
+          max_health: 2.4
+      4:
+        stats:
+          lifesteal: 3
+      6:
+        stats:
+          spell_power: 12
+          lifesteal: 2.0
+  druid:
+    name: Druida
+    bonuses:
+      2:
+        stats:
+          max_health: 3.0
+      4:
+        stats:
+          mana_regen: 1.2
+      6:
+        stats:
+          spell_power: 12
+          mana_regen: 0.8
+  artificer:
+    name: Artífice
+    bonuses:
+      2:
+        stats:
+          armor: 1.8
+      4:
+        stats:
+          penetration: 6
+      6:
+        stats:
+          crit_chance: 4
+          penetration: 4.0
+  bard:
+    name: Bardo
+    bonuses:
+      2:
+        stats:
+          cooldown_reduction: 2.4
+      4:
+        stats:
+          cooldown_reduction: 4.5
+      6:
+        stats:
+          mana_regen: 1.2
+          movement_speed: 0.008
+  warlock:
+    name: Brujo
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          lifesteal: 2.0
+  paladin:
+    name: Paladín
+    bonuses:
+      2:
+        stats:
+          damage_reduction: 2.4
+      4:
+        stats:
+          attack_damage: 1.8
+      6:
+        stats:
+          crit_damage: 12
+          max_health: 4.0
+  barbarian:
+    name: Bárbaro
+    bonuses:
+      2:
+        stats:
+          damage_reduction: 2.4
+      4:
+        stats:
+          attack_damage: 1.8
+      6:
+        stats:
+          crit_damage: 12
+          max_health: 4.0
+  death_knight:
+    name: "Caballero de la Muerte"
+    bonuses:
+      2:
+        stats:
+          damage_reduction: 2.4
+      4:
+        stats:
+          attack_damage: 1.8
+      6:
+        stats:
+          crit_damage: 12
+          max_health: 4.0
+  pyromancer:
+    name: Piroamante
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          mana_max: 40
+          cooldown_reduction: 3.2
+  cryomancer:
+    name: Criomante
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          mana_max: 40
+          cooldown_reduction: 3.2
+  electromancer:
+    name: Electromante
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          mana_max: 40
+          cooldown_reduction: 3.2
+  marksman:
+    name: Tirador
+    bonuses:
+      2:
+        stats:
+          evasion: 2.4
+      4:
+        stats:
+          crit_chance: 4.5
+      6:
+        stats:
+          attack_damage: 1.6
+          max_health: 3.2
+  beastmaster:
+    name: "Maestro de Bestias"
+    bonuses:
+      2:
+        stats:
+          evasion: 2.4
+      4:
+        stats:
+          crit_chance: 4.5
+      6:
+        stats:
+          attack_damage: 1.6
+          max_health: 3.2
+  trapper:
+    name: Trampero
+    bonuses:
+      2:
+        stats:
+          evasion: 2.4
+      4:
+        stats:
+          crit_chance: 4.5
+      6:
+        stats:
+          attack_damage: 1.6
+          max_health: 3.2
+  assassin:
+    name: Asesino
+    bonuses:
+      2:
+        stats:
+          evasion: 3.6
+      4:
+        stats:
+          crit_chance: 6
+      6:
+        stats:
+          crit_damage: 16
+          movement_speed: 0.008
+  venomancer:
+    name: Envenenador
+    bonuses:
+      2:
+        stats:
+          evasion: 3.6
+      4:
+        stats:
+          crit_chance: 6
+      6:
+        stats:
+          crit_damage: 16
+          movement_speed: 0.008
+  shadow_duelist:
+    name: "Sombra / Duelista"
+    bonuses:
+      2:
+        stats:
+          evasion: 3.6
+      4:
+        stats:
+          crit_chance: 6
+      6:
+        stats:
+          crit_damage: 16
+          movement_speed: 0.008
+  priest_of_light:
+    name: "Sacerdote de Luz"
+    bonuses:
+      2:
+        stats:
+          max_health: 3.6
+      4:
+        stats:
+          spell_power: 9
+      6:
+        stats:
+          mana_regen: 0.8
+  inquisitor:
+    name: Inquisidor
+    bonuses:
+      2:
+        stats:
+          max_health: 3.6
+      4:
+        stats:
+          spell_power: 9
+      6:
+        stats:
+          mana_regen: 0.8
+  monk:
+    name: Monje
+    bonuses:
+      2:
+        stats:
+          max_health: 3.6
+      4:
+        stats:
+          spell_power: 9
+      6:
+        stats:
+          mana_regen: 0.8
+  shadow_lord:
+    name: "Señor de las Sombras"
+    bonuses:
+      2:
+        stats:
+          max_health: 2.4
+      4:
+        stats:
+          lifesteal: 3
+      6:
+        stats:
+          spell_power: 12
+          lifesteal: 2.0
+  reaper:
+    name: Cosechador
+    bonuses:
+      2:
+        stats:
+          max_health: 2.4
+      4:
+        stats:
+          lifesteal: 3
+      6:
+        stats:
+          spell_power: 12
+          lifesteal: 2.0
+  plaguer:
+    name: Plagador
+    bonuses:
+      2:
+        stats:
+          max_health: 2.4
+      4:
+        stats:
+          lifesteal: 3
+      6:
+        stats:
+          spell_power: 12
+          lifesteal: 2.0
+  wild_guardian:
+    name: "Guardián Salvaje"
+    bonuses:
+      2:
+        stats:
+          max_health: 3.0
+      4:
+        stats:
+          mana_regen: 1.2
+      6:
+        stats:
+          spell_power: 12
+          mana_regen: 0.8
+  apex_hunter:
+    name: "Cazador Depredador"
+    bonuses:
+      2:
+        stats:
+          max_health: 3.0
+      4:
+        stats:
+          mana_regen: 1.2
+      6:
+        stats:
+          spell_power: 12
+          mana_regen: 0.8
+  earth_shaman:
+    name: "Chamán Terrestre"
+    bonuses:
+      2:
+        stats:
+          max_health: 3.0
+      4:
+        stats:
+          mana_regen: 1.2
+      6:
+        stats:
+          spell_power: 12
+          mana_regen: 0.8
+  alchemist:
+    name: "Maestro Alquimista"
+    bonuses:
+      2:
+        stats:
+          armor: 1.8
+      4:
+        stats:
+          penetration: 6
+      6:
+        stats:
+          crit_chance: 4
+          penetration: 4.0
+  engineer:
+    name: Ingeniero
+    bonuses:
+      2:
+        stats:
+          armor: 1.8
+      4:
+        stats:
+          penetration: 6
+      6:
+        stats:
+          crit_chance: 4
+          penetration: 4.0
+  demolitionist:
+    name: Demoledor
+    bonuses:
+      2:
+        stats:
+          armor: 1.8
+      4:
+        stats:
+          penetration: 6
+      6:
+        stats:
+          crit_chance: 4
+          penetration: 4.0
+  valor_herald:
+    name: "Ladrador del Valor"
+    bonuses:
+      2:
+        stats:
+          cooldown_reduction: 2.4
+      4:
+        stats:
+          cooldown_reduction: 4.5
+      6:
+        stats:
+          mana_regen: 1.2
+          movement_speed: 0.008
+  discord_master:
+    name: "Maestro de la Discordia"
+    bonuses:
+      2:
+        stats:
+          cooldown_reduction: 2.4
+      4:
+        stats:
+          cooldown_reduction: 4.5
+      6:
+        stats:
+          mana_regen: 1.2
+          movement_speed: 0.008
+  minstrel:
+    name: Menestral
+    bonuses:
+      2:
+        stats:
+          cooldown_reduction: 2.4
+      4:
+        stats:
+          cooldown_reduction: 4.5
+      6:
+        stats:
+          mana_regen: 1.2
+          movement_speed: 0.008
+  demon_summoner:
+    name: "Invocador Demoníaco"
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          lifesteal: 2.0
+  cursed:
+    name: Maldito
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          lifesteal: 2.0
+  soul_eater:
+    name: "Devorador de Almas"
+    bonuses:
+      2:
+        stats:
+          mana_max: 24
+      4:
+        stats:
+          spell_power: 12
+      6:
+        stats:
+          lifesteal: 2.0
+  adventurer:
+    name: Aventurero
+    bonuses:
+      2:
+        stats:
+          max_health: 2.4
+      4:
+        stats:
+          max_health: 2.4
+      6:
+        stats:
+          evasion: 2.0
+  wanderer:
+    name: Caminante
+    bonuses:
+      2:
+        stats:
+          movement_speed: 0.006
+      4:
+        stats:
+          movement_speed: 0.006
+      6:
+        stats:
+          evasion: 2.4
+  guardian:
+    name: Guardián
+    bonuses:
+      2:
+        stats:
+          damage_reduction: 2.1
+      4:
+        stats:
+          damage_reduction: 2.1
+      6:
+        stats:
+          armor_toughness: 1.6

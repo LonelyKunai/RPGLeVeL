@@ -1,0 +1,110 @@
+# Comportamiento de los objetos de utilidad (data/items/utility/utility.rlvp). Se edita aquí; /rlv reload lo recarga.
+# type: station (arg: workbench|anvil|smithing|grindstone|stonecutter|loom|cartography|enchanting) | rpg_station (arg: class|subclass|<id de estación>)
+#       backpack (tier, slots) | backpack_kit (tier) | ender | trash | repair (percent) | recall (warmup s, cooldown s) | coins (amount) | xp (amount)
+settings:
+  block_shulkers_in_backpack: true   # las mochilas nunca admiten otras mochilas; true añade los shulkers
+  autosave_seconds: 60               # guarda las mochilas abiertas cada N segundos (también al cerrar y al apagar)
+items:
+  util_workbench:
+    type: station
+    arg: workbench
+  util_anvil:
+    type: station
+    arg: anvil
+  util_smithing:
+    type: station
+    arg: smithing
+  util_grindstone:
+    type: station
+    arg: grindstone
+  util_stonecutter:
+    type: station
+    arg: stonecutter
+  util_loom:
+    type: station
+    arg: loom
+  util_cartography:
+    type: station
+    arg: cartography
+  util_enchanting:
+    type: station
+    arg: enchanting
+  util_station_class:
+    type: rpg_station
+    arg: class
+  util_station_subclass:
+    type: rpg_station
+    arg: subclass
+  util_station_adventurer:
+    type: rpg_station
+    arg: adventurer
+  util_station_wanderer:
+    type: rpg_station
+    arg: wanderer
+  util_station_guardian:
+    type: rpg_station
+    arg: guardian
+  util_backpack_t1:
+    type: backpack
+    tier: 1
+    slots: 9
+  util_backpack_t2:
+    type: backpack
+    tier: 2
+    slots: 18
+  util_backpack_t3:
+    type: backpack
+    tier: 3
+    slots: 27
+  util_backpack_t4:
+    type: backpack
+    tier: 4
+    slots: 36
+  util_backpack_t5:
+    type: backpack
+    tier: 5
+    slots: 54
+  util_backpack_kit_t2:
+    type: backpack_kit
+    tier: 2
+  util_backpack_kit_t3:
+    type: backpack_kit
+    tier: 3
+  util_backpack_kit_t4:
+    type: backpack_kit
+    tier: 4
+  util_backpack_kit_t5:
+    type: backpack_kit
+    tier: 5
+  util_ender_pouch:
+    type: ender
+  util_trash_bag:
+    type: trash
+  util_repair_kit:
+    type: repair
+    percent: 40
+  util_repair_kit_big:
+    type: repair
+    percent: 100
+  util_recall_scroll:
+    type: recall
+    warmup: 5
+    cooldown: 30
+  util_coin_pouch_s:
+    type: coins
+    amount: 500
+  util_coin_pouch_m:
+    type: coins
+    amount: 5000
+  util_coin_pouch_l:
+    type: coins
+    amount: 50000
+  util_xp_tome_s:
+    type: xp
+    amount: 500
+  util_xp_tome_m:
+    type: xp
+    amount: 3000
+  util_xp_tome_l:
+    type: xp
+    amount: 20000

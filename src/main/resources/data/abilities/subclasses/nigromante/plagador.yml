@@ -1,0 +1,106 @@
+subclasses:
+  plagador:
+    abilities:
+      plagador_plaga_maldita:
+        name: Plaga Maldita
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: SPIDER_EYE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 3
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - poison:6:1
+          - weakness:6:0
+          particle: SPORE_BLOSSOM_AIR
+          sound: ENTITY_WITCH_AMBIENT
+          statuses:
+          - poison:8:1
+      plagador_ceguera:
+        name: Ceguera
+        description: Dispara contra un objetivo (20 bloques)
+        icon: INK_SAC
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            plagador_plaga_maldita: 1
+        effect:
+          type: bolt
+          range: 20
+          damage: 2
+          damage_per_level: 1
+          potions:
+          - blindness:6:0
+          particle: SQUID_INK
+          sound: ENTITY_SQUID_SQUIRT
+      plagador_peste:
+        name: Peste
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: ROTTEN_FLESH
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            plagador_plaga_maldita: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 22
+          damage: 5
+          damage_per_level: 1.5
+          radius: 7
+          potions:
+          - wither:8:1
+          - poison:8:1
+          particle: SQUID_INK
+          sound: ENTITY_WITCH_CELEBRATE
+          statuses:
+          - poison:8:1
+      plagador_epidemia:
+        name: Epidemia
+        description: Golpea a los enemigos en un radio de 10 bloques
+        icon: WITHER_ROSE
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            plagador_ceguera: 2
+            plagador_peste: 2
+        effect:
+          type: aoe
+          damage: 12
+          damage_per_level: 3
+          radius: 10
+          potions:
+          - wither:10:2
+          - poison:10:1
+          particle: SPORE_BLOSSOM_AIR
+          sound: ENTITY_WITCH_DEATH
+          statuses:
+          - poison:10:2

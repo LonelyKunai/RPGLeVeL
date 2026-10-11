@@ -1,0 +1,170 @@
+classes:
+  guerrero:
+    abilities:
+      guerrero_golpe_brutal:
+        name: Golpe Brutal
+        description: Golpea a los enemigos en un radio de 3.5 bloques
+        icon: IRON_SWORD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 7
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 6
+          damage_per_level: 2
+          radius: 3.5
+          knockback: 0.6
+          particle: SWEEP_ATTACK
+          sound: ENTITY_PLAYER_ATTACK_STRONG
+          statuses:
+          - bleed:4:1
+      guerrero_grito_de_guerra:
+        name: Grito de Guerra
+        description: Otorga mejoras temporales
+        icon: GOAT_HORN
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 25
+        cooldown_per_level: -1.5
+        requires:
+          level: 3
+          abilities:
+            guerrero_golpe_brutal: 1
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - strength:10:0
+          duration_per_level: 2
+          particle: ANGRY_VILLAGER
+          sound: ENTITY_RAVAGER_ROAR
+      guerrero_carga_imparable:
+        name: Carga Imparable
+        description: Te lanzas con impulso
+        icon: IRON_BOOTS
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.6
+        requires:
+          level: 3
+          abilities:
+            guerrero_golpe_brutal: 1
+        effect:
+          type: dash
+          power: 1.7
+          damage: 4
+          damage_per_level: 1.5
+          radius: 2.5
+          particle: CLOUD
+          sound: ENTITY_HORSE_GALLOP
+      guerrero_sacudida_sismica:
+        name: Sacudida Sísmica
+        description: Saltas y golpeas el suelo con fuerza
+        icon: ANVIL
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 6
+          abilities:
+            guerrero_grito_de_guerra: 2
+        effect:
+          type: slam
+          up: 0.9
+          delay: 12
+          damage: 7
+          damage_per_level: 2.5
+          radius: 5
+          knockback: 1.0
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - stun:1.5
+      guerrero_furia_inquebrantable:
+        name: Furia Inquebrantable
+        description: Otorga mejoras temporales
+        icon: DIAMOND_CHESTPLATE
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 8
+          abilities:
+            guerrero_grito_de_guerra: 2
+            guerrero_carga_imparable: 2
+        effect:
+          type: buff
+          potions:
+          - strength:12:1
+          - resistance:12:0
+          - regeneration:6:0
+          duration_per_level: 2
+          particle: FLAME
+          sound: ENTITY_BLAZE_SHOOT
+      guerrero_desgarro:
+        name: Desgarro
+        description: Dispara contra un objetivo (4.5 bloques)
+        icon: IRON_AXE
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 6
+          abilities:
+            guerrero_carga_imparable: 2
+        effect:
+          type: bolt
+          range: 4.5
+          damage: 9
+          damage_per_level: 2.5
+          potions:
+          - slowness:4:1
+          particle: DAMAGE_INDICATOR
+          sound: ENTITY_PLAYER_ATTACK_CRIT
+          statuses:
+          - bleed:6:2
+      guerrero_aniquilador:
+        name: Aniquilador
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: NETHERITE_SWORD
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            guerrero_furia_inquebrantable: 3
+        effect:
+          type: aoe
+          damage: 18
+          damage_per_level: 5
+          radius: 7
+          knockback: 1.4
+          fire_seconds: 3
+          particle: LAVA
+          sound: ENTITY_WITHER_BREAK_BLOCK
+          statuses:
+          - bleed:5:2

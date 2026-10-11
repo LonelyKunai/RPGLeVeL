@@ -1,0 +1,194 @@
+# Misiones de rango E (rank_index 1). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_e_01:
+    name: '[E] Caza de Drowned x14'
+    description: Elimina 14 Drowned.
+    type: kill
+    target: DROWNED
+    amount: 14
+    rank_index: 1
+    reward_xp: 68
+  q_e_02:
+    name: '[E] Caza de Husk x14'
+    description: Elimina 14 Husk.
+    type: kill
+    target: HUSK
+    amount: 14
+    rank_index: 1
+    reward_xp: 68
+  q_e_03:
+    name: '[E] Caza de Stray x14'
+    description: Elimina 14 Stray.
+    type: kill
+    target: STRAY
+    amount: 14
+    rank_index: 1
+    reward_xp: 68
+  q_e_04:
+    name: '[E] Caza de Witch x14'
+    description: Elimina 14 Witch.
+    type: kill
+    target: WITCH
+    amount: 14
+    rank_index: 1
+    reward_xp: 68
+  q_e_05:
+    name: '[E] Caza de Cave Spider x14'
+    description: Elimina 14 Cave Spider.
+    type: kill
+    target: CAVE_SPIDER
+    amount: 14
+    rank_index: 1
+    reward_xp: 68
+  q_e_06:
+    name: '[E] Caza de Drowned x28'
+    description: Elimina 28 Drowned.
+    type: kill
+    target: DROWNED
+    amount: 28
+    rank_index: 1
+    reward_xp: 96
+  q_e_07:
+    name: '[E] Caza de Husk x28'
+    description: Elimina 28 Husk.
+    type: kill
+    target: HUSK
+    amount: 28
+    rank_index: 1
+    reward_xp: 96
+  q_e_08:
+    name: '[E] Caza de Stray x28'
+    description: Elimina 28 Stray.
+    type: kill
+    target: STRAY
+    amount: 28
+    rank_index: 1
+    reward_xp: 96
+  q_e_09:
+    name: '[E] Caza de Witch x28'
+    description: Elimina 28 Witch.
+    type: kill
+    target: WITCH
+    amount: 28
+    rank_index: 1
+    reward_xp: 96
+  q_e_10:
+    name: '[E] Caza de Cave Spider x28'
+    description: Elimina 28 Cave Spider.
+    type: kill
+    target: CAVE_SPIDER
+    amount: 28
+    rank_index: 1
+    reward_xp: 96
+  q_e_11:
+    name: '[E] Recolección de Coal Ore x28'
+    description: Recolecta 28 Coal Ore.
+    type: gather
+    target: COAL_ORE
+    amount: 28
+    rank_index: 1
+    reward_xp: 68
+  q_e_12:
+    name: '[E] Recolección de Iron Ore x28'
+    description: Recolecta 28 Iron Ore.
+    type: gather
+    target: IRON_ORE
+    amount: 28
+    rank_index: 1
+    reward_xp: 68
+  q_e_13:
+    name: '[E] Recolección de Spruce Log x28'
+    description: Recolecta 28 Spruce Log.
+    type: gather
+    target: SPRUCE_LOG
+    amount: 28
+    rank_index: 1
+    reward_xp: 68
+  q_e_14:
+    name: '[E] Recolección de Copper Ore x28'
+    description: Recolecta 28 Copper Ore.
+    type: gather
+    target: COPPER_ORE
+    amount: 28
+    rank_index: 1
+    reward_xp: 68
+  q_e_15:
+    name: '[E] Recolección de Clay x28'
+    description: Recolecta 28 Clay.
+    type: gather
+    target: CLAY
+    amount: 28
+    rank_index: 1
+    reward_xp: 68
+  q_e_16:
+    name: '[E] Recolección de Coal Ore x56'
+    description: Recolecta 56 Coal Ore.
+    type: gather
+    target: COAL_ORE
+    amount: 56
+    rank_index: 1
+    reward_xp: 96
+  q_e_17:
+    name: '[E] Recolección de Iron Ore x56'
+    description: Recolecta 56 Iron Ore.
+    type: gather
+    target: IRON_ORE
+    amount: 56
+    rank_index: 1
+    reward_xp: 96
+  q_e_18:
+    name: '[E] Recolección de Spruce Log x56'
+    description: Recolecta 56 Spruce Log.
+    type: gather
+    target: SPRUCE_LOG
+    amount: 56
+    rank_index: 1
+    reward_xp: 96
+  q_e_19:
+    name: '[E] Recolección de Copper Ore x56'
+    description: Recolecta 56 Copper Ore.
+    type: gather
+    target: COPPER_ORE
+    amount: 56
+    rank_index: 1
+    reward_xp: 96
+  q_e_20:
+    name: '[E] Recolección de Clay x56'
+    description: Recolecta 56 Clay.
+    type: gather
+    target: CLAY
+    amount: 56
+    rank_index: 1
+    reward_xp: 96
+  q_e_21:
+    name: '[E] Pesca de Pufferfish x4'
+    description: Pesca 4 Pufferfish.
+    type: fish
+    target: PUFFERFISH
+    amount: 4
+    rank_index: 1
+    reward_xp: 36
+  q_e_22:
+    name: '[E] Pesca de Tropical Fish x4'
+    description: Pesca 4 Tropical Fish.
+    type: fish
+    target: TROPICAL_FISH
+    amount: 4
+    rank_index: 1
+    reward_xp: 36
+  q_e_23:
+    name: '[E] Pesca de Cod x4'
+    description: Pesca 4 Cod.
+    type: fish
+    target: COD
+    amount: 4
+    rank_index: 1
+    reward_xp: 36
+  q_e_24:
+    name: '[E] Pesca de Pufferfish x8'
+    description: Pesca 8 Pufferfish.
+    type: fish
+    target: PUFFERFISH
+    amount: 8
+    rank_index: 1
+    reward_xp: 51

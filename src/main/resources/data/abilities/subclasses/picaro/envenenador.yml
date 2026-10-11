@@ -1,0 +1,105 @@
+subclasses:
+  envenenador:
+    abilities:
+      envenenador_dardo_toxico:
+        name: Dardo Tóxico
+        description: Dispara contra un objetivo (20 bloques)
+        icon: ARROW
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 20
+          damage: 3
+          damage_per_level: 1
+          potions:
+          - poison:8:1
+          duration_per_level: 1
+          particle: HAPPY_VILLAGER
+          sound: ENTITY_ARROW_SHOOT
+          statuses:
+          - poison:8:2
+      envenenador_nube_venenosa:
+        name: Nube Venenosa
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: FERMENTED_SPIDER_EYE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            envenenador_dardo_toxico: 1
+        effect:
+          type: aoe
+          damage: 3
+          damage_per_level: 1
+          radius: 5
+          potions:
+          - poison:8:1
+          duration_per_level: 1
+          particle: SPORE_BLOSSOM_AIR
+          sound: ENTITY_SPLASH_POTION_BREAK
+          statuses:
+          - poison:8:1
+      envenenador_filo_envenenado:
+        name: Filo Envenenado
+        description: Otorga mejoras temporales
+        icon: SPIDER_EYE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            envenenador_dardo_toxico: 1
+        effect:
+          type: buff
+          potions:
+          - strength:12:0
+          - speed:12:0
+          duration_per_level: 2
+          particle: HAPPY_VILLAGER
+          sound: ENTITY_SPIDER_AMBIENT
+      envenenador_plaga_mortal:
+        name: Plaga Mortal
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: POISONOUS_POTATO
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 50
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            envenenador_nube_venenosa: 2
+            envenenador_filo_envenenado: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 22
+          damage: 10
+          damage_per_level: 3
+          radius: 7
+          potions:
+          - poison:12:2
+          - wither:6:0
+          particle: SPORE_BLOSSOM_AIR
+          sound: ENTITY_WITCH_CELEBRATE
+          statuses:
+          - poison:12:3

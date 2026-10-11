@@ -1,0 +1,33 @@
+# Mazmorras: salas de oleadas en una zona ya construida de tu mundo (no se generan mundos).
+# Edita entrance / exit / coordenadas de cada sala y pon enabled: true.
+# Se juega con /dungeon start <id> (tu party entra junta), /dungeon leave, /dungeon list.
+# Cada sala: spawns (mobs) o boss (id de data/bosses). Al limpiar una sala pasa a la siguiente.
+dungeons:
+  catacumbas:
+    enabled: false
+    name: "Catacumbas Olvidadas"
+    min_class_level: 8
+    max_players: 4
+    cooldown_minutes: 45
+    time_limit_minutes: 20
+    entrance: {world: world, x: 0, y: 70, z: 0}
+    exit: {world: world, x: 0, y: 70, z: 20}
+    rooms:
+      - level: 10
+        spawns:
+          - {entity: ZOMBIE, count: 6, x: 5, y: 70, z: 5, spread: 4}
+          - {entity: SKELETON, count: 3, x: -5, y: 70, z: 5, spread: 3}
+      - level: 14
+        spawns:
+          - {entity: WITHER_SKELETON, count: 4, x: 0, y: 70, z: 12, spread: 4}
+          - {entity: CAVE_SPIDER, count: 6, x: 3, y: 70, z: 12, spread: 4}
+      - boss: rey_esqueleto
+        x: 0
+        y: 70
+        z: 25
+    rewards:
+      coins: [200, 400]
+      class_xp: 500
+      ranking_points: 40
+      gear: {tier: [3, 4], rolls: 2}
+      gems: {level: [1, 2], rolls: 2}

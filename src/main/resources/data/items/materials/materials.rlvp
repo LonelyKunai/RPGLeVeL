@@ -1,0 +1,65 @@
+items:
+  steel_ingot:
+    material: IRON_INGOT
+    custom_model_data: 912001
+    display_name: "§7§lLingote de Acero"
+    lore:
+    - "§7Hierro templado. Se mejora a Nivel II."
+    - "§8Material de forja"
+    list:
+      category: materials
+      name: "Materiales de forja"
+      group: materials
+      type: material
+      piece: steel_ingot
+      tier: 2
+    custom_data:
+      material: steel_ingot
+  cobalt_ingot:
+    material: COPPER_INGOT
+    custom_model_data: 912002
+    display_name: "§9§lLingote de Cobalto"
+    lore:
+    - "§7Aleación azul. Se mejora a Nivel III."
+    - "§8Material de forja"
+    list:
+      category: materials
+      name: "Materiales de forja"
+      group: materials
+      type: material
+      piece: cobalt_ingot
+      tier: 3
+    custom_data:
+      material: cobalt_ingot
+  sky_ingot:
+    material: NETHERITE_INGOT
+    custom_model_data: 912003
+    display_name: "§b§lLingote Celeste"
+    lore:
+    - "§7Forjado con luz de los cielos. Nivel IV."
+    - "§8Material de forja"
+    list:
+      category: materials
+      name: "Materiales de forja"
+      group: materials
+      type: material
+      piece: sky_ingot
+      tier: 4
+    custom_data:
+      material: sky_ingot
+  dragon_core:
+    material: ECHO_SHARD
+    custom_model_data: 912004
+    display_name: "§5§lNúcleo de Dragón"
+    lore:
+    - "§7Poder del Dragón. Se mejora a Nivel V."
+    - "§8Material de forja"
+    list:
+      category: materials
+      name: "Materiales de forja"
+      group: materials
+      type: material
+      piece: dragon_core
+      tier: 5
+    custom_data:
+      material: dragon_core

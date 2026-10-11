@@ -1,0 +1,1111 @@
+items:
+  discord_master_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 911051
+    display_name: "§6§lArma Principal de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      cooldown_reduction: 1.5
+      mana_regen: 0.3
+      mana_on_hit: 0.5
+      shock_chance: 1.2
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 911052
+    display_name: "§6§lArma Principal de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      cooldown_reduction: 2.7
+      mana_regen: 0.54
+      mana_on_hit: 0.9
+      shock_chance: 2.16
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 911053
+    display_name: "§6§lArma Principal de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      cooldown_reduction: 4.5
+      mana_regen: 0.9
+      mana_on_hit: 1.5
+      shock_chance: 3.6
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 911054
+    display_name: "§6§lArma Principal de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      cooldown_reduction: 6.75
+      mana_regen: 1.35
+      mana_on_hit: 2.25
+      shock_chance: 5.4
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 911055
+    display_name: "§6§lArma Principal de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      cooldown_reduction: 9.75
+      mana_regen: 1.95
+      mana_on_hit: 3.25
+      shock_chance: 7.8
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master
+  discord_master_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 911056
+    display_name: "§6§lCasco de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.42
+      status_resist: 1.12
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 911057
+    display_name: "§6§lCasco de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 0.756
+      status_resist: 2.016
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 911058
+    display_name: "§6§lCasco de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 1.26
+      status_resist: 3.36
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 911059
+    display_name: "§6§lCasco de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 1.89
+      status_resist: 5.04
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 911060
+    display_name: "§6§lCasco de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 2.73
+      status_resist: 7.28
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master
+  discord_master_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911061
+    display_name: "§6§lPechera de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      cooldown_reduction: 1.04
+      movement_speed: 0.003
+      xp_bonus: 0.78
+      status_resist: 2.08
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911062
+    display_name: "§6§lPechera de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      cooldown_reduction: 1.872
+      movement_speed: 0.005
+      xp_bonus: 1.404
+      status_resist: 3.744
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911063
+    display_name: "§6§lPechera de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      cooldown_reduction: 3.12
+      movement_speed: 0.008
+      xp_bonus: 2.34
+      status_resist: 6.24
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911064
+    display_name: "§6§lPechera de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      cooldown_reduction: 4.68
+      movement_speed: 0.012
+      xp_bonus: 3.51
+      status_resist: 9.36
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911065
+    display_name: "§6§lPechera de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      cooldown_reduction: 6.76
+      movement_speed: 0.017
+      xp_bonus: 5.07
+      status_resist: 13.52
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master
+  discord_master_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911066
+    display_name: "§6§lPantalones de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      cooldown_reduction: 0.8
+      movement_speed: 0.002
+      xp_bonus: 0.6
+      status_resist: 1.6
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911067
+    display_name: "§6§lPantalones de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      cooldown_reduction: 1.44
+      movement_speed: 0.004
+      xp_bonus: 1.08
+      status_resist: 2.88
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911068
+    display_name: "§6§lPantalones de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      cooldown_reduction: 2.4
+      movement_speed: 0.006
+      xp_bonus: 1.8
+      status_resist: 4.8
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911069
+    display_name: "§6§lPantalones de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      cooldown_reduction: 3.6
+      movement_speed: 0.009
+      xp_bonus: 2.7
+      status_resist: 7.2
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911070
+    display_name: "§6§lPantalones de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      cooldown_reduction: 5.2
+      movement_speed: 0.013
+      xp_bonus: 3.9
+      status_resist: 10.4
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master
+  discord_master_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 911071
+    display_name: "§6§lBotas de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      cooldown_reduction: 0.56
+      movement_speed: 0.001
+      xp_bonus: 0.42
+      status_resist: 1.12
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 911072
+    display_name: "§6§lBotas de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      cooldown_reduction: 1.008
+      movement_speed: 0.003
+      xp_bonus: 0.756
+      status_resist: 2.016
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 911073
+    display_name: "§6§lBotas de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      cooldown_reduction: 1.68
+      movement_speed: 0.004
+      xp_bonus: 1.26
+      status_resist: 3.36
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 911074
+    display_name: "§6§lBotas de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      cooldown_reduction: 2.52
+      movement_speed: 0.006
+      xp_bonus: 1.89
+      status_resist: 5.04
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 911075
+    display_name: "§6§lBotas de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      cooldown_reduction: 3.64
+      movement_speed: 0.009
+      xp_bonus: 2.73
+      status_resist: 7.28
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master
+  discord_master_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911076
+    display_name: "§6§lObjeto Secundario de Maestro de la Discordia - Nivel I"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      cooldown_reduction: 0.75
+      mana_regen: 0.15
+      mana_on_hit: 0.25
+      shock_chance: 0.6
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: discord_master
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: discord_master
+  discord_master_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911077
+    display_name: "§6§lObjeto Secundario de Maestro de la Discordia - Nivel II"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      cooldown_reduction: 1.35
+      mana_regen: 0.27
+      mana_on_hit: 0.45
+      shock_chance: 1.08
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 2
+      ingredients:
+      - "discord_master_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: discord_master
+  discord_master_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911078
+    display_name: "§6§lObjeto Secundario de Maestro de la Discordia - Nivel III"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      cooldown_reduction: 2.25
+      mana_regen: 0.45
+      mana_on_hit: 0.75
+      shock_chance: 1.8
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 3
+      ingredients:
+      - "discord_master_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: discord_master
+  discord_master_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911079
+    display_name: "§6§lObjeto Secundario de Maestro de la Discordia - Nivel IV"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      cooldown_reduction: 3.375
+      mana_regen: 0.675
+      mana_on_hit: 1.125
+      shock_chance: 2.7
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 4
+      ingredients:
+      - "discord_master_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: discord_master
+  discord_master_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911080
+    display_name: "§6§lObjeto Secundario de Maestro de la Discordia - Nivel V"
+    lore:
+    - "§8Set: Maestro de la Discordia"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: discord_master
+      name: "Maestro de la Discordia"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      cooldown_reduction: 4.875
+      mana_regen: 0.975
+      mana_on_hit: 1.625
+      shock_chance: 3.9
+    requires:
+      subclass: maestro_de_la_discordia
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: discord_master
+      tier: 5
+      ingredients:
+      - "discord_master_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: discord_master

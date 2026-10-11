@@ -1,0 +1,1111 @@
+items:
+  demon_summoner_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 911111
+    display_name: "§6§lArma Principal de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      spell_power: 4.0
+      lifesteal: 0.8
+      burn_chance: 1.8
+      mana_on_hit: 0.4
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 911112
+    display_name: "§6§lArma Principal de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      spell_power: 7.2
+      lifesteal: 1.44
+      burn_chance: 3.24
+      mana_on_hit: 0.72
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 911113
+    display_name: "§6§lArma Principal de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      spell_power: 12.0
+      lifesteal: 2.4
+      burn_chance: 5.4
+      mana_on_hit: 1.2
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 911114
+    display_name: "§6§lArma Principal de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      spell_power: 18.0
+      lifesteal: 3.6
+      burn_chance: 8.1
+      mana_on_hit: 1.8
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 911115
+    display_name: "§6§lArma Principal de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      spell_power: 26.0
+      lifesteal: 5.2
+      burn_chance: 11.7
+      mana_on_hit: 2.6
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner
+  demon_summoner_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 911116
+    display_name: "§6§lCasco de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      mana_max: 5.6
+      lifesteal: 0.35
+      thorns: 1.12
+      status_resist: 0.56
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 911117
+    display_name: "§6§lCasco de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      mana_max: 10.08
+      lifesteal: 0.63
+      thorns: 2.016
+      status_resist: 1.008
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 911118
+    display_name: "§6§lCasco de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      mana_max: 16.8
+      lifesteal: 1.05
+      thorns: 3.36
+      status_resist: 1.68
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 911119
+    display_name: "§6§lCasco de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      mana_max: 25.2
+      lifesteal: 1.575
+      thorns: 5.04
+      status_resist: 2.52
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 911120
+    display_name: "§6§lCasco de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      mana_max: 36.4
+      lifesteal: 2.275
+      thorns: 7.28
+      status_resist: 3.64
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner
+  demon_summoner_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911121
+    display_name: "§6§lPechera de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      mana_max: 10.4
+      lifesteal: 0.65
+      thorns: 2.08
+      status_resist: 1.04
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911122
+    display_name: "§6§lPechera de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      mana_max: 18.72
+      lifesteal: 1.17
+      thorns: 3.744
+      status_resist: 1.872
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911123
+    display_name: "§6§lPechera de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      mana_max: 31.2
+      lifesteal: 1.95
+      thorns: 6.24
+      status_resist: 3.12
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911124
+    display_name: "§6§lPechera de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      mana_max: 46.8
+      lifesteal: 2.925
+      thorns: 9.36
+      status_resist: 4.68
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911125
+    display_name: "§6§lPechera de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      mana_max: 67.6
+      lifesteal: 4.225
+      thorns: 13.52
+      status_resist: 6.76
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner
+  demon_summoner_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911126
+    display_name: "§6§lPantalones de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      mana_max: 8.0
+      lifesteal: 0.5
+      thorns: 1.6
+      status_resist: 0.8
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911127
+    display_name: "§6§lPantalones de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      mana_max: 14.4
+      lifesteal: 0.9
+      thorns: 2.88
+      status_resist: 1.44
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911128
+    display_name: "§6§lPantalones de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      mana_max: 24.0
+      lifesteal: 1.5
+      thorns: 4.8
+      status_resist: 2.4
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911129
+    display_name: "§6§lPantalones de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      mana_max: 36.0
+      lifesteal: 2.25
+      thorns: 7.2
+      status_resist: 3.6
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911130
+    display_name: "§6§lPantalones de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      mana_max: 52.0
+      lifesteal: 3.25
+      thorns: 10.4
+      status_resist: 5.2
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner
+  demon_summoner_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 911131
+    display_name: "§6§lBotas de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      mana_max: 5.6
+      lifesteal: 0.35
+      thorns: 1.12
+      status_resist: 0.56
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 911132
+    display_name: "§6§lBotas de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      mana_max: 10.08
+      lifesteal: 0.63
+      thorns: 2.016
+      status_resist: 1.008
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 911133
+    display_name: "§6§lBotas de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      mana_max: 16.8
+      lifesteal: 1.05
+      thorns: 3.36
+      status_resist: 1.68
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 911134
+    display_name: "§6§lBotas de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      mana_max: 25.2
+      lifesteal: 1.575
+      thorns: 5.04
+      status_resist: 2.52
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 911135
+    display_name: "§6§lBotas de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      mana_max: 36.4
+      lifesteal: 2.275
+      thorns: 7.28
+      status_resist: 3.64
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner
+  demon_summoner_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911136
+    display_name: "§6§lObjeto Secundario de Invocador Demoníaco - Nivel I"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      spell_power: 2.0
+      lifesteal: 0.4
+      burn_chance: 0.9
+      mana_on_hit: 0.2
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: demon_summoner
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: demon_summoner
+  demon_summoner_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911137
+    display_name: "§6§lObjeto Secundario de Invocador Demoníaco - Nivel II"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      spell_power: 3.6
+      lifesteal: 0.72
+      burn_chance: 1.62
+      mana_on_hit: 0.36
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 2
+      ingredients:
+      - "demon_summoner_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: demon_summoner
+  demon_summoner_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911138
+    display_name: "§6§lObjeto Secundario de Invocador Demoníaco - Nivel III"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      spell_power: 6.0
+      lifesteal: 1.2
+      burn_chance: 2.7
+      mana_on_hit: 0.6
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 3
+      ingredients:
+      - "demon_summoner_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: demon_summoner
+  demon_summoner_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911139
+    display_name: "§6§lObjeto Secundario de Invocador Demoníaco - Nivel IV"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      spell_power: 9.0
+      lifesteal: 1.8
+      burn_chance: 4.05
+      mana_on_hit: 0.9
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 4
+      ingredients:
+      - "demon_summoner_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: demon_summoner
+  demon_summoner_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911140
+    display_name: "§6§lObjeto Secundario de Invocador Demoníaco - Nivel V"
+    lore:
+    - "§8Set: Invocador Demoníaco"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: demon_summoner
+      name: "Invocador Demoníaco"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      spell_power: 13.0
+      lifesteal: 2.6
+      burn_chance: 5.85
+      mana_on_hit: 1.3
+    requires:
+      subclass: invocador_demoniaco
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: demon_summoner
+      tier: 5
+      ingredients:
+      - "demon_summoner_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: demon_summoner

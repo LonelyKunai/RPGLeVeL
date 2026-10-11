@@ -1,0 +1,107 @@
+subclasses:
+  maestro_alquimista:
+    abilities:
+      maestro_alquimista_pocion_acida:
+        name: Poción Ácida
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: SPLASH_POTION
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          at_target: true
+          range: 20
+          damage: 9
+          damage_per_level: 2
+          radius: 4
+          potions:
+          - poison:5:1
+          particle: SQUID_INK
+          sound: ENTITY_SPLASH_POTION_BREAK
+          statuses:
+          - poison:6:1
+      maestro_alquimista_elixir_vigorizante:
+        name: Elixir Vigorizante
+        description: Otorga mejoras temporales
+        icon: BREWING_STAND
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            maestro_alquimista_pocion_acida: 1
+        effect:
+          type: buff
+          radius: 6
+          potions:
+          - strength:12:1
+          - speed:12:1
+          - haste:12:0
+          duration_per_level: 2
+          particle: HAPPY_VILLAGER
+          sound: BLOCK_BREWING_STAND_BREW
+      maestro_alquimista_niebla_toxica:
+        name: Niebla Tóxica
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: DRAGON_BREATH
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            maestro_alquimista_pocion_acida: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 22
+          damage: 4
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - poison:8:2
+          - slowness:6:1
+          - blindness:3:0
+          particle: DRAGON_BREATH
+          sound: ENTITY_SPLASH_POTION_BREAK
+          statuses:
+          - poison:8:2
+      maestro_alquimista_transmutacion:
+        name: Transmutación
+        description: Otorga mejoras temporales
+        icon: NETHER_STAR
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            maestro_alquimista_elixir_vigorizante: 2
+            maestro_alquimista_niebla_toxica: 2
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - strength:15:2
+          - regeneration:15:2
+          - speed:15:1
+          duration_per_level: 3
+          particle: ENCHANT
+          sound: ENTITY_ILLUSIONER_CAST_SPELL

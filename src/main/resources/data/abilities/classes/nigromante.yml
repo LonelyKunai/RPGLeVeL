@@ -1,0 +1,165 @@
+classes:
+  nigromante:
+    abilities:
+      nigromante_toque_de_muerte:
+        name: Toque de Muerte
+        description: Drena la vida del objetivo y te cura
+        icon: SKELETON_SKULL
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 7
+        cooldown_per_level: -0.3
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: drain
+          range: 15
+          damage: 5
+          damage_per_level: 1.5
+          ratio: 0.5
+          particle: SOUL
+          sound: ENTITY_WITHER_SHOOT
+      nigromante_marchitar:
+        name: Marchitar
+        description: Dispara contra un objetivo (20 bloques)
+        icon: WITHER_ROSE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 3
+          abilities:
+            nigromante_toque_de_muerte: 1
+        effect:
+          type: bolt
+          range: 20
+          damage: 4
+          damage_per_level: 1.2
+          potions:
+          - wither:6:1
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_AMBIENT
+          statuses:
+          - poison:5:1
+      nigromante_armadura_de_huesos:
+        name: Armadura de Huesos
+        description: Otorga mejoras temporales
+        icon: BONE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 3
+          abilities:
+            nigromante_toque_de_muerte: 1
+        effect:
+          type: buff
+          potions:
+          - resistance:10:1
+          - absorption:10:1
+          duration_per_level: 2
+          particle: ASH
+          sound: ENTITY_SKELETON_AMBIENT
+      nigromante_niebla_funebre:
+        name: Niebla Fúnebre
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: COBWEB
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 6
+          abilities:
+            nigromante_marchitar: 2
+        effect:
+          type: aoe
+          damage: 3
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - slowness:5:1
+          - weakness:5:0
+          particle: SQUID_INK
+          sound: ENTITY_PHANTOM_AMBIENT
+      nigromante_absorber_alma:
+        name: Absorber Alma
+        description: Drena la vida del objetivo y te cura
+        icon: SOUL_LANTERN
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 8
+          abilities:
+            nigromante_marchitar: 2
+            nigromante_armadura_de_huesos: 2
+        effect:
+          type: drain
+          range: 12
+          damage: 8
+          damage_per_level: 2
+          ratio: 0.8
+          particle: SCULK_SOUL
+          sound: ENTITY_ZOMBIE_VILLAGER_CURE
+      nigromante_grito_espectral:
+        name: Grito Espectral
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: ECHO_SHARD
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 6
+          abilities:
+            nigromante_armadura_de_huesos: 2
+        effect:
+          type: aoe
+          damage: 9
+          damage_per_level: 2
+          radius: 5
+          knockback: 1.2
+          particle: SCULK_SOUL
+          sound: ENTITY_WARDEN_SONIC_BOOM
+      nigromante_cosecha_final:
+        name: Cosecha Final
+        description: Golpea a los enemigos en un radio de 8 bloques
+        icon: WITHER_SKELETON_SKULL
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            nigromante_absorber_alma: 3
+        effect:
+          type: aoe
+          damage: 16
+          damage_per_level: 4
+          radius: 8
+          potions:
+          - wither:8:1
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SPAWN
+          statuses:
+          - poison:6:2

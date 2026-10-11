@@ -1,0 +1,95 @@
+subclasses:
+  cosechador:
+    abilities:
+      cosechador_guadana:
+        name: Guadaña
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: IRON_HOE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.3
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 9
+          damage_per_level: 2.5
+          radius: 4
+          particle: SWEEP_ATTACK
+          sound: ENTITY_PLAYER_ATTACK_SWEEP
+          statuses:
+          - bleed:5:1
+      cosechador_cosecha_de_almas:
+        name: Cosecha de Almas
+        description: Drena la vida del objetivo y te cura
+        icon: SOUL_LANTERN
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            cosechador_guadana: 1
+        effect:
+          type: drain
+          range: 10
+          damage: 7
+          damage_per_level: 2
+          ratio: 1.0
+          particle: SCULK_SOUL
+          sound: ENTITY_ZOMBIE_VILLAGER_CURE
+      cosechador_aura_funebre:
+        name: Aura Fúnebre
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: WITHER_ROSE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            cosechador_guadana: 1
+        effect:
+          type: aoe
+          damage: 3
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - wither:5:1
+          particle: SQUID_INK
+          sound: ENTITY_WITHER_AMBIENT
+      cosechador_segar_vidas:
+        name: Segar Vidas
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: NETHERITE_HOE
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 50
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            cosechador_cosecha_de_almas: 2
+            cosechador_aura_funebre: 2
+        effect:
+          type: aoe
+          damage: 24
+          damage_per_level: 5
+          radius: 6
+          knockback: 0.6
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_BREAK_BLOCK
+          statuses:
+          - bleed:7:2

@@ -1,0 +1,8 @@
+# groups.yml de TAB (v6.2.0). Prefijo del tablist y de la etiqueta sobre la cabeza.
+# %luckperms-prefix% usa el apilado de docs/LUCKPERMS.md: "[Oro] [Guerrero] " (pago primero, clase como segundo prefijo).
+# Si no tienes rango de pago solo se ve "[Guerrero] ".
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix% "
+  tabsuffix: "%rlv_level_suffix%"
+  tagprefix: "%luckperms-prefix% "
+  tagsuffix: ""

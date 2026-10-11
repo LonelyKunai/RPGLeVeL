@@ -1,0 +1,326 @@
+# Misiones semanales (3 por semana según tu rango de misiones). Tipos: kill, gather, fish, forge, boss. reward_points = puntos de ranking de misiones.
+weekly:
+  w_f_kill:
+    name: "[F] Cacería semanal: Zombis"
+    description: "Elimina 60 Zombis."
+    type: kill
+    target: ZOMBIE
+    amount: 60
+    rank_index: 0
+    reward_points: 60
+    reward_coins: 80
+  w_f_gather:
+    name: "[F] Recolección semanal: Troncos de roble"
+    description: "Recolecta 80 Troncos de roble."
+    type: gather
+    target: OAK_LOG
+    amount: 80
+    rank_index: 0
+    reward_points: 60
+    reward_coins: 80
+  w_f_forge:
+    name: "[F] Forja semanal"
+    description: "Forja 2 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 2
+    rank_index: 0
+    reward_points: 80
+    reward_coins: 120
+  w_f_boss:
+    name: "[F] Cazador de jefes"
+    description: "Derrota 1 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 1
+    rank_index: 0
+    reward_points: 100
+    reward_coins: 200
+  w_e_kill:
+    name: "[E] Cacería semanal: Esqueletos"
+    description: "Elimina 114 Esqueletos."
+    type: kill
+    target: SKELETON
+    amount: 114
+    rank_index: 1
+    reward_points: 108
+    reward_coins: 152
+  w_e_gather:
+    name: "[E] Recolección semanal: Mena de carbón"
+    description: "Recolecta 152 Mena de carbón."
+    type: gather
+    target: COAL_ORE
+    amount: 152
+    rank_index: 1
+    reward_points: 108
+    reward_coins: 152
+  w_e_forge:
+    name: "[E] Forja semanal"
+    description: "Forja 3 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 3
+    rank_index: 1
+    reward_points: 128
+    reward_coins: 228
+  w_e_boss:
+    name: "[E] Cazador de jefes"
+    description: "Derrota 1 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 1
+    rank_index: 1
+    reward_points: 148
+    reward_coins: 380
+  w_d_kill:
+    name: "[D] Cacería semanal: Arañas"
+    description: "Elimina 168 Arañas."
+    type: kill
+    target: SPIDER
+    amount: 168
+    rank_index: 2
+    reward_points: 156
+    reward_coins: 224
+  w_d_gather:
+    name: "[D] Recolección semanal: Mena de hierro"
+    description: "Recolecta 224 Mena de hierro."
+    type: gather
+    target: IRON_ORE
+    amount: 224
+    rank_index: 2
+    reward_points: 156
+    reward_coins: 224
+  w_d_forge:
+    name: "[D] Forja semanal"
+    description: "Forja 4 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 4
+    rank_index: 2
+    reward_points: 176
+    reward_coins: 336
+  w_d_boss:
+    name: "[D] Cazador de jefes"
+    description: "Derrota 1 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 1
+    rank_index: 2
+    reward_points: 196
+    reward_coins: 560
+  w_c_kill:
+    name: "[C] Cacería semanal: Creepers"
+    description: "Elimina 222 Creepers."
+    type: kill
+    target: CREEPER
+    amount: 222
+    rank_index: 3
+    reward_points: 204
+    reward_coins: 296
+  w_c_gather:
+    name: "[C] Recolección semanal: Mena de oro"
+    description: "Recolecta 296 Mena de oro."
+    type: gather
+    target: GOLD_ORE
+    amount: 296
+    rank_index: 3
+    reward_points: 204
+    reward_coins: 296
+  w_c_forge:
+    name: "[C] Forja semanal"
+    description: "Forja 5 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 5
+    rank_index: 3
+    reward_points: 224
+    reward_coins: 444
+  w_c_boss:
+    name: "[C] Cazador de jefes"
+    description: "Derrota 2 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 2
+    rank_index: 3
+    reward_points: 244
+    reward_coins: 740
+  w_b_kill:
+    name: "[B] Cacería semanal: Endermans"
+    description: "Elimina 276 Endermans."
+    type: kill
+    target: ENDERMAN
+    amount: 276
+    rank_index: 4
+    reward_points: 252
+    reward_coins: 368
+  w_b_gather:
+    name: "[B] Recolección semanal: Mena de diamante"
+    description: "Recolecta 368 Mena de diamante."
+    type: gather
+    target: DIAMOND_ORE
+    amount: 368
+    rank_index: 4
+    reward_points: 252
+    reward_coins: 368
+  w_b_forge:
+    name: "[B] Forja semanal"
+    description: "Forja 6 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 6
+    rank_index: 4
+    reward_points: 272
+    reward_coins: 552
+  w_b_boss:
+    name: "[B] Cazador de jefes"
+    description: "Derrota 2 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 2
+    rank_index: 4
+    reward_points: 292
+    reward_coins: 919
+  w_a_kill:
+    name: "[A] Cacería semanal: Brujas"
+    description: "Elimina 330 Brujas."
+    type: kill
+    target: WITCH
+    amount: 330
+    rank_index: 5
+    reward_points: 300
+    reward_coins: 440
+  w_a_gather:
+    name: "[A] Recolección semanal: Diamante profundo"
+    description: "Recolecta 440 Diamante profundo."
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 440
+    rank_index: 5
+    reward_points: 300
+    reward_coins: 440
+  w_a_forge:
+    name: "[A] Forja semanal"
+    description: "Forja 7 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 7
+    rank_index: 5
+    reward_points: 320
+    reward_coins: 660
+  w_a_boss:
+    name: "[A] Cazador de jefes"
+    description: "Derrota 2 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 2
+    rank_index: 5
+    reward_points: 340
+    reward_coins: 1100
+  w_s_kill:
+    name: "[S] Cacería semanal: Blazes"
+    description: "Elimina 384 Blazes."
+    type: kill
+    target: BLAZE
+    amount: 384
+    rank_index: 6
+    reward_points: 348
+    reward_coins: 512
+  w_s_gather:
+    name: "[S] Recolección semanal: Escombros antiguos"
+    description: "Recolecta 512 Escombros antiguos."
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 512
+    rank_index: 6
+    reward_points: 348
+    reward_coins: 512
+  w_s_forge:
+    name: "[S] Forja semanal"
+    description: "Forja 8 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 8
+    rank_index: 6
+    reward_points: 368
+    reward_coins: 768
+  w_s_boss:
+    name: "[S] Cazador de jefes"
+    description: "Derrota 3 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 3
+    rank_index: 6
+    reward_points: 388
+    reward_coins: 1280
+  w_splus_kill:
+    name: "[S+] Cacería semanal: Esqueletos Wither"
+    description: "Elimina 438 Esqueletos Wither."
+    type: kill
+    target: WITHER_SKELETON
+    amount: 438
+    rank_index: 7
+    reward_points: 396
+    reward_coins: 584
+  w_splus_gather:
+    name: "[S+] Recolección semanal: Trigo"
+    description: "Recolecta 584 Trigo."
+    type: gather
+    target: WHEAT
+    amount: 584
+    rank_index: 7
+    reward_points: 396
+    reward_coins: 584
+  w_splus_forge:
+    name: "[S+] Forja semanal"
+    description: "Forja 9 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 9
+    rank_index: 7
+    reward_points: 416
+    reward_coins: 876
+  w_splus_boss:
+    name: "[S+] Cazador de jefes"
+    description: "Derrota 3 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 3
+    rank_index: 7
+    reward_points: 436
+    reward_coins: 1460
+  w_u_kill:
+    name: "[U] Cacería semanal: Piglin Brutos"
+    description: "Elimina 491 Piglin Brutos."
+    type: kill
+    target: PIGLIN_BRUTE
+    amount: 491
+    rank_index: 8
+    reward_points: 444
+    reward_coins: 656
+  w_u_gather:
+    name: "[U] Recolección semanal: Cuarzo"
+    description: "Recolecta 656 Cuarzo."
+    type: gather
+    target: NETHER_QUARTZ_ORE
+    amount: 656
+    rank_index: 8
+    reward_points: 444
+    reward_coins: 656
+  w_u_forge:
+    name: "[U] Forja semanal"
+    description: "Forja 10 piezas de equipo en una estación de trabajo."
+    type: forge
+    target: ANY
+    amount: 10
+    rank_index: 8
+    reward_points: 464
+    reward_coins: 983
+  w_u_boss:
+    name: "[U] Cazador de jefes"
+    description: "Derrota 3 jefe(s)."
+    type: boss
+    target: ANY
+    amount: 3
+    rank_index: 8
+    reward_points: 484
+    reward_coins: 1639

@@ -1,0 +1,104 @@
+subclasses:
+  invocador_demoniaco:
+    abilities:
+      invocador_demoniaco_invocar_imp:
+        name: Invocar Imp
+        description: Dispara una andanada de proyectiles
+        icon: BLAZE_ROD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.5
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: volley
+          arrows: 6
+          arrows_per_level: 1
+          damage: 4
+          damage_per_level: 1
+          spread: 0.25
+          speed: 2.2
+          fire_seconds: 4
+          statuses:
+          - burn:3:1
+      invocador_demoniaco_pacto_infernal:
+        name: Pacto Infernal
+        description: Otorga mejoras temporales
+        icon: FIRE_CHARGE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            invocador_demoniaco_invocar_imp: 1
+        effect:
+          type: buff
+          potions:
+          - strength:15:1
+          - fire_resistance:20:0
+          duration_per_level: 3
+          self_damage: 4
+          particle: FLAME
+          sound: ENTITY_BLAZE_AMBIENT
+      invocador_demoniaco_llamado_del_abismo:
+        name: Llamado del Abismo
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: CRYING_OBSIDIAN
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            invocador_demoniaco_invocar_imp: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 25
+          damage: 14
+          damage_per_level: 3
+          radius: 5
+          fire_seconds: 6
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SHOOT
+          statuses:
+          - burn:5:1
+      invocador_demoniaco_senor_demonio:
+        name: Señor Demonio
+        description: Golpea a los enemigos en un radio de 9 bloques
+        icon: NETHERITE_SCRAP
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            invocador_demoniaco_pacto_infernal: 2
+            invocador_demoniaco_llamado_del_abismo: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 30
+          damage: 28
+          damage_per_level: 6
+          radius: 9
+          fire_seconds: 10
+          knockback: 1.2
+          particle: LAVA
+          sound: ENTITY_WITHER_SPAWN
+          statuses:
+          - burn:6:2

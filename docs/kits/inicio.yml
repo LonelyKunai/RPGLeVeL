@@ -1,0 +1,63 @@
+cooldown: 315360000
+permission_required: false
+items:
+  1:
+    id: BREAD
+    amount: 16
+  2:
+    id: TORCH
+    amount: 32
+  3:
+    id: STONE_PICKAXE
+    amount: 1
+  4:
+    id: STONE_AXE
+    amount: 1
+actions:
+  claim:
+    1:
+      action: "playsound: ENTITY_PLAYER_LEVELUP;10;1"
+  error:
+    1:
+      action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1"
+requirements:
+  one_time_requirements: false
+  price: 0
+display:
+  default:
+    id: BREAD
+    name: '&a&lKit Inicial'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x16 Pan, x32 Antorchas'
+      - '&8- &7Pico y hacha de piedra'
+      - ''
+      - '&7Espera: &cuna sola vez'
+      - ''
+      - '&aClic izquierdo para reclamar'
+    item_flags:
+      - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&a&lKit Inicial'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x16 Pan, x32 Antorchas'
+      - '&8- &7Pico y hacha de piedra'
+      - ''
+      - '&cNo tienes permiso para este kit.'
+  cooldown:
+    id: BREAD
+    name: '&a&lKit Inicial'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7x16 Pan, x32 Antorchas'
+      - '&8- &7Pico y hacha de piedra'
+      - ''
+      - '&cDebes esperar &7%time%'
+      - '&cpara reclamarlo de nuevo.'
+    item_flags:
+      - HIDE_ATTRIBUTES

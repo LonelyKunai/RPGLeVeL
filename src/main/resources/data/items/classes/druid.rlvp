@@ -1,0 +1,1111 @@
+items:
+  druid_weapon_t1:
+    material: WOODEN_AXE
+    custom_model_data: 910181
+    display_name: "§6§lArma Principal de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      mana_regen: 0.4
+      spell_power: 3.0
+      poison_chance: 0.8
+      health_regen: 0.05
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "WOODEN_AXE:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_weapon_t2:
+    material: WOODEN_AXE
+    custom_model_data: 910182
+    display_name: "§6§lArma Principal de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      mana_regen: 0.72
+      spell_power: 5.4
+      poison_chance: 1.44
+      health_regen: 0.09
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_weapon_t3:
+    material: WOODEN_AXE
+    custom_model_data: 910183
+    display_name: "§6§lArma Principal de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      mana_regen: 1.2
+      spell_power: 9.0
+      poison_chance: 2.4
+      health_regen: 0.15
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_weapon_t4:
+    material: WOODEN_AXE
+    custom_model_data: 910184
+    display_name: "§6§lArma Principal de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      mana_regen: 1.8
+      spell_power: 13.5
+      poison_chance: 3.6
+      health_regen: 0.225
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_weapon_t5:
+    material: WOODEN_AXE
+    custom_model_data: 910185
+    display_name: "§6§lArma Principal de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      mana_regen: 2.6
+      spell_power: 19.5
+      poison_chance: 5.2
+      health_regen: 0.325
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid
+  druid_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910186
+    display_name: "§6§lCasco de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.7
+      mana_regen: 0.14
+      health_regen: 0.042
+      xp_bonus: 0.35
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910187
+    display_name: "§6§lCasco de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.26
+      mana_regen: 0.252
+      health_regen: 0.0756
+      xp_bonus: 0.63
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910188
+    display_name: "§6§lCasco de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 2.1
+      mana_regen: 0.42
+      health_regen: 0.126
+      xp_bonus: 1.05
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910189
+    display_name: "§6§lCasco de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 3.15
+      mana_regen: 0.63
+      health_regen: 0.189
+      xp_bonus: 1.575
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910190
+    display_name: "§6§lCasco de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 4.55
+      mana_regen: 0.91
+      health_regen: 0.273
+      xp_bonus: 2.275
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid
+  druid_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910191
+    display_name: "§6§lPechera de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.3
+      mana_regen: 0.26
+      health_regen: 0.078
+      xp_bonus: 0.65
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910192
+    display_name: "§6§lPechera de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 2.34
+      mana_regen: 0.468
+      health_regen: 0.1404
+      xp_bonus: 1.17
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910193
+    display_name: "§6§lPechera de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.9
+      mana_regen: 0.78
+      health_regen: 0.234
+      xp_bonus: 1.95
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910194
+    display_name: "§6§lPechera de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 5.85
+      mana_regen: 1.17
+      health_regen: 0.351
+      xp_bonus: 2.925
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910195
+    display_name: "§6§lPechera de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 8.45
+      mana_regen: 1.69
+      health_regen: 0.507
+      xp_bonus: 4.225
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid
+  druid_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910196
+    display_name: "§6§lPantalones de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 1.0
+      mana_regen: 0.2
+      health_regen: 0.06
+      xp_bonus: 0.5
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910197
+    display_name: "§6§lPantalones de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.8
+      mana_regen: 0.36
+      health_regen: 0.108
+      xp_bonus: 0.9
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910198
+    display_name: "§6§lPantalones de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 3.0
+      mana_regen: 0.6
+      health_regen: 0.18
+      xp_bonus: 1.5
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910199
+    display_name: "§6§lPantalones de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 4.5
+      mana_regen: 0.9
+      health_regen: 0.27
+      xp_bonus: 2.25
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910200
+    display_name: "§6§lPantalones de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 6.5
+      mana_regen: 1.3
+      health_regen: 0.39
+      xp_bonus: 3.25
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid
+  druid_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910201
+    display_name: "§6§lBotas de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.7
+      mana_regen: 0.14
+      health_regen: 0.042
+      xp_bonus: 0.35
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910202
+    display_name: "§6§lBotas de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.26
+      mana_regen: 0.252
+      health_regen: 0.0756
+      xp_bonus: 0.63
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910203
+    display_name: "§6§lBotas de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 2.1
+      mana_regen: 0.42
+      health_regen: 0.126
+      xp_bonus: 1.05
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910204
+    display_name: "§6§lBotas de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 3.15
+      mana_regen: 0.63
+      health_regen: 0.189
+      xp_bonus: 1.575
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910205
+    display_name: "§6§lBotas de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 4.55
+      mana_regen: 0.91
+      health_regen: 0.273
+      xp_bonus: 2.275
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid
+  druid_offhand_extra_t1:
+    material: WOODEN_HOE
+    custom_model_data: 910206
+    display_name: "§6§lObjeto Secundario de Druida - Nivel I"
+    lore:
+    - "§8Set: Druida"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      mana_regen: 0.2
+      spell_power: 1.5
+      poison_chance: 0.4
+      health_regen: 0.025
+    requires:
+      class: druida
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: druid
+      tier: 1
+      ingredients:
+      - "WOODEN_HOE:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: druid
+  druid_offhand_extra_t2:
+    material: WOODEN_HOE
+    custom_model_data: 910207
+    display_name: "§6§lObjeto Secundario de Druida - Nivel II"
+    lore:
+    - "§8Set: Druida"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      mana_regen: 0.36
+      spell_power: 2.7
+      poison_chance: 0.72
+      health_regen: 0.045
+    requires:
+      class: druida
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 2
+      ingredients:
+      - "druid_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: druid
+  druid_offhand_extra_t3:
+    material: WOODEN_HOE
+    custom_model_data: 910208
+    display_name: "§6§lObjeto Secundario de Druida - Nivel III"
+    lore:
+    - "§8Set: Druida"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      mana_regen: 0.6
+      spell_power: 4.5
+      poison_chance: 1.2
+      health_regen: 0.075
+    requires:
+      class: druida
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 3
+      ingredients:
+      - "druid_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: druid
+  druid_offhand_extra_t4:
+    material: WOODEN_HOE
+    custom_model_data: 910209
+    display_name: "§6§lObjeto Secundario de Druida - Nivel IV"
+    lore:
+    - "§8Set: Druida"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      mana_regen: 0.9
+      spell_power: 6.75
+      poison_chance: 1.8
+      health_regen: 0.1125
+    requires:
+      class: druida
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 4
+      ingredients:
+      - "druid_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: druid
+  druid_offhand_extra_t5:
+    material: WOODEN_HOE
+    custom_model_data: 910210
+    display_name: "§6§lObjeto Secundario de Druida - Nivel V"
+    lore:
+    - "§8Set: Druida"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: druid
+      name: Druida
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      mana_regen: 1.3
+      spell_power: 9.75
+      poison_chance: 2.6
+      health_regen: 0.1625
+    requires:
+      class: druida
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: druid
+      tier: 5
+      ingredients:
+      - "druid_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: druid

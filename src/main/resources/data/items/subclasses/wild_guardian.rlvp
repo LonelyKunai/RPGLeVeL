@@ -1,0 +1,1141 @@
+items:
+  wild_guardian_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910841
+    display_name: "§6§lArma Principal de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      mana_regen: 0.4
+      spell_power: 3.0
+      poison_chance: 0.8
+      health_regen: 0.05
+      stun_chance: 0.6
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910842
+    display_name: "§6§lArma Principal de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      mana_regen: 0.72
+      spell_power: 5.4
+      poison_chance: 1.44
+      health_regen: 0.09
+      stun_chance: 1.08
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910843
+    display_name: "§6§lArma Principal de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      mana_regen: 1.2
+      spell_power: 9.0
+      poison_chance: 2.4
+      health_regen: 0.15
+      stun_chance: 1.8
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910844
+    display_name: "§6§lArma Principal de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      mana_regen: 1.8
+      spell_power: 13.5
+      poison_chance: 3.6
+      health_regen: 0.225
+      stun_chance: 2.7
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910845
+    display_name: "§6§lArma Principal de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      mana_regen: 2.6
+      spell_power: 19.5
+      poison_chance: 5.2
+      health_regen: 0.325
+      stun_chance: 3.9
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian
+  wild_guardian_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910846
+    display_name: "§6§lCasco de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.7
+      mana_regen: 0.14
+      health_regen: 0.042
+      xp_bonus: 0.35
+      knockback_resistance: 0.014
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910847
+    display_name: "§6§lCasco de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.26
+      mana_regen: 0.252
+      health_regen: 0.0756
+      xp_bonus: 0.63
+      knockback_resistance: 0.0252
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910848
+    display_name: "§6§lCasco de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 2.1
+      mana_regen: 0.42
+      health_regen: 0.126
+      xp_bonus: 1.05
+      knockback_resistance: 0.042
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910849
+    display_name: "§6§lCasco de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 3.15
+      mana_regen: 0.63
+      health_regen: 0.189
+      xp_bonus: 1.575
+      knockback_resistance: 0.063
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910850
+    display_name: "§6§lCasco de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 4.55
+      mana_regen: 0.91
+      health_regen: 0.273
+      xp_bonus: 2.275
+      knockback_resistance: 0.091
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian
+  wild_guardian_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910851
+    display_name: "§6§lPechera de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.3
+      mana_regen: 0.26
+      health_regen: 0.078
+      xp_bonus: 0.65
+      knockback_resistance: 0.026
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910852
+    display_name: "§6§lPechera de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 2.34
+      mana_regen: 0.468
+      health_regen: 0.1404
+      xp_bonus: 1.17
+      knockback_resistance: 0.0468
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910853
+    display_name: "§6§lPechera de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.9
+      mana_regen: 0.78
+      health_regen: 0.234
+      xp_bonus: 1.95
+      knockback_resistance: 0.078
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910854
+    display_name: "§6§lPechera de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 5.85
+      mana_regen: 1.17
+      health_regen: 0.351
+      xp_bonus: 2.925
+      knockback_resistance: 0.117
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910855
+    display_name: "§6§lPechera de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 8.45
+      mana_regen: 1.69
+      health_regen: 0.507
+      xp_bonus: 4.225
+      knockback_resistance: 0.169
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian
+  wild_guardian_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910856
+    display_name: "§6§lPantalones de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 1.0
+      mana_regen: 0.2
+      health_regen: 0.06
+      xp_bonus: 0.5
+      knockback_resistance: 0.02
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910857
+    display_name: "§6§lPantalones de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.8
+      mana_regen: 0.36
+      health_regen: 0.108
+      xp_bonus: 0.9
+      knockback_resistance: 0.036
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910858
+    display_name: "§6§lPantalones de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 3.0
+      mana_regen: 0.6
+      health_regen: 0.18
+      xp_bonus: 1.5
+      knockback_resistance: 0.06
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910859
+    display_name: "§6§lPantalones de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 4.5
+      mana_regen: 0.9
+      health_regen: 0.27
+      xp_bonus: 2.25
+      knockback_resistance: 0.09
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910860
+    display_name: "§6§lPantalones de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 6.5
+      mana_regen: 1.3
+      health_regen: 0.39
+      xp_bonus: 3.25
+      knockback_resistance: 0.13
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian
+  wild_guardian_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910861
+    display_name: "§6§lBotas de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.7
+      mana_regen: 0.14
+      health_regen: 0.042
+      xp_bonus: 0.35
+      knockback_resistance: 0.014
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910862
+    display_name: "§6§lBotas de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.26
+      mana_regen: 0.252
+      health_regen: 0.0756
+      xp_bonus: 0.63
+      knockback_resistance: 0.0252
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910863
+    display_name: "§6§lBotas de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 2.1
+      mana_regen: 0.42
+      health_regen: 0.126
+      xp_bonus: 1.05
+      knockback_resistance: 0.042
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910864
+    display_name: "§6§lBotas de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 3.15
+      mana_regen: 0.63
+      health_regen: 0.189
+      xp_bonus: 1.575
+      knockback_resistance: 0.063
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910865
+    display_name: "§6§lBotas de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 4.55
+      mana_regen: 0.91
+      health_regen: 0.273
+      xp_bonus: 2.275
+      knockback_resistance: 0.091
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian
+  wild_guardian_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910866
+    display_name: "§6§lObjeto Secundario de Guardián Salvaje - Nivel I"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      mana_regen: 0.2
+      spell_power: 1.5
+      poison_chance: 0.4
+      health_regen: 0.025
+      stun_chance: 0.3
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: wild_guardian
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wild_guardian
+  wild_guardian_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910867
+    display_name: "§6§lObjeto Secundario de Guardián Salvaje - Nivel II"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      mana_regen: 0.36
+      spell_power: 2.7
+      poison_chance: 0.72
+      health_regen: 0.045
+      stun_chance: 0.54
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 2
+      ingredients:
+      - "wild_guardian_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wild_guardian
+  wild_guardian_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910868
+    display_name: "§6§lObjeto Secundario de Guardián Salvaje - Nivel III"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      mana_regen: 0.6
+      spell_power: 4.5
+      poison_chance: 1.2
+      health_regen: 0.075
+      stun_chance: 0.9
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 3
+      ingredients:
+      - "wild_guardian_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wild_guardian
+  wild_guardian_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910869
+    display_name: "§6§lObjeto Secundario de Guardián Salvaje - Nivel IV"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      mana_regen: 0.9
+      spell_power: 6.75
+      poison_chance: 1.8
+      health_regen: 0.1125
+      stun_chance: 1.35
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 4
+      ingredients:
+      - "wild_guardian_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wild_guardian
+  wild_guardian_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910870
+    display_name: "§6§lObjeto Secundario de Guardián Salvaje - Nivel V"
+    lore:
+    - "§8Set: Guardián Salvaje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wild_guardian
+      name: "Guardián Salvaje"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      mana_regen: 1.3
+      spell_power: 9.75
+      poison_chance: 2.6
+      health_regen: 0.1625
+      stun_chance: 1.95
+    requires:
+      subclass: guardian_salvaje
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: wild_guardian
+      tier: 5
+      ingredients:
+      - "wild_guardian_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wild_guardian

@@ -1,0 +1,194 @@
+# Misiones de rango F (rank_index 0). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_f_01:
+    name: '[F] Caza de Zombie x8'
+    description: Elimina 8 Zombie.
+    type: kill
+    target: ZOMBIE
+    amount: 8
+    rank_index: 0
+    reward_xp: 25
+  q_f_02:
+    name: '[F] Caza de Skeleton x8'
+    description: Elimina 8 Skeleton.
+    type: kill
+    target: SKELETON
+    amount: 8
+    rank_index: 0
+    reward_xp: 25
+  q_f_03:
+    name: '[F] Caza de Spider x8'
+    description: Elimina 8 Spider.
+    type: kill
+    target: SPIDER
+    amount: 8
+    rank_index: 0
+    reward_xp: 25
+  q_f_04:
+    name: '[F] Caza de Creeper x8'
+    description: Elimina 8 Creeper.
+    type: kill
+    target: CREEPER
+    amount: 8
+    rank_index: 0
+    reward_xp: 25
+  q_f_05:
+    name: '[F] Caza de Slime x8'
+    description: Elimina 8 Slime.
+    type: kill
+    target: SLIME
+    amount: 8
+    rank_index: 0
+    reward_xp: 25
+  q_f_06:
+    name: '[F] Caza de Zombie x16'
+    description: Elimina 16 Zombie.
+    type: kill
+    target: ZOMBIE
+    amount: 16
+    rank_index: 0
+    reward_xp: 35
+  q_f_07:
+    name: '[F] Caza de Skeleton x16'
+    description: Elimina 16 Skeleton.
+    type: kill
+    target: SKELETON
+    amount: 16
+    rank_index: 0
+    reward_xp: 35
+  q_f_08:
+    name: '[F] Caza de Spider x16'
+    description: Elimina 16 Spider.
+    type: kill
+    target: SPIDER
+    amount: 16
+    rank_index: 0
+    reward_xp: 35
+  q_f_09:
+    name: '[F] Caza de Creeper x16'
+    description: Elimina 16 Creeper.
+    type: kill
+    target: CREEPER
+    amount: 16
+    rank_index: 0
+    reward_xp: 35
+  q_f_10:
+    name: '[F] Caza de Slime x16'
+    description: Elimina 16 Slime.
+    type: kill
+    target: SLIME
+    amount: 16
+    rank_index: 0
+    reward_xp: 35
+  q_f_11:
+    name: '[F] Recolección de Oak Log x16'
+    description: Recolecta 16 Oak Log.
+    type: gather
+    target: OAK_LOG
+    amount: 16
+    rank_index: 0
+    reward_xp: 25
+  q_f_12:
+    name: '[F] Recolección de Stone x16'
+    description: Recolecta 16 Stone.
+    type: gather
+    target: STONE
+    amount: 16
+    rank_index: 0
+    reward_xp: 25
+  q_f_13:
+    name: '[F] Recolección de Sand x16'
+    description: Recolecta 16 Sand.
+    type: gather
+    target: SAND
+    amount: 16
+    rank_index: 0
+    reward_xp: 25
+  q_f_14:
+    name: '[F] Recolección de Gravel x16'
+    description: Recolecta 16 Gravel.
+    type: gather
+    target: GRAVEL
+    amount: 16
+    rank_index: 0
+    reward_xp: 25
+  q_f_15:
+    name: '[F] Recolección de Birch Log x16'
+    description: Recolecta 16 Birch Log.
+    type: gather
+    target: BIRCH_LOG
+    amount: 16
+    rank_index: 0
+    reward_xp: 25
+  q_f_16:
+    name: '[F] Recolección de Oak Log x32'
+    description: Recolecta 32 Oak Log.
+    type: gather
+    target: OAK_LOG
+    amount: 32
+    rank_index: 0
+    reward_xp: 35
+  q_f_17:
+    name: '[F] Recolección de Stone x32'
+    description: Recolecta 32 Stone.
+    type: gather
+    target: STONE
+    amount: 32
+    rank_index: 0
+    reward_xp: 35
+  q_f_18:
+    name: '[F] Recolección de Sand x32'
+    description: Recolecta 32 Sand.
+    type: gather
+    target: SAND
+    amount: 32
+    rank_index: 0
+    reward_xp: 35
+  q_f_19:
+    name: '[F] Recolección de Gravel x32'
+    description: Recolecta 32 Gravel.
+    type: gather
+    target: GRAVEL
+    amount: 32
+    rank_index: 0
+    reward_xp: 35
+  q_f_20:
+    name: '[F] Recolección de Birch Log x32'
+    description: Recolecta 32 Birch Log.
+    type: gather
+    target: BIRCH_LOG
+    amount: 32
+    rank_index: 0
+    reward_xp: 35
+  q_f_21:
+    name: '[F] Pesca de Cod x2'
+    description: Pesca 2 Cod.
+    type: fish
+    target: COD
+    amount: 2
+    rank_index: 0
+    reward_xp: 12
+  q_f_22:
+    name: '[F] Pesca de Salmon x2'
+    description: Pesca 2 Salmon.
+    type: fish
+    target: SALMON
+    amount: 2
+    rank_index: 0
+    reward_xp: 12
+  q_f_23:
+    name: '[F] Pesca de Cod x4'
+    description: Pesca 4 Cod.
+    type: fish
+    target: COD
+    amount: 4
+    rank_index: 0
+    reward_xp: 17
+  q_f_24:
+    name: '[F] Pesca de Salmon x4'
+    description: Pesca 4 Salmon.
+    type: fish
+    target: SALMON
+    amount: 4
+    rank_index: 0
+    reward_xp: 17

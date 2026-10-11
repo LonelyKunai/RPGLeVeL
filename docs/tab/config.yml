@@ -1,0 +1,300 @@
+# config.yml de TAB 6.2.0 para AnacroniCraft: base oficial + header-footer, tablist compacto (layout) y scoreboard propios.
+# Generado por tools/make_tab.py. Haz copia de tu config.yml antes de reemplazarlo. Guardar en UTF-8.
+# Secciones de TAB 6.2.0 (header-footer, tablist-name-formatting, scoreboard-teams, playerlist-objective, layout, scoreboard).
+# Referencia: el archivo a instalar es docs/tab/config.yml (completo), generado por tools/make_tab.py con estas secciones.
+# Degradados: sintaxis oficial <#RRGGBB>texto</#RRGGBB> (wiki de TAB). Líneas finas: &m (tachado) sobre espacios.
+
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+        - "<#54DAF4>&m                                    </#545EB6>"
+        - "%animation:Titulo%"
+        - "&7Bienvenid@ &f%player%"
+        - "&8« &7En línea &f%online% &8/ &7Staff &6%staffonline% &8»"
+        - "&7TPS &a%tps%   &7Ping &a%ping%ms"
+      footer:
+        - "%animation:time%"
+        - "%animation:web%"
+        - "<#545EB6>&m                                    </#54DAF4>"
+
+
+tablist-name-formatting:
+  enabled: true
+
+
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  can-see-friendly-invisibles: false
+  # Orden del tablist: staff, luego rangos de pago de mayor a menor, luego A-Z. Ajusta a tus grupos reales.
+  sorting-types:
+    - "GROUPS:owner,admin,mod,helper,vip_mitico,vip_diamante,vip_amatista,vip_zafiro,vip_rubi,vip_esmeralda,vip_platino,vip_oro,vip_plata,vip_bronce"
+    - "PLACEHOLDER_A_TO_Z:%player%"
+
+
+# Ping junto al nombre en el tablist. Incompatible con layout (la wiki de TAB lo indica): si activas layout, ponlo en false.
+playerlist-objective:
+  enabled: true
+  value: "%ping%"
+  fancy-value: "&a%ping%&7ms"
+  title: "TAB"
+  render-type: INTEGER
+  disable-condition: '%world%=disabledworld'
+
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
+belowname-objective:
+  enabled: false
+  value: "%health%"
+  fancy-value: "&c%health%"
+  fancy-value-default: "NPC"
+  title: "&cHealth"
+  disable-condition: '%world%=disabledworld'
+  view-distance: 10
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
+prevent-spectator-effect:
+  enabled: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      progress: "100" # in %
+      text: "&fWebsite: &bwww.domain.com"
+
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: true
+  hidden-by-default: false
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    # 1.20.3+ (no Bedrock): valores a la derecha sin números rojos (sintaxis oficial texto||valor)
+    moderno:
+      display-condition: "%player-version-id%>=765;%bedrock%=false"
+      title: "%animation:ScoreTitulo%"
+      lines:
+        - "%animation:time%"
+        - "<#545EB6>&m                              </#54DAF4>"
+        - "&f&l%player%||%rlv_class_text%"
+        - " &7Subclase||%rlv_subclass_text%"
+        - " %rlv_class_xp_bar% &f%rlv_class_xp_pct%&7%"
+        - " &9Maná &8» %rlv_mana_bar% &9%rlv_mana%"
+        - " &6Monedas||&e%rlv_coins%"
+        - " &7Rango||&b%rlv_rank_class% &8(&f%rlv_rank_class_season%&8)"
+        - ""
+        - "<#F4D054>&l» SERVIDOR</#C69B54>"
+        - " &7En línea||&a%online%"
+        - " &7Ping||&a%ping%&8ms"
+        - " &7Temporada||&f%rlv_season% &8(%rlv_season_left%&8)"
+        - "%rlv_event_text%"
+        - "%animation:web%"
+    # 1.20.2 o menor / Bedrock (los números rojos de la derecha no se pueden quitar desde el plugin)
+    clasico:
+      title: "%animation:ScoreTitulo%"
+      lines:
+        - "%animation:time%"
+        - "<#545EB6>&m                              </#54DAF4>"
+        - "&f&l%player% &8» %rlv_class_text%"
+        - " &7Subclase: %rlv_subclass_text%"
+        - " %rlv_class_xp_bar% &f%rlv_class_xp_pct%&7%"
+        - " &9Maná &8» %rlv_mana_bar% &9%rlv_mana%"
+        - " &6Monedas: &e%rlv_coins%"
+        - " &7Rango: &b%rlv_rank_class% &8(&f%rlv_rank_class_season%&8)"
+        - ""
+        - "<#F4D054>&l» SERVIDOR</#C69B54>"
+        - " &7En línea: &a%online% &8| &7Ping: &a%ping%"
+        - " &7Temporada &f%rlv_season% &8(%rlv_season_left%&8)"
+        - "%rlv_event_text%"
+        - "%animation:web%"
+
+
+# DESACTIVADO por defecto (el tablist normal crece solo con los jugadores). Plantilla opcional de 2 columnas (36 slots = 18 filas): izquierda servidor + perfil, derecha staff y jugadores en UNA lista
+# (el orden sale de scoreboard-teams.sorting-types: owner/admin/... primero, luego rangos de pago, luego A-Z).
+# Para usarlo: layout.enabled: true y playerlist-objective.enabled: false. Sintaxis SLOT|TEXTO: no uses "|" dentro del texto.
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
+  enable-remaining-players-text: true
+  remaining-players-text: '&8... y %s más'
+  empty-slot-ping-value: 0
+  layouts:
+    default:
+      slot-count: 36
+      fixed-slots:
+        - '1|<#54DAF4>&l   SERVIDOR</#545EB6>'
+        - '2|&7Jugadores &a%online%'
+        - '3|&7Staff &6%staffonline%'
+        - '4|&7TPS &a%tps%   &7Ping &a%ping%'
+        - '5|&7Hora &f%time% &8» &f%date%'
+        - '6|<#F4D054>&l    PERFIL</#C69B54>'
+        - '7|%rlv_class_text%'
+        - '8|%rlv_class_xp_bar%'
+        - '9|&7Subclase'
+        - '10|%rlv_subclass_text%'
+        - '11|&9Maná &f%rlv_mana%'
+        - '12|%rlv_mana_bar%'
+        - '13|&7Rango &b%rlv_rank_class% &8(&f%rlv_rank_class_season%&8)'
+        - '14|&7Monedas &6%rlv_coins%'
+        - '15|%rlv_event_text%'
+        - '16|&9Discord'
+        - '17|&bdiscord.gg/AuvDQU5GaK'
+        - '19|<#55FF99>&l   JUGADORES</#00AA55>'
+      groups:
+        jugadores:
+          slots:
+            - 20-36
+
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
+ping-spoof:
+  enabled: false
+  value: 0
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+    - spyserver1
+    - spyserver2
+  server-groups:
+    lobbies:
+      - lobby1
+      - lobby2
+    group2:
+      - server1
+      - server2
+
+placeholders:
+  date-format: "dd/MM/yyyy"
+  time-format: "HH:mm"
+  time-offset: 0
+  register-tab-expansion: false
+  locale: es-ES
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
+placeholder-output-replacements:
+  "%essentials_vanished%":
+    "yes": "&7| Vanished"
+    "no": ""
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
+conditions:
+  nick: # use it with %condition:nick%
+    conditions:
+      - "%player%=%essentials_nickname%"
+    true: "%player%"
+    false: "~%essentials_nickname%"
+
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  "%server_uptime%": 1000
+  "%server_tps_1_colored%": 1000
+  "%server_unique_joins%": 5000
+  "%player_health%": 200
+  "%player_ping%": 1000
+  "%vault_prefix%": 1000
+  "%rel_factionsuuid_relation_color%": 1000
+
+# assigning groups by permission nodes instead of taking them from permission plugin
+assign-groups-by-permissions: false
+
+# if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
+# Warning! This is not sorting list and has nothing to do with sorting players in tablist!
+primary-group-finding-list:
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
+
+# Refresh interval (in milliseconds) of:
+# - Permission checks in conditions / sorting
+# - Group retrieving from permission plugin for sorting / per-group properties
+permission-refresh-interval: 1000
+
+# Unlocks extra console messages
+debug: false
+
+# https://github.com/NEZNAMY/TAB/wiki/MySQL
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+  useSSL: true
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support
+proxy-support:
+  enabled: true
+  channel-name-suffix: "custom"
+  # Supported types: PLUGIN, REDIS, RABBITMQ
+  type: PLUGIN
+  plugin:
+    # Compatible plugins: RedisBungee
+    # If enabled and compatible plugin is found, hook is enabled to work with proxied players
+    name: RedisBungee
+  redis:
+    url: 'redis://:password@localhost:6379/0'
+  rabbitmq:
+    exchange: 'plugin'
+    url: 'amqp://guest:guest@localhost:5672/%2F'
+
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true
+
+# Internal value, do not change this
+config-version: 7
+
+########################################################################
+# BUKKIT ONLY - THE FOLLOWING SECTION IS ONLY FOR BACKEND INSTALLATION #
+########################################################################
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
+per-world-playerlist:
+  enabled: false
+  # players with tab.staff will always see all players
+  allow-bypass-permission: false
+  # players in these worlds will always see all players
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+compensate-for-packetevents-bug: false
+
+#####################################################################
+# PROXY ONLY - THE FOLLOWING SECTION IS ONLY FOR PROXY INSTALLATION #
+#####################################################################
+
+# Take permissions and groups from backend server instead of proxy
+use-bukkit-permissions-manager: false
+
+# Sometimes server might be using offline uuids in tablist instead of online, such as disabling waterfall's tablist rewrite option
+# If you experience tablist formatting not working, toggle this option (set it to opposite value)
+# Only affects proxies with online mode enabled
+use-online-uuid-in-tablist: true

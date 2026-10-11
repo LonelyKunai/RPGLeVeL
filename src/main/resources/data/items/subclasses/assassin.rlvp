@@ -1,0 +1,1121 @@
+items:
+  assassin_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910571
+    display_name: "§6§lArma Principal de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      crit_chance: 2.0
+      crit_damage: 4.0
+      bleed_chance: 1.2
+      attack_speed: 0.01
+      execute: 2.0
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910572
+    display_name: "§6§lArma Principal de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      crit_chance: 3.6
+      crit_damage: 7.2
+      bleed_chance: 2.16
+      attack_speed: 0.018
+      execute: 3.6
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910573
+    display_name: "§6§lArma Principal de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      crit_chance: 6.0
+      crit_damage: 12.0
+      bleed_chance: 3.6
+      attack_speed: 0.03
+      execute: 6.0
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910574
+    display_name: "§6§lArma Principal de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      crit_chance: 9.0
+      crit_damage: 18.0
+      bleed_chance: 5.4
+      attack_speed: 0.045
+      execute: 9.0
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910575
+    display_name: "§6§lArma Principal de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      crit_chance: 13.0
+      crit_damage: 26.0
+      bleed_chance: 7.8
+      attack_speed: 0.065
+      execute: 13.0
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin
+  assassin_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910576
+    display_name: "§6§lCasco de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      evasion: 0.84
+      movement_speed: 0.001
+      luck: 0.14
+      xp_bonus: 0.7
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910577
+    display_name: "§6§lCasco de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      evasion: 1.512
+      movement_speed: 0.003
+      luck: 0.252
+      xp_bonus: 1.26
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910578
+    display_name: "§6§lCasco de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      evasion: 2.52
+      movement_speed: 0.004
+      luck: 0.42
+      xp_bonus: 2.1
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910579
+    display_name: "§6§lCasco de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      evasion: 3.78
+      movement_speed: 0.006
+      luck: 0.63
+      xp_bonus: 3.15
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910580
+    display_name: "§6§lCasco de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      evasion: 5.46
+      movement_speed: 0.009
+      luck: 0.91
+      xp_bonus: 4.55
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin
+  assassin_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910581
+    display_name: "§6§lPechera de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      evasion: 1.56
+      movement_speed: 0.003
+      luck: 0.26
+      xp_bonus: 1.3
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910582
+    display_name: "§6§lPechera de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      evasion: 2.808
+      movement_speed: 0.005
+      luck: 0.468
+      xp_bonus: 2.34
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910583
+    display_name: "§6§lPechera de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      evasion: 4.68
+      movement_speed: 0.008
+      luck: 0.78
+      xp_bonus: 3.9
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910584
+    display_name: "§6§lPechera de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      evasion: 7.02
+      movement_speed: 0.012
+      luck: 1.17
+      xp_bonus: 5.85
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910585
+    display_name: "§6§lPechera de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      evasion: 10.14
+      movement_speed: 0.017
+      luck: 1.69
+      xp_bonus: 8.45
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin
+  assassin_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910586
+    display_name: "§6§lPantalones de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      evasion: 1.2
+      movement_speed: 0.002
+      luck: 0.2
+      xp_bonus: 1.0
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910587
+    display_name: "§6§lPantalones de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      evasion: 2.16
+      movement_speed: 0.004
+      luck: 0.36
+      xp_bonus: 1.8
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910588
+    display_name: "§6§lPantalones de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      evasion: 3.6
+      movement_speed: 0.006
+      luck: 0.6
+      xp_bonus: 3.0
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910589
+    display_name: "§6§lPantalones de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      evasion: 5.4
+      movement_speed: 0.009
+      luck: 0.9
+      xp_bonus: 4.5
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910590
+    display_name: "§6§lPantalones de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      evasion: 7.8
+      movement_speed: 0.013
+      luck: 1.3
+      xp_bonus: 6.5
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin
+  assassin_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910591
+    display_name: "§6§lBotas de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      evasion: 0.84
+      movement_speed: 0.001
+      luck: 0.14
+      xp_bonus: 0.7
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910592
+    display_name: "§6§lBotas de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      evasion: 1.512
+      movement_speed: 0.003
+      luck: 0.252
+      xp_bonus: 1.26
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910593
+    display_name: "§6§lBotas de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      evasion: 2.52
+      movement_speed: 0.004
+      luck: 0.42
+      xp_bonus: 2.1
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910594
+    display_name: "§6§lBotas de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      evasion: 3.78
+      movement_speed: 0.006
+      luck: 0.63
+      xp_bonus: 3.15
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910595
+    display_name: "§6§lBotas de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      evasion: 5.46
+      movement_speed: 0.009
+      luck: 0.91
+      xp_bonus: 4.55
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin
+  assassin_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910596
+    display_name: "§6§lObjeto Secundario de Asesino - Nivel I"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      crit_chance: 1.0
+      crit_damage: 2.0
+      bleed_chance: 0.6
+      attack_speed: 0.005
+      execute: 1.0
+    requires:
+      subclass: asesino
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: assassin
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: assassin
+  assassin_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910597
+    display_name: "§6§lObjeto Secundario de Asesino - Nivel II"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      crit_chance: 1.8
+      crit_damage: 3.6
+      bleed_chance: 1.08
+      attack_speed: 0.009
+      execute: 1.8
+    requires:
+      subclass: asesino
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 2
+      ingredients:
+      - "assassin_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: assassin
+  assassin_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910598
+    display_name: "§6§lObjeto Secundario de Asesino - Nivel III"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      crit_chance: 3.0
+      crit_damage: 6.0
+      bleed_chance: 1.8
+      attack_speed: 0.015
+      execute: 3.0
+    requires:
+      subclass: asesino
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 3
+      ingredients:
+      - "assassin_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: assassin
+  assassin_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910599
+    display_name: "§6§lObjeto Secundario de Asesino - Nivel IV"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      crit_chance: 4.5
+      crit_damage: 9.0
+      bleed_chance: 2.7
+      attack_speed: 0.0225
+      execute: 4.5
+    requires:
+      subclass: asesino
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 4
+      ingredients:
+      - "assassin_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: assassin
+  assassin_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910600
+    display_name: "§6§lObjeto Secundario de Asesino - Nivel V"
+    lore:
+    - "§8Set: Asesino"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: assassin
+      name: Asesino
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      crit_chance: 6.5
+      crit_damage: 13.0
+      bleed_chance: 3.9
+      attack_speed: 0.0325
+      execute: 6.5
+    requires:
+      subclass: asesino
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: assassin
+      tier: 5
+      ingredients:
+      - "assassin_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: assassin

@@ -1,0 +1,46 @@
+# Tablas de botín: se añaden a los drops de mobs (EntityDeathEvent) cuando los mata un jugador.
+# match: hostile (mobs hostiles), boss (jefes vanilla y jefes del plugin), entities: [ZOMBIE, ...],
+#        min_level / max_level (nivel del mob, ver mobs.* en config.yml)
+# drops (se elige uno por peso):
+#   type: gear      -> ítem de equipo .rlvp de ese tier (prefiere tu clase/subclase) con afijos aleatorios
+#                      tier: [min,max] o "auto" (según nivel del mob)
+#   type: gem       -> gema (gem: id o random) de nivel [min,max]
+#   type: material  -> ítem .rlvp (id) cantidad [min,max]
+#   type: coins     -> monedas [min,max]
+settings:
+  enabled: true
+  class_preference: 0.6      # probabilidad de que el equipo sea de tu clase / subclase activa
+tables:
+  hostile_common:
+    match: {hostile: true}
+    chance: 0.025
+    drops:
+      - {type: gear, tier: auto, weight: 10}
+      - {type: gem, level: [1, 1], weight: 5}
+      - {type: material, id: steel_ingot, amount: [1, 2], weight: 6}
+  hostile_rare_materials:
+    match: {hostile: true, min_level: 8}
+    chance: 0.012
+    drops:
+      - {type: material, id: cobalt_ingot, amount: [1, 1], weight: 6}
+      - {type: gem, level: [1, 2], weight: 3}
+  hostile_elite:
+    match: {hostile: true, min_level: 20}
+    chance: 0.012
+    drops:
+      - {type: material, id: sky_ingot, amount: [1, 1], weight: 5}
+      - {type: gear, tier: [3, 4], weight: 5}
+      - {type: gem, level: [2, 3], weight: 3}
+  coins:
+    match: {hostile: true}
+    chance: 0.35
+    drops:
+      - {type: coins, amount: [1, 6], weight: 1}
+  boss:
+    match: {boss: true}
+    chance: 1.0
+    drops:
+      - {type: gear, tier: [3, 5], weight: 10}
+      - {type: gem, level: [2, 3], weight: 6}
+      - {type: material, id: dragon_core, amount: [1, 1], weight: 3}
+      - {type: coins, amount: [50, 150], weight: 6}

@@ -1,0 +1,1121 @@
+items:
+  warrior_weapon_t1:
+    material: IRON_SWORD
+    custom_model_data: 910001
+    display_name: "§6§lArma Principal de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      attack_damage: 0.6
+      crit_damage: 3.0
+      attack_speed: 0.01
+      stun_chance: 0.8
+      execute: 1.5
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "IRON_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_weapon_t2:
+    material: IRON_SWORD
+    custom_model_data: 910002
+    display_name: "§6§lArma Principal de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      attack_damage: 1.08
+      crit_damage: 5.4
+      attack_speed: 0.018
+      stun_chance: 1.44
+      execute: 2.7
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_weapon_t3:
+    material: IRON_SWORD
+    custom_model_data: 910003
+    display_name: "§6§lArma Principal de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      attack_damage: 1.8
+      crit_damage: 9.0
+      attack_speed: 0.03
+      stun_chance: 2.4
+      execute: 4.5
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_weapon_t4:
+    material: IRON_SWORD
+    custom_model_data: 910004
+    display_name: "§6§lArma Principal de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      attack_damage: 2.7
+      crit_damage: 13.5
+      attack_speed: 0.045
+      stun_chance: 3.6
+      execute: 6.75
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_weapon_t5:
+    material: IRON_SWORD
+    custom_model_data: 910005
+    display_name: "§6§lArma Principal de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      attack_damage: 3.9
+      crit_damage: 19.5
+      attack_speed: 0.065
+      stun_chance: 5.2
+      execute: 9.75
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior
+  warrior_helmet_t1:
+    material: IRON_HELMET
+    custom_model_data: 910006
+    display_name: "§6§lCasco de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.014
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "IRON_HELMET:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_helmet_t2:
+    material: IRON_HELMET
+    custom_model_data: 910007
+    display_name: "§6§lCasco de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0252
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_helmet_t3:
+    material: IRON_HELMET
+    custom_model_data: 910008
+    display_name: "§6§lCasco de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.042
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_helmet_t4:
+    material: IRON_HELMET
+    custom_model_data: 910009
+    display_name: "§6§lCasco de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.063
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_helmet_t5:
+    material: IRON_HELMET
+    custom_model_data: 910010
+    display_name: "§6§lCasco de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.091
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior
+  warrior_chestplate_t1:
+    material: IRON_CHESTPLATE
+    custom_model_data: 910011
+    display_name: "§6§lPechera de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      damage_reduction: 1.04
+      max_health: 1.3
+      thorns: 1.3
+      knockback_resistance: 0.026
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "IRON_CHESTPLATE:1"
+      - "IRON_INGOT:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_chestplate_t2:
+    material: IRON_CHESTPLATE
+    custom_model_data: 910012
+    display_name: "§6§lPechera de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      damage_reduction: 1.872
+      max_health: 2.34
+      thorns: 2.34
+      knockback_resistance: 0.0468
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_chestplate_t3:
+    material: IRON_CHESTPLATE
+    custom_model_data: 910013
+    display_name: "§6§lPechera de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      damage_reduction: 3.12
+      max_health: 3.9
+      thorns: 3.9
+      knockback_resistance: 0.078
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_chestplate_t4:
+    material: IRON_CHESTPLATE
+    custom_model_data: 910014
+    display_name: "§6§lPechera de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      damage_reduction: 4.68
+      max_health: 5.85
+      thorns: 5.85
+      knockback_resistance: 0.117
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_chestplate_t5:
+    material: IRON_CHESTPLATE
+    custom_model_data: 910015
+    display_name: "§6§lPechera de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      damage_reduction: 6.76
+      max_health: 8.45
+      thorns: 8.45
+      knockback_resistance: 0.169
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior
+  warrior_leggings_t1:
+    material: IRON_LEGGINGS
+    custom_model_data: 910016
+    display_name: "§6§lPantalones de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      damage_reduction: 0.8
+      max_health: 1.0
+      thorns: 1.0
+      knockback_resistance: 0.02
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "IRON_LEGGINGS:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_leggings_t2:
+    material: IRON_LEGGINGS
+    custom_model_data: 910017
+    display_name: "§6§lPantalones de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      damage_reduction: 1.44
+      max_health: 1.8
+      thorns: 1.8
+      knockback_resistance: 0.036
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_leggings_t3:
+    material: IRON_LEGGINGS
+    custom_model_data: 910018
+    display_name: "§6§lPantalones de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      damage_reduction: 2.4
+      max_health: 3.0
+      thorns: 3.0
+      knockback_resistance: 0.06
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_leggings_t4:
+    material: IRON_LEGGINGS
+    custom_model_data: 910019
+    display_name: "§6§lPantalones de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      damage_reduction: 3.6
+      max_health: 4.5
+      thorns: 4.5
+      knockback_resistance: 0.09
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_leggings_t5:
+    material: IRON_LEGGINGS
+    custom_model_data: 910020
+    display_name: "§6§lPantalones de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      damage_reduction: 5.2
+      max_health: 6.5
+      thorns: 6.5
+      knockback_resistance: 0.13
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior
+  warrior_boots_t1:
+    material: IRON_BOOTS
+    custom_model_data: 910021
+    display_name: "§6§lBotas de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 0.7
+      knockback_resistance: 0.014
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "IRON_BOOTS:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_boots_t2:
+    material: IRON_BOOTS
+    custom_model_data: 910022
+    display_name: "§6§lBotas de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 1.26
+      knockback_resistance: 0.0252
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_boots_t3:
+    material: IRON_BOOTS
+    custom_model_data: 910023
+    display_name: "§6§lBotas de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 2.1
+      knockback_resistance: 0.042
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_boots_t4:
+    material: IRON_BOOTS
+    custom_model_data: 910024
+    display_name: "§6§lBotas de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 3.15
+      knockback_resistance: 0.063
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_boots_t5:
+    material: IRON_BOOTS
+    custom_model_data: 910025
+    display_name: "§6§lBotas de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 4.55
+      knockback_resistance: 0.091
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior
+  warrior_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910026
+    display_name: "§6§lObjeto Secundario de Guerrero - Nivel I"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      attack_damage: 0.3
+      crit_damage: 1.5
+      attack_speed: 0.005
+      stun_chance: 0.4
+      execute: 0.75
+    requires:
+      class: guerrero
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: warrior
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: warrior
+  warrior_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910027
+    display_name: "§6§lObjeto Secundario de Guerrero - Nivel II"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      attack_damage: 0.54
+      crit_damage: 2.7
+      attack_speed: 0.009
+      stun_chance: 0.72
+      execute: 1.35
+    requires:
+      class: guerrero
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 2
+      ingredients:
+      - "warrior_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: warrior
+  warrior_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910028
+    display_name: "§6§lObjeto Secundario de Guerrero - Nivel III"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      attack_damage: 0.9
+      crit_damage: 4.5
+      attack_speed: 0.015
+      stun_chance: 1.2
+      execute: 2.25
+    requires:
+      class: guerrero
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 3
+      ingredients:
+      - "warrior_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: warrior
+  warrior_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910029
+    display_name: "§6§lObjeto Secundario de Guerrero - Nivel IV"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      attack_damage: 1.35
+      crit_damage: 6.75
+      attack_speed: 0.0225
+      stun_chance: 1.8
+      execute: 3.375
+    requires:
+      class: guerrero
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 4
+      ingredients:
+      - "warrior_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: warrior
+  warrior_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910030
+    display_name: "§6§lObjeto Secundario de Guerrero - Nivel V"
+    lore:
+    - "§8Set: Guerrero"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: warrior
+      name: Guerrero
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      attack_damage: 1.95
+      crit_damage: 9.75
+      attack_speed: 0.0325
+      stun_chance: 2.6
+      execute: 4.875
+    requires:
+      class: guerrero
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: warrior
+      tier: 5
+      ingredients:
+      - "warrior_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: warrior

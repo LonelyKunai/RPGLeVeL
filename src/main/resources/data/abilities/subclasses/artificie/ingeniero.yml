@@ -1,0 +1,97 @@
+subclasses:
+  ingeniero:
+    abilities:
+      ingeniero_torreta_de_arco:
+        name: Torreta de Arco
+        description: Dispara una andanada de proyectiles
+        icon: CROSSBOW
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.5
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: volley
+          arrows: 6
+          arrows_per_level: 1
+          damage: 4
+          damage_per_level: 0.9
+          spread: 0.15
+          speed: 2.6
+      ingeniero_campo_de_fuerza:
+        name: Campo de Fuerza
+        description: Otorga mejoras temporales
+        icon: IRON_BLOCK
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            ingeniero_torreta_de_arco: 1
+        effect:
+          type: buff
+          radius: 6
+          potions:
+          - absorption:20:3
+          duration_per_level: 3
+          particle: ELECTRIC_SPARK
+          sound: BLOCK_BEACON_ACTIVATE
+      ingeniero_dron_explosivo:
+        name: Dron Explosivo
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: FIREWORK_ROCKET
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 5
+          abilities:
+            ingeniero_torreta_de_arco: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 25
+          damage: 13
+          damage_per_level: 3
+          radius: 4
+          knockback: 1.2
+          particle: FIREWORK
+          sound: ENTITY_FIREWORK_ROCKET_BLAST
+          statuses:
+          - shock:3:1
+      ingeniero_fortaleza_mecanica:
+        name: Fortaleza Mecánica
+        description: Otorga mejoras temporales
+        icon: NETHERITE_BLOCK
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            ingeniero_campo_de_fuerza: 2
+            ingeniero_dron_explosivo: 2
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - resistance:20:2
+          - haste:20:1
+          - absorption:20:3
+          duration_per_level: 3
+          particle: ELECTRIC_SPARK
+          sound: BLOCK_ANVIL_USE

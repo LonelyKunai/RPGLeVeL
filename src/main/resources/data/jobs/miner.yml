@@ -1,0 +1,23 @@
+jobs:
+  miner:
+    name: Minero
+    description: Mejora la recolección de minerales.
+    icon: IRON_PICKAXE
+    bonus: mining
+    global: true
+    perks:
+      5:
+        stats:
+          luck: 0.5
+      10:
+        stats:
+          armor: 1
+      20:
+        stats:
+          luck: 1
+      30:
+        stats:
+          max_health: 2
+      50:
+        stats:
+          damage_reduction: 2

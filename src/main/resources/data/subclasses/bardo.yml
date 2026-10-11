@@ -1,0 +1,11 @@
+subclasses:
+  bardo:
+    ladrador_del_valor:
+      name: Ladrador del Valor
+      description: Otorga mejoras (buffs) masivas de daño, velocidad de ataque y resistencia física a todo el grupo.
+    maestro_de_la_discordia:
+      name: Maestro de la Discordia
+      description: Aplica efectos de estado negativos (confusión, lentitud, aturdimiento) a los enemigos mediante ondas sonoras.
+    menestral:
+      name: Menestral
+      description: Se centra en la regeneración constante de vida y maná/estamina para mantener al grupo en combates prolongados.

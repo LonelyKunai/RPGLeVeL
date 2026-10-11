@@ -1,0 +1,95 @@
+subclasses:
+  paladin:
+    abilities:
+      paladin_mano_sagrada:
+        name: Mano Sagrada
+        description: Cura a los aliados cercanos
+        icon: GOLDEN_CARROT
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: heal
+          amount: 8
+          amount_per_level: 2
+          radius: 6
+          particle: HEART
+          sound: ENTITY_PLAYER_LEVELUP
+      paladin_martillo_de_luz:
+        name: Martillo de Luz
+        description: Invoca un rayo sobre el objetivo
+        icon: GOLDEN_AXE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 11
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            paladin_mano_sagrada: 1
+        effect:
+          type: lightning
+          range: 6
+          damage: 9
+          damage_per_level: 2.5
+          radius: 2
+          sound: ENTITY_LIGHTNING_BOLT_IMPACT
+          statuses:
+          - stun:1.5
+      paladin_aura_de_proteccion:
+        name: Aura de Protección
+        description: Otorga mejoras temporales
+        icon: SHIELD
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            paladin_mano_sagrada: 1
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - resistance:15:1
+          duration_per_level: 3
+          particle: END_ROD
+          sound: BLOCK_BEACON_ACTIVATE
+      paladin_juicio_final:
+        name: Juicio Final
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: NETHERITE_AXE
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            paladin_martillo_de_luz: 2
+            paladin_aura_de_proteccion: 2
+        effect:
+          type: aoe
+          damage: 18
+          damage_per_level: 4
+          radius: 7
+          knockback: 1.0
+          fire_seconds: 4
+          lightning: true
+          particle: END_ROD
+          sound: ENTITY_LIGHTNING_BOLT_THUNDER
+          statuses:
+          - burn:4:1

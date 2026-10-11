@@ -1,0 +1,614 @@
+achievements:
+  kills_1:
+    name: "Primera sangre"
+    description: "Derrota 1 mobs hostiles"
+    counter: kills
+    goal: 1
+    reward:
+      coins: 10
+      title: kills_1
+  kills_25:
+    name: Matón
+    description: "Derrota 25 mobs hostiles"
+    counter: kills
+    goal: 25
+    reward:
+      coins: 50
+      title: kills_2
+  kills_250:
+    name: Exterminador
+    description: "Derrota 250 mobs hostiles"
+    counter: kills
+    goal: 250
+    reward:
+      coins: 180
+      title: kills_3
+  kills_1500:
+    name: "Azote de monstruos"
+    description: "Derrota 1500 mobs hostiles"
+    counter: kills
+    goal: 1500
+    reward:
+      coins: 600
+      title: kills_4
+  kills_10000:
+    name: "Leyenda de la guerra"
+    description: "Derrota 10000 mobs hostiles"
+    counter: kills
+    goal: 10000
+    reward:
+      coins: 2000
+      title: kills_5
+  boss_kills_1:
+    name: Rompe-jefes
+    description: "Derrota 1 jefes vanilla"
+    counter: boss_kills
+    goal: 1
+    reward:
+      coins: 10
+      title: boss_kills_1
+  boss_kills_10:
+    name: Cazajefes
+    description: "Derrota 10 jefes vanilla"
+    counter: boss_kills
+    goal: 10
+    reward:
+      coins: 50
+      title: boss_kills_2
+  boss_kills_50:
+    name: "Terror de jefes"
+    description: "Derrota 50 jefes vanilla"
+    counter: boss_kills
+    goal: 50
+    reward:
+      coins: 180
+      title: boss_kills_3
+  ores_25:
+    name: Picapedrero
+    description: "Mina 25 minerales"
+    counter: ores
+    goal: 25
+    reward:
+      coins: 10
+      title: ores_1
+  ores_500:
+    name: "Minero experto"
+    description: "Mina 500 minerales"
+    counter: ores
+    goal: 500
+    reward:
+      coins: 50
+      title: ores_2
+  ores_5000:
+    name: "Señor de las minas"
+    description: "Mina 5000 minerales"
+    counter: ores
+    goal: 5000
+    reward:
+      coins: 180
+      title: ores_3
+  logs_50:
+    name: Leñador
+    description: "Tala 50 troncos"
+    counter: logs
+    goal: 50
+    reward:
+      coins: 10
+      title: logs_1
+  logs_1000:
+    name: Talador
+    description: "Tala 1000 troncos"
+    counter: logs
+    goal: 1000
+    reward:
+      coins: 50
+      title: logs_2
+  logs_8000:
+    name: Guardabosques
+    description: "Tala 8000 troncos"
+    counter: logs
+    goal: 8000
+    reward:
+      coins: 180
+      title: logs_3
+  crops_50:
+    name: Campesino
+    description: "Cosecha 50 cultivos"
+    counter: crops
+    goal: 50
+    reward:
+      coins: 10
+      title: crops_1
+  crops_1000:
+    name: Hortelano
+    description: "Cosecha 1000 cultivos"
+    counter: crops
+    goal: 1000
+    reward:
+      coins: 50
+      title: crops_2
+  crops_8000:
+    name: "Señor del campo"
+    description: "Cosecha 8000 cultivos"
+    counter: crops
+    goal: 8000
+    reward:
+      coins: 180
+      title: crops_3
+  fished_10:
+    name: Pescador
+    description: "Pesca 10 objetos"
+    counter: fished
+    goal: 10
+    reward:
+      coins: 10
+      title: fished_1
+  fished_200:
+    name: "Lobo de mar"
+    description: "Pesca 200 objetos"
+    counter: fished
+    goal: 200
+    reward:
+      coins: 50
+      title: fished_2
+  fished_1500:
+    name: "Rey del mar"
+    description: "Pesca 1500 objetos"
+    counter: fished
+    goal: 1500
+    reward:
+      coins: 180
+      title: fished_3
+  forged_1:
+    name: "Aprendiz de forja"
+    description: "Forja 1 piezas en estaciones"
+    counter: forged
+    goal: 1
+    reward:
+      coins: 10
+      title: forged_1
+  forged_25:
+    name: Herrero
+    description: "Forja 25 piezas en estaciones"
+    counter: forged
+    goal: 25
+    reward:
+      coins: 50
+      title: forged_2
+  forged_200:
+    name: "Maestro forjador"
+    description: "Forja 200 piezas en estaciones"
+    counter: forged
+    goal: 200
+    reward:
+      coins: 180
+      title: forged_3
+  quests_done_1:
+    name: Recadero
+    description: "Completa 1 misiones"
+    counter: quests_done
+    goal: 1
+    reward:
+      coins: 10
+      title: quests_done_1
+  quests_done_25:
+    name: Mercenario
+    description: "Completa 25 misiones"
+    counter: quests_done
+    goal: 25
+    reward:
+      coins: 50
+      title: quests_done_2
+  quests_done_150:
+    name: "Héroe del pueblo"
+    description: "Completa 150 misiones"
+    counter: quests_done
+    goal: 150
+    reward:
+      coins: 180
+      title: quests_done_3
+  quests_done_600:
+    name: "Leyenda viva"
+    description: "Completa 600 misiones"
+    counter: quests_done
+    goal: 600
+    reward:
+      coins: 600
+      title: quests_done_4
+  casts_10:
+    name: "Aprendiz arcano"
+    description: "Lanza 10 habilidades"
+    counter: casts
+    goal: 10
+    reward:
+      coins: 10
+      title: casts_1
+  casts_250:
+    name: Hechicero
+    description: "Lanza 250 habilidades"
+    counter: casts
+    goal: 250
+    reward:
+      coins: 50
+      title: casts_2
+  casts_2500:
+    name: Archimago
+    description: "Lanza 2500 habilidades"
+    counter: casts
+    goal: 2500
+    reward:
+      coins: 180
+      title: casts_3
+  max_class_level_10:
+    name: Curtido
+    description: "Alcanza el nivel de clase 10"
+    counter: max_class_level
+    goal: 10
+    reward:
+      coins: 10
+      title: max_class_level_1
+  max_class_level_25:
+    name: Veterano
+    description: "Alcanza el nivel de clase 25"
+    counter: max_class_level
+    goal: 25
+    reward:
+      coins: 50
+      title: max_class_level_2
+  max_class_level_50:
+    name: "Maestro de clase"
+    description: "Alcanza el nivel de clase 50"
+    counter: max_class_level
+    goal: 50
+    reward:
+      coins: 180
+      title: max_class_level_3
+  prestige_1:
+    name: Renacido
+    description: "Alcanza 1 prestigio(s)"
+    counter: prestige
+    goal: 1
+    reward:
+      coins: 10
+      title: prestige_1
+  prestige_3:
+    name: "Estrella ascendente"
+    description: "Alcanza 3 prestigio(s)"
+    counter: prestige
+    goal: 3
+    reward:
+      coins: 50
+      title: prestige_2
+  prestige_10:
+    name: Inmortal
+    description: "Alcanza 10 prestigio(s)"
+    counter: prestige
+    goal: 10
+    reward:
+      coins: 180
+      title: prestige_3
+  gems_1:
+    name: "Joyero novato"
+    description: "Engarza 1 gemas"
+    counter: gems
+    goal: 1
+    reward:
+      coins: 10
+      title: gems_1
+  gems_15:
+    name: Joyero
+    description: "Engarza 15 gemas"
+    counter: gems
+    goal: 15
+    reward:
+      coins: 50
+      title: gems_2
+  gems_80:
+    name: "Maestro joyero"
+    description: "Engarza 80 gemas"
+    counter: gems
+    goal: 80
+    reward:
+      coins: 180
+      title: gems_3
+  world_bosses_1:
+    name: "Titán caído"
+    description: "Derrota 1 jefes mundiales"
+    counter: world_bosses
+    goal: 1
+    reward:
+      coins: 10
+      title: world_bosses_1
+  world_bosses_10:
+    name: Cazatitanes
+    description: "Derrota 10 jefes mundiales"
+    counter: world_bosses
+    goal: 10
+    reward:
+      coins: 50
+      title: world_bosses_2
+  world_bosses_50:
+    name: "Azote de titanes"
+    description: "Derrota 50 jefes mundiales"
+    counter: world_bosses
+    goal: 50
+    reward:
+      coins: 180
+      title: world_bosses_3
+  dungeons_1:
+    name: Explorador
+    description: "Completa 1 mazmorras"
+    counter: dungeons
+    goal: 1
+    reward:
+      coins: 10
+      title: dungeons_1
+  dungeons_10:
+    name: Saqueador
+    description: "Completa 10 mazmorras"
+    counter: dungeons
+    goal: 10
+    reward:
+      coins: 50
+      title: dungeons_2
+  dungeons_50:
+    name: "Señor de las mazmorras"
+    description: "Completa 50 mazmorras"
+    counter: dungeons
+    goal: 50
+    reward:
+      coins: 180
+      title: dungeons_3
+  pvp_wins_1:
+    name: Duelista
+    description: "Gana 1 duelos"
+    counter: pvp_wins
+    goal: 1
+    reward:
+      coins: 10
+      title: pvp_wins_1
+  pvp_wins_10:
+    name: Gladiador
+    description: "Gana 10 duelos"
+    counter: pvp_wins
+    goal: 10
+    reward:
+      coins: 50
+      title: pvp_wins_2
+  pvp_wins_50:
+    name: Campeón
+    description: "Gana 50 duelos"
+    counter: pvp_wins
+    goal: 50
+    reward:
+      coins: 180
+      title: pvp_wins_3
+  auctions_1:
+    name: Mercader
+    description: "Vende 1 ítems en la subasta"
+    counter: auctions
+    goal: 1
+    reward:
+      coins: 10
+      title: auctions_1
+  auctions_25:
+    name: Comerciante
+    description: "Vende 25 ítems en la subasta"
+    counter: auctions
+    goal: 25
+    reward:
+      coins: 50
+      title: auctions_2
+  auctions_150:
+    name: Magnate
+    description: "Vende 150 ítems en la subasta"
+    counter: auctions
+    goal: 150
+    reward:
+      coins: 180
+      title: auctions_3
+  trades_1:
+    name: Negociante
+    description: "Completa 1 intercambios"
+    counter: trades
+    goal: 1
+    reward:
+      coins: 10
+      title: trades_1
+  trades_25:
+    name: Tratante
+    description: "Completa 25 intercambios"
+    counter: trades
+    goal: 25
+    reward:
+      coins: 50
+      title: trades_2
+  rank_class_2:
+    name: "Rango D"
+    description: "Alcanza el rango permanente (índice 2) en clase"
+    counter: rank_class
+    goal: 2
+    reward:
+      coins: 10
+      title: rank_class_1
+  rank_class_4:
+    name: "Rango B"
+    description: "Alcanza el rango permanente (índice 4) en clase"
+    counter: rank_class
+    goal: 4
+    reward:
+      coins: 50
+      title: rank_class_2
+  rank_class_6:
+    name: "Rango S"
+    description: "Alcanza el rango permanente (índice 6) en clase"
+    counter: rank_class
+    goal: 6
+    reward:
+      coins: 180
+      title: rank_class_3
+  rank_class_8:
+    name: "Rango U"
+    description: "Alcanza el rango permanente (índice 8) en clase"
+    counter: rank_class
+    goal: 8
+    reward:
+      coins: 600
+      title: rank_class_4
+titles:
+  kills_1:
+    display: "§7[Primera sangre]"
+  kills_2:
+    display: "§a[Matón]"
+  kills_3:
+    display: "§b[Exterminador]"
+    stats:
+      max_health: 1.0
+  kills_4:
+    display: "§d[Azote de monstruos]"
+    stats:
+      max_health: 2.0
+  kills_5:
+    display: "§6[Leyenda de la guerra]"
+    stats:
+      max_health: 3.0
+  boss_kills_1:
+    display: "§7[Rompe-jefes]"
+  boss_kills_2:
+    display: "§a[Cazajefes]"
+  boss_kills_3:
+    display: "§b[Terror de jefes]"
+    stats:
+      max_health: 1.0
+  ores_1:
+    display: "§7[Picapedrero]"
+  ores_2:
+    display: "§a[Minero experto]"
+  ores_3:
+    display: "§b[Señor de las minas]"
+    stats:
+      xp_bonus: 1.0
+  logs_1:
+    display: "§7[Leñador]"
+  logs_2:
+    display: "§a[Talador]"
+  logs_3:
+    display: "§b[Guardabosques]"
+    stats:
+      xp_bonus: 1.0
+  crops_1:
+    display: "§7[Campesino]"
+  crops_2:
+    display: "§a[Hortelano]"
+  crops_3:
+    display: "§b[Señor del campo]"
+    stats:
+      xp_bonus: 1.0
+  fished_1:
+    display: "§7[Pescador]"
+  fished_2:
+    display: "§a[Lobo de mar]"
+  fished_3:
+    display: "§b[Rey del mar]"
+    stats:
+      xp_bonus: 1.0
+  forged_1:
+    display: "§7[Aprendiz de forja]"
+  forged_2:
+    display: "§a[Herrero]"
+  forged_3:
+    display: "§b[Maestro forjador]"
+    stats:
+      cooldown_reduction: 0.5
+  quests_done_1:
+    display: "§7[Recadero]"
+  quests_done_2:
+    display: "§a[Mercenario]"
+  quests_done_3:
+    display: "§b[Héroe del pueblo]"
+    stats:
+      xp_bonus: 1.0
+  quests_done_4:
+    display: "§d[Leyenda viva]"
+    stats:
+      xp_bonus: 2.0
+  casts_1:
+    display: "§7[Aprendiz arcano]"
+  casts_2:
+    display: "§a[Hechicero]"
+  casts_3:
+    display: "§b[Archimago]"
+    stats:
+      cooldown_reduction: 0.5
+  max_class_level_1:
+    display: "§7[Curtido]"
+  max_class_level_2:
+    display: "§a[Veterano]"
+  max_class_level_3:
+    display: "§b[Maestro de clase]"
+    stats:
+      max_health: 1.0
+  prestige_1:
+    display: "§7[Renacido]"
+  prestige_2:
+    display: "§a[Estrella ascendente]"
+  prestige_3:
+    display: "§b[Inmortal]"
+    stats:
+      max_health: 1.0
+  gems_1:
+    display: "§7[Joyero novato]"
+  gems_2:
+    display: "§a[Joyero]"
+  gems_3:
+    display: "§b[Maestro joyero]"
+    stats:
+      cooldown_reduction: 0.5
+  world_bosses_1:
+    display: "§7[Titán caído]"
+  world_bosses_2:
+    display: "§a[Cazatitanes]"
+  world_bosses_3:
+    display: "§b[Azote de titanes]"
+    stats:
+      cooldown_reduction: 0.5
+  dungeons_1:
+    display: "§7[Explorador]"
+  dungeons_2:
+    display: "§a[Saqueador]"
+  dungeons_3:
+    display: "§b[Señor de las mazmorras]"
+    stats:
+      cooldown_reduction: 0.5
+  pvp_wins_1:
+    display: "§7[Duelista]"
+  pvp_wins_2:
+    display: "§a[Gladiador]"
+  pvp_wins_3:
+    display: "§b[Campeón]"
+    stats:
+      cooldown_reduction: 0.5
+  auctions_1:
+    display: "§7[Mercader]"
+  auctions_2:
+    display: "§a[Comerciante]"
+  auctions_3:
+    display: "§b[Magnate]"
+    stats:
+      cooldown_reduction: 0.5
+  trades_1:
+    display: "§7[Negociante]"
+  trades_2:
+    display: "§a[Tratante]"
+  rank_class_1:
+    display: "§7[Rango D]"
+  rank_class_2:
+    display: "§a[Rango B]"
+  rank_class_3:
+    display: "§b[Rango S]"
+    stats:
+      cooldown_reduction: 0.5
+  rank_class_4:
+    display: "§d[Rango U]"
+    stats:
+      cooldown_reduction: 1.0

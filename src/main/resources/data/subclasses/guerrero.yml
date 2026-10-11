@@ -1,0 +1,13 @@
+subclasses:
+  guerrero:
+    paladin:
+      name: Paladín
+      description: Se enfoca en la defensa sagrada, la curación pasiva a aliados cercanos y la mitigación de daño mediante
+        escudos y auras.
+    barbaro:
+      name: Bárbaro
+      description: Incrementa su daño a medida que pierde vida; utiliza hachas y habilidades de furia para romper la defensa
+        enemiga.
+    caballero_de_la_muerte:
+      name: Caballero de la Muerte
+      description: Aplica efectos de drenaje de vida, ralentización y daño de sombras a través de ataques con espadas pesadas.

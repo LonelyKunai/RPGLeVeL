@@ -1,0 +1,5 @@
+classes:
+  guerrero:
+    name: Guerrero
+    description: Especialista en combate cuerpo a cuerpo, resistencia física y control de la primera línea.
+    icon: IRON_SWORD

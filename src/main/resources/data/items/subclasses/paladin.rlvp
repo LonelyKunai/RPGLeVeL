@@ -1,0 +1,1121 @@
+items:
+  paladin_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910301
+    display_name: "§6§lArma Principal de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      attack_damage: 0.6
+      crit_damage: 3.0
+      attack_speed: 0.01
+      stun_chance: 1.4
+      execute: 1.5
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910302
+    display_name: "§6§lArma Principal de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      attack_damage: 1.08
+      crit_damage: 5.4
+      attack_speed: 0.018
+      stun_chance: 2.52
+      execute: 2.7
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910303
+    display_name: "§6§lArma Principal de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      attack_damage: 1.8
+      crit_damage: 9.0
+      attack_speed: 0.03
+      stun_chance: 4.2
+      execute: 4.5
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910304
+    display_name: "§6§lArma Principal de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      attack_damage: 2.7
+      crit_damage: 13.5
+      attack_speed: 0.045
+      stun_chance: 6.3
+      execute: 6.75
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910305
+    display_name: "§6§lArma Principal de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      attack_damage: 3.9
+      crit_damage: 19.5
+      attack_speed: 0.065
+      stun_chance: 9.1
+      execute: 9.75
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin
+  paladin_helmet_t1:
+    material: GOLDEN_HELMET
+    custom_model_data: 910306
+    display_name: "§6§lCasco de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 1.26
+      knockback_resistance: 0.014
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "GOLDEN_HELMET:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_helmet_t2:
+    material: GOLDEN_HELMET
+    custom_model_data: 910307
+    display_name: "§6§lCasco de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 2.268
+      knockback_resistance: 0.0252
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_helmet_t3:
+    material: GOLDEN_HELMET
+    custom_model_data: 910308
+    display_name: "§6§lCasco de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 3.78
+      knockback_resistance: 0.042
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_helmet_t4:
+    material: GOLDEN_HELMET
+    custom_model_data: 910309
+    display_name: "§6§lCasco de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 5.67
+      knockback_resistance: 0.063
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_helmet_t5:
+    material: GOLDEN_HELMET
+    custom_model_data: 910310
+    display_name: "§6§lCasco de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 8.19
+      knockback_resistance: 0.091
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin
+  paladin_chestplate_t1:
+    material: GOLDEN_CHESTPLATE
+    custom_model_data: 910311
+    display_name: "§6§lPechera de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      damage_reduction: 1.04
+      max_health: 1.3
+      thorns: 2.34
+      knockback_resistance: 0.026
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "GOLDEN_CHESTPLATE:1"
+      - "IRON_INGOT:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_chestplate_t2:
+    material: GOLDEN_CHESTPLATE
+    custom_model_data: 910312
+    display_name: "§6§lPechera de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      damage_reduction: 1.872
+      max_health: 2.34
+      thorns: 4.212
+      knockback_resistance: 0.0468
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_chestplate_t3:
+    material: GOLDEN_CHESTPLATE
+    custom_model_data: 910313
+    display_name: "§6§lPechera de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      damage_reduction: 3.12
+      max_health: 3.9
+      thorns: 7.02
+      knockback_resistance: 0.078
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_chestplate_t4:
+    material: GOLDEN_CHESTPLATE
+    custom_model_data: 910314
+    display_name: "§6§lPechera de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      damage_reduction: 4.68
+      max_health: 5.85
+      thorns: 10.53
+      knockback_resistance: 0.117
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_chestplate_t5:
+    material: GOLDEN_CHESTPLATE
+    custom_model_data: 910315
+    display_name: "§6§lPechera de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      damage_reduction: 6.76
+      max_health: 8.45
+      thorns: 15.21
+      knockback_resistance: 0.169
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin
+  paladin_leggings_t1:
+    material: GOLDEN_LEGGINGS
+    custom_model_data: 910316
+    display_name: "§6§lPantalones de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      damage_reduction: 0.8
+      max_health: 1.0
+      thorns: 1.8
+      knockback_resistance: 0.02
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "GOLDEN_LEGGINGS:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_leggings_t2:
+    material: GOLDEN_LEGGINGS
+    custom_model_data: 910317
+    display_name: "§6§lPantalones de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      damage_reduction: 1.44
+      max_health: 1.8
+      thorns: 3.24
+      knockback_resistance: 0.036
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_leggings_t3:
+    material: GOLDEN_LEGGINGS
+    custom_model_data: 910318
+    display_name: "§6§lPantalones de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      damage_reduction: 2.4
+      max_health: 3.0
+      thorns: 5.4
+      knockback_resistance: 0.06
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_leggings_t4:
+    material: GOLDEN_LEGGINGS
+    custom_model_data: 910319
+    display_name: "§6§lPantalones de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      damage_reduction: 3.6
+      max_health: 4.5
+      thorns: 8.1
+      knockback_resistance: 0.09
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_leggings_t5:
+    material: GOLDEN_LEGGINGS
+    custom_model_data: 910320
+    display_name: "§6§lPantalones de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      damage_reduction: 5.2
+      max_health: 6.5
+      thorns: 11.7
+      knockback_resistance: 0.13
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin
+  paladin_boots_t1:
+    material: GOLDEN_BOOTS
+    custom_model_data: 910321
+    display_name: "§6§lBotas de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      damage_reduction: 0.56
+      max_health: 0.7
+      thorns: 1.26
+      knockback_resistance: 0.014
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "GOLDEN_BOOTS:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_boots_t2:
+    material: GOLDEN_BOOTS
+    custom_model_data: 910322
+    display_name: "§6§lBotas de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      damage_reduction: 1.008
+      max_health: 1.26
+      thorns: 2.268
+      knockback_resistance: 0.0252
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_boots_t3:
+    material: GOLDEN_BOOTS
+    custom_model_data: 910323
+    display_name: "§6§lBotas de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      damage_reduction: 1.68
+      max_health: 2.1
+      thorns: 3.78
+      knockback_resistance: 0.042
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_boots_t4:
+    material: GOLDEN_BOOTS
+    custom_model_data: 910324
+    display_name: "§6§lBotas de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      damage_reduction: 2.52
+      max_health: 3.15
+      thorns: 5.67
+      knockback_resistance: 0.063
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_boots_t5:
+    material: GOLDEN_BOOTS
+    custom_model_data: 910325
+    display_name: "§6§lBotas de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      damage_reduction: 3.64
+      max_health: 4.55
+      thorns: 8.19
+      knockback_resistance: 0.091
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin
+  paladin_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910326
+    display_name: "§6§lObjeto Secundario de Paladín - Nivel I"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      attack_damage: 0.3
+      crit_damage: 1.5
+      attack_speed: 0.005
+      stun_chance: 0.7
+      execute: 0.75
+    requires:
+      subclass: paladin
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: paladin
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: paladin
+  paladin_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910327
+    display_name: "§6§lObjeto Secundario de Paladín - Nivel II"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      attack_damage: 0.54
+      crit_damage: 2.7
+      attack_speed: 0.009
+      stun_chance: 1.26
+      execute: 1.35
+    requires:
+      subclass: paladin
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 2
+      ingredients:
+      - "paladin_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: paladin
+  paladin_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910328
+    display_name: "§6§lObjeto Secundario de Paladín - Nivel III"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      attack_damage: 0.9
+      crit_damage: 4.5
+      attack_speed: 0.015
+      stun_chance: 2.1
+      execute: 2.25
+    requires:
+      subclass: paladin
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 3
+      ingredients:
+      - "paladin_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: paladin
+  paladin_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910329
+    display_name: "§6§lObjeto Secundario de Paladín - Nivel IV"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      attack_damage: 1.35
+      crit_damage: 6.75
+      attack_speed: 0.0225
+      stun_chance: 3.15
+      execute: 3.375
+    requires:
+      subclass: paladin
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 4
+      ingredients:
+      - "paladin_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: paladin
+  paladin_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910330
+    display_name: "§6§lObjeto Secundario de Paladín - Nivel V"
+    lore:
+    - "§8Set: Paladín"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: paladin
+      name: Paladín
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      attack_damage: 1.95
+      crit_damage: 9.75
+      attack_speed: 0.0325
+      stun_chance: 4.55
+      execute: 4.875
+    requires:
+      subclass: paladin
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: paladin
+      tier: 5
+      ingredients:
+      - "paladin_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: paladin

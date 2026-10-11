@@ -1,0 +1,100 @@
+subclasses:
+  electromante:
+    abilities:
+      electromante_descarga:
+        name: Descarga
+        description: Invoca un rayo sobre el objetivo
+        icon: LIGHTNING_ROD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: lightning
+          range: 25
+          damage: 8
+          damage_per_level: 2
+          radius: 0
+          sound: ENTITY_LIGHTNING_BOLT_IMPACT
+          statuses:
+          - shock:5:1
+      electromante_cadena_electrica:
+        name: Cadena Eléctrica
+        description: Un ataque que salta entre enemigos cercanos
+        icon: COPPER_INGOT
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 13
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            electromante_descarga: 1
+        effect:
+          type: chain
+          damage: 9
+          damage_per_level: 1.5
+          targets: 5
+          range: 8
+          falloff: 0.9
+          particle: ELECTRIC_SPARK
+          sound: ENTITY_LIGHTNING_BOLT_IMPACT
+          statuses:
+          - shock:4:1
+      electromante_sobrecarga:
+        name: Sobrecarga
+        description: Otorga mejoras temporales
+        icon: REDSTONE_LAMP
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            electromante_descarga: 1
+        effect:
+          type: buff
+          potions:
+          - speed:10:2
+          - haste:10:2
+          duration_per_level: 2
+          particle: ELECTRIC_SPARK
+          sound: BLOCK_BEACON_POWER_SELECT
+      electromante_tormenta_electrica:
+        name: Tormenta Eléctrica
+        description: Golpea a los enemigos en un radio de 9 bloques
+        icon: TRIDENT
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            electromante_cadena_electrica: 2
+            electromante_sobrecarga: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 30
+          damage: 22
+          damage_per_level: 5
+          radius: 9
+          knockback: 0.8
+          lightning: true
+          particle: ELECTRIC_SPARK
+          sound: ENTITY_LIGHTNING_BOLT_THUNDER
+          statuses:
+          - shock:6:2

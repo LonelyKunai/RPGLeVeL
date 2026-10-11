@@ -1,0 +1,12 @@
+subclasses:
+  nigromante:
+    senor_de_las_sombras:
+      name: Señor de las Sombras
+      description: Invoca hordas de esqueletos y zombis para abrumar al enemigo en número.
+    cosechador:
+      name: Cosechador
+      description: Absorbe la vida y la energía de los enemigos para mantenerse con vida mientras los debilita constantemente.
+    plagador:
+      name: Plagador
+      description: Especializado en infligir maldiciones, ceguera, lentitud y enfermedades contagiosas que se extienden entre
+        grupos.

@@ -1,0 +1,164 @@
+classes:
+  mago:
+    abilities:
+      mago_proyectil_arcano:
+        name: Proyectil Arcano
+        description: Dispara contra un objetivo (25 bloques)
+        icon: BLAZE_ROD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 5
+        cooldown_per_level: -0.2
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 25
+          damage: 6
+          damage_per_level: 1.8
+          particle: WITCH
+          sound: ENTITY_EVOKER_CAST_SPELL
+      mago_escudo_de_mana:
+        name: Escudo de Maná
+        description: Otorga mejoras temporales
+        icon: AMETHYST_SHARD
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 3
+          abilities:
+            mago_proyectil_arcano: 1
+        effect:
+          type: buff
+          potions:
+          - absorption:20:2
+          - resistance:8:0
+          duration_per_level: 2
+          particle: END_ROD
+          sound: BLOCK_AMETHYST_BLOCK_CHIME
+      mago_paso_arcano:
+        name: Paso Arcano
+        description: Te teletransportas hacia adelante
+        icon: ENDER_PEARL
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.5
+        requires:
+          level: 3
+          abilities:
+            mago_proyectil_arcano: 1
+        effect:
+          type: blink
+          distance: 8
+          distance_per_level: 1
+          particle: PORTAL
+          sound: ENTITY_ENDERMAN_TELEPORT
+      mago_nova_arcana:
+        name: Nova Arcana
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: END_CRYSTAL
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.7
+        requires:
+          level: 6
+          abilities:
+            mago_escudo_de_mana: 2
+        effect:
+          type: aoe
+          damage: 8
+          damage_per_level: 2
+          radius: 5
+          knockback: 0.8
+          particle: END_ROD
+          sound: ENTITY_ILLUSIONER_CAST_SPELL
+          statuses:
+          - shock:3:1
+      mago_rafaga_de_poder:
+        name: Ráfaga de Poder
+        description: Un ataque que salta entre enemigos cercanos
+        icon: BLAZE_POWDER
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 8
+          abilities:
+            mago_escudo_de_mana: 2
+            mago_paso_arcano: 2
+        effect:
+          type: chain
+          damage: 7
+          damage_per_level: 1.5
+          targets: 4
+          range: 8
+          falloff: 0.85
+          particle: ELECTRIC_SPARK
+          sound: ENTITY_EVOKER_CAST_SPELL
+          statuses:
+          - shock:4:1
+      mago_vinculo_de_energia:
+        name: Vínculo de Energía
+        description: Otorga mejoras temporales
+        icon: EXPERIENCE_BOTTLE
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 35
+        cooldown_per_level: -1.5
+        requires:
+          level: 6
+          abilities:
+            mago_paso_arcano: 2
+        effect:
+          type: buff
+          potions:
+          - haste:15:1
+          - speed:15:0
+          duration_per_level: 3
+          particle: ENCHANT
+          sound: ENTITY_PLAYER_LEVELUP
+      mago_meteoro_arcano:
+        name: Meteoro Arcano
+        description: Golpea a los enemigos en un radio de 8 bloques
+        icon: FIRE_CHARGE
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            mago_rafaga_de_poder: 3
+        effect:
+          type: aoe
+          at_target: true
+          range: 30
+          damage: 22
+          damage_per_level: 6
+          radius: 8
+          knockback: 1.2
+          fire_seconds: 4
+          particle: EXPLOSION_EMITTER
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - burn:5:2

@@ -1,0 +1,148 @@
+# Tienda del servidor (/shop).
+# STOCK EN STACKS: la capacidad de cada objeto es  stacks * tamaño de pila  (en unidades, que es lo que usa el plugin):
+#   high   = 40 stacks (x64)  -> minerales
+#   medium = 16 stacks (x64)  -> materias primas renovables
+#   low    =  4 stacks (x64)  -> objetos de poca frecuencia (pila de 64)
+#   low_pila16 = 4 stacks (x16) -> objetos de poca frecuencia con pila de 16 (perla de ender)
+#   Los objetos no apilables (p. ej. tótem) no están en la tienda: un "stack" de 1 no tiene sentido como stock.
+# Capacidad final = capacity[nivel] * (1 + players_factor * jugadores activos en los últimos active_days días).
+# RELLENO: cada semana (refill_day / refill_hour) el stock sube hasta la capacidad y se reinician los límites de compra.
+# PRECIO = precio base * multiplicador(stock/capacidad): entre min_multiplier (stock lleno) y max_multiplier (casi agotado).
+#   Lo que los jugadores VENDEN a la tienda sube el stock y baja el precio; lo que compran lo baja y sube el precio.
+# LÍMITES por ciclo: un jugador puede comprar como máximo player_limit (15%) de la capacidad de un objeto; un gremio entero
+#   (suma de sus miembros) como máximo guild_limit (40%).
+# PRECIOS BASE (monedas) calibrados por la forma de obtener cada objeto, sin contar misiones:
+#   - Minerales y objetos raros: 1000 monedas por hora de esfuerzo / unidades que se consiguen por hora
+#     (1000 = ingreso medio con trabajos: 0,5 monedas por XP de trabajo, ~3 XP por mena + botín de monedas).
+#     Ej.: carbón ~700/h = 2, hierro ~250/h = 4-5, diamante ~17/h = 59, esquirla de eco ~5/h = 200.
+#   - Materias primas renovables: valen lo que paga el trabajo por conseguirlas (1-3 monedas); lo regula sobre todo el stock.
+#   - Materiales de forja (steel_ingot, cobalt_ingot, sky_ingot, dragon_core): coste de sus ingredientes + 25% de crafteo.
+#   - Gemas: nivel 1 ~ lo que cuesta conseguirla de botín (~170 muertes); nivel 2 = 3 de nivel 1 + 10%.
+# Claves de objeto: MATERIAL vanilla, id de ítem .rlvp (steel_ingot...) o gem:<id>:<nivel>. Valor = precio base en monedas.
+settings:
+  capacity:
+    high: 2560
+    medium: 1024
+    low: 256
+    low_pila16: 64
+  players_factor: 0.15
+  active_days: 14
+  player_limit: 0.15
+  guild_limit: 0.4
+  sell_ratio: 0.5
+  sell_overflow: 1.5
+  price:
+    min_multiplier: 0.75
+    max_multiplier: 2.5
+    exponent: 1.5
+  refill_day: MONDAY
+  refill_hour: 4
+  announce_refill: true
+categories:
+  minerales:
+    name: Minerales
+    icon: IRON_INGOT
+    stock: high
+    items:
+      COAL: 2
+      RAW_COPPER: 1
+      COPPER_INGOT: 2
+      RAW_IRON: 4
+      IRON_INGOT: 5
+      RAW_GOLD: 14
+      GOLD_INGOT: 17
+      REDSTONE: 2
+      LAPIS_LAZULI: 3
+      QUARTZ: 7
+      AMETHYST_SHARD: 29
+      EMERALD: 91
+      DIAMOND: 59
+      OBSIDIAN: 7
+      FLINT: 3
+      GLOWSTONE_DUST: 5
+  materias_primas:
+    name: Materias primas renovables
+    icon: OAK_LOG
+    stock: medium
+    items:
+      OAK_LOG: 1
+      SPRUCE_LOG: 1
+      BIRCH_LOG: 1
+      ACACIA_LOG: 2
+      JUNGLE_LOG: 2
+      DARK_OAK_LOG: 2
+      CHERRY_LOG: 2
+      BAMBOO: 1
+      WHEAT: 1
+      CARROT: 1
+      POTATO: 1
+      BEETROOT: 2
+      SUGAR_CANE: 1
+      PUMPKIN: 2
+      MELON_SLICE: 1
+      SWEET_BERRIES: 1
+      KELP: 1
+      NETHER_WART: 3
+      CLAY_BALL: 1
+      LEATHER: 2
+      WHITE_WOOL: 1
+      FEATHER: 2
+      BONE: 2
+      ROTTEN_FLESH: 1
+      STRING: 3
+      SPIDER_EYE: 4
+      GUNPOWDER: 5
+      SLIME_BALL: 7
+      INK_SAC: 3
+      COD: 2
+      SALMON: 4
+      HONEYCOMB: 5
+  raros:
+    name: Objetos raros
+    icon: ENDER_PEARL
+    stock: low
+    items:
+      BLAZE_ROD: 25
+      GHAST_TEAR: 83
+      PHANTOM_MEMBRANE: 45
+      DRAGON_BREATH: 100
+      ECHO_SHARD: 200
+      SHULKER_SHELL: 125
+      ANCIENT_DEBRIS: 143
+      NETHERITE_SCRAP: 153
+      HEART_OF_THE_SEA: 400
+      NAUTILUS_SHELL: 125
+      steel_ingot: 20
+      cobalt_ingot: 58
+      sky_ingot: 275
+      dragon_core: 1406
+      "gem:ruby:1": 300
+      "gem:ruby:2": 990
+      "gem:sapphire:1": 300
+      "gem:sapphire:2": 990
+      "gem:emerald:1": 300
+      "gem:emerald:2": 990
+      "gem:topaz:1": 300
+      "gem:topaz:2": 990
+      "gem:amethyst:1": 300
+      "gem:amethyst:2": 990
+      "gem:diamond:1": 300
+      "gem:diamond:2": 990
+      "gem:onyx:1": 300
+      "gem:onyx:2": 990
+      "gem:opal:1": 300
+      "gem:opal:2": 990
+      "gem:citrine:1": 300
+      "gem:citrine:2": 990
+      "gem:garnet:1": 300
+      "gem:garnet:2": 990
+      "gem:jade:1": 300
+      "gem:jade:2": 990
+      "gem:quartz:1": 300
+      "gem:quartz:2": 990
+  raros_pila16:
+    name: Raros (pila de 16)
+    icon: ENDER_PEARL
+    stock: low_pila16
+    items:
+      ENDER_PEARL: 50

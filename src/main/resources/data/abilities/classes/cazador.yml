@@ -1,0 +1,163 @@
+classes:
+  cazador:
+    abilities:
+      cazador_disparo_certero:
+        name: Disparo Certero
+        description: Dispara contra un objetivo (40 bloques)
+        icon: BOW
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 40
+          damage: 8
+          damage_per_level: 2
+          particle: CRIT
+          sound: ENTITY_ARROW_SHOOT
+          statuses:
+          - bleed:4:1
+      cazador_lluvia_de_flechas:
+        name: Lluvia de Flechas
+        description: Dispara una andanada de proyectiles
+        icon: ARROW
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 3
+          abilities:
+            cazador_disparo_certero: 1
+        effect:
+          type: volley
+          arrows: 6
+          arrows_per_level: 1
+          damage: 4
+          damage_per_level: 0.8
+          spread: 0.35
+          speed: 2.2
+      cazador_paso_ligero:
+        name: Paso Ligero
+        description: Otorga mejoras temporales
+        icon: FEATHER
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 3
+          abilities:
+            cazador_disparo_certero: 1
+        effect:
+          type: buff
+          potions:
+          - speed:10:1
+          - jump_boost:10:1
+          duration_per_level: 2
+          particle: CLOUD
+          sound: ENTITY_RABBIT_JUMP
+      cazador_retirada_agil:
+        name: Retirada Ágil
+        description: Te lanzas con impulso
+        icon: LEATHER_BOOTS
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.5
+        requires:
+          level: 6
+          abilities:
+            cazador_lluvia_de_flechas: 2
+        effect:
+          type: dash
+          power: 1.5
+          backward: true
+          damage: 0
+          radius: 0
+          potions:
+          - speed:3:1
+          particle: CLOUD
+          sound: ENTITY_BAT_TAKEOFF
+      cazador_marca_del_cazador:
+        name: Marca del Cazador
+        description: Dispara contra un objetivo (35 bloques)
+        icon: SPYGLASS
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 8
+          abilities:
+            cazador_lluvia_de_flechas: 2
+            cazador_paso_ligero: 2
+        effect:
+          type: bolt
+          range: 35
+          damage: 3
+          damage_per_level: 1
+          potions:
+          - glowing:10:0
+          - weakness:8:0
+          particle: END_ROD
+          sound: ENTITY_ARROW_HIT_PLAYER
+      cazador_camuflaje:
+        name: Camuflaje
+        description: Otorga mejoras temporales
+        icon: FERN
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 6
+          abilities:
+            cazador_paso_ligero: 2
+        effect:
+          type: buff
+          potions:
+          - invisibility:8:0
+          - speed:8:0
+          duration_per_level: 1.5
+          particle: SPORE_BLOSSOM_AIR
+          sound: BLOCK_GRASS_BREAK
+      cazador_salva_mortal:
+        name: Salva Mortal
+        description: Dispara una andanada de proyectiles
+        icon: CROSSBOW
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 50
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            cazador_marca_del_cazador: 3
+        effect:
+          type: volley
+          arrows: 14
+          arrows_per_level: 2
+          damage: 6
+          damage_per_level: 1.2
+          spread: 0.45
+          speed: 2.6
+          fire_seconds: 3

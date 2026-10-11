@@ -1,0 +1,12 @@
+subclasses:
+  brujo:
+    invocador_demoniaco:
+      name: Invocador Demoníaco
+      description: Pacta con entidades oscuras para invocar demonios superiores con habilidades únicas.
+    maldito:
+      name: Maldito
+      description: Aplica maldiciones permanentes o de larga duración que reducen la armadura, el daño y la curación de los
+        objetivos.
+    devorador_de_almas:
+      name: Devorador de Almas
+      description: Consume la energía de los enemigos caídos para recargar instantáneamente sus habilidades de mayor daño.

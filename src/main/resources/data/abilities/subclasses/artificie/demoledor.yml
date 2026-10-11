@@ -1,0 +1,108 @@
+subclasses:
+  demoledor:
+    abilities:
+      demoledor_carga_de_c4:
+        name: Carga de C4
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: TNT
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 12
+        cooldown_per_level: -0.5
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          at_target: true
+          range: 18
+          damage: 14
+          damage_per_level: 3
+          radius: 4
+          knockback: 1.6
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - stun:1
+      demoledor_salto_explosivo:
+        name: Salto Explosivo
+        description: Saltas y golpeas el suelo con fuerza
+        icon: FIREWORK_STAR
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            demoledor_carga_de_c4: 1
+        effect:
+          type: slam
+          up: 1.1
+          delay: 10
+          damage: 10
+          damage_per_level: 3
+          radius: 5
+          knockback: 1.4
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - burn:3:1
+      demoledor_mina_de_proximidad:
+        name: Mina de Proximidad
+        description: Golpea a los enemigos en un radio de 3 bloques
+        icon: STONE_PRESSURE_PLATE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 5
+          abilities:
+            demoledor_carga_de_c4: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 15
+          damage: 10
+          damage_per_level: 2.5
+          radius: 3
+          potions:
+          - slowness:4:2
+          particle: EXPLOSION
+          sound: ENTITY_CREEPER_PRIMED
+          statuses:
+          - burn:3:1
+      demoledor_bombardeo:
+        name: Bombardeo
+        description: Golpea a los enemigos en un radio de 9 bloques
+        icon: TNT_MINECART
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            demoledor_salto_explosivo: 2
+            demoledor_mina_de_proximidad: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 30
+          damage: 26
+          damage_per_level: 6
+          radius: 9
+          knockback: 2.0
+          particle: EXPLOSION_EMITTER
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - burn:4:2

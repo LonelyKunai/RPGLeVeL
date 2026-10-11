@@ -1,0 +1,108 @@
+subclasses:
+  maldito:
+    abilities:
+      maldito_maldicion_de_debilidad:
+        name: Maldición de Debilidad
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: WITHER_ROSE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 0
+          radius: 6
+          potions:
+          - weakness:12:2
+          - slowness:8:1
+          duration_per_level: 1.5
+          particle: SQUID_INK
+          sound: ENTITY_ELDER_GUARDIAN_CURSE
+      maldito_marca_fatal:
+        name: Marca Fatal
+        description: Dispara contra un objetivo (24 bloques)
+        icon: SKELETON_SKULL
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            maldito_maldicion_de_debilidad: 1
+        effect:
+          type: bolt
+          range: 24
+          damage: 5
+          damage_per_level: 1.5
+          potions:
+          - glowing:10:0
+          - wither:6:1
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SHOOT
+          statuses:
+          - poison:6:1
+      maldito_contagio_oscuro:
+        name: Contagio Oscuro
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: SCULK
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            maldito_maldicion_de_debilidad: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 22
+          damage: 6
+          damage_per_level: 1.5
+          radius: 7
+          potions:
+          - wither:10:1
+          - poison:8:0
+          particle: SQUID_INK
+          sound: ENTITY_WARDEN_AMBIENT
+          statuses:
+          - poison:8:1
+      maldito_condena_eterna:
+        name: Condena Eterna
+        description: Golpea a los enemigos en un radio de 10 bloques
+        icon: WITHER_SKELETON_SKULL
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            maldito_marca_fatal: 2
+            maldito_contagio_oscuro: 2
+        effect:
+          type: aoe
+          damage: 15
+          damage_per_level: 3.5
+          radius: 10
+          potions:
+          - wither:12:2
+          - weakness:12:2
+          - slowness:12:2
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SPAWN
+          statuses:
+          - poison:8:2

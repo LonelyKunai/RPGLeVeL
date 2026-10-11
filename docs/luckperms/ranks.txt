@@ -1,0 +1,171 @@
+# RPGLeVeL - rangos de LuckPerms. Pega estas lineas en la consola del servidor (una por linea).
+# 10 grupos de clase (gratuitos) + 10 rangos de pago universales. Ver docs/LUCKPERMS.md.
+
+# --- tracks ---
+lp createtrack clase
+lp createtrack pago
+lp createtrack staff
+lp track staff append owner
+lp group owner permission set tab.staff true
+
+# --- rangos de clase (gratuitos) ---
+lp creategroup class_artificie
+lp group class_artificie setweight 100
+lp group class_artificie setdisplayname "Artífice"
+lp group class_artificie meta addprefix 50 "&6[Artífice]&r"
+lp group class_artificie permission set playerkits.kit.clase_artificie true
+lp track clase append class_artificie
+
+lp creategroup class_bardo
+lp group class_bardo setweight 100
+lp group class_bardo setdisplayname "Bardo"
+lp group class_bardo meta addprefix 50 "&d[Bardo]&r"
+lp group class_bardo permission set playerkits.kit.clase_bardo true
+lp track clase append class_bardo
+
+lp creategroup class_brujo
+lp group class_brujo setweight 100
+lp group class_brujo setdisplayname "Brujo"
+lp group class_brujo meta addprefix 50 "&5[Brujo]&r"
+lp group class_brujo permission set playerkits.kit.clase_brujo true
+lp track clase append class_brujo
+
+lp creategroup class_cazador
+lp group class_cazador setweight 100
+lp group class_cazador setdisplayname "Cazador"
+lp group class_cazador meta addprefix 50 "&a[Cazador]&r"
+lp group class_cazador permission set playerkits.kit.clase_cazador true
+lp track clase append class_cazador
+
+lp creategroup class_clerigo
+lp group class_clerigo setweight 100
+lp group class_clerigo setdisplayname "Clérigo"
+lp group class_clerigo meta addprefix 50 "&f[Clérigo]&r"
+lp group class_clerigo permission set playerkits.kit.clase_clerigo true
+lp track clase append class_clerigo
+
+lp creategroup class_druida
+lp group class_druida setweight 100
+lp group class_druida setdisplayname "Druida"
+lp group class_druida meta addprefix 50 "&2[Druida]&r"
+lp group class_druida permission set playerkits.kit.clase_druida true
+lp track clase append class_druida
+
+lp creategroup class_guerrero
+lp group class_guerrero setweight 100
+lp group class_guerrero setdisplayname "Guerrero"
+lp group class_guerrero meta addprefix 50 "&c[Guerrero]&r"
+lp group class_guerrero permission set playerkits.kit.clase_guerrero true
+lp track clase append class_guerrero
+
+lp creategroup class_mago
+lp group class_mago setweight 100
+lp group class_mago setdisplayname "Mago"
+lp group class_mago meta addprefix 50 "&b[Mago]&r"
+lp group class_mago permission set playerkits.kit.clase_mago true
+lp track clase append class_mago
+
+lp creategroup class_nigromante
+lp group class_nigromante setweight 100
+lp group class_nigromante setdisplayname "Nigromante"
+lp group class_nigromante meta addprefix 50 "&8[Nigromante]&r"
+lp group class_nigromante permission set playerkits.kit.clase_nigromante true
+lp track clase append class_nigromante
+
+lp creategroup class_picaro
+lp group class_picaro setweight 100
+lp group class_picaro setdisplayname "Pícaro"
+lp group class_picaro meta addprefix 50 "&e[Pícaro]&r"
+lp group class_picaro permission set playerkits.kit.clase_picaro true
+lp track clase append class_picaro
+
+# --- rangos de pago universales (cada uno hereda el anterior; un jugador solo tiene el mas alto) ---
+lp creategroup vip_bronce
+lp group vip_bronce setweight 200
+lp group vip_bronce setdisplayname "Bronce"
+lp group vip_bronce meta addprefix 100 "&6[Bronce]&r"
+lp group vip_bronce permission set essentials.chat.color true
+lp group vip_bronce permission set essentials.nick true
+lp group vip_bronce permission set playerkits.kit.vip_bronce true
+lp track pago append vip_bronce
+
+lp creategroup vip_plata
+lp group vip_plata setweight 210
+lp group vip_plata setdisplayname "Plata"
+lp group vip_plata meta addprefix 101 "&7[Plata]&r"
+lp group vip_plata parent add vip_bronce
+lp group vip_plata permission set essentials.hat true
+lp group vip_plata permission set playerkits.kit.vip_plata true
+lp track pago append vip_plata
+
+lp creategroup vip_oro
+lp group vip_oro setweight 220
+lp group vip_oro setdisplayname "Oro"
+lp group vip_oro meta addprefix 102 "&e[Oro]&r"
+lp group vip_oro parent add vip_plata
+lp group vip_oro permission set essentials.workbench true
+lp group vip_oro permission set playerkits.kit.vip_oro true
+lp track pago append vip_oro
+
+lp creategroup vip_platino
+lp group vip_platino setweight 230
+lp group vip_platino setdisplayname "Platino"
+lp group vip_platino meta addprefix 103 "&f[Platino]&r"
+lp group vip_platino parent add vip_oro
+lp group vip_platino permission set essentials.enderchest true
+lp group vip_platino permission set playerkits.kit.vip_platino true
+lp track pago append vip_platino
+
+lp creategroup vip_esmeralda
+lp group vip_esmeralda setweight 240
+lp group vip_esmeralda setdisplayname "Esmeralda"
+lp group vip_esmeralda meta addprefix 104 "&a[Esmeralda]&r"
+lp group vip_esmeralda parent add vip_platino
+lp group vip_esmeralda permission set essentials.feed true
+lp group vip_esmeralda permission set playerkits.kit.vip_esmeralda true
+lp track pago append vip_esmeralda
+
+lp creategroup vip_rubi
+lp group vip_rubi setweight 250
+lp group vip_rubi setdisplayname "Rubí"
+lp group vip_rubi meta addprefix 105 "&c[Rubí]&r"
+lp group vip_rubi parent add vip_esmeralda
+lp group vip_rubi permission set essentials.repair true
+lp group vip_rubi permission set playerkits.kit.vip_rubi true
+lp track pago append vip_rubi
+
+lp creategroup vip_zafiro
+lp group vip_zafiro setweight 260
+lp group vip_zafiro setdisplayname "Zafiro"
+lp group vip_zafiro meta addprefix 106 "&9[Zafiro]&r"
+lp group vip_zafiro parent add vip_rubi
+lp group vip_zafiro permission set essentials.heal true
+lp group vip_zafiro permission set playerkits.kit.vip_zafiro true
+lp track pago append vip_zafiro
+
+lp creategroup vip_amatista
+lp group vip_amatista setweight 270
+lp group vip_amatista setdisplayname "Amatista"
+lp group vip_amatista meta addprefix 107 "&5[Amatista]&r"
+lp group vip_amatista parent add vip_zafiro
+lp group vip_amatista permission set essentials.anvil true
+lp group vip_amatista permission set playerkits.kit.vip_amatista true
+lp track pago append vip_amatista
+
+lp creategroup vip_diamante
+lp group vip_diamante setweight 280
+lp group vip_diamante setdisplayname "Diamante"
+lp group vip_diamante meta addprefix 108 "&b&l[Diamante]&r"
+lp group vip_diamante parent add vip_amatista
+lp group vip_diamante permission set playerkits.kit.vip_diamante true
+lp track pago append vip_diamante
+
+lp creategroup vip_mitico
+lp group vip_mitico setweight 290
+lp group vip_mitico setdisplayname "Mítico"
+lp group vip_mitico meta addprefix 109 "&d&l[Mítico]&r"
+lp group vip_mitico parent add vip_diamante
+lp group vip_mitico permission set playerkits.kit.vip_mitico true
+lp track pago append vip_mitico
+
+# --- fin. Comprobar: /lp listgroups  y  /lp group vip_oro info

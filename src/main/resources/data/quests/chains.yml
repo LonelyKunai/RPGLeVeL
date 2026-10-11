@@ -1,0 +1,137 @@
+# Misiones en cadena con historia. Se aceptan hablando con un NPC (/rlv npc create <cadena>) o con /quest chain start <id>.
+# Tipos de paso: kill, gather, fish, forge, boss, talk (target: self = hablar con el NPC de la cadena).
+chains:
+  bosque_maldito:
+    name: "El Bosque Maldito"
+    npc: "Anciana Mira"
+    min_class_level: 3
+    intro: "Anciana Mira susurra: «Algo oscuro despierta entre los árboles... necesito\
+      \ a alguien valiente.»"
+    steps:
+    - text: "«Los zombis se multiplican. Elimina 15 para que respiremos.»"
+      type: kill
+      target: ZOMBIE
+      amount: 15
+      reward:
+        coins: 40
+        class_xp: 60
+    - text: "«Ahora las arañas tejen trampas. Acaba con 12.»"
+      type: kill
+      target: SPIDER
+      amount: 12
+      reward:
+        coins: 50
+        class_xp: 80
+    - text: "«Necesito madera para sellar la puerta: tala 30 troncos de roble.»"
+      type: gather
+      target: OAK_LOG
+      amount: 30
+      reward:
+        coins: 40
+        class_xp: 50
+    - text: "«Vuelve a hablar conmigo; hay un último paso.»"
+      type: talk
+      target: self
+      amount: 1
+      reward:
+        coins: 20
+    - text: "«Derrota a un jefe para romper la maldición.»"
+      type: boss
+      target: ANY
+      amount: 1
+      reward:
+        coins: 150
+        class_xp: 300
+    final_reward:
+      coins: 300
+      class_xp: 400
+      ranking_points: 30
+      gear:
+        tier:
+        - 2
+        - 3
+  forja_olvidada:
+    name: "La Forja Olvidada"
+    npc: "Herrero Doran"
+    min_class_level: 8
+    intro: "Doran golpea el yunque: «Esta forja guarda secretos... pero necesito materiales.»"
+    steps:
+    - text: "«Trae 20 minas de hierro para encender la forja.»"
+      type: gather
+      target: IRON_ORE
+      amount: 20
+      reward:
+        coins: 60
+        class_xp: 80
+    - text: "«Forja 3 piezas de equipo para probar la técnica.»"
+      type: forge
+      target: ANY
+      amount: 3
+      reward:
+        coins: 90
+        class_xp: 120
+    - text: "«Los esqueletos roban mis herramientas: elimina 25.»"
+      type: kill
+      target: SKELETON
+      amount: 25
+      reward:
+        coins: 80
+        class_xp: 100
+    - text: "«Forja 5 piezas más; la forja despertará.»"
+      type: forge
+      target: ANY
+      amount: 5
+      reward:
+        coins: 150
+        class_xp: 200
+    final_reward:
+      coins: 500
+      class_xp: 600
+      ranking_points: 40
+      gear:
+        tier:
+        - 3
+        - 4
+      gem:
+        level:
+        - 2
+        - 2
+  sombras_del_nether:
+    name: "Sombras del Nether"
+    npc: "Vigía Kael"
+    min_class_level: 18
+    intro: "Kael señala el portal: «Las sombras cruzan. Alguien debe detenerlas.»"
+    steps:
+    - text: "«Elimina 20 Blazes en la fortaleza.»"
+      type: kill
+      target: BLAZE
+      amount: 20
+      reward:
+        coins: 120
+        class_xp: 200
+    - text: "«Mina 8 escombros antiguos para reforzar el portal.»"
+      type: gather
+      target: ANCIENT_DEBRIS
+      amount: 8
+      reward:
+        coins: 150
+        class_xp: 250
+    - text: "«Derrota a 2 jefes.»"
+      type: boss
+      target: ANY
+      amount: 2
+      reward:
+        coins: 300
+        class_xp: 500
+    final_reward:
+      coins: 900
+      class_xp: 1000
+      ranking_points: 60
+      gear:
+        tier:
+        - 4
+        - 5
+      gem:
+        level:
+        - 3
+        - 3

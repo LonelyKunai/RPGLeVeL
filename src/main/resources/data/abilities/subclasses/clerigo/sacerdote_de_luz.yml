@@ -1,0 +1,93 @@
+subclasses:
+  sacerdote_de_luz:
+    abilities:
+      sacerdote_de_luz_luz_curativa:
+        name: Luz Curativa
+        description: Cura a los aliados cercanos
+        icon: GLOW_BERRIES
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: heal
+          amount: 10
+          amount_per_level: 2.5
+          radius: 6
+          particle: HEART
+          sound: ENTITY_PLAYER_LEVELUP
+      sacerdote_de_luz_renovacion:
+        name: Renovación
+        description: Otorga mejoras temporales
+        icon: GOLDEN_APPLE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            sacerdote_de_luz_luz_curativa: 1
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - regeneration:15:1
+          duration_per_level: 3
+          particle: HAPPY_VILLAGER
+          sound: BLOCK_BEACON_ACTIVATE
+      sacerdote_de_luz_santuario:
+        name: Santuario
+        description: Otorga mejoras temporales
+        icon: BEACON
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 38
+        cooldown_per_level: -1.8
+        requires:
+          level: 5
+          abilities:
+            sacerdote_de_luz_luz_curativa: 1
+        effect:
+          type: buff
+          radius: 6
+          potions:
+          - absorption:20:3
+          - resistance:12:2
+          duration_per_level: 3
+          particle: END_ROD
+          sound: BLOCK_BEACON_POWER_SELECT
+      sacerdote_de_luz_milagro:
+        name: Milagro
+        description: Cura a los aliados cercanos
+        icon: ENCHANTED_GOLDEN_APPLE
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 70
+        cooldown_per_level: -3.5
+        requires:
+          level: 15
+          abilities:
+            sacerdote_de_luz_renovacion: 2
+            sacerdote_de_luz_santuario: 2
+        effect:
+          type: heal
+          amount: 30
+          amount_per_level: 6
+          radius: 12
+          cleanse: true
+          potions:
+          - regeneration:12:2
+          particle: TOTEM_OF_UNDYING
+          sound: ITEM_TOTEM_USE

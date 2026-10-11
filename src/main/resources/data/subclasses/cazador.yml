@@ -1,0 +1,11 @@
+subclasses:
+  cazador:
+    tirador:
+      name: Tirador
+      description: Maximiza el daño crítico con arco o ballesta a grandes distancias y cuenta con habilidades de disparo penetrante.
+    maestro_de_bestias:
+      name: Maestro de Bestias
+      description: Invoca y potencia mascotas (lobos, osos, águilas) para que tanqueen e inflijan daño por él.
+    trampero:
+      name: Trampero
+      description: Especialista en colocar trampas invisibles o de presión que inmovilizan, envenenan o explotan al contacto.

@@ -1,0 +1,103 @@
+subclasses:
+  caballero_de_la_muerte:
+    abilities:
+      caballero_de_la_muerte_toque_helado:
+        name: Toque Helado
+        description: Drena la vida del objetivo y te cura
+        icon: WITHER_SKELETON_SKULL
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: drain
+          range: 5
+          damage: 7
+          damage_per_level: 2
+          ratio: 0.5
+          potions:
+          - slowness:3:1
+          particle: SOUL
+          sound: ENTITY_WITHER_HURT
+          statuses:
+          - freeze:4:1
+      caballero_de_la_muerte_grilletes_de_ultratumba:
+        name: Grilletes de Ultratumba
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: CHAIN
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            caballero_de_la_muerte_toque_helado: 1
+        effect:
+          type: aoe
+          damage: 4
+          damage_per_level: 1
+          radius: 5
+          potions:
+          - slowness:6:2
+          duration_per_level: 1
+          particle: SOUL
+          sound: ENTITY_ZOMBIE_VILLAGER_CONVERTED
+          statuses:
+          - freeze:5:1
+      caballero_de_la_muerte_espada_de_sombras:
+        name: Espada de Sombras
+        description: Dispara contra un objetivo (5 bloques)
+        icon: NETHERITE_SWORD
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 11
+        cooldown_per_level: -0.5
+        requires:
+          level: 5
+          abilities:
+            caballero_de_la_muerte_toque_helado: 1
+        effect:
+          type: bolt
+          range: 5
+          damage: 12
+          damage_per_level: 3
+          potions:
+          - wither:4:1
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SHOOT
+          statuses:
+          - bleed:4:1
+      caballero_de_la_muerte_legion_inmortal:
+        name: Legión Inmortal
+        description: Otorga mejoras temporales
+        icon: WITHER_SKELETON_SKULL
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 65
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            caballero_de_la_muerte_grilletes_de_ultratumba: 2
+            caballero_de_la_muerte_espada_de_sombras: 2
+        effect:
+          type: buff
+          radius: 6
+          potions:
+          - absorption:20:3
+          - resistance:12:1
+          duration_per_level: 3
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SPAWN

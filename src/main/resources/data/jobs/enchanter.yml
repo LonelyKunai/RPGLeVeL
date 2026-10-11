@@ -1,0 +1,23 @@
+jobs:
+  enchanter:
+    name: Encantador
+    description: XP al encantar objetos.
+    icon: ENCHANTING_TABLE
+    bonus: enchanting
+    global: true
+    perks:
+      5:
+        stats:
+          mana_max: 8
+      10:
+        stats:
+          spell_power: 2
+      20:
+        stats:
+          cooldown_reduction: 1.5
+      30:
+        stats:
+          spell_power: 3
+      50:
+        stats:
+          crit_chance: 2

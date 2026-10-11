@@ -1,0 +1,1111 @@
+items:
+  marksman_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910481
+    display_name: "§6§lArma Principal de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      crit_chance: 1.5
+      attack_damage: 0.4
+      execute: 3.5
+      bleed_chance: 1.0
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910482
+    display_name: "§6§lArma Principal de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      crit_chance: 2.7
+      attack_damage: 0.72
+      execute: 6.3
+      bleed_chance: 1.8
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910483
+    display_name: "§6§lArma Principal de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      crit_chance: 4.5
+      attack_damage: 1.2
+      execute: 10.5
+      bleed_chance: 3.0
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910484
+    display_name: "§6§lArma Principal de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      crit_chance: 6.75
+      attack_damage: 1.8
+      execute: 15.75
+      bleed_chance: 4.5
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910485
+    display_name: "§6§lArma Principal de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      crit_chance: 9.75
+      attack_damage: 2.6
+      execute: 22.75
+      bleed_chance: 6.5
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman
+  marksman_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910486
+    display_name: "§6§lCasco de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.28
+      status_resist: 0.56
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910487
+    display_name: "§6§lCasco de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.504
+      status_resist: 1.008
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910488
+    display_name: "§6§lCasco de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.84
+      status_resist: 1.68
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910489
+    display_name: "§6§lCasco de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 1.26
+      status_resist: 2.52
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910490
+    display_name: "§6§lCasco de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 1.82
+      status_resist: 3.64
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman
+  marksman_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910491
+    display_name: "§6§lPechera de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      evasion: 1.04
+      max_health: 1.04
+      luck: 0.52
+      status_resist: 1.04
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910492
+    display_name: "§6§lPechera de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      evasion: 1.872
+      max_health: 1.872
+      luck: 0.936
+      status_resist: 1.872
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910493
+    display_name: "§6§lPechera de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      evasion: 3.12
+      max_health: 3.12
+      luck: 1.56
+      status_resist: 3.12
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910494
+    display_name: "§6§lPechera de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      evasion: 4.68
+      max_health: 4.68
+      luck: 2.34
+      status_resist: 4.68
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910495
+    display_name: "§6§lPechera de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      evasion: 6.76
+      max_health: 6.76
+      luck: 3.38
+      status_resist: 6.76
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman
+  marksman_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910496
+    display_name: "§6§lPantalones de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      evasion: 0.8
+      max_health: 0.8
+      luck: 0.4
+      status_resist: 0.8
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910497
+    display_name: "§6§lPantalones de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      evasion: 1.44
+      max_health: 1.44
+      luck: 0.72
+      status_resist: 1.44
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910498
+    display_name: "§6§lPantalones de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      evasion: 2.4
+      max_health: 2.4
+      luck: 1.2
+      status_resist: 2.4
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910499
+    display_name: "§6§lPantalones de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      evasion: 3.6
+      max_health: 3.6
+      luck: 1.8
+      status_resist: 3.6
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910500
+    display_name: "§6§lPantalones de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      evasion: 5.2
+      max_health: 5.2
+      luck: 2.6
+      status_resist: 5.2
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman
+  marksman_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910501
+    display_name: "§6§lBotas de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.28
+      status_resist: 0.56
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910502
+    display_name: "§6§lBotas de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.504
+      status_resist: 1.008
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910503
+    display_name: "§6§lBotas de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.84
+      status_resist: 1.68
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910504
+    display_name: "§6§lBotas de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 1.26
+      status_resist: 2.52
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910505
+    display_name: "§6§lBotas de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 1.82
+      status_resist: 3.64
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman
+  marksman_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910506
+    display_name: "§6§lObjeto Secundario de Tirador - Nivel I"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      crit_chance: 0.75
+      attack_damage: 0.2
+      execute: 1.75
+      bleed_chance: 0.5
+    requires:
+      subclass: tirador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: marksman
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: marksman
+  marksman_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910507
+    display_name: "§6§lObjeto Secundario de Tirador - Nivel II"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      crit_chance: 1.35
+      attack_damage: 0.36
+      execute: 3.15
+      bleed_chance: 0.9
+    requires:
+      subclass: tirador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 2
+      ingredients:
+      - "marksman_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: marksman
+  marksman_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910508
+    display_name: "§6§lObjeto Secundario de Tirador - Nivel III"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      crit_chance: 2.25
+      attack_damage: 0.6
+      execute: 5.25
+      bleed_chance: 1.5
+    requires:
+      subclass: tirador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 3
+      ingredients:
+      - "marksman_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: marksman
+  marksman_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910509
+    display_name: "§6§lObjeto Secundario de Tirador - Nivel IV"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      crit_chance: 3.375
+      attack_damage: 0.9
+      execute: 7.875
+      bleed_chance: 2.25
+    requires:
+      subclass: tirador
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 4
+      ingredients:
+      - "marksman_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: marksman
+  marksman_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910510
+    display_name: "§6§lObjeto Secundario de Tirador - Nivel V"
+    lore:
+    - "§8Set: Tirador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: marksman
+      name: Tirador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      crit_chance: 4.875
+      attack_damage: 1.3
+      execute: 11.375
+      bleed_chance: 3.25
+    requires:
+      subclass: tirador
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: marksman
+      tier: 5
+      ingredients:
+      - "marksman_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: marksman

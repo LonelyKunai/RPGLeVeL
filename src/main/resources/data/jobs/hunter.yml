@@ -1,0 +1,23 @@
+jobs:
+  hunter:
+    name: Cazador
+    description: Más experiencia al matar mobs.
+    icon: STONE_SWORD
+    bonus: mob_xp
+    global: true
+    perks:
+      5:
+        stats:
+          attack_damage: 0.3
+      10:
+        stats:
+          crit_chance: 1
+      20:
+        stats:
+          crit_damage: 5
+      30:
+        stats:
+          penetration: 2
+      50:
+        stats:
+          lifesteal: 1

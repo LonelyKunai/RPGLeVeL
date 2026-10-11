@@ -1,0 +1,194 @@
+# Misiones de rango S (rank_index 6). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_s_01:
+    name: '[S] Caza de Ravager x44'
+    description: Elimina 44 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 44
+    rank_index: 6
+    reward_xp: 420
+  q_s_02:
+    name: '[S] Caza de Piglin Brute x44'
+    description: Elimina 44 Piglin Brute.
+    type: kill
+    target: PIGLIN_BRUTE
+    amount: 44
+    rank_index: 6
+    reward_xp: 420
+  q_s_03:
+    name: '[S] Caza de Evoker x44'
+    description: Elimina 44 Evoker.
+    type: kill
+    target: EVOKER
+    amount: 44
+    rank_index: 6
+    reward_xp: 420
+  q_s_04:
+    name: '[S] Caza de Elder Guardian x1'
+    description: Elimina 1 Elder Guardian.
+    type: kill
+    target: ELDER_GUARDIAN
+    amount: 1
+    rank_index: 6
+    reward_xp: 63
+  q_s_05:
+    name: '[S] Caza de Wither Skeleton x44'
+    description: Elimina 44 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 44
+    rank_index: 6
+    reward_xp: 420
+  q_s_06:
+    name: '[S] Caza de Ravager x88'
+    description: Elimina 88 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 88
+    rank_index: 6
+    reward_xp: 594
+  q_s_07:
+    name: '[S] Caza de Piglin Brute x88'
+    description: Elimina 88 Piglin Brute.
+    type: kill
+    target: PIGLIN_BRUTE
+    amount: 88
+    rank_index: 6
+    reward_xp: 594
+  q_s_08:
+    name: '[S] Caza de Evoker x88'
+    description: Elimina 88 Evoker.
+    type: kill
+    target: EVOKER
+    amount: 88
+    rank_index: 6
+    reward_xp: 594
+  q_s_09:
+    name: '[S] Caza de Wither Skeleton x88'
+    description: Elimina 88 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 88
+    rank_index: 6
+    reward_xp: 594
+  q_s_10:
+    name: '[S] Recolección de Ancient Debris x88'
+    description: Recolecta 88 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 88
+    rank_index: 6
+    reward_xp: 420
+  q_s_11:
+    name: '[S] Recolección de Deepslate Diamond Ore x88'
+    description: Recolecta 88 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 88
+    rank_index: 6
+    reward_xp: 420
+  q_s_12:
+    name: '[S] Recolección de Obsidian x88'
+    description: Recolecta 88 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 88
+    rank_index: 6
+    reward_xp: 420
+  q_s_13:
+    name: '[S] Recolección de Deepslate Emerald Ore x88'
+    description: Recolecta 88 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 88
+    rank_index: 6
+    reward_xp: 420
+  q_s_14:
+    name: '[S] Recolección de Glowstone x88'
+    description: Recolecta 88 Glowstone.
+    type: gather
+    target: GLOWSTONE
+    amount: 88
+    rank_index: 6
+    reward_xp: 420
+  q_s_15:
+    name: '[S] Recolección de Ancient Debris x176'
+    description: Recolecta 176 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 176
+    rank_index: 6
+    reward_xp: 594
+  q_s_16:
+    name: '[S] Recolección de Deepslate Diamond Ore x176'
+    description: Recolecta 176 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 176
+    rank_index: 6
+    reward_xp: 594
+  q_s_17:
+    name: '[S] Recolección de Obsidian x176'
+    description: Recolecta 176 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 176
+    rank_index: 6
+    reward_xp: 594
+  q_s_18:
+    name: '[S] Recolección de Deepslate Emerald Ore x176'
+    description: Recolecta 176 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 176
+    rank_index: 6
+    reward_xp: 594
+  q_s_19:
+    name: '[S] Recolección de Glowstone x176'
+    description: Recolecta 176 Glowstone.
+    type: gather
+    target: GLOWSTONE
+    amount: 176
+    rank_index: 6
+    reward_xp: 594
+  q_s_20:
+    name: '[S] Pesca de Enchanted Book x14'
+    description: Pesca 14 Enchanted Book.
+    type: fish
+    target: ENCHANTED_BOOK
+    amount: 14
+    rank_index: 6
+    reward_xp: 236
+  q_s_21:
+    name: '[S] Pesca de Nautilus Shell x14'
+    description: Pesca 14 Nautilus Shell.
+    type: fish
+    target: NAUTILUS_SHELL
+    amount: 14
+    rank_index: 6
+    reward_xp: 236
+  q_s_22:
+    name: '[S] Pesca de Saddle x14'
+    description: Pesca 14 Saddle.
+    type: fish
+    target: SADDLE
+    amount: 14
+    rank_index: 6
+    reward_xp: 236
+  q_s_23:
+    name: '[S] Pesca de Name Tag x14'
+    description: Pesca 14 Name Tag.
+    type: fish
+    target: NAME_TAG
+    amount: 14
+    rank_index: 6
+    reward_xp: 236
+  q_s_24:
+    name: '[S] Pesca de Enchanted Book x28'
+    description: Pesca 28 Enchanted Book.
+    type: fish
+    target: ENCHANTED_BOOK
+    amount: 28
+    rank_index: 6
+    reward_xp: 335

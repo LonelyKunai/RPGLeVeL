@@ -1,0 +1,171 @@
+classes:
+  picaro:
+    abilities:
+      picaro_punalada:
+        name: Puñalada
+        description: Dispara contra un objetivo (3.5 bloques)
+        icon: DIAMOND_SWORD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.3
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 3.5
+          damage: 8
+          damage_per_level: 2.5
+          particle: CRIT
+          sound: ENTITY_PLAYER_ATTACK_CRIT
+          execute_below: 0.3
+          execute_mult: 1.8
+          statuses:
+          - bleed:5:1
+      picaro_paso_sombrio:
+        name: Paso Sombrío
+        description: Te teletransportas hacia adelante
+        icon: ENDER_EYE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.5
+        requires:
+          level: 3
+          abilities:
+            picaro_punalada: 1
+        effect:
+          type: blink
+          distance: 7
+          distance_per_level: 1
+          potions:
+          - speed:3:1
+          particle: SMOKE
+          sound: ENTITY_ENDERMAN_TELEPORT
+      picaro_bomba_de_humo:
+        name: Bomba de Humo
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: GUNPOWDER
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 3
+          abilities:
+            picaro_punalada: 1
+        effect:
+          type: aoe
+          radius: 4
+          damage: 0
+          potions:
+          - blindness:4:0
+          - slowness:4:1
+          duration_per_level: 1
+          particle: LARGE_SMOKE
+          sound: ENTITY_GENERIC_EXTINGUISH_FIRE
+      picaro_danza_de_cuchillas:
+        name: Danza de Cuchillas
+        description: Golpea a los enemigos en un radio de 3.5 bloques
+        icon: GOLDEN_SWORD
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 11
+        cooldown_per_level: -0.5
+        requires:
+          level: 6
+          abilities:
+            picaro_paso_sombrio: 2
+        effect:
+          type: aoe
+          damage: 7
+          damage_per_level: 2
+          radius: 3.5
+          particle: SWEEP_ATTACK
+          sound: ENTITY_PLAYER_ATTACK_SWEEP
+          statuses:
+          - bleed:4:1
+      picaro_evasion:
+        name: Evasión
+        description: Otorga mejoras temporales
+        icon: PHANTOM_MEMBRANE
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 28
+        cooldown_per_level: -1.5
+        requires:
+          level: 8
+          abilities:
+            picaro_paso_sombrio: 2
+            picaro_bomba_de_humo: 2
+        effect:
+          type: buff
+          potions:
+          - speed:8:2
+          - invisibility:5:0
+          duration_per_level: 1.5
+          particle: CLOUD
+          sound: ENTITY_PHANTOM_FLAP
+      picaro_golpe_letal:
+        name: Golpe Letal
+        description: Dispara contra un objetivo (3.5 bloques)
+        icon: PRISMARINE_SHARD
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.8
+        requires:
+          level: 6
+          abilities:
+            picaro_bomba_de_humo: 2
+        effect:
+          type: bolt
+          range: 3.5
+          damage: 12
+          damage_per_level: 3.5
+          potions:
+          - weakness:5:1
+          particle: DAMAGE_INDICATOR
+          sound: ENTITY_PLAYER_ATTACK_CRIT
+          execute_below: 0.35
+          execute_mult: 2.0
+          statuses:
+          - bleed:6:2
+      picaro_tormenta_de_acero:
+        name: Tormenta de Acero
+        description: Un ataque que salta entre enemigos cercanos
+        icon: NETHERITE_SWORD
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            picaro_evasion: 3
+        effect:
+          type: chain
+          damage: 12
+          damage_per_level: 3
+          targets: 6
+          range: 7
+          falloff: 0.9
+          particle: CRIT
+          sound: ENTITY_PLAYER_ATTACK_SWEEP
+          statuses:
+          - bleed:4:1

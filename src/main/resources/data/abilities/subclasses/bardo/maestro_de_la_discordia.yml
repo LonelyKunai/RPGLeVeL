@@ -1,0 +1,107 @@
+subclasses:
+  maestro_de_la_discordia:
+    abilities:
+      maestro_de_la_discordia_cacofonia:
+        name: Cacofonía
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: NOTE_BLOCK
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 4
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - nausea:6:0
+          - slowness:6:2
+          particle: NOTE
+          sound: BLOCK_NOTE_BLOCK_BASS
+          statuses:
+          - stun:1.5
+      maestro_de_la_discordia_silencio:
+        name: Silencio
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: BARRIER
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            maestro_de_la_discordia_cacofonia: 1
+        effect:
+          type: aoe
+          damage: 0
+          radius: 5
+          potions:
+          - weakness:10:2
+          - blindness:4:0
+          duration_per_level: 1
+          particle: SMOKE
+          sound: BLOCK_SCULK_SHRIEKER_SHRIEK
+      maestro_de_la_discordia_panico_contagioso:
+        name: Pánico Contagioso
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: FERMENTED_SPIDER_EYE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            maestro_de_la_discordia_cacofonia: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 22
+          damage: 6
+          damage_per_level: 1.5
+          radius: 7
+          potions:
+          - slowness:8:3
+          - nausea:6:0
+          - mining_fatigue:6:1
+          particle: ANGRY_VILLAGER
+          sound: ENTITY_ELDER_GUARDIAN_CURSE
+          statuses:
+          - stun:2
+      maestro_de_la_discordia_discordia_total:
+        name: Discordia Total
+        description: Golpea a los enemigos en un radio de 10 bloques
+        icon: ECHO_SHARD
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            maestro_de_la_discordia_silencio: 2
+            maestro_de_la_discordia_panico_contagioso: 2
+        effect:
+          type: aoe
+          damage: 14
+          damage_per_level: 3
+          radius: 10
+          potions:
+          - nausea:10:0
+          - weakness:10:2
+          - slowness:10:3
+          particle: NOTE
+          sound: ENTITY_WARDEN_SONIC_BOOM

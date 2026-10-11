@@ -1,0 +1,36 @@
+# Build Debug File - RPGLevelTier Plugin
+
+## Issue Description
+The plugin requires running `./gradlew clean build` every time to build successfully, even though the build completes successfully.
+
+## Potential Causes
+1. **Gradle Version Incompatibility**: The project uses deprecated Gradle features incompatible with Gradle 10+
+2. **File Watching Issues**: Gradle may not be detecting changes to .rlvp files properly
+3. **Classpath Problems**: The build process may not be properly recognizing changed files
+4. **IDE Caching**: VS Code or Gradle may be caching old build states
+
+## Debug Steps
+1. Check Gradle version compatibility:
+   ```powershell
+   ./gradlew -v
+   ```
+2. Enable Gradle's --warning-mode all to see deprecation warnings:
+   ```powershell
+   ./gradlew --warning-mode all clean build
+   ```
+3. Check for file watcher issues in the build logs
+4. Verify that all .rlvp files are valid YAML format
+
+## Solutions
+1. **Update Gradle**: Consider upgrading to a Gradle version that supports the project's features
+2. **Enable Incremental Builds**: Add `--rerun-tasks` flag to enable incremental builds
+3. **Check File Watchers**: Ensure file watchers are properly configured in VS Code
+4. **Clean Build Cache**: Delete the build directory and Gradle cache
+
+## Current Build Status
+- Build completes successfully (4s4)
+- Deprecation warnings present but don't prevent successful build
+- No actual build failures reported
+
+## Recommendation
+The build is working correctly, but the deprecation warnings suggest upgrading Gradle would provide better long-term stability. For now, the build process is functioning as expected.

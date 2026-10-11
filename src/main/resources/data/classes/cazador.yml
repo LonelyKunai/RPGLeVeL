@@ -1,0 +1,5 @@
+classes:
+  cazador:
+    name: Cazador
+    description: Experto en combate a distancia, movilidad y supervivencia en entornos salvajes.
+    icon: BOW

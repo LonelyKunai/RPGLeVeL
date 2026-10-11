@@ -1,0 +1,97 @@
+subclasses:
+  guardian_salvaje:
+    abilities:
+      guardian_salvaje_golpe_de_oso:
+        name: Golpe de Oso
+        description: Golpea a los enemigos en un radio de 3.5 bloques
+        icon: HONEY_BOTTLE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 9
+          damage_per_level: 2.5
+          radius: 3.5
+          knockback: 1.2
+          particle: SWEEP_ATTACK
+          sound: ENTITY_POLAR_BEAR_WARNING
+          statuses:
+          - stun:1.5
+      guardian_salvaje_piel_de_oso:
+        name: Piel de Oso
+        description: Otorga mejoras temporales
+        icon: LEATHER_CHESTPLATE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 30
+        cooldown_per_level: -1.5
+        requires:
+          level: 5
+          abilities:
+            guardian_salvaje_golpe_de_oso: 1
+        effect:
+          type: buff
+          potions:
+          - resistance:15:2
+          - absorption:15:2
+          duration_per_level: 3
+          particle: COMPOSTER
+          sound: ENTITY_POLAR_BEAR_AMBIENT
+      guardian_salvaje_rugido_del_guardian:
+        name: Rugido del Guardián
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: GOAT_HORN
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            guardian_salvaje_golpe_de_oso: 1
+        effect:
+          type: aoe
+          damage: 4
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - weakness:8:1
+          - slowness:6:1
+          particle: ANGRY_VILLAGER
+          sound: ENTITY_RAVAGER_ROAR
+      guardian_salvaje_furia_ursina:
+        name: Furia Ursina
+        description: Otorga mejoras temporales
+        icon: NETHERITE_CHESTPLATE
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            guardian_salvaje_piel_de_oso: 2
+            guardian_salvaje_rugido_del_guardian: 2
+        effect:
+          type: buff
+          potions:
+          - strength:15:1
+          - resistance:15:2
+          - regeneration:10:1
+          - speed:15:0
+          duration_per_level: 3
+          particle: LAVA
+          sound: ENTITY_RAVAGER_ROAR

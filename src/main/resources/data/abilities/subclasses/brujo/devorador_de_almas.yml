@@ -1,0 +1,96 @@
+subclasses:
+  devorador_de_almas:
+    abilities:
+      devorador_de_almas_devorar:
+        name: Devorar
+        description: Drena la vida del objetivo y te cura
+        icon: GHAST_TEAR
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.3
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: drain
+          range: 12
+          damage: 8
+          damage_per_level: 2
+          ratio: 0.7
+          particle: SCULK_SOUL
+          sound: ENTITY_ZOMBIE_VILLAGER_CURE
+          statuses:
+          - bleed:3:1
+      devorador_de_almas_sed_de_almas:
+        name: Sed de Almas
+        description: Otorga mejoras temporales
+        icon: SOUL_SAND
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 26
+        cooldown_per_level: -1.2
+        requires:
+          level: 5
+          abilities:
+            devorador_de_almas_devorar: 1
+        effect:
+          type: buff
+          potions:
+          - strength:12:1
+          - speed:12:1
+          - regeneration:8:0
+          duration_per_level: 2
+          particle: SOUL
+          sound: ENTITY_WITHER_AMBIENT
+      devorador_de_almas_cosecha_espiritual:
+        name: Cosecha Espiritual
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: SOUL_TORCH
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 5
+          abilities:
+            devorador_de_almas_devorar: 1
+        effect:
+          type: aoe
+          damage: 8
+          damage_per_level: 2
+          radius: 6
+          particle: SCULK_SOUL
+          sound: ENTITY_PHANTOM_BITE
+          statuses:
+          - bleed:4:1
+      devorador_de_almas_eclipse_de_almas:
+        name: Eclipse de Almas
+        description: Un ataque que salta entre enemigos cercanos
+        icon: NETHER_STAR
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            devorador_de_almas_sed_de_almas: 2
+            devorador_de_almas_cosecha_espiritual: 2
+        effect:
+          type: chain
+          damage: 14
+          damage_per_level: 3
+          targets: 8
+          range: 9
+          falloff: 0.9
+          particle: SOUL_FIRE_FLAME
+          sound: ENTITY_WITHER_SPAWN

@@ -1,0 +1,68 @@
+cooldown: 604800
+permission_required: true
+items:
+  1:
+    id: GOLDEN_APPLE
+    amount: 2
+actions:
+  claim:
+    1:
+      action: "console_command: rlv give guardian_weapon_t4 %player% 1"
+    2:
+      action: "console_command: rlv give guardian_helmet_t4 %player% 1"
+    3:
+      action: "console_command: rlv give guardian_chestplate_t4 %player% 1"
+    4:
+      action: "console_command: rlv give guardian_leggings_t4 %player% 1"
+    5:
+      action: "console_command: rlv give guardian_boots_t4 %player% 1"
+    6:
+      action: "console_command: rlv give cobalt_ingot %player% 10"
+    7:
+      action: "console_command: rlv give sky_ingot %player% 1"
+    8:
+      action: "playsound: ENTITY_PLAYER_LEVELUP;10;1"
+  error:
+    1:
+      action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1"
+requirements:
+  one_time_requirements: false
+  price: 0
+display:
+  default:
+    id: NETHER_STAR
+    name: '&9&lKit Zafiro'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set guardian nivel 4 (arma y armadura)'
+      - '&8- &7x10 cobalt_ingot, x1 sky_ingot'
+      - ''
+      - '&7Espera: &c168 h'
+      - ''
+      - '&aClic izquierdo para reclamar'
+    item_flags:
+      - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&9&lKit Zafiro'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set guardian nivel 4 (arma y armadura)'
+      - '&8- &7x10 cobalt_ingot, x1 sky_ingot'
+      - ''
+      - '&cNo tienes permiso para este kit.'
+  cooldown:
+    id: NETHER_STAR
+    name: '&9&lKit Zafiro'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set guardian nivel 4 (arma y armadura)'
+      - '&8- &7x10 cobalt_ingot, x1 sky_ingot'
+      - ''
+      - '&cDebes esperar &7%time%'
+      - '&cpara reclamarlo de nuevo.'
+    item_flags:
+      - HIDE_ATTRIBUTES

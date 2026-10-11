@@ -1,0 +1,1121 @@
+items:
+  reaper_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910781
+    display_name: "§6§lArma Principal de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      lifesteal: 1.0
+      spell_power: 3.0
+      poison_chance: 1.0
+      mana_on_hit: 0.4
+      execute: 2.0
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910782
+    display_name: "§6§lArma Principal de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      lifesteal: 1.8
+      spell_power: 5.4
+      poison_chance: 1.8
+      mana_on_hit: 0.72
+      execute: 3.6
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910783
+    display_name: "§6§lArma Principal de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      lifesteal: 3.0
+      spell_power: 9.0
+      poison_chance: 3.0
+      mana_on_hit: 1.2
+      execute: 6.0
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910784
+    display_name: "§6§lArma Principal de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      lifesteal: 4.5
+      spell_power: 13.5
+      poison_chance: 4.5
+      mana_on_hit: 1.8
+      execute: 9.0
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910785
+    display_name: "§6§lArma Principal de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      lifesteal: 6.5
+      spell_power: 19.5
+      poison_chance: 6.5
+      mana_on_hit: 2.6
+      execute: 13.0
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper
+  reaper_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910786
+    display_name: "§6§lCasco de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.56
+      health_regen: 0.042
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910787
+    display_name: "§6§lCasco de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.008
+      health_regen: 0.0756
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910788
+    display_name: "§6§lCasco de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 1.68
+      health_regen: 0.126
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910789
+    display_name: "§6§lCasco de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 2.52
+      health_regen: 0.189
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910790
+    display_name: "§6§lCasco de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 3.64
+      health_regen: 0.273
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper
+  reaper_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910791
+    display_name: "§6§lPechera de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.04
+      lifesteal: 0.65
+      thorns: 1.04
+      health_regen: 0.078
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910792
+    display_name: "§6§lPechera de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 1.872
+      lifesteal: 1.17
+      thorns: 1.872
+      health_regen: 0.1404
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910793
+    display_name: "§6§lPechera de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.12
+      lifesteal: 1.95
+      thorns: 3.12
+      health_regen: 0.234
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910794
+    display_name: "§6§lPechera de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 4.68
+      lifesteal: 2.925
+      thorns: 4.68
+      health_regen: 0.351
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910795
+    display_name: "§6§lPechera de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 6.76
+      lifesteal: 4.225
+      thorns: 6.76
+      health_regen: 0.507
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper
+  reaper_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910796
+    display_name: "§6§lPantalones de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 0.8
+      lifesteal: 0.5
+      thorns: 0.8
+      health_regen: 0.06
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910797
+    display_name: "§6§lPantalones de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.44
+      lifesteal: 0.9
+      thorns: 1.44
+      health_regen: 0.108
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910798
+    display_name: "§6§lPantalones de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 2.4
+      lifesteal: 1.5
+      thorns: 2.4
+      health_regen: 0.18
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910799
+    display_name: "§6§lPantalones de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 3.6
+      lifesteal: 2.25
+      thorns: 3.6
+      health_regen: 0.27
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910800
+    display_name: "§6§lPantalones de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 5.2
+      lifesteal: 3.25
+      thorns: 5.2
+      health_regen: 0.39
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper
+  reaper_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910801
+    display_name: "§6§lBotas de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.56
+      health_regen: 0.042
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910802
+    display_name: "§6§lBotas de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.008
+      health_regen: 0.0756
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910803
+    display_name: "§6§lBotas de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 1.68
+      health_regen: 0.126
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910804
+    display_name: "§6§lBotas de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 2.52
+      health_regen: 0.189
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910805
+    display_name: "§6§lBotas de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 3.64
+      health_regen: 0.273
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper
+  reaper_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910806
+    display_name: "§6§lObjeto Secundario de Cosechador - Nivel I"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      lifesteal: 0.5
+      spell_power: 1.5
+      poison_chance: 0.5
+      mana_on_hit: 0.2
+      execute: 1.0
+    requires:
+      subclass: cosechador
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: reaper
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: reaper
+  reaper_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910807
+    display_name: "§6§lObjeto Secundario de Cosechador - Nivel II"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      lifesteal: 0.9
+      spell_power: 2.7
+      poison_chance: 0.9
+      mana_on_hit: 0.36
+      execute: 1.8
+    requires:
+      subclass: cosechador
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 2
+      ingredients:
+      - "reaper_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: reaper
+  reaper_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910808
+    display_name: "§6§lObjeto Secundario de Cosechador - Nivel III"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      lifesteal: 1.5
+      spell_power: 4.5
+      poison_chance: 1.5
+      mana_on_hit: 0.6
+      execute: 3.0
+    requires:
+      subclass: cosechador
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 3
+      ingredients:
+      - "reaper_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: reaper
+  reaper_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910809
+    display_name: "§6§lObjeto Secundario de Cosechador - Nivel IV"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      lifesteal: 2.25
+      spell_power: 6.75
+      poison_chance: 2.25
+      mana_on_hit: 0.9
+      execute: 4.5
+    requires:
+      subclass: cosechador
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 4
+      ingredients:
+      - "reaper_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: reaper
+  reaper_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910810
+    display_name: "§6§lObjeto Secundario de Cosechador - Nivel V"
+    lore:
+    - "§8Set: Cosechador"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: reaper
+      name: Cosechador
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      lifesteal: 3.25
+      spell_power: 9.75
+      poison_chance: 3.25
+      mana_on_hit: 1.3
+      execute: 6.5
+    requires:
+      subclass: cosechador
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: reaper
+      tier: 5
+      ingredients:
+      - "reaper_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: reaper

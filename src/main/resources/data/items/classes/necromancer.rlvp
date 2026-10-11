@@ -1,0 +1,1111 @@
+items:
+  necromancer_weapon_t1:
+    material: STICK
+    custom_model_data: 910151
+    display_name: "§6§lArma Principal de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      lifesteal: 1.0
+      spell_power: 3.0
+      poison_chance: 1.0
+      mana_on_hit: 0.4
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "STICK:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_weapon_t2:
+    material: STICK
+    custom_model_data: 910152
+    display_name: "§6§lArma Principal de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      lifesteal: 1.8
+      spell_power: 5.4
+      poison_chance: 1.8
+      mana_on_hit: 0.72
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_weapon_t3:
+    material: STICK
+    custom_model_data: 910153
+    display_name: "§6§lArma Principal de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      lifesteal: 3.0
+      spell_power: 9.0
+      poison_chance: 3.0
+      mana_on_hit: 1.2
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_weapon_t4:
+    material: STICK
+    custom_model_data: 910154
+    display_name: "§6§lArma Principal de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      lifesteal: 4.5
+      spell_power: 13.5
+      poison_chance: 4.5
+      mana_on_hit: 1.8
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_weapon_t5:
+    material: STICK
+    custom_model_data: 910155
+    display_name: "§6§lArma Principal de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      lifesteal: 6.5
+      spell_power: 19.5
+      poison_chance: 6.5
+      mana_on_hit: 2.6
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer
+  necromancer_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910156
+    display_name: "§6§lCasco de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.56
+      health_regen: 0.021
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910157
+    display_name: "§6§lCasco de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.008
+      health_regen: 0.0378
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910158
+    display_name: "§6§lCasco de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 1.68
+      health_regen: 0.063
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910159
+    display_name: "§6§lCasco de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 2.52
+      health_regen: 0.0945
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910160
+    display_name: "§6§lCasco de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 3.64
+      health_regen: 0.1365
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer
+  necromancer_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910161
+    display_name: "§6§lPechera de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.04
+      lifesteal: 0.65
+      thorns: 1.04
+      health_regen: 0.039
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910162
+    display_name: "§6§lPechera de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 1.872
+      lifesteal: 1.17
+      thorns: 1.872
+      health_regen: 0.0702
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910163
+    display_name: "§6§lPechera de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 3.12
+      lifesteal: 1.95
+      thorns: 3.12
+      health_regen: 0.117
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910164
+    display_name: "§6§lPechera de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 4.68
+      lifesteal: 2.925
+      thorns: 4.68
+      health_regen: 0.1755
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910165
+    display_name: "§6§lPechera de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 6.76
+      lifesteal: 4.225
+      thorns: 6.76
+      health_regen: 0.2535
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer
+  necromancer_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910166
+    display_name: "§6§lPantalones de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 0.8
+      lifesteal: 0.5
+      thorns: 0.8
+      health_regen: 0.03
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910167
+    display_name: "§6§lPantalones de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 1.44
+      lifesteal: 0.9
+      thorns: 1.44
+      health_regen: 0.054
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910168
+    display_name: "§6§lPantalones de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 2.4
+      lifesteal: 1.5
+      thorns: 2.4
+      health_regen: 0.09
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910169
+    display_name: "§6§lPantalones de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 3.6
+      lifesteal: 2.25
+      thorns: 3.6
+      health_regen: 0.135
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910170
+    display_name: "§6§lPantalones de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 5.2
+      lifesteal: 3.25
+      thorns: 5.2
+      health_regen: 0.195
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer
+  necromancer_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910171
+    display_name: "§6§lBotas de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.56
+      lifesteal: 0.35
+      thorns: 0.56
+      health_regen: 0.021
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910172
+    display_name: "§6§lBotas de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.008
+      lifesteal: 0.63
+      thorns: 1.008
+      health_regen: 0.0378
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910173
+    display_name: "§6§lBotas de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 1.68
+      lifesteal: 1.05
+      thorns: 1.68
+      health_regen: 0.063
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910174
+    display_name: "§6§lBotas de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 2.52
+      lifesteal: 1.575
+      thorns: 2.52
+      health_regen: 0.0945
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910175
+    display_name: "§6§lBotas de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 3.64
+      lifesteal: 2.275
+      thorns: 3.64
+      health_regen: 0.1365
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer
+  necromancer_offhand_extra_t1:
+    material: BONE
+    custom_model_data: 910176
+    display_name: "§6§lObjeto Secundario de Nigromante - Nivel I"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      lifesteal: 0.5
+      spell_power: 1.5
+      poison_chance: 0.5
+      mana_on_hit: 0.2
+    requires:
+      class: nigromante
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: necromancer
+      tier: 1
+      ingredients:
+      - "BONE:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: necromancer
+  necromancer_offhand_extra_t2:
+    material: BONE
+    custom_model_data: 910177
+    display_name: "§6§lObjeto Secundario de Nigromante - Nivel II"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      lifesteal: 0.9
+      spell_power: 2.7
+      poison_chance: 0.9
+      mana_on_hit: 0.36
+    requires:
+      class: nigromante
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 2
+      ingredients:
+      - "necromancer_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: necromancer
+  necromancer_offhand_extra_t3:
+    material: BONE
+    custom_model_data: 910178
+    display_name: "§6§lObjeto Secundario de Nigromante - Nivel III"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      lifesteal: 1.5
+      spell_power: 4.5
+      poison_chance: 1.5
+      mana_on_hit: 0.6
+    requires:
+      class: nigromante
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 3
+      ingredients:
+      - "necromancer_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: necromancer
+  necromancer_offhand_extra_t4:
+    material: BONE
+    custom_model_data: 910179
+    display_name: "§6§lObjeto Secundario de Nigromante - Nivel IV"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      lifesteal: 2.25
+      spell_power: 6.75
+      poison_chance: 2.25
+      mana_on_hit: 0.9
+    requires:
+      class: nigromante
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 4
+      ingredients:
+      - "necromancer_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: necromancer
+  necromancer_offhand_extra_t5:
+    material: BONE
+    custom_model_data: 910180
+    display_name: "§6§lObjeto Secundario de Nigromante - Nivel V"
+    lore:
+    - "§8Set: Nigromante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: necromancer
+      name: Nigromante
+      group: classes
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      lifesteal: 3.25
+      spell_power: 9.75
+      poison_chance: 3.25
+      mana_on_hit: 1.3
+    requires:
+      class: nigromante
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: necromancer
+      tier: 5
+      ingredients:
+      - "necromancer_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: necromancer

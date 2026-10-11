@@ -1,0 +1,23 @@
+jobs:
+  farmer:
+    name: Granjero
+    description: Mejora la cosecha de cultivos.
+    icon: IRON_HOE
+    bonus: farming
+    global: true
+    perks:
+      5:
+        stats:
+          max_health: 2
+      10:
+        stats:
+          xp_bonus: 1.5
+      20:
+        stats:
+          max_health: 2
+      30:
+        stats:
+          luck: 1
+      50:
+        stats:
+          xp_bonus: 3

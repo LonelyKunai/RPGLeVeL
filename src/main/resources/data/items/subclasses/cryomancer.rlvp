@@ -1,0 +1,1111 @@
+items:
+  cryomancer_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910421
+    display_name: "§6§lArma Principal de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      spell_power: 4.0
+      mana_max: 10.0
+      freeze_chance: 2.0
+      mana_on_hit: 0.5
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910422
+    display_name: "§6§lArma Principal de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      spell_power: 7.2
+      mana_max: 18.0
+      freeze_chance: 3.6
+      mana_on_hit: 0.9
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910423
+    display_name: "§6§lArma Principal de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      spell_power: 12.0
+      mana_max: 30.0
+      freeze_chance: 6.0
+      mana_on_hit: 1.5
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910424
+    display_name: "§6§lArma Principal de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      spell_power: 18.0
+      mana_max: 45.0
+      freeze_chance: 9.0
+      mana_on_hit: 2.25
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910425
+    display_name: "§6§lArma Principal de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      spell_power: 26.0
+      mana_max: 65.0
+      freeze_chance: 13.0
+      mana_on_hit: 3.25
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer
+  cryomancer_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910426
+    display_name: "§6§lCasco de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      mana_max: 5.6
+      cooldown_reduction: 0.56
+      status_resist: 0.7
+      health_regen: 0.042
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910427
+    display_name: "§6§lCasco de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      mana_max: 10.08
+      cooldown_reduction: 1.008
+      status_resist: 1.26
+      health_regen: 0.0756
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910428
+    display_name: "§6§lCasco de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      mana_max: 16.8
+      cooldown_reduction: 1.68
+      status_resist: 2.1
+      health_regen: 0.126
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910429
+    display_name: "§6§lCasco de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      mana_max: 25.2
+      cooldown_reduction: 2.52
+      status_resist: 3.15
+      health_regen: 0.189
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910430
+    display_name: "§6§lCasco de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      mana_max: 36.4
+      cooldown_reduction: 3.64
+      status_resist: 4.55
+      health_regen: 0.273
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer
+  cryomancer_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910431
+    display_name: "§6§lPechera de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      mana_max: 10.4
+      cooldown_reduction: 1.04
+      status_resist: 1.3
+      health_regen: 0.078
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910432
+    display_name: "§6§lPechera de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      mana_max: 18.72
+      cooldown_reduction: 1.872
+      status_resist: 2.34
+      health_regen: 0.1404
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910433
+    display_name: "§6§lPechera de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      mana_max: 31.2
+      cooldown_reduction: 3.12
+      status_resist: 3.9
+      health_regen: 0.234
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910434
+    display_name: "§6§lPechera de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      mana_max: 46.8
+      cooldown_reduction: 4.68
+      status_resist: 5.85
+      health_regen: 0.351
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910435
+    display_name: "§6§lPechera de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      mana_max: 67.6
+      cooldown_reduction: 6.76
+      status_resist: 8.45
+      health_regen: 0.507
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer
+  cryomancer_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910436
+    display_name: "§6§lPantalones de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      mana_max: 8.0
+      cooldown_reduction: 0.8
+      status_resist: 1.0
+      health_regen: 0.06
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910437
+    display_name: "§6§lPantalones de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      mana_max: 14.4
+      cooldown_reduction: 1.44
+      status_resist: 1.8
+      health_regen: 0.108
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910438
+    display_name: "§6§lPantalones de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      mana_max: 24.0
+      cooldown_reduction: 2.4
+      status_resist: 3.0
+      health_regen: 0.18
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910439
+    display_name: "§6§lPantalones de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      mana_max: 36.0
+      cooldown_reduction: 3.6
+      status_resist: 4.5
+      health_regen: 0.27
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910440
+    display_name: "§6§lPantalones de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      mana_max: 52.0
+      cooldown_reduction: 5.2
+      status_resist: 6.5
+      health_regen: 0.39
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer
+  cryomancer_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910441
+    display_name: "§6§lBotas de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      mana_max: 5.6
+      cooldown_reduction: 0.56
+      status_resist: 0.7
+      health_regen: 0.042
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910442
+    display_name: "§6§lBotas de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      mana_max: 10.08
+      cooldown_reduction: 1.008
+      status_resist: 1.26
+      health_regen: 0.0756
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910443
+    display_name: "§6§lBotas de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      mana_max: 16.8
+      cooldown_reduction: 1.68
+      status_resist: 2.1
+      health_regen: 0.126
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910444
+    display_name: "§6§lBotas de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      mana_max: 25.2
+      cooldown_reduction: 2.52
+      status_resist: 3.15
+      health_regen: 0.189
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910445
+    display_name: "§6§lBotas de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      mana_max: 36.4
+      cooldown_reduction: 3.64
+      status_resist: 4.55
+      health_regen: 0.273
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer
+  cryomancer_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910446
+    display_name: "§6§lObjeto Secundario de Criomante - Nivel I"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      spell_power: 2.0
+      mana_max: 5.0
+      freeze_chance: 1.0
+      mana_on_hit: 0.25
+    requires:
+      subclass: criomante
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: cryomancer
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: cryomancer
+  cryomancer_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910447
+    display_name: "§6§lObjeto Secundario de Criomante - Nivel II"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      spell_power: 3.6
+      mana_max: 9.0
+      freeze_chance: 1.8
+      mana_on_hit: 0.45
+    requires:
+      subclass: criomante
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 2
+      ingredients:
+      - "cryomancer_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: cryomancer
+  cryomancer_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910448
+    display_name: "§6§lObjeto Secundario de Criomante - Nivel III"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      spell_power: 6.0
+      mana_max: 15.0
+      freeze_chance: 3.0
+      mana_on_hit: 0.75
+    requires:
+      subclass: criomante
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 3
+      ingredients:
+      - "cryomancer_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: cryomancer
+  cryomancer_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910449
+    display_name: "§6§lObjeto Secundario de Criomante - Nivel IV"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      spell_power: 9.0
+      mana_max: 22.5
+      freeze_chance: 4.5
+      mana_on_hit: 1.125
+    requires:
+      subclass: criomante
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 4
+      ingredients:
+      - "cryomancer_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: cryomancer
+  cryomancer_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910450
+    display_name: "§6§lObjeto Secundario de Criomante - Nivel V"
+    lore:
+    - "§8Set: Criomante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: cryomancer
+      name: Criomante
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      spell_power: 13.0
+      mana_max: 32.5
+      freeze_chance: 6.5
+      mana_on_hit: 1.625
+    requires:
+      subclass: criomante
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: cryomancer
+      tier: 5
+      ingredients:
+      - "cryomancer_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: cryomancer

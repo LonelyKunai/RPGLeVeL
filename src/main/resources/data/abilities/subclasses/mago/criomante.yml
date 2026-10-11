@@ -1,0 +1,102 @@
+subclasses:
+  criomante:
+    abilities:
+      criomante_lanza_de_hielo:
+        name: Lanza de Hielo
+        description: Dispara contra un objetivo (26 bloques)
+        icon: PACKED_ICE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 6
+        cooldown_per_level: -0.25
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 26
+          damage: 7
+          damage_per_level: 2
+          potions:
+          - slowness:4:2
+          particle: SNOWFLAKE
+          sound: ENTITY_SNOW_GOLEM_SHOOT
+          statuses:
+          - freeze:3:1
+      criomante_nevada:
+        name: Nevada
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: SNOWBALL
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            criomante_lanza_de_hielo: 1
+        effect:
+          type: aoe
+          damage: 4
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - slowness:6:2
+          particle: SNOWFLAKE
+          sound: BLOCK_SNOW_BREAK
+          statuses:
+          - freeze:4:1
+      criomante_armadura_de_escarcha:
+        name: Armadura de Escarcha
+        description: Otorga mejoras temporales
+        icon: BLUE_ICE
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 28
+        cooldown_per_level: -1.4
+        requires:
+          level: 5
+          abilities:
+            criomante_lanza_de_hielo: 1
+        effect:
+          type: buff
+          potions:
+          - resistance:12:1
+          - absorption:12:1
+          duration_per_level: 3
+          particle: SNOWFLAKE
+          sound: BLOCK_GLASS_BREAK
+      criomante_ventisca:
+        name: Ventisca
+        description: Golpea a los enemigos en un radio de 8 bloques
+        icon: POWDER_SNOW_BUCKET
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 55
+        cooldown_per_level: -2.5
+        requires:
+          level: 15
+          abilities:
+            criomante_nevada: 2
+            criomante_armadura_de_escarcha: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 25
+          damage: 18
+          damage_per_level: 4
+          radius: 8
+          potions:
+          - slowness:8:3
+          particle: SNOWFLAKE
+          sound: ENTITY_PLAYER_HURT_FREEZE
+          statuses:
+          - freeze:6:2

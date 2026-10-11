@@ -1,0 +1,98 @@
+subclasses:
+  maestro_de_bestias:
+    abilities:
+      maestro_de_bestias_llamada_del_lobo:
+        name: Llamada del Lobo
+        description: Otorga mejoras temporales
+        icon: BONE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 24
+        cooldown_per_level: -1.2
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - strength:12:0
+          - speed:12:1
+          duration_per_level: 2
+          particle: HAPPY_VILLAGER
+          sound: ENTITY_WOLF_HOWL
+      maestro_de_bestias_aullido:
+        name: Aullido
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: GOAT_HORN
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            maestro_de_bestias_llamada_del_lobo: 1
+        effect:
+          type: aoe
+          damage: 2
+          radius: 6
+          potions:
+          - slowness:5:1
+          - weakness:5:0
+          duration_per_level: 1
+          particle: NOTE
+          sound: ENTITY_WOLF_HOWL
+      maestro_de_bestias_rugido_de_oso:
+        name: Rugido de Oso
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: HONEYCOMB
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            maestro_de_bestias_llamada_del_lobo: 1
+        effect:
+          type: aoe
+          damage: 8
+          damage_per_level: 2
+          radius: 4
+          knockback: 1.4
+          particle: SWEEP_ATTACK
+          sound: ENTITY_POLAR_BEAR_WARNING
+          statuses:
+          - stun:1.5
+      maestro_de_bestias_manada_alfa:
+        name: Manada Alfa
+        description: Otorga mejoras temporales
+        icon: LEAD
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 60
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            maestro_de_bestias_aullido: 2
+            maestro_de_bestias_rugido_de_oso: 2
+        effect:
+          type: buff
+          radius: 10
+          potions:
+          - strength:15:1
+          - resistance:15:1
+          - regeneration:10:0
+          duration_per_level: 3
+          particle: HAPPY_VILLAGER
+          sound: ENTITY_WOLF_HOWL

@@ -1,0 +1,98 @@
+subclasses:
+  monje:
+    abilities:
+      monje_palma_explosiva:
+        name: Palma Explosiva
+        description: Golpea a los enemigos en un radio de 3 bloques
+        icon: FIRE_CHARGE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          damage: 8
+          damage_per_level: 2
+          radius: 3
+          knockback: 1.8
+          particle: EXPLOSION
+          sound: ENTITY_PLAYER_ATTACK_KNOCKBACK
+          statuses:
+          - stun:1.5
+      monje_paso_zen:
+        name: Paso Zen
+        description: Te lanzas con impulso
+        icon: FEATHER
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            monje_palma_explosiva: 1
+        effect:
+          type: dash
+          power: 1.8
+          damage: 0
+          radius: 0
+          potions:
+          - speed:3:1
+          particle: CLOUD
+          sound: ENTITY_BAT_TAKEOFF
+      monje_meditacion:
+        name: Meditación
+        description: Cura a los aliados cercanos
+        icon: LILY_OF_THE_VALLEY
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            monje_palma_explosiva: 1
+        effect:
+          type: heal
+          amount: 8
+          amount_per_level: 2
+          radius: 0
+          potions:
+          - regeneration:8:1
+          - resistance:6:0
+          particle: HEART
+          sound: BLOCK_BEACON_AMBIENT
+      monje_mil_punos:
+        name: Mil Puños
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: LEATHER
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            monje_paso_zen: 2
+            monje_meditacion: 2
+        effect:
+          type: aoe
+          damage: 20
+          damage_per_level: 4
+          radius: 4
+          knockback: 0.5
+          particle: CRIT
+          sound: ENTITY_PLAYER_ATTACK_STRONG
+          statuses:
+          - stun:1

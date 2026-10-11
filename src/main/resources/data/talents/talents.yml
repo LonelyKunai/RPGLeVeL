@@ -1,0 +1,365 @@
+# Talentos pasivos globales (/talent). Puntos: niveles de clase/subclase, prestigio y logros.
+settings:
+  levels_per_point: 5
+  points_per_prestige: 2
+  achievements_per_point: 5
+  respec_cost: 300
+branches:
+  offense:
+    name: Ofensiva
+    icon: IRON_SWORD
+  defense:
+    name: Defensa
+    icon: SHIELD
+  magic:
+    name: Magia
+    icon: ENCHANTED_BOOK
+  utility:
+    name: Utilidad
+    icon: COMPASS
+talents:
+  poder_bruto:
+    name: "Poder bruto"
+    description: "Aumenta tu daño de ataque."
+    icon: IRON_SWORD
+    branch: offense
+    row: 0
+    col: 4
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      attack_damage: 0.2
+  punteria:
+    name: Puntería
+    description: "Más probabilidad de golpe crítico."
+    icon: TARGET
+    branch: offense
+    row: 1
+    col: 2
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      crit_chance: 0.6
+    requires:
+      poder_bruto: 2
+  ferocidad:
+    name: Ferocidad
+    description: "Más daño crítico."
+    icon: BLAZE_POWDER
+    branch: offense
+    row: 1
+    col: 6
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      crit_damage: 2.5
+    requires:
+      poder_bruto: 2
+  perforacion:
+    name: Perforación
+    description: "Ignora parte de la armadura enemiga."
+    icon: ARROW
+    branch: offense
+    row: 2
+    col: 1
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      penetration: 1.2
+    requires:
+      punteria: 3
+  sed_de_sangre:
+    name: "Sed de sangre"
+    description: "Robas vida con tus golpes."
+    icon: GHAST_TEAR
+    branch: offense
+    row: 2
+    col: 4
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      lifesteal: 0.5
+    requires:
+      punteria: 2
+      ferocidad: 2
+  desgarrador:
+    name: Desgarrador
+    description: "Probabilidad de causar sangrado."
+    icon: REDSTONE
+    branch: offense
+    row: 2
+    col: 7
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      bleed_chance: 1.2
+    requires:
+      ferocidad: 3
+  golpe_veloz:
+    name: "Golpe veloz"
+    description: "Velocidad de ataque."
+    icon: GOLDEN_SWORD
+    branch: offense
+    row: 3
+    col: 4
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      attack_speed: 0.01
+    requires:
+      sed_de_sangre: 2
+  vitalidad:
+    name: Vitalidad
+    description: "Vida máxima."
+    icon: GOLDEN_APPLE
+    branch: defense
+    row: 0
+    col: 4
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      max_health: 1.0
+  dureza:
+    name: Dureza
+    description: Armadura.
+    icon: IRON_CHESTPLATE
+    branch: defense
+    row: 1
+    col: 2
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      armor: 0.5
+    requires:
+      vitalidad: 2
+  resiliencia:
+    name: Resiliencia
+    description: "Reduce el daño recibido."
+    icon: SHIELD
+    branch: defense
+    row: 1
+    col: 6
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      damage_reduction: 0.6
+    requires:
+      vitalidad: 2
+  esquiva:
+    name: Esquiva
+    description: "Probabilidad de evadir golpes."
+    icon: FEATHER
+    branch: defense
+    row: 2
+    col: 1
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      evasion: 0.6
+    requires:
+      dureza: 3
+  firmeza:
+    name: Firmeza
+    description: "Resistencia a estados alterados."
+    icon: CHAINMAIL_CHESTPLATE
+    branch: defense
+    row: 2
+    col: 4
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      status_resist: 3.0
+    requires:
+      dureza: 2
+      resiliencia: 2
+  baluarte:
+    name: Baluarte
+    description: "Dureza de armadura."
+    icon: NETHERITE_SCRAP
+    branch: defense
+    row: 2
+    col: 7
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      armor_toughness: 0.3
+    requires:
+      resiliencia: 3
+  inquebrantable:
+    name: Inquebrantable
+    description: "Resistencia al empuje."
+    icon: ANVIL
+    branch: defense
+    row: 3
+    col: 4
+    max_level: 3
+    cost: 1
+    stats_per_level:
+      knockback_resistance: 0.05
+    requires:
+      firmeza: 2
+  poder_arcano:
+    name: "Poder arcano"
+    description: "Poder de tus habilidades."
+    icon: AMETHYST_SHARD
+    branch: magic
+    row: 0
+    col: 4
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      spell_power: 1.5
+  reservas:
+    name: "Reservas profundas"
+    description: "Maná máximo."
+    icon: LAPIS_LAZULI
+    branch: magic
+    row: 1
+    col: 2
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      mana_max: 8
+  flujo:
+    name: "Flujo de maná"
+    description: "Regeneración de maná."
+    icon: HEART_OF_THE_SEA
+    branch: magic
+    row: 1
+    col: 6
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      mana_regen: 0.12
+    requires:
+      poder_arcano: 2
+  celeridad:
+    name: Celeridad
+    description: "Reduce el enfriamiento."
+    icon: CLOCK
+    branch: magic
+    row: 2
+    col: 4
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      cooldown_reduction: 0.8
+    requires:
+      reservas: 2
+      flujo: 2
+  piromano:
+    name: Piromano
+    description: "Probabilidad de quemar."
+    icon: BLAZE_ROD
+    branch: magic
+    row: 2
+    col: 1
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      burn_chance: 1.2
+    requires:
+      poder_arcano: 3
+  escarcha:
+    name: Escarcha
+    description: "Probabilidad de congelar."
+    icon: BLUE_ICE
+    branch: magic
+    row: 2
+    col: 7
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      freeze_chance: 1.2
+    requires:
+      poder_arcano: 3
+  tormenta:
+    name: Tormenta
+    description: "Probabilidad de electrocutar."
+    icon: LIGHTNING_ROD
+    branch: magic
+    row: 3
+    col: 4
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      shock_chance: 1.2
+    requires:
+      celeridad: 3
+  zancada:
+    name: Zancada
+    description: "Velocidad de movimiento."
+    icon: LEATHER_BOOTS
+    branch: utility
+    row: 0
+    col: 4
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      movement_speed: 0.003
+  erudito:
+    name: Erudito
+    description: "Más experiencia de combate."
+    icon: BOOK
+    branch: utility
+    row: 1
+    col: 2
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      xp_bonus: 1.0
+    requires:
+      zancada: 2
+  fortuna:
+    name: Fortuna
+    description: "Suerte para el botín."
+    icon: RABBIT_FOOT
+    branch: utility
+    row: 1
+    col: 6
+    max_level: 5
+    cost: 1
+    stats_per_level:
+      luck: 0.4
+    requires:
+      zancada: 2
+  toxinas:
+    name: Toxinas
+    description: "Probabilidad de envenenar."
+    icon: SPIDER_EYE
+    branch: utility
+    row: 2
+    col: 1
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      poison_chance: 1.2
+    requires:
+      erudito: 2
+  conmocion:
+    name: Conmoción
+    description: "Probabilidad de aturdir."
+    icon: IRON_AXE
+    branch: utility
+    row: 2
+    col: 7
+    max_level: 4
+    cost: 1
+    stats_per_level:
+      stun_chance: 0.8
+    requires:
+      fortuna: 2
+  maestria:
+    name: Maestría
+    description: "Más XP y suerte, la cumbre de la utilidad."
+    icon: NETHER_STAR
+    branch: utility
+    row: 3
+    col: 4
+    max_level: 3
+    cost: 2
+    stats_per_level:
+      xp_bonus: 1.5
+    requires:
+      erudito: 3
+      fortuna: 3

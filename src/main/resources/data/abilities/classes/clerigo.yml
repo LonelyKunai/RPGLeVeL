@@ -1,0 +1,164 @@
+classes:
+  clerigo:
+    abilities:
+      clerigo_toque_sanador:
+        name: Toque Sanador
+        description: Cura a los aliados cercanos
+        icon: GOLDEN_APPLE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 8
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: heal
+          amount: 6
+          amount_per_level: 2
+          radius: 6
+          particle: HEART
+          sound: ENTITY_PLAYER_LEVELUP
+      clerigo_bendicion:
+        name: Bendición
+        description: Otorga mejoras temporales
+        icon: GLOWSTONE_DUST
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 28
+        cooldown_per_level: -1.5
+        requires:
+          level: 3
+          abilities:
+            clerigo_toque_sanador: 1
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - resistance:12:0
+          - regeneration:8:0
+          duration_per_level: 2
+          particle: END_ROD
+          sound: BLOCK_BEACON_ACTIVATE
+      clerigo_castigo_divino:
+        name: Castigo Divino
+        description: Invoca un rayo sobre el objetivo
+        icon: LIGHTNING_ROD
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 13
+        cooldown_per_level: -0.6
+        requires:
+          level: 3
+          abilities:
+            clerigo_toque_sanador: 1
+        effect:
+          type: lightning
+          range: 20
+          damage: 10
+          damage_per_level: 2.5
+          radius: 0
+          sound: ENTITY_LIGHTNING_BOLT_THUNDER
+          statuses:
+          - shock:3:1
+      clerigo_purificar:
+        name: Purificar
+        description: Cura a los aliados cercanos
+        icon: MILK_BUCKET
+        row: 2
+        col: 1
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -1
+        requires:
+          level: 6
+          abilities:
+            clerigo_bendicion: 2
+        effect:
+          type: heal
+          amount: 3
+          amount_per_level: 1
+          radius: 6
+          cleanse: true
+          particle: HAPPY_VILLAGER
+          sound: BLOCK_BREWING_STAND_BREW
+      clerigo_escudo_sagrado:
+        name: Escudo Sagrado
+        description: Otorga mejoras temporales
+        icon: SHIELD
+        row: 2
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 32
+        cooldown_per_level: -1.5
+        requires:
+          level: 8
+          abilities:
+            clerigo_bendicion: 2
+            clerigo_castigo_divino: 2
+        effect:
+          type: buff
+          radius: 4
+          potions:
+          - absorption:20:3
+          duration_per_level: 3
+          particle: TOTEM_OF_UNDYING
+          sound: ITEM_TOTEM_USE
+      clerigo_luz_cegadora:
+        name: Luz Cegadora
+        description: Golpea a los enemigos en un radio de 6 bloques
+        icon: SEA_LANTERN
+        row: 2
+        col: 7
+        cost: 1
+        max_level: 5
+        cooldown: 20
+        cooldown_per_level: -1
+        requires:
+          level: 6
+          abilities:
+            clerigo_castigo_divino: 2
+        effect:
+          type: aoe
+          damage: 5
+          damage_per_level: 1
+          radius: 6
+          potions:
+          - blindness:3:0
+          - glowing:6:0
+          particle: END_ROD
+          sound: BLOCK_BEACON_POWER_SELECT
+          statuses:
+          - stun:1.5
+      clerigo_resurgir_celestial:
+        name: Resurgir Celestial
+        description: Cura a los aliados cercanos
+        icon: TOTEM_OF_UNDYING
+        row: 4
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 70
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            clerigo_escudo_sagrado: 3
+        effect:
+          type: heal
+          amount: 20
+          amount_per_level: 4
+          radius: 10
+          cleanse: true
+          potions:
+          - regeneration:10:1
+          particle: TOTEM_OF_UNDYING
+          sound: ITEM_TOTEM_USE

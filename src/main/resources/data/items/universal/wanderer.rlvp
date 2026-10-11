@@ -1,0 +1,1081 @@
+items:
+  wanderer_weapon_t1:
+    material: IRON_SWORD
+    custom_model_data: 911231
+    display_name: "§6§lArma Principal de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      movement_speed: 0.002
+      evasion: 0.6
+      luck: 0.2
+      health_regen: 0.03
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "IRON_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_weapon_t2:
+    material: IRON_SWORD
+    custom_model_data: 911232
+    display_name: "§6§lArma Principal de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      movement_speed: 0.004
+      evasion: 1.08
+      luck: 0.36
+      health_regen: 0.054
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_weapon_t3:
+    material: IRON_SWORD
+    custom_model_data: 911233
+    display_name: "§6§lArma Principal de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      movement_speed: 0.006
+      evasion: 1.8
+      luck: 0.6
+      health_regen: 0.09
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_weapon_t4:
+    material: IRON_SWORD
+    custom_model_data: 911234
+    display_name: "§6§lArma Principal de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      movement_speed: 0.009
+      evasion: 2.7
+      luck: 0.9
+      health_regen: 0.135
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_weapon_t5:
+    material: IRON_SWORD
+    custom_model_data: 911235
+    display_name: "§6§lArma Principal de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      movement_speed: 0.013
+      evasion: 3.9
+      luck: 1.3
+      health_regen: 0.195
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer
+  wanderer_helmet_t1:
+    material: IRON_HELMET
+    custom_model_data: 911236
+    display_name: "§6§lCasco de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      movement_speed: 0.001
+      evasion: 0.42
+      luck: 0.14
+      health_regen: 0.021
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "IRON_HELMET:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_helmet_t2:
+    material: IRON_HELMET
+    custom_model_data: 911237
+    display_name: "§6§lCasco de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      movement_speed: 0.003
+      evasion: 0.756
+      luck: 0.252
+      health_regen: 0.0378
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_helmet_t3:
+    material: IRON_HELMET
+    custom_model_data: 911238
+    display_name: "§6§lCasco de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      movement_speed: 0.004
+      evasion: 1.26
+      luck: 0.42
+      health_regen: 0.063
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_helmet_t4:
+    material: IRON_HELMET
+    custom_model_data: 911239
+    display_name: "§6§lCasco de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      movement_speed: 0.006
+      evasion: 1.89
+      luck: 0.63
+      health_regen: 0.0945
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_helmet_t5:
+    material: IRON_HELMET
+    custom_model_data: 911240
+    display_name: "§6§lCasco de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      movement_speed: 0.009
+      evasion: 2.73
+      luck: 0.91
+      health_regen: 0.1365
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer
+  wanderer_chestplate_t1:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911241
+    display_name: "§6§lPechera de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      movement_speed: 0.003
+      evasion: 0.78
+      luck: 0.26
+      health_regen: 0.039
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "IRON_CHESTPLATE:1"
+      - "IRON_INGOT:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_chestplate_t2:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911242
+    display_name: "§6§lPechera de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      movement_speed: 0.005
+      evasion: 1.404
+      luck: 0.468
+      health_regen: 0.0702
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_chestplate_t3:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911243
+    display_name: "§6§lPechera de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      movement_speed: 0.008
+      evasion: 2.34
+      luck: 0.78
+      health_regen: 0.117
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_chestplate_t4:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911244
+    display_name: "§6§lPechera de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      movement_speed: 0.012
+      evasion: 3.51
+      luck: 1.17
+      health_regen: 0.1755
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_chestplate_t5:
+    material: IRON_CHESTPLATE
+    custom_model_data: 911245
+    display_name: "§6§lPechera de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      movement_speed: 0.017
+      evasion: 5.07
+      luck: 1.69
+      health_regen: 0.2535
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer
+  wanderer_leggings_t1:
+    material: IRON_LEGGINGS
+    custom_model_data: 911246
+    display_name: "§6§lPantalones de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      movement_speed: 0.002
+      evasion: 0.6
+      luck: 0.2
+      health_regen: 0.03
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "IRON_LEGGINGS:1"
+      - "IRON_INGOT:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_leggings_t2:
+    material: IRON_LEGGINGS
+    custom_model_data: 911247
+    display_name: "§6§lPantalones de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      movement_speed: 0.004
+      evasion: 1.08
+      luck: 0.36
+      health_regen: 0.054
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_leggings_t3:
+    material: IRON_LEGGINGS
+    custom_model_data: 911248
+    display_name: "§6§lPantalones de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      movement_speed: 0.006
+      evasion: 1.8
+      luck: 0.6
+      health_regen: 0.09
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_leggings_t4:
+    material: IRON_LEGGINGS
+    custom_model_data: 911249
+    display_name: "§6§lPantalones de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      movement_speed: 0.009
+      evasion: 2.7
+      luck: 0.9
+      health_regen: 0.135
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_leggings_t5:
+    material: IRON_LEGGINGS
+    custom_model_data: 911250
+    display_name: "§6§lPantalones de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      movement_speed: 0.013
+      evasion: 3.9
+      luck: 1.3
+      health_regen: 0.195
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer
+  wanderer_boots_t1:
+    material: IRON_BOOTS
+    custom_model_data: 911251
+    display_name: "§6§lBotas de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      movement_speed: 0.001
+      evasion: 0.42
+      luck: 0.14
+      health_regen: 0.021
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "IRON_BOOTS:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_boots_t2:
+    material: IRON_BOOTS
+    custom_model_data: 911252
+    display_name: "§6§lBotas de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      movement_speed: 0.003
+      evasion: 0.756
+      luck: 0.252
+      health_regen: 0.0378
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_boots_t3:
+    material: IRON_BOOTS
+    custom_model_data: 911253
+    display_name: "§6§lBotas de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      movement_speed: 0.004
+      evasion: 1.26
+      luck: 0.42
+      health_regen: 0.063
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_boots_t4:
+    material: IRON_BOOTS
+    custom_model_data: 911254
+    display_name: "§6§lBotas de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      movement_speed: 0.006
+      evasion: 1.89
+      luck: 0.63
+      health_regen: 0.0945
+    requires:
+      class_level: 20
+    sockets: 2
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_boots_t5:
+    material: IRON_BOOTS
+    custom_model_data: 911255
+    display_name: "§6§lBotas de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      movement_speed: 0.009
+      evasion: 2.73
+      luck: 0.91
+      health_regen: 0.1365
+    requires:
+      class_level: 30
+    sockets: 3
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer
+  wanderer_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911256
+    display_name: "§6§lObjeto Secundario de Caminante - Nivel I"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      movement_speed: 0.001
+      evasion: 0.3
+      luck: 0.1
+      health_regen: 0.015
+    requires:
+      class_level: 1
+    sockets: 0
+    recipe:
+      station: wanderer
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: wanderer
+  wanderer_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911257
+    display_name: "§6§lObjeto Secundario de Caminante - Nivel II"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      movement_speed: 0.002
+      evasion: 0.54
+      luck: 0.18
+      health_regen: 0.027
+    requires:
+      class_level: 5
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 2
+      ingredients:
+      - "wanderer_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: wanderer
+  wanderer_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911258
+    display_name: "§6§lObjeto Secundario de Caminante - Nivel III"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      movement_speed: 0.003
+      evasion: 0.9
+      luck: 0.3
+      health_regen: 0.045
+    requires:
+      class_level: 12
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 3
+      ingredients:
+      - "wanderer_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: wanderer
+  wanderer_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911259
+    display_name: "§6§lObjeto Secundario de Caminante - Nivel IV"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      movement_speed: 0.005
+      evasion: 1.35
+      luck: 0.45
+      health_regen: 0.0675
+    requires:
+      class_level: 20
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 4
+      ingredients:
+      - "wanderer_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: wanderer
+  wanderer_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911260
+    display_name: "§6§lObjeto Secundario de Caminante - Nivel V"
+    lore:
+    - "§8Set: Caminante"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: wanderer
+      name: Caminante
+      group: universal
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      movement_speed: 0.007
+      evasion: 1.95
+      luck: 0.65
+      health_regen: 0.0975
+    requires:
+      class_level: 30
+    sockets: 1
+    recipe:
+      station: wanderer
+      tier: 5
+      ingredients:
+      - "wanderer_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: wanderer

@@ -1,0 +1,5 @@
+classes:
+  artificie:
+    name: Artífice
+    description: Especialista en tecnología, redstone y alquimia aplicada al combate.
+    icon: ANVIL

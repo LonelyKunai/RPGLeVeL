@@ -1,0 +1,5 @@
+classes:
+  druida:
+    name: Druida
+    description: Guardián de la naturaleza capaz de adaptarse a cualquier rol mediante la metamorfosis.
+    icon: LEAVES

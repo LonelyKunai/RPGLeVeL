@@ -1,0 +1,12 @@
+subclasses:
+  artificie:
+    maestro_alquimista:
+      name: Maestro Alquimista
+      description: Lanza pociones modificadas de gran impacto en área con efectos mejorados y curaciones instantáneas.
+    ingeniero:
+      name: Ingeniero
+      description: Despliega torretas automáticas, trampas mecánicas y utiliza ballestas modificadas.
+    demoledor:
+      name: Demoledor
+      description: Utiliza cargas de TNT, bombas de fragmentación y proyectiles explosivos para la destrucción masiva de estructuras
+        y enemigos.

@@ -1,0 +1,1141 @@
+items:
+  soul_eater_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 911171
+    display_name: "§6§lArma Principal de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      spell_power: 4.0
+      lifesteal: 0.8
+      burn_chance: 1.0
+      mana_on_hit: 0.4
+      execute: 1.5
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 911172
+    display_name: "§6§lArma Principal de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      spell_power: 7.2
+      lifesteal: 1.44
+      burn_chance: 1.8
+      mana_on_hit: 0.72
+      execute: 2.7
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 911173
+    display_name: "§6§lArma Principal de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      spell_power: 12.0
+      lifesteal: 2.4
+      burn_chance: 3.0
+      mana_on_hit: 1.2
+      execute: 4.5
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 911174
+    display_name: "§6§lArma Principal de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      spell_power: 18.0
+      lifesteal: 3.6
+      burn_chance: 4.5
+      mana_on_hit: 1.8
+      execute: 6.75
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 911175
+    display_name: "§6§lArma Principal de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      spell_power: 26.0
+      lifesteal: 5.2
+      burn_chance: 6.5
+      mana_on_hit: 2.6
+      execute: 9.75
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater
+  soul_eater_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 911176
+    display_name: "§6§lCasco de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      mana_max: 5.6
+      lifesteal: 0.35
+      thorns: 0.56
+      status_resist: 0.56
+      health_regen: 0.028
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 911177
+    display_name: "§6§lCasco de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      mana_max: 10.08
+      lifesteal: 0.63
+      thorns: 1.008
+      status_resist: 1.008
+      health_regen: 0.0504
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 911178
+    display_name: "§6§lCasco de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      mana_max: 16.8
+      lifesteal: 1.05
+      thorns: 1.68
+      status_resist: 1.68
+      health_regen: 0.084
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 911179
+    display_name: "§6§lCasco de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      mana_max: 25.2
+      lifesteal: 1.575
+      thorns: 2.52
+      status_resist: 2.52
+      health_regen: 0.126
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 911180
+    display_name: "§6§lCasco de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      mana_max: 36.4
+      lifesteal: 2.275
+      thorns: 3.64
+      status_resist: 3.64
+      health_regen: 0.182
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater
+  soul_eater_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911181
+    display_name: "§6§lPechera de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      mana_max: 10.4
+      lifesteal: 0.65
+      thorns: 1.04
+      status_resist: 1.04
+      health_regen: 0.052
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911182
+    display_name: "§6§lPechera de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      mana_max: 18.72
+      lifesteal: 1.17
+      thorns: 1.872
+      status_resist: 1.872
+      health_regen: 0.0936
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911183
+    display_name: "§6§lPechera de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      mana_max: 31.2
+      lifesteal: 1.95
+      thorns: 3.12
+      status_resist: 3.12
+      health_regen: 0.156
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911184
+    display_name: "§6§lPechera de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      mana_max: 46.8
+      lifesteal: 2.925
+      thorns: 4.68
+      status_resist: 4.68
+      health_regen: 0.234
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 911185
+    display_name: "§6§lPechera de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      mana_max: 67.6
+      lifesteal: 4.225
+      thorns: 6.76
+      status_resist: 6.76
+      health_regen: 0.338
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater
+  soul_eater_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911186
+    display_name: "§6§lPantalones de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      mana_max: 8.0
+      lifesteal: 0.5
+      thorns: 0.8
+      status_resist: 0.8
+      health_regen: 0.04
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911187
+    display_name: "§6§lPantalones de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      mana_max: 14.4
+      lifesteal: 0.9
+      thorns: 1.44
+      status_resist: 1.44
+      health_regen: 0.072
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911188
+    display_name: "§6§lPantalones de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      mana_max: 24.0
+      lifesteal: 1.5
+      thorns: 2.4
+      status_resist: 2.4
+      health_regen: 0.12
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911189
+    display_name: "§6§lPantalones de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      mana_max: 36.0
+      lifesteal: 2.25
+      thorns: 3.6
+      status_resist: 3.6
+      health_regen: 0.18
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 911190
+    display_name: "§6§lPantalones de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      mana_max: 52.0
+      lifesteal: 3.25
+      thorns: 5.2
+      status_resist: 5.2
+      health_regen: 0.26
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater
+  soul_eater_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 911191
+    display_name: "§6§lBotas de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      mana_max: 5.6
+      lifesteal: 0.35
+      thorns: 0.56
+      status_resist: 0.56
+      health_regen: 0.028
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 911192
+    display_name: "§6§lBotas de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      mana_max: 10.08
+      lifesteal: 0.63
+      thorns: 1.008
+      status_resist: 1.008
+      health_regen: 0.0504
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 911193
+    display_name: "§6§lBotas de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      mana_max: 16.8
+      lifesteal: 1.05
+      thorns: 1.68
+      status_resist: 1.68
+      health_regen: 0.084
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 911194
+    display_name: "§6§lBotas de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      mana_max: 25.2
+      lifesteal: 1.575
+      thorns: 2.52
+      status_resist: 2.52
+      health_regen: 0.126
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 911195
+    display_name: "§6§lBotas de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      mana_max: 36.4
+      lifesteal: 2.275
+      thorns: 3.64
+      status_resist: 3.64
+      health_regen: 0.182
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater
+  soul_eater_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 911196
+    display_name: "§6§lObjeto Secundario de Devorador de Almas - Nivel I"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      spell_power: 2.0
+      lifesteal: 0.4
+      burn_chance: 0.5
+      mana_on_hit: 0.2
+      execute: 0.75
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: soul_eater
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: soul_eater
+  soul_eater_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 911197
+    display_name: "§6§lObjeto Secundario de Devorador de Almas - Nivel II"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      spell_power: 3.6
+      lifesteal: 0.72
+      burn_chance: 0.9
+      mana_on_hit: 0.36
+      execute: 1.35
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 2
+      ingredients:
+      - "soul_eater_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: soul_eater
+  soul_eater_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 911198
+    display_name: "§6§lObjeto Secundario de Devorador de Almas - Nivel III"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      spell_power: 6.0
+      lifesteal: 1.2
+      burn_chance: 1.5
+      mana_on_hit: 0.6
+      execute: 2.25
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 3
+      ingredients:
+      - "soul_eater_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: soul_eater
+  soul_eater_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 911199
+    display_name: "§6§lObjeto Secundario de Devorador de Almas - Nivel IV"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      spell_power: 9.0
+      lifesteal: 1.8
+      burn_chance: 2.25
+      mana_on_hit: 0.9
+      execute: 3.375
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 4
+      ingredients:
+      - "soul_eater_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: soul_eater
+  soul_eater_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 911200
+    display_name: "§6§lObjeto Secundario de Devorador de Almas - Nivel V"
+    lore:
+    - "§8Set: Devorador de Almas"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: soul_eater
+      name: "Devorador de Almas"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      spell_power: 13.0
+      lifesteal: 2.6
+      burn_chance: 3.25
+      mana_on_hit: 1.3
+      execute: 4.875
+    requires:
+      subclass: devorador_de_almas
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: soul_eater
+      tier: 5
+      ingredients:
+      - "soul_eater_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: soul_eater

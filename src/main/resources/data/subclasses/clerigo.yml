@@ -1,0 +1,12 @@
+subclasses:
+  clerigo:
+    sacerdote_de_luz:
+      name: Sacerdote de Luz
+      description: Sanador puro enfocado en restaurar grandes cantidades de salud y otorgar escudos absolutos a sus aliados.
+    inquisidor:
+      name: Inquisidor
+      description: Combina la magia sagrada con el combate con mazas para castigar a los enemigos e infligir daño a no-muertos.
+    monje:
+      name: Monje
+      description: Combina movilidad, combate a puño limpio o con bastón y auras que aumentan la velocidad y regeneración
+        del grupo.

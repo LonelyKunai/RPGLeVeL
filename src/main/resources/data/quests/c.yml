@@ -1,0 +1,194 @@
+# Misiones de rango C (rank_index 3). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_c_01:
+    name: '[C] Caza de Blaze x26'
+    description: Elimina 26 Blaze.
+    type: kill
+    target: BLAZE
+    amount: 26
+    rank_index: 3
+    reward_xp: 186
+  q_c_02:
+    name: '[C] Caza de Ghast x26'
+    description: Elimina 26 Ghast.
+    type: kill
+    target: GHAST
+    amount: 26
+    rank_index: 3
+    reward_xp: 186
+  q_c_03:
+    name: '[C] Caza de Magma Cube x26'
+    description: Elimina 26 Magma Cube.
+    type: kill
+    target: MAGMA_CUBE
+    amount: 26
+    rank_index: 3
+    reward_xp: 186
+  q_c_04:
+    name: '[C] Caza de Wither Skeleton x26'
+    description: Elimina 26 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 26
+    rank_index: 3
+    reward_xp: 186
+  q_c_05:
+    name: '[C] Caza de Piglin Brute x26'
+    description: Elimina 26 Piglin Brute.
+    type: kill
+    target: PIGLIN_BRUTE
+    amount: 26
+    rank_index: 3
+    reward_xp: 186
+  q_c_06:
+    name: '[C] Caza de Blaze x52'
+    description: Elimina 52 Blaze.
+    type: kill
+    target: BLAZE
+    amount: 52
+    rank_index: 3
+    reward_xp: 263
+  q_c_07:
+    name: '[C] Caza de Ghast x52'
+    description: Elimina 52 Ghast.
+    type: kill
+    target: GHAST
+    amount: 52
+    rank_index: 3
+    reward_xp: 263
+  q_c_08:
+    name: '[C] Caza de Magma Cube x52'
+    description: Elimina 52 Magma Cube.
+    type: kill
+    target: MAGMA_CUBE
+    amount: 52
+    rank_index: 3
+    reward_xp: 263
+  q_c_09:
+    name: '[C] Caza de Wither Skeleton x52'
+    description: Elimina 52 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 52
+    rank_index: 3
+    reward_xp: 263
+  q_c_10:
+    name: '[C] Caza de Piglin Brute x52'
+    description: Elimina 52 Piglin Brute.
+    type: kill
+    target: PIGLIN_BRUTE
+    amount: 52
+    rank_index: 3
+    reward_xp: 263
+  q_c_11:
+    name: '[C] Recolección de Diamond Ore x52'
+    description: Recolecta 52 Diamond Ore.
+    type: gather
+    target: DIAMOND_ORE
+    amount: 52
+    rank_index: 3
+    reward_xp: 186
+  q_c_12:
+    name: '[C] Recolección de Nether Quartz Ore x52'
+    description: Recolecta 52 Nether Quartz Ore.
+    type: gather
+    target: NETHER_QUARTZ_ORE
+    amount: 52
+    rank_index: 3
+    reward_xp: 186
+  q_c_13:
+    name: '[C] Recolección de Nether Gold Ore x52'
+    description: Recolecta 52 Nether Gold Ore.
+    type: gather
+    target: NETHER_GOLD_ORE
+    amount: 52
+    rank_index: 3
+    reward_xp: 186
+  q_c_14:
+    name: '[C] Recolección de Emerald Ore x52'
+    description: Recolecta 52 Emerald Ore.
+    type: gather
+    target: EMERALD_ORE
+    amount: 52
+    rank_index: 3
+    reward_xp: 186
+  q_c_15:
+    name: '[C] Recolección de Deepslate Gold Ore x52'
+    description: Recolecta 52 Deepslate Gold Ore.
+    type: gather
+    target: DEEPSLATE_GOLD_ORE
+    amount: 52
+    rank_index: 3
+    reward_xp: 186
+  q_c_16:
+    name: '[C] Recolección de Diamond Ore x104'
+    description: Recolecta 104 Diamond Ore.
+    type: gather
+    target: DIAMOND_ORE
+    amount: 104
+    rank_index: 3
+    reward_xp: 263
+  q_c_17:
+    name: '[C] Recolección de Nether Quartz Ore x104'
+    description: Recolecta 104 Nether Quartz Ore.
+    type: gather
+    target: NETHER_QUARTZ_ORE
+    amount: 104
+    rank_index: 3
+    reward_xp: 263
+  q_c_18:
+    name: '[C] Recolección de Nether Gold Ore x104'
+    description: Recolecta 104 Nether Gold Ore.
+    type: gather
+    target: NETHER_GOLD_ORE
+    amount: 104
+    rank_index: 3
+    reward_xp: 263
+  q_c_19:
+    name: '[C] Recolección de Emerald Ore x104'
+    description: Recolecta 104 Emerald Ore.
+    type: gather
+    target: EMERALD_ORE
+    amount: 104
+    rank_index: 3
+    reward_xp: 263
+  q_c_20:
+    name: '[C] Recolección de Deepslate Gold Ore x104'
+    description: Recolecta 104 Deepslate Gold Ore.
+    type: gather
+    target: DEEPSLATE_GOLD_ORE
+    amount: 104
+    rank_index: 3
+    reward_xp: 263
+  q_c_21:
+    name: '[C] Pesca de Name Tag x8'
+    description: Pesca 8 Name Tag.
+    type: fish
+    target: NAME_TAG
+    amount: 8
+    rank_index: 3
+    reward_xp: 103
+  q_c_22:
+    name: '[C] Pesca de Saddle x8'
+    description: Pesca 8 Saddle.
+    type: fish
+    target: SADDLE
+    amount: 8
+    rank_index: 3
+    reward_xp: 103
+  q_c_23:
+    name: '[C] Pesca de Nautilus Shell x8'
+    description: Pesca 8 Nautilus Shell.
+    type: fish
+    target: NAUTILUS_SHELL
+    amount: 8
+    rank_index: 3
+    reward_xp: 103
+  q_c_24:
+    name: '[C] Pesca de Tropical Fish x8'
+    description: Pesca 8 Tropical Fish.
+    type: fish
+    target: TROPICAL_FISH
+    amount: 8
+    rank_index: 3
+    reward_xp: 103

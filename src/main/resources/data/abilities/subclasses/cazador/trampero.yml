@@ -1,0 +1,110 @@
+subclasses:
+  trampero:
+    abilities:
+      trampero_trampa_de_pinchos:
+        name: Trampa de Pinchos
+        description: Golpea a los enemigos en un radio de 3 bloques
+        icon: POINTED_DRIPSTONE
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: aoe
+          at_target: true
+          range: 15
+          damage: 8
+          damage_per_level: 2
+          radius: 3
+          potions:
+          - slowness:6:2
+          particle: CRIT
+          sound: BLOCK_DRIPSTONE_BLOCK_BREAK
+          statuses:
+          - bleed:5:1
+      trampero_red_pegajosa:
+        name: Red Pegajosa
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: COBWEB
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 16
+        cooldown_per_level: -0.7
+        requires:
+          level: 5
+          abilities:
+            trampero_trampa_de_pinchos: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 18
+          damage: 0
+          radius: 4
+          potions:
+          - slowness:8:4
+          - weakness:6:0
+          duration_per_level: 1
+          particle: CRIT
+          sound: BLOCK_COBWEB_PLACE
+          statuses:
+          - freeze:4:1
+      trampero_cebo_explosivo:
+        name: Cebo Explosivo
+        description: Golpea a los enemigos en un radio de 4 bloques
+        icon: TNT
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 18
+        cooldown_per_level: -0.8
+        requires:
+          level: 5
+          abilities:
+            trampero_trampa_de_pinchos: 1
+        effect:
+          type: aoe
+          at_target: true
+          range: 20
+          damage: 14
+          damage_per_level: 3
+          radius: 4
+          knockback: 1.2
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+      trampero_jaula_de_cazador:
+        name: Jaula de Cazador
+        description: Golpea a los enemigos en un radio de 5 bloques
+        icon: IRON_BARS
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 50
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            trampero_red_pegajosa: 2
+            trampero_cebo_explosivo: 2
+        effect:
+          type: aoe
+          at_target: true
+          range: 20
+          damage: 6
+          damage_per_level: 1.5
+          radius: 5
+          potions:
+          - slowness:10:5
+          - mining_fatigue:10:2
+          particle: CRIT
+          sound: BLOCK_IRON_DOOR_CLOSE
+          statuses:
+          - stun:3

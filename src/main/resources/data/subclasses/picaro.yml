@@ -1,0 +1,11 @@
+subclasses:
+  picaro:
+    asesino:
+      name: Asesino
+      description: Domina el sigilo y los ataques por la espalda para infligir daño crítico letal antes de ser detectado.
+    envenenador:
+      name: Envenenador
+      description: Aplica toxinas acumulativas en sus armas para infligir daño por segundo y debilitar a los enemigos.
+    duquista_sombra:
+      name: Duquista / Sombra
+      description: Utiliza habilidades de teletransportación de corta distancia y señuelos para confundir y esquivar ataques.

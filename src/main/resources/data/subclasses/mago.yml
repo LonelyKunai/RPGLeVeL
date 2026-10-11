@@ -1,0 +1,13 @@
+subclasses:
+  mago:
+    piroamante:
+      name: Piroamante
+      description: Centrado en el daño de fuego continuo (Quemadura), explosiones en área y habilidades de área de impacto
+        (AoE).
+    criomante:
+      name: Criomante
+      description: Controla el campo de batalla congelando enemigos, ralentizando sus movimientos y creando barreras de hielo
+        defensivas.
+    electromante:
+      name: Electromante
+      description: Ataca con rapidez a múltiples objetivos en cadena y aplica efectos de aturdimiento mediante descargas eléctricas.

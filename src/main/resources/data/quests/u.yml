@@ -1,0 +1,194 @@
+# Misiones de rango U (rank_index 8). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_u_01:
+    name: '[U] Caza de Ender Dragon x1'
+    description: Elimina 1 Ender Dragon.
+    type: kill
+    target: ENDER_DRAGON
+    amount: 1
+    rank_index: 8
+    reward_xp: 80
+  q_u_02:
+    name: '[U] Caza de Wither x1'
+    description: Elimina 1 Wither.
+    type: kill
+    target: WITHER
+    amount: 1
+    rank_index: 8
+    reward_xp: 80
+  q_u_03:
+    name: '[U] Caza de Warden x1'
+    description: Elimina 1 Warden.
+    type: kill
+    target: WARDEN
+    amount: 1
+    rank_index: 8
+    reward_xp: 80
+  q_u_04:
+    name: '[U] Caza de Elder Guardian x1'
+    description: Elimina 1 Elder Guardian.
+    type: kill
+    target: ELDER_GUARDIAN
+    amount: 1
+    rank_index: 8
+    reward_xp: 80
+  q_u_05:
+    name: '[U] Caza de Ravager x56'
+    description: Elimina 56 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 56
+    rank_index: 8
+    reward_xp: 604
+  q_u_06:
+    name: '[U] Caza de Ender Dragon x2'
+    description: Elimina 2 Ender Dragon.
+    type: kill
+    target: ENDER_DRAGON
+    amount: 2
+    rank_index: 8
+    reward_xp: 114
+  q_u_07:
+    name: '[U] Caza de Wither x2'
+    description: Elimina 2 Wither.
+    type: kill
+    target: WITHER
+    amount: 2
+    rank_index: 8
+    reward_xp: 114
+  q_u_08:
+    name: '[U] Caza de Warden x2'
+    description: Elimina 2 Warden.
+    type: kill
+    target: WARDEN
+    amount: 2
+    rank_index: 8
+    reward_xp: 114
+  q_u_09:
+    name: '[U] Caza de Elder Guardian x2'
+    description: Elimina 2 Elder Guardian.
+    type: kill
+    target: ELDER_GUARDIAN
+    amount: 2
+    rank_index: 8
+    reward_xp: 114
+  q_u_10:
+    name: '[U] Caza de Ravager x112'
+    description: Elimina 112 Ravager.
+    type: kill
+    target: RAVAGER
+    amount: 112
+    rank_index: 8
+    reward_xp: 855
+  q_u_11:
+    name: '[U] Recolección de Ancient Debris x112'
+    description: Recolecta 112 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 112
+    rank_index: 8
+    reward_xp: 604
+  q_u_12:
+    name: '[U] Recolección de Deepslate Diamond Ore x112'
+    description: Recolecta 112 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 112
+    rank_index: 8
+    reward_xp: 604
+  q_u_13:
+    name: '[U] Recolección de Deepslate Emerald Ore x112'
+    description: Recolecta 112 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 112
+    rank_index: 8
+    reward_xp: 604
+  q_u_14:
+    name: '[U] Recolección de Obsidian x112'
+    description: Recolecta 112 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 112
+    rank_index: 8
+    reward_xp: 604
+  q_u_15:
+    name: '[U] Recolección de Sculk Shrieker x112'
+    description: Recolecta 112 Sculk Shrieker.
+    type: gather
+    target: SCULK_SHRIEKER
+    amount: 112
+    rank_index: 8
+    reward_xp: 604
+  q_u_16:
+    name: '[U] Recolección de Ancient Debris x224'
+    description: Recolecta 224 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 224
+    rank_index: 8
+    reward_xp: 855
+  q_u_17:
+    name: '[U] Recolección de Deepslate Diamond Ore x224'
+    description: Recolecta 224 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 224
+    rank_index: 8
+    reward_xp: 855
+  q_u_18:
+    name: '[U] Recolección de Deepslate Emerald Ore x224'
+    description: Recolecta 224 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 224
+    rank_index: 8
+    reward_xp: 855
+  q_u_19:
+    name: '[U] Recolección de Obsidian x224'
+    description: Recolecta 224 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 224
+    rank_index: 8
+    reward_xp: 855
+  q_u_20:
+    name: '[U] Recolección de Sculk Shrieker x224'
+    description: Recolecta 224 Sculk Shrieker.
+    type: gather
+    target: SCULK_SHRIEKER
+    amount: 224
+    rank_index: 8
+    reward_xp: 855
+  q_u_21:
+    name: '[U] Pesca de Enchanted Book x18'
+    description: Pesca 18 Enchanted Book.
+    type: fish
+    target: ENCHANTED_BOOK
+    amount: 18
+    rank_index: 8
+    reward_xp: 342
+  q_u_22:
+    name: '[U] Pesca de Nautilus Shell x18'
+    description: Pesca 18 Nautilus Shell.
+    type: fish
+    target: NAUTILUS_SHELL
+    amount: 18
+    rank_index: 8
+    reward_xp: 342
+  q_u_23:
+    name: '[U] Pesca de Saddle x18'
+    description: Pesca 18 Saddle.
+    type: fish
+    target: SADDLE
+    amount: 18
+    rank_index: 8
+    reward_xp: 342
+  q_u_24:
+    name: '[U] Pesca de Name Tag x18'
+    description: Pesca 18 Name Tag.
+    type: fish
+    target: NAME_TAG
+    amount: 18
+    rank_index: 8
+    reward_xp: 342

@@ -1,0 +1,99 @@
+subclasses:
+  chaman_terrestre:
+    abilities:
+      chaman_terrestre_manantial:
+        name: Manantial
+        description: Cura a los aliados cercanos
+        icon: WATER_BUCKET
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: heal
+          amount: 9
+          amount_per_level: 2
+          radius: 8
+          potions:
+          - regeneration:6:0
+          particle: HAPPY_VILLAGER
+          sound: BLOCK_WATER_AMBIENT
+      chaman_terrestre_espiritu_terrestre:
+        name: Espíritu Terrestre
+        description: Otorga mejoras temporales
+        icon: MOSS_BLOCK
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 28
+        cooldown_per_level: -1.4
+        requires:
+          level: 5
+          abilities:
+            chaman_terrestre_manantial: 1
+        effect:
+          type: buff
+          radius: 8
+          potions:
+          - resistance:15:1
+          - absorption:15:1
+          duration_per_level: 3
+          particle: COMPOSTER
+          sound: BLOCK_ROOTED_DIRT_BREAK
+      chaman_terrestre_terremoto:
+        name: Terremoto
+        description: Golpea a los enemigos en un radio de 7 bloques
+        icon: DIRT
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 22
+        cooldown_per_level: -1
+        requires:
+          level: 5
+          abilities:
+            chaman_terrestre_manantial: 1
+        effect:
+          type: aoe
+          damage: 10
+          damage_per_level: 3
+          radius: 7
+          knockback: 1.4
+          potions:
+          - slowness:4:1
+          particle: EXPLOSION
+          sound: ENTITY_GENERIC_EXPLODE
+          statuses:
+          - stun:2
+      chaman_terrestre_renacer_natural:
+        name: Renacer Natural
+        description: Cura a los aliados cercanos
+        icon: FLOWERING_AZALEA
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 65
+        cooldown_per_level: -3
+        requires:
+          level: 15
+          abilities:
+            chaman_terrestre_espiritu_terrestre: 2
+            chaman_terrestre_terremoto: 2
+        effect:
+          type: heal
+          amount: 28
+          amount_per_level: 5
+          radius: 12
+          cleanse: true
+          potions:
+          - regeneration:12:2
+          particle: HAPPY_VILLAGER
+          sound: ITEM_TOTEM_USE

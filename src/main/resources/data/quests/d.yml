@@ -1,0 +1,194 @@
+# Misiones de rango D (rank_index 2). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_d_01:
+    name: '[D] Caza de Enderman x20'
+    description: Elimina 20 Enderman.
+    type: kill
+    target: ENDERMAN
+    amount: 20
+    rank_index: 2
+    reward_xp: 122
+  q_d_02:
+    name: '[D] Caza de Pillager x20'
+    description: Elimina 20 Pillager.
+    type: kill
+    target: PILLAGER
+    amount: 20
+    rank_index: 2
+    reward_xp: 122
+  q_d_03:
+    name: '[D] Caza de Vindicator x20'
+    description: Elimina 20 Vindicator.
+    type: kill
+    target: VINDICATOR
+    amount: 20
+    rank_index: 2
+    reward_xp: 122
+  q_d_04:
+    name: '[D] Caza de Phantom x20'
+    description: Elimina 20 Phantom.
+    type: kill
+    target: PHANTOM
+    amount: 20
+    rank_index: 2
+    reward_xp: 122
+  q_d_05:
+    name: '[D] Caza de Guardian x20'
+    description: Elimina 20 Guardian.
+    type: kill
+    target: GUARDIAN
+    amount: 20
+    rank_index: 2
+    reward_xp: 122
+  q_d_06:
+    name: '[D] Caza de Enderman x40'
+    description: Elimina 40 Enderman.
+    type: kill
+    target: ENDERMAN
+    amount: 40
+    rank_index: 2
+    reward_xp: 173
+  q_d_07:
+    name: '[D] Caza de Pillager x40'
+    description: Elimina 40 Pillager.
+    type: kill
+    target: PILLAGER
+    amount: 40
+    rank_index: 2
+    reward_xp: 173
+  q_d_08:
+    name: '[D] Caza de Vindicator x40'
+    description: Elimina 40 Vindicator.
+    type: kill
+    target: VINDICATOR
+    amount: 40
+    rank_index: 2
+    reward_xp: 173
+  q_d_09:
+    name: '[D] Caza de Phantom x40'
+    description: Elimina 40 Phantom.
+    type: kill
+    target: PHANTOM
+    amount: 40
+    rank_index: 2
+    reward_xp: 173
+  q_d_10:
+    name: '[D] Caza de Guardian x40'
+    description: Elimina 40 Guardian.
+    type: kill
+    target: GUARDIAN
+    amount: 40
+    rank_index: 2
+    reward_xp: 173
+  q_d_11:
+    name: '[D] Recolección de Gold Ore x40'
+    description: Recolecta 40 Gold Ore.
+    type: gather
+    target: GOLD_ORE
+    amount: 40
+    rank_index: 2
+    reward_xp: 122
+  q_d_12:
+    name: '[D] Recolección de Redstone Ore x40'
+    description: Recolecta 40 Redstone Ore.
+    type: gather
+    target: REDSTONE_ORE
+    amount: 40
+    rank_index: 2
+    reward_xp: 122
+  q_d_13:
+    name: '[D] Recolección de Lapis Ore x40'
+    description: Recolecta 40 Lapis Ore.
+    type: gather
+    target: LAPIS_ORE
+    amount: 40
+    rank_index: 2
+    reward_xp: 122
+  q_d_14:
+    name: '[D] Recolección de Deepslate Iron Ore x40'
+    description: Recolecta 40 Deepslate Iron Ore.
+    type: gather
+    target: DEEPSLATE_IRON_ORE
+    amount: 40
+    rank_index: 2
+    reward_xp: 122
+  q_d_15:
+    name: '[D] Recolección de Jungle Log x40'
+    description: Recolecta 40 Jungle Log.
+    type: gather
+    target: JUNGLE_LOG
+    amount: 40
+    rank_index: 2
+    reward_xp: 122
+  q_d_16:
+    name: '[D] Recolección de Gold Ore x80'
+    description: Recolecta 80 Gold Ore.
+    type: gather
+    target: GOLD_ORE
+    amount: 80
+    rank_index: 2
+    reward_xp: 173
+  q_d_17:
+    name: '[D] Recolección de Redstone Ore x80'
+    description: Recolecta 80 Redstone Ore.
+    type: gather
+    target: REDSTONE_ORE
+    amount: 80
+    rank_index: 2
+    reward_xp: 173
+  q_d_18:
+    name: '[D] Recolección de Lapis Ore x80'
+    description: Recolecta 80 Lapis Ore.
+    type: gather
+    target: LAPIS_ORE
+    amount: 80
+    rank_index: 2
+    reward_xp: 173
+  q_d_19:
+    name: '[D] Recolección de Deepslate Iron Ore x80'
+    description: Recolecta 80 Deepslate Iron Ore.
+    type: gather
+    target: DEEPSLATE_IRON_ORE
+    amount: 80
+    rank_index: 2
+    reward_xp: 173
+  q_d_20:
+    name: '[D] Recolección de Jungle Log x80'
+    description: Recolecta 80 Jungle Log.
+    type: gather
+    target: JUNGLE_LOG
+    amount: 80
+    rank_index: 2
+    reward_xp: 173
+  q_d_21:
+    name: '[D] Pesca de Lily Pad x6'
+    description: Pesca 6 Lily Pad.
+    type: fish
+    target: LILY_PAD
+    amount: 6
+    rank_index: 2
+    reward_xp: 67
+  q_d_22:
+    name: '[D] Pesca de Bowl x6'
+    description: Pesca 6 Bowl.
+    type: fish
+    target: BOWL
+    amount: 6
+    rank_index: 2
+    reward_xp: 67
+  q_d_23:
+    name: '[D] Pesca de Salmon x6'
+    description: Pesca 6 Salmon.
+    type: fish
+    target: SALMON
+    amount: 6
+    rank_index: 2
+    reward_xp: 67
+  q_d_24:
+    name: '[D] Pesca de Pufferfish x6'
+    description: Pesca 6 Pufferfish.
+    type: fish
+    target: PUFFERFISH
+    amount: 6
+    rank_index: 2
+    reward_xp: 67

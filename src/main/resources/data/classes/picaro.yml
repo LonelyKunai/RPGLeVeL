@@ -1,0 +1,5 @@
+classes:
+  picaro:
+    name: Pícaro
+    description: Asesino sigiloso enfocado en ráfagas de daño rápido, evasión y movilidad.
+    icon: DIAMOND_SWORD

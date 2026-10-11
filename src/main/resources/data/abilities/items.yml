@@ -1,0 +1,257 @@
+# Habilidades de ítems RPG: trigger right_click / on_hit / on_damaged; se activan según el tier del ítem.
+items:
+  item_tajo_igneo:
+    name: Tajo Ígneo
+    description: Golpea a los enemigos en un radio de 4 bloques
+    icon: BLAZE_POWDER
+    trigger: right_click
+    applies_to:
+    - SWORD
+    min_tier: 3
+    max_level: 5
+    cooldown: 10
+    cooldown_per_level: -0.5
+    effect:
+      type: aoe
+      damage: 6
+      damage_per_level: 1.5
+      radius: 4
+      fire_seconds: 4
+      knockback: 0.6
+      particle: FLAME
+      sound: ITEM_FIRECHARGE_USE
+  item_golpe_sismico:
+    name: Golpe Sísmico
+    description: Saltas y golpeas el suelo con fuerza
+    icon: ANVIL
+    trigger: right_click
+    applies_to:
+    - AXE
+    - MACE
+    min_tier: 4
+    max_level: 5
+    cooldown: 14
+    cooldown_per_level: -0.6
+    effect:
+      type: slam
+      up: 0.8
+      delay: 10
+      damage: 8
+      damage_per_level: 2
+      radius: 5
+      knockback: 1.2
+      particle: EXPLOSION
+      sound: ENTITY_GENERIC_EXPLODE
+  item_rayo_arcano_ritual:
+    name: Rayo Arcano
+    description: Dispara contra un objetivo (26 bloques)
+    icon: LIGHTNING_ROD
+    trigger: right_click
+    applies_to:
+    - STAFF
+    min_tier: 2
+    max_level: 6
+    cooldown: 7
+    cooldown_per_level: -0.3
+    effect:
+      type: bolt
+      range: 26
+      damage: 6
+      damage_per_level: 1.8
+      particle: WITCH
+      sound: ENTITY_EVOKER_CAST_SPELL
+  item_tormenta_del_tridente:
+    name: Tormenta del Tridente
+    description: Invoca un rayo sobre el objetivo
+    icon: TRIDENT
+    trigger: right_click
+    applies_to:
+    - TRIDENT
+    min_tier: 3
+    max_level: 5
+    cooldown: 16
+    cooldown_per_level: -0.7
+    effect:
+      type: lightning
+      range: 24
+      damage: 10
+      damage_per_level: 2.5
+      radius: 3
+      sound: ENTITY_LIGHTNING_BOLT_THUNDER
+  item_salto_celestial:
+    name: Salto Celestial
+    description: Te lanzas con impulso
+    icon: FEATHER
+    trigger: right_click
+    applies_to:
+    - SWORD
+    - STAFF
+    min_tier: 5
+    max_level: 4
+    cooldown: 12
+    cooldown_per_level: -0.6
+    effect:
+      type: dash
+      power: 1.7
+      up: 0.45
+      damage: 5
+      damage_per_level: 1.5
+      radius: 2.5
+      particle: CLOUD
+      sound: ENTITY_PHANTOM_SWOOP
+  item_golpe_gelido:
+    name: Golpe Gélido
+    description: Dispara contra un objetivo (6 bloques)
+    icon: SNOWBALL
+    trigger: on_hit
+    applies_to:
+    - SWORD
+    - AXE
+    - TRIDENT
+    - MACE
+    min_tier: 2
+    max_level: 5
+    cooldown: 3
+    cooldown_per_level: 0
+    effect:
+      type: bolt
+      range: 6
+      damage: 2
+      damage_per_level: 1
+      potions:
+      - slowness:4:2
+      duration_per_level: 0.5
+      particle: SNOWFLAKE
+      sound: ENTITY_PLAYER_HURT_FREEZE
+    chance: 0.2
+  item_veneno_letal:
+    name: Veneno Letal
+    description: Dispara contra un objetivo (6 bloques)
+    icon: SPIDER_EYE
+    trigger: on_hit
+    applies_to:
+    - SWORD
+    - BOW
+    - CROSSBOW
+    min_tier: 3
+    max_level: 5
+    cooldown: 3
+    cooldown_per_level: 0
+    effect:
+      type: bolt
+      range: 6
+      damage: 1
+      damage_per_level: 0.5
+      potions:
+      - poison:5:1
+      duration_per_level: 1
+      particle: HAPPY_VILLAGER
+      sound: ENTITY_SPIDER_AMBIENT
+    chance: 0.18
+  item_ejecucion_brutal:
+    name: Ejecución Brutal
+    description: Dispara contra un objetivo (6 bloques)
+    icon: NETHERITE_SWORD
+    trigger: on_hit
+    applies_to:
+    - WEAPON
+    min_tier: 6
+    max_level: 5
+    cooldown: 5
+    cooldown_per_level: 0
+    effect:
+      type: bolt
+      range: 6
+      damage: 4
+      damage_per_level: 1.5
+      particle: DAMAGE_INDICATOR
+      sound: ENTITY_PLAYER_ATTACK_CRIT
+      execute_below: 0.3
+      execute_mult: 3.0
+    chance: 0.15
+  item_cadena_de_relampagos:
+    name: Cadena de Relámpagos
+    description: Un ataque que salta entre enemigos cercanos
+    icon: COPPER_INGOT
+    trigger: on_hit
+    applies_to:
+    - STAFF
+    - TRIDENT
+    min_tier: 5
+    max_level: 5
+    cooldown: 6
+    cooldown_per_level: 0
+    effect:
+      type: chain
+      damage: 4
+      damage_per_level: 1.2
+      targets: 3
+      range: 7
+      falloff: 0.85
+      particle: ELECTRIC_SPARK
+      sound: ENTITY_LIGHTNING_BOLT_IMPACT
+    chance: 0.12
+  item_piel_de_piedra:
+    name: Piel de Piedra
+    description: Otorga mejoras temporales
+    icon: STONE
+    trigger: on_damaged
+    applies_to:
+    - ARMOR
+    min_tier: 2
+    max_level: 5
+    cooldown: 12
+    cooldown_per_level: -0.5
+    effect:
+      type: buff
+      potions:
+      - resistance:4:1
+      duration_per_level: 1
+      particle: ASH
+      sound: BLOCK_STONE_BREAK
+    chance: 0.2
+  item_espinas_reflejas:
+    name: Espinas Reflejas
+    description: Dispara contra un objetivo (8 bloques)
+    icon: CACTUS
+    trigger: on_damaged
+    applies_to:
+    - CHESTPLATE
+    - LEGGINGS
+    min_tier: 3
+    max_level: 5
+    cooldown: 5
+    cooldown_per_level: 0
+    effect:
+      type: bolt
+      range: 8
+      damage: 3
+      damage_per_level: 1.5
+      knockback: 0.5
+      particle: CRIT
+      sound: ENTITY_PLAYER_ATTACK_CRIT
+    chance: 0.25
+  item_sanacion_reactiva:
+    name: Sanación Reactiva
+    description: Cura a los aliados cercanos
+    icon: GLISTERING_MELON_SLICE
+    trigger: on_damaged
+    applies_to:
+    - HELMET
+    - BOOTS
+    - ARMOR
+    min_tier: 4
+    max_level: 5
+    cooldown: 15
+    cooldown_per_level: -0.7
+    effect:
+      type: heal
+      amount: 3
+      amount_per_level: 1.5
+      radius: 0
+      potions:
+      - regeneration:4:1
+      duration_per_level: 1
+      particle: HEART
+      sound: ENTITY_PLAYER_LEVELUP
+    chance: 0.15

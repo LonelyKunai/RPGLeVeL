@@ -1,0 +1,1141 @@
+items:
+  monk_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910721
+    display_name: "§6§lArma Principal de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      spell_power: 3.0
+      mana_regen: 0.3
+      stun_chance: 0.6
+      health_regen: 0.05
+      attack_speed: 0.015
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910722
+    display_name: "§6§lArma Principal de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      spell_power: 5.4
+      mana_regen: 0.54
+      stun_chance: 1.08
+      health_regen: 0.09
+      attack_speed: 0.027
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910723
+    display_name: "§6§lArma Principal de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      spell_power: 9.0
+      mana_regen: 0.9
+      stun_chance: 1.8
+      health_regen: 0.15
+      attack_speed: 0.045
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910724
+    display_name: "§6§lArma Principal de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      spell_power: 13.5
+      mana_regen: 1.35
+      stun_chance: 2.7
+      health_regen: 0.225
+      attack_speed: 0.0675
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910725
+    display_name: "§6§lArma Principal de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      spell_power: 19.5
+      mana_regen: 1.95
+      stun_chance: 3.9
+      health_regen: 0.325
+      attack_speed: 0.0975
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk
+  monk_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910726
+    display_name: "§6§lCasco de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      max_health: 0.84
+      mana_regen: 0.14
+      status_resist: 0.7
+      health_regen: 0.035
+      knockback_resistance: 0.014
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910727
+    display_name: "§6§lCasco de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      max_health: 1.512
+      mana_regen: 0.252
+      status_resist: 1.26
+      health_regen: 0.063
+      knockback_resistance: 0.0252
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910728
+    display_name: "§6§lCasco de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      max_health: 2.52
+      mana_regen: 0.42
+      status_resist: 2.1
+      health_regen: 0.105
+      knockback_resistance: 0.042
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910729
+    display_name: "§6§lCasco de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      max_health: 3.78
+      mana_regen: 0.63
+      status_resist: 3.15
+      health_regen: 0.1575
+      knockback_resistance: 0.063
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910730
+    display_name: "§6§lCasco de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      max_health: 5.46
+      mana_regen: 0.91
+      status_resist: 4.55
+      health_regen: 0.2275
+      knockback_resistance: 0.091
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk
+  monk_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910731
+    display_name: "§6§lPechera de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      max_health: 1.56
+      mana_regen: 0.26
+      status_resist: 1.3
+      health_regen: 0.065
+      knockback_resistance: 0.026
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910732
+    display_name: "§6§lPechera de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      max_health: 2.808
+      mana_regen: 0.468
+      status_resist: 2.34
+      health_regen: 0.117
+      knockback_resistance: 0.0468
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910733
+    display_name: "§6§lPechera de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      max_health: 4.68
+      mana_regen: 0.78
+      status_resist: 3.9
+      health_regen: 0.195
+      knockback_resistance: 0.078
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910734
+    display_name: "§6§lPechera de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      max_health: 7.02
+      mana_regen: 1.17
+      status_resist: 5.85
+      health_regen: 0.2925
+      knockback_resistance: 0.117
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910735
+    display_name: "§6§lPechera de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      max_health: 10.14
+      mana_regen: 1.69
+      status_resist: 8.45
+      health_regen: 0.4225
+      knockback_resistance: 0.169
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk
+  monk_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910736
+    display_name: "§6§lPantalones de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      max_health: 1.2
+      mana_regen: 0.2
+      status_resist: 1.0
+      health_regen: 0.05
+      knockback_resistance: 0.02
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910737
+    display_name: "§6§lPantalones de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      max_health: 2.16
+      mana_regen: 0.36
+      status_resist: 1.8
+      health_regen: 0.09
+      knockback_resistance: 0.036
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910738
+    display_name: "§6§lPantalones de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      max_health: 3.6
+      mana_regen: 0.6
+      status_resist: 3.0
+      health_regen: 0.15
+      knockback_resistance: 0.06
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910739
+    display_name: "§6§lPantalones de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      max_health: 5.4
+      mana_regen: 0.9
+      status_resist: 4.5
+      health_regen: 0.225
+      knockback_resistance: 0.09
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910740
+    display_name: "§6§lPantalones de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      max_health: 7.8
+      mana_regen: 1.3
+      status_resist: 6.5
+      health_regen: 0.325
+      knockback_resistance: 0.13
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk
+  monk_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910741
+    display_name: "§6§lBotas de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      max_health: 0.84
+      mana_regen: 0.14
+      status_resist: 0.7
+      health_regen: 0.035
+      knockback_resistance: 0.014
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910742
+    display_name: "§6§lBotas de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      max_health: 1.512
+      mana_regen: 0.252
+      status_resist: 1.26
+      health_regen: 0.063
+      knockback_resistance: 0.0252
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910743
+    display_name: "§6§lBotas de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      max_health: 2.52
+      mana_regen: 0.42
+      status_resist: 2.1
+      health_regen: 0.105
+      knockback_resistance: 0.042
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910744
+    display_name: "§6§lBotas de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      max_health: 3.78
+      mana_regen: 0.63
+      status_resist: 3.15
+      health_regen: 0.1575
+      knockback_resistance: 0.063
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910745
+    display_name: "§6§lBotas de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      max_health: 5.46
+      mana_regen: 0.91
+      status_resist: 4.55
+      health_regen: 0.2275
+      knockback_resistance: 0.091
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk
+  monk_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910746
+    display_name: "§6§lObjeto Secundario de Monje - Nivel I"
+    lore:
+    - "§8Set: Monje"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      spell_power: 1.5
+      mana_regen: 0.15
+      stun_chance: 0.3
+      health_regen: 0.025
+      attack_speed: 0.0075
+    requires:
+      subclass: monje
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: monk
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: monk
+  monk_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910747
+    display_name: "§6§lObjeto Secundario de Monje - Nivel II"
+    lore:
+    - "§8Set: Monje"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      spell_power: 2.7
+      mana_regen: 0.27
+      stun_chance: 0.54
+      health_regen: 0.045
+      attack_speed: 0.0135
+    requires:
+      subclass: monje
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 2
+      ingredients:
+      - "monk_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: monk
+  monk_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910748
+    display_name: "§6§lObjeto Secundario de Monje - Nivel III"
+    lore:
+    - "§8Set: Monje"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      spell_power: 4.5
+      mana_regen: 0.45
+      stun_chance: 0.9
+      health_regen: 0.075
+      attack_speed: 0.0225
+    requires:
+      subclass: monje
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 3
+      ingredients:
+      - "monk_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: monk
+  monk_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910749
+    display_name: "§6§lObjeto Secundario de Monje - Nivel IV"
+    lore:
+    - "§8Set: Monje"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      spell_power: 6.75
+      mana_regen: 0.675
+      stun_chance: 1.35
+      health_regen: 0.1125
+      attack_speed: 0.0338
+    requires:
+      subclass: monje
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 4
+      ingredients:
+      - "monk_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: monk
+  monk_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910750
+    display_name: "§6§lObjeto Secundario de Monje - Nivel V"
+    lore:
+    - "§8Set: Monje"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: monk
+      name: Monje
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      spell_power: 9.75
+      mana_regen: 0.975
+      stun_chance: 1.95
+      health_regen: 0.1625
+      attack_speed: 0.0488
+    requires:
+      subclass: monje
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: monk
+      tier: 5
+      ingredients:
+      - "monk_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: monk

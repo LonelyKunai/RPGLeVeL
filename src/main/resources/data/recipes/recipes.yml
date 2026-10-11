@@ -1,0 +1,508 @@
+recipes:
+  station_warrior:
+    type: shaped
+    result: station_warrior
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_BLOCK
+      B: SHIELD
+      S: SMITHING_TABLE
+  station_mage:
+    type: shaped
+    result: station_mage
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: LAPIS_BLOCK
+      B: BOOKSHELF
+      S: SMITHING_TABLE
+  station_hunter:
+    type: shaped
+    result: station_hunter
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BOW
+      B: TARGET
+      S: SMITHING_TABLE
+  station_rogue:
+    type: shaped
+    result: station_rogue
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: ENDER_PEARL
+      B: FERMENTED_SPIDER_EYE
+      S: SMITHING_TABLE
+  station_cleric:
+    type: shaped
+    result: station_cleric
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: GOLD_BLOCK
+      B: GLOWSTONE
+      S: SMITHING_TABLE
+  station_necromancer:
+    type: shaped
+    result: station_necromancer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SOUL_SAND
+      B: BONE_BLOCK
+      S: SMITHING_TABLE
+  station_druid:
+    type: shaped
+    result: station_druid
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: MOSS_BLOCK
+      B: SWEET_BERRIES
+      S: SMITHING_TABLE
+  station_artificer:
+    type: shaped
+    result: station_artificer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: REDSTONE_BLOCK
+      B: PISTON
+      S: SMITHING_TABLE
+  station_bard:
+    type: shaped
+    result: station_bard
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: NOTE_BLOCK
+      B: GOAT_HORN
+      S: SMITHING_TABLE
+  station_warlock:
+    type: shaped
+    result: station_warlock
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: OBSIDIAN
+      B: ENDER_EYE
+      S: SMITHING_TABLE
+  station_paladin:
+    type: shaped
+    result: station_paladin
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: GOLDEN_APPLE
+      B: GOLD_BLOCK
+      S: station_warrior
+  station_barbarian:
+    type: shaped
+    result: station_barbarian
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_AXE
+      B: COOKED_BEEF
+      S: station_warrior
+  station_death_knight:
+    type: shaped
+    result: station_death_knight
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: WITHER_ROSE
+      B: NETHERITE_SCRAP
+      S: station_warrior
+  station_pyromancer:
+    type: shaped
+    result: station_pyromancer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BLAZE_ROD
+      B: MAGMA_BLOCK
+      S: station_mage
+  station_cryomancer:
+    type: shaped
+    result: station_cryomancer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BLUE_ICE
+      B: SNOW_BLOCK
+      S: station_mage
+  station_electromancer:
+    type: shaped
+    result: station_electromancer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: LIGHTNING_ROD
+      B: COPPER_BLOCK
+      S: station_mage
+  station_marksman:
+    type: shaped
+    result: station_marksman
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SPYGLASS
+      B: CROSSBOW
+      S: station_hunter
+  station_beastmaster:
+    type: shaped
+    result: station_beastmaster
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SADDLE
+      B: LEAD
+      S: station_hunter
+  station_trapper:
+    type: shaped
+    result: station_trapper
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: TRIPWIRE_HOOK
+      B: COBWEB
+      S: station_hunter
+  station_assassin:
+    type: shaped
+    result: station_assassin
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_SWORD
+      B: BLACK_DYE
+      S: station_rogue
+  station_venomancer:
+    type: shaped
+    result: station_venomancer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: POISONOUS_POTATO
+      B: SPIDER_EYE
+      S: station_rogue
+  station_shadow_duelist:
+    type: shaped
+    result: station_shadow_duelist
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: ECHO_SHARD
+      B: SCULK
+      S: station_rogue
+  station_priest_of_light:
+    type: shaped
+    result: station_priest_of_light
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: GLOWSTONE
+      B: TOTEM_OF_UNDYING
+      S: station_cleric
+  station_inquisitor:
+    type: shaped
+    result: station_inquisitor
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SOUL_LANTERN
+      B: BELL
+      S: station_cleric
+  station_monk:
+    type: shaped
+    result: station_monk
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BAMBOO_BLOCK
+      B: HONEY_BOTTLE
+      S: station_cleric
+  station_shadow_lord:
+    type: shaped
+    result: station_shadow_lord
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SKELETON_SKULL
+      B: COAL_BLOCK
+      S: station_necromancer
+  station_reaper:
+    type: shaped
+    result: station_reaper
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_HOE
+      B: WHEAT
+      S: station_necromancer
+  station_plaguer:
+    type: shaped
+    result: station_plaguer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: ROTTEN_FLESH
+      B: FERMENTED_SPIDER_EYE
+      S: station_necromancer
+  station_wild_guardian:
+    type: shaped
+    result: station_wild_guardian
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: MOSSY_COBBLESTONE
+      B: SWEET_BERRIES
+      S: station_druid
+  station_apex_hunter:
+    type: shaped
+    result: station_apex_hunter
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BONE
+      B: RABBIT_HIDE
+      S: station_druid
+  station_earth_shaman:
+    type: shaped
+    result: station_earth_shaman
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: DRIPSTONE_BLOCK
+      B: CLAY
+      S: station_druid
+  station_alchemist:
+    type: shaped
+    result: station_alchemist
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BREWING_STAND
+      B: GLASS_BOTTLE
+      S: station_artificer
+  station_engineer:
+    type: shaped
+    result: station_engineer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: REPEATER
+      B: HOPPER
+      S: station_artificer
+  station_demolitionist:
+    type: shaped
+    result: station_demolitionist
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: TNT
+      B: GUNPOWDER
+      S: station_artificer
+  station_valor_herald:
+    type: shaped
+    result: station_valor_herald
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: WHITE_BANNER
+      B: GOLDEN_CARROT
+      S: station_bard
+  station_discord_master:
+    type: shaped
+    result: station_discord_master
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: DISC_FRAGMENT_5
+      B: FIRE_CHARGE
+      S: station_bard
+  station_minstrel:
+    type: shaped
+    result: station_minstrel
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: BELL
+      B: STRING
+      S: station_bard
+  station_demon_summoner:
+    type: shaped
+    result: station_demon_summoner
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: NETHER_WART_BLOCK
+      B: CRYING_OBSIDIAN
+      S: station_warlock
+  station_cursed:
+    type: shaped
+    result: station_cursed
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: SOUL_TORCH
+      B: OBSIDIAN
+      S: station_warlock
+  station_soul_eater:
+    type: shaped
+    result: station_soul_eater
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: GHAST_TEAR
+      B: SOUL_SOIL
+      S: station_warlock
+  station_adventurer:
+    type: shaped
+    result: station_adventurer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_INGOT
+      B: COMPASS
+      S: CRAFTING_TABLE
+  station_wanderer:
+    type: shaped
+    result: station_wanderer
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: LEATHER
+      B: MAP
+      S: CRAFTING_TABLE
+  station_guardian:
+    type: shaped
+    result: station_guardian
+    shape:
+    - ABA
+    - BSB
+    - ABA
+    ingredients:
+      A: IRON_BLOCK
+      B: SHIELD
+      S: CRAFTING_TABLE
+  steel_ingot:
+    type: shapeless
+    result: steel_ingot
+    ingredients:
+    - "IRON_INGOT:3"
+    - "COAL:1"
+  steel_ingot_blast:
+    type: blasting
+    result: steel_ingot
+    amount: 2
+    input: IRON_BLOCK
+    time: 400
+    xp: 1.0
+  cobalt_ingot:
+    type: shapeless
+    result: cobalt_ingot
+    ingredients:
+    - "steel_ingot:2"
+    - "LAPIS_LAZULI:2"
+    - "COPPER_INGOT:1"
+  sky_ingot:
+    type: shapeless
+    result: sky_ingot
+    ingredients:
+    - "cobalt_ingot:2"
+    - "DIAMOND:1"
+    - "PHANTOM_MEMBRANE:1"
+  dragon_core:
+    type: shapeless
+    result: dragon_core
+    ingredients:
+    - "sky_ingot:3"
+    - "DRAGON_BREATH:1"
+    - "ECHO_SHARD:1"

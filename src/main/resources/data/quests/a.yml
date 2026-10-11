@@ -1,0 +1,194 @@
+# Misiones de rango A (rank_index 5). Tipos: kill, gather, fish. reward_xp = puntos de ranking de misiones.
+quests:
+  q_a_01:
+    name: '[A] Caza de Enderman x38'
+    description: Elimina 38 Enderman.
+    type: kill
+    target: ENDERMAN
+    amount: 38
+    rank_index: 5
+    reward_xp: 335
+  q_a_02:
+    name: '[A] Caza de Blaze x38'
+    description: Elimina 38 Blaze.
+    type: kill
+    target: BLAZE
+    amount: 38
+    rank_index: 5
+    reward_xp: 335
+  q_a_03:
+    name: '[A] Caza de Wither Skeleton x38'
+    description: Elimina 38 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 38
+    rank_index: 5
+    reward_xp: 335
+  q_a_04:
+    name: '[A] Caza de Vindicator x38'
+    description: Elimina 38 Vindicator.
+    type: kill
+    target: VINDICATOR
+    amount: 38
+    rank_index: 5
+    reward_xp: 335
+  q_a_05:
+    name: '[A] Caza de Ghast x38'
+    description: Elimina 38 Ghast.
+    type: kill
+    target: GHAST
+    amount: 38
+    rank_index: 5
+    reward_xp: 335
+  q_a_06:
+    name: '[A] Caza de Enderman x76'
+    description: Elimina 76 Enderman.
+    type: kill
+    target: ENDERMAN
+    amount: 76
+    rank_index: 5
+    reward_xp: 475
+  q_a_07:
+    name: '[A] Caza de Blaze x76'
+    description: Elimina 76 Blaze.
+    type: kill
+    target: BLAZE
+    amount: 76
+    rank_index: 5
+    reward_xp: 475
+  q_a_08:
+    name: '[A] Caza de Wither Skeleton x76'
+    description: Elimina 76 Wither Skeleton.
+    type: kill
+    target: WITHER_SKELETON
+    amount: 76
+    rank_index: 5
+    reward_xp: 475
+  q_a_09:
+    name: '[A] Caza de Vindicator x76'
+    description: Elimina 76 Vindicator.
+    type: kill
+    target: VINDICATOR
+    amount: 76
+    rank_index: 5
+    reward_xp: 475
+  q_a_10:
+    name: '[A] Caza de Ghast x76'
+    description: Elimina 76 Ghast.
+    type: kill
+    target: GHAST
+    amount: 76
+    rank_index: 5
+    reward_xp: 475
+  q_a_11:
+    name: '[A] Recolección de Deepslate Diamond Ore x76'
+    description: Recolecta 76 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 76
+    rank_index: 5
+    reward_xp: 335
+  q_a_12:
+    name: '[A] Recolección de Ancient Debris x76'
+    description: Recolecta 76 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 76
+    rank_index: 5
+    reward_xp: 335
+  q_a_13:
+    name: '[A] Recolección de Obsidian x76'
+    description: Recolecta 76 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 76
+    rank_index: 5
+    reward_xp: 335
+  q_a_14:
+    name: '[A] Recolección de Deepslate Emerald Ore x76'
+    description: Recolecta 76 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 76
+    rank_index: 5
+    reward_xp: 335
+  q_a_15:
+    name: '[A] Recolección de Nether Quartz Ore x76'
+    description: Recolecta 76 Nether Quartz Ore.
+    type: gather
+    target: NETHER_QUARTZ_ORE
+    amount: 76
+    rank_index: 5
+    reward_xp: 335
+  q_a_16:
+    name: '[A] Recolección de Deepslate Diamond Ore x152'
+    description: Recolecta 152 Deepslate Diamond Ore.
+    type: gather
+    target: DEEPSLATE_DIAMOND_ORE
+    amount: 152
+    rank_index: 5
+    reward_xp: 475
+  q_a_17:
+    name: '[A] Recolección de Ancient Debris x152'
+    description: Recolecta 152 Ancient Debris.
+    type: gather
+    target: ANCIENT_DEBRIS
+    amount: 152
+    rank_index: 5
+    reward_xp: 475
+  q_a_18:
+    name: '[A] Recolección de Obsidian x152'
+    description: Recolecta 152 Obsidian.
+    type: gather
+    target: OBSIDIAN
+    amount: 152
+    rank_index: 5
+    reward_xp: 475
+  q_a_19:
+    name: '[A] Recolección de Deepslate Emerald Ore x152'
+    description: Recolecta 152 Deepslate Emerald Ore.
+    type: gather
+    target: DEEPSLATE_EMERALD_ORE
+    amount: 152
+    rank_index: 5
+    reward_xp: 475
+  q_a_20:
+    name: '[A] Recolección de Nether Quartz Ore x152'
+    description: Recolecta 152 Nether Quartz Ore.
+    type: gather
+    target: NETHER_QUARTZ_ORE
+    amount: 152
+    rank_index: 5
+    reward_xp: 475
+  q_a_21:
+    name: '[A] Pesca de Enchanted Book x12'
+    description: Pesca 12 Enchanted Book.
+    type: fish
+    target: ENCHANTED_BOOK
+    amount: 12
+    rank_index: 5
+    reward_xp: 188
+  q_a_22:
+    name: '[A] Pesca de Saddle x12'
+    description: Pesca 12 Saddle.
+    type: fish
+    target: SADDLE
+    amount: 12
+    rank_index: 5
+    reward_xp: 188
+  q_a_23:
+    name: '[A] Pesca de Nautilus Shell x12'
+    description: Pesca 12 Nautilus Shell.
+    type: fish
+    target: NAUTILUS_SHELL
+    amount: 12
+    rank_index: 5
+    reward_xp: 188
+  q_a_24:
+    name: '[A] Pesca de Fishing Rod x12'
+    description: Pesca 12 Fishing Rod.
+    type: fish
+    target: FISHING_ROD
+    amount: 12
+    rank_index: 5
+    reward_xp: 188

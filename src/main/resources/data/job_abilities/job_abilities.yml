@@ -1,0 +1,387 @@
+# Habilidades de oficio (/jobs abilities). Se desbloquean por nivel del trabajo (unlock.job_level), por rango permanente de trabajo (unlock.rank)
+# o al azar como recompensa de misiones/mazmorras/jefes (unlock.random). Solo funcionan con el trabajo activo en una ranura.
+# El nivel de cada habilidad sube solo con el nivel del trabajo: 1 + (nivel-1)/level_step.
+settings:
+  level_step_default: 10
+  random_chance:
+    daily: 0.03
+    weekly: 0.2
+    chain: 1.0
+    dungeon: 0.15
+    boss: 0.1
+abilities:
+  miner_lucky_miner:
+    job: miner
+    name: Minero afortunado
+    description: Probabilidad de duplicar los drops de minerales.
+    icon: DIAMOND_PICKAXE
+    type: double_drops_ore
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 8
+      chance_per_level: 3
+  miner_stone_skin:
+    job: miner
+    name: Piel de roca
+    description: "Pasiva: armadura y vida."
+    icon: IRON_CHESTPLATE
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      armor: 0.4
+      max_health: 0.5
+  miner_vein_miner:
+    job: miner
+    name: Veta continua
+    description: "Agáchate al picar una mena: rompe toda la veta conectada (con pico)."
+    icon: NETHERITE_PICKAXE
+    type: vein_miner
+    max_level: 5
+    level_step: 10
+    unlock: &id001
+      random: true
+    params:
+      max_blocks: 6
+      max_blocks_per_level: 3
+  lumberjack_lucky_logger:
+    job: lumberjack
+    name: Leñador afortunado
+    description: Probabilidad de duplicar los troncos.
+    icon: GOLDEN_AXE
+    type: double_drops_log
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 8
+      chance_per_level: 3
+  lumberjack_axe_mastery:
+    job: lumberjack
+    name: Maestría del hacha
+    description: "Pasiva: daño y daño crítico."
+    icon: IRON_AXE
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      attack_damage: 0.25
+      crit_damage: 1.0
+  lumberjack_treecapitator:
+    job: lumberjack
+    name: Talador
+    description: "Agáchate al talar: derriba el árbol entero (con hacha, solo árboles naturales)."
+    icon: DIAMOND_AXE
+    type: treecapitator
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      max_blocks: 16
+      max_blocks_per_level: 8
+  farmer_replenish:
+    job: farmer
+    name: Replantar
+    description: Los cultivos maduros se vuelven a plantar solos.
+    icon: WHEAT_SEEDS
+    type: replenish
+    max_level: 1
+    level_step: 10
+    unlock:
+      job_level: 3
+    params:
+      chance: 100
+  farmer_green_thumb:
+    job: farmer
+    name: Mano verde
+    description: "Pasiva: vida y resistencia a estados."
+    icon: OAK_SAPLING
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      max_health: 0.5
+      status_resist: 1.0
+  farmer_bountiful_harvest:
+    job: farmer
+    name: Cosecha generosa
+    description: Probabilidad de duplicar la cosecha.
+    icon: HAY_BLOCK
+    type: double_drops_crop
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 12
+    params:
+      chance: 10
+      chance_per_level: 3
+  farmer_harvest_area:
+    job: farmer
+    name: Cosecha en área
+    description: "Agáchate al cosechar con azada: cosecha los cultivos maduros de alrededor."
+    icon: DIAMOND_HOE
+    type: harvest_area
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      radius: 1
+      radius_per_level: 0.5
+  fisher_lucky_catch:
+    job: fisher
+    name: Captura afortunada
+    description: Probabilidad de pescar el doble.
+    icon: COD
+    type: lucky_catch
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 8
+      chance_per_level: 3
+  fisher_quick_hook:
+    job: fisher
+    name: Anzuelo rápido
+    description: Reduce el tiempo de espera de la pesca.
+    icon: FISHING_ROD
+    type: quick_hook
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 12
+    params:
+      reduction_percent: 15
+      reduction_percent_per_level: 5
+  fisher_sea_legs:
+    job: fisher
+    name: Patas de mar
+    description: "Pasiva: suerte y velocidad."
+    icon: LEATHER_BOOTS
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      luck: 0.3
+      movement_speed: 0.001
+  fisher_treasure_hunter:
+    job: fisher
+    name: Cazatesoros
+    description: "Probabilidad de pescar un tesoro: gemas, materiales de forja o monedas."
+    icon: HEART_OF_THE_SEA
+    type: treasure_hunter
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      chance: 6
+      chance_per_level: 2
+  hunter_trophy_hunter:
+    job: hunter
+    name: Cazador de trofeos
+    description: Probabilidad de duplicar los drops de los monstruos.
+    icon: ROTTEN_FLESH
+    type: trophy_hunter
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 8
+      chance_per_level: 3
+  hunter_predator:
+    job: hunter
+    name: Depredador
+    description: "Pasiva: daño y probabilidad de crítico."
+    icon: BOW
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      attack_damage: 0.2
+      crit_chance: 0.5
+  hunter_bounty_hunter:
+    job: hunter
+    name: Cazarrecompensas
+    description: Al matar monstruos puedes ganar monedas extra.
+    icon: GOLD_NUGGET
+    type: bounty_hunter
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      chance: 15
+      chance_per_level: 3
+      coins: 6
+      coins_per_level: 4
+  blacksmith_thrifty_forge:
+    job: blacksmith
+    name: Forja frugal
+    description: Más probabilidad de recuperar materiales al forjar.
+    icon: IRON_INGOT
+    type: thrifty_forge
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 6
+      chance_per_level: 2
+  blacksmith_forge_master:
+    job: blacksmith
+    name: Maestro de la forja
+    description: "Pasiva: dureza y reducción de daño."
+    icon: ANVIL
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      armor_toughness: 0.3
+      damage_reduction: 0.4
+  blacksmith_artisans_touch:
+    job: blacksmith
+    name: Toque del artesano
+    description: Más probabilidad de afijos al forjar, y uno extra.
+    icon: NETHERITE_INGOT
+    type: artisans_touch
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      chance: 10
+      chance_per_level: 4
+  alchemist_potion_cache:
+    job: alchemist
+    name: Alijo de pociones
+    description: Probabilidad de obtener una poción extra al sacarla del soporte.
+    icon: BREWING_STAND
+    type: potion_cache
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 10
+      chance_per_level: 3
+  alchemist_brew_mastery:
+    job: alchemist
+    name: Maestría alquímica
+    description: "Pasiva: resistencia a estados y regeneración de maná."
+    icon: GLASS_BOTTLE
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      status_resist: 2.0
+      mana_regen: 0.05
+  alchemist_volatile_brew:
+    job: alchemist
+    name: Mezcla volátil
+    description: Al sacar pociones puedes recibir un golpe de fuerza.
+    icon: BLAZE_POWDER
+    type: volatile_brew
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      chance: 15
+      chance_per_level: 4
+      seconds: 30
+      potions:
+      - "strength:30:0"
+      - "regeneration:10:0"
+  enchanter_enchant_refund:
+    job: enchanter
+    name: Ahorro arcano
+    description: Probabilidad de recuperar niveles al encantar.
+    icon: EXPERIENCE_BOTTLE
+    type: enchant_refund
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 15
+      chance_per_level: 5
+      levels: 1
+  enchanter_arcane_study:
+    job: enchanter
+    name: Estudio arcano
+    description: "Pasiva: poder de habilidad y maná."
+    icon: ENCHANTING_TABLE
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      spell_power: 0.8
+      mana_max: 2.0
+  enchanter_arcane_insight:
+    job: enchanter
+    name: Visión arcana
+    description: Al encantar puedes obtener una gema.
+    icon: AMETHYST_SHARD
+    type: arcane_insight
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      chance: 10
+      chance_per_level: 3
+  cook_hearty_meals:
+    job: cook
+    name: Comidas abundantes
+    description: Probabilidad de obtener más comida al sacarla del horno.
+    icon: COOKED_BEEF
+    type: hearty_meals
+    max_level: 5
+    level_step: 10
+    unlock:
+      job_level: 5
+    params:
+      chance: 12
+      chance_per_level: 4
+  cook_iron_stomach:
+    job: cook
+    name: Estómago de hierro
+    description: "Pasiva: vida y reducción de daño."
+    icon: BREAD
+    type: stat
+    max_level: 5
+    level_step: 10
+    unlock:
+      rank: D
+    stats_per_level:
+      max_health: 0.5
+      damage_reduction: 0.3
+  cook_feast:
+    job: cook
+    name: Banquete
+    description: Al comer te beneficias de absorción y regeneración.
+    icon: GOLDEN_CARROT
+    type: feast
+    max_level: 5
+    level_step: 10
+    unlock: *id001
+    params:
+      seconds: 20
+      seconds_per_level: 6

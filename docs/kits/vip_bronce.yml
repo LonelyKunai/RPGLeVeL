@@ -1,0 +1,66 @@
+cooldown: 604800
+permission_required: true
+items:
+  1:
+    id: GOLDEN_APPLE
+    amount: 2
+actions:
+  claim:
+    1:
+      action: "console_command: rlv give adventurer_weapon_t1 %player% 1"
+    2:
+      action: "console_command: rlv give adventurer_helmet_t1 %player% 1"
+    3:
+      action: "console_command: rlv give adventurer_chestplate_t1 %player% 1"
+    4:
+      action: "console_command: rlv give adventurer_leggings_t1 %player% 1"
+    5:
+      action: "console_command: rlv give adventurer_boots_t1 %player% 1"
+    6:
+      action: "console_command: rlv give steel_ingot %player% 4"
+    7:
+      action: "playsound: ENTITY_PLAYER_LEVELUP;10;1"
+  error:
+    1:
+      action: "playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1"
+requirements:
+  one_time_requirements: false
+  price: 0
+display:
+  default:
+    id: NETHER_STAR
+    name: '&6&lKit Bronce'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set adventurer nivel 1 (arma y armadura)'
+      - '&8- &7x4 steel_ingot'
+      - ''
+      - '&7Espera: &c168 h'
+      - ''
+      - '&aClic izquierdo para reclamar'
+    item_flags:
+      - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&6&lKit Bronce'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set adventurer nivel 1 (arma y armadura)'
+      - '&8- &7x4 steel_ingot'
+      - ''
+      - '&cNo tienes permiso para este kit.'
+  cooldown:
+    id: NETHER_STAR
+    name: '&6&lKit Bronce'
+    amount: 1
+    lore:
+      - '&fEste kit incluye:'
+      - '&8- &7Set adventurer nivel 1 (arma y armadura)'
+      - '&8- &7x4 steel_ingot'
+      - ''
+      - '&cDebes esperar &7%time%'
+      - '&cpara reclamarlo de nuevo.'
+    item_flags:
+      - HIDE_ATTRIBUTES

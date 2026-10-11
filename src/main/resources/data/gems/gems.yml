@@ -1,0 +1,68 @@
+# Gemas: se engarzan en las ranuras de un ítem (clic con la gema en el cursor sobre el ítem, en el inventario).
+# 3 gemas iguales del mismo nivel se combinan en la mesa de crafteo en una de nivel superior.
+settings:
+  max_level: 3
+  combine_amount: 3
+  # nombres de nivel
+  level_names: {1: "I", 2: "II", 3: "III"}
+gems:
+  ruby:
+    name: Rubí
+    color: "§c"
+    material: REDSTONE
+    stats: {1: {attack_damage: 0.3}, 2: {attack_damage: 0.7}, 3: {attack_damage: 1.3}}
+  sapphire:
+    name: Zafiro
+    color: "§9"
+    material: LAPIS_LAZULI
+    stats: {1: {mana_max: 6}, 2: {mana_max: 14}, 3: {mana_max: 26}}
+  emerald:
+    name: Esmeralda
+    color: "§a"
+    material: EMERALD
+    stats: {1: {evasion: 0.6}, 2: {evasion: 1.4}, 3: {evasion: 2.6}}
+  topaz:
+    name: Topacio
+    color: "§e"
+    material: GOLD_NUGGET
+    stats: {1: {crit_chance: 0.8}, 2: {crit_chance: 1.8}, 3: {crit_chance: 3.2}}
+  amethyst:
+    name: Amatista
+    color: "§d"
+    material: AMETHYST_SHARD
+    stats: {1: {spell_power: 2}, 2: {spell_power: 4.5}, 3: {spell_power: 8}}
+  diamond:
+    name: Diamante
+    color: "§b"
+    material: DIAMOND
+    stats: {1: {armor: 0.4}, 2: {armor: 0.9}, 3: {armor: 1.6}}
+  onyx:
+    name: Ónix
+    color: "§8"
+    material: COAL
+    stats: {1: {lifesteal: 0.5}, 2: {lifesteal: 1.1}, 3: {lifesteal: 2.0}}
+  opal:
+    name: Ópalo
+    color: "§f"
+    material: QUARTZ
+    stats: {1: {cooldown_reduction: 0.8}, 2: {cooldown_reduction: 1.8}, 3: {cooldown_reduction: 3.2}}
+  citrine:
+    name: Citrino
+    color: "§6"
+    material: HONEYCOMB
+    stats: {1: {xp_bonus: 1.5}, 2: {xp_bonus: 3.5}, 3: {xp_bonus: 6}}
+  garnet:
+    name: Granate
+    color: "§4"
+    material: NETHER_BRICK
+    stats: {1: {max_health: 1}, 2: {max_health: 2.5}, 3: {max_health: 4.5}}
+  jade:
+    name: Jade
+    color: "§2"
+    material: PRISMARINE_SHARD
+    stats: {1: {movement_speed: 0.002}, 2: {movement_speed: 0.005}, 3: {movement_speed: 0.009}}
+  quartz:
+    name: Cuarzo
+    color: "§7"
+    material: IRON_NUGGET
+    stats: {1: {penetration: 1.2}, 2: {penetration: 2.8}, 3: {penetration: 5}}

@@ -1,0 +1,1131 @@
+items:
+  beastmaster_weapon_t1:
+    material: DIAMOND_SWORD
+    custom_model_data: 910511
+    display_name: "§6§lArma Principal de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 1
+    stats:
+      crit_chance: 1.5
+      attack_damage: 0.4
+      execute: 1.5
+      bleed_chance: 1.8
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "DIAMOND_SWORD:1"
+      - "IRON_INGOT:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_weapon_t2:
+    material: DIAMOND_SWORD
+    custom_model_data: 910512
+    display_name: "§6§lArma Principal de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 2
+    stats:
+      crit_chance: 2.7
+      attack_damage: 0.72
+      execute: 2.7
+      bleed_chance: 3.24
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_weapon_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_weapon_t3:
+    material: DIAMOND_SWORD
+    custom_model_data: 910513
+    display_name: "§6§lArma Principal de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 3
+    stats:
+      crit_chance: 4.5
+      attack_damage: 1.2
+      execute: 4.5
+      bleed_chance: 5.4
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_weapon_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_weapon_t4:
+    material: DIAMOND_SWORD
+    custom_model_data: 910514
+    display_name: "§6§lArma Principal de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 4
+    stats:
+      crit_chance: 6.75
+      attack_damage: 1.8
+      execute: 6.75
+      bleed_chance: 8.1
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_weapon_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_weapon_t5:
+    material: DIAMOND_SWORD
+    custom_model_data: 910515
+    display_name: "§6§lArma Principal de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: weapon
+      piece: weapon
+      tier: 5
+    stats:
+      crit_chance: 9.75
+      attack_damage: 2.6
+      execute: 9.75
+      bleed_chance: 11.7
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_weapon_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster
+  beastmaster_helmet_t1:
+    material: LEATHER_HELMET
+    custom_model_data: 910516
+    display_name: "§6§lCasco de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.14
+      status_resist: 0.56
+      health_regen: 0.028
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "LEATHER_HELMET:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_helmet_t2:
+    material: LEATHER_HELMET
+    custom_model_data: 910517
+    display_name: "§6§lCasco de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.252
+      status_resist: 1.008
+      health_regen: 0.0504
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_helmet_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_helmet_t3:
+    material: LEATHER_HELMET
+    custom_model_data: 910518
+    display_name: "§6§lCasco de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.42
+      status_resist: 1.68
+      health_regen: 0.084
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_helmet_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_helmet_t4:
+    material: LEATHER_HELMET
+    custom_model_data: 910519
+    display_name: "§6§lCasco de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 0.63
+      status_resist: 2.52
+      health_regen: 0.126
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_helmet_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_helmet_t5:
+    material: LEATHER_HELMET
+    custom_model_data: 910520
+    display_name: "§6§lCasco de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: helmet
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 0.91
+      status_resist: 3.64
+      health_regen: 0.182
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_helmet_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster
+  beastmaster_chestplate_t1:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910521
+    display_name: "§6§lPechera de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 1
+    stats:
+      evasion: 1.04
+      max_health: 1.04
+      luck: 0.26
+      status_resist: 1.04
+      health_regen: 0.052
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "LEATHER_CHESTPLATE:1"
+      - "LEATHER:5"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_chestplate_t2:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910522
+    display_name: "§6§lPechera de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 2
+    stats:
+      evasion: 1.872
+      max_health: 1.872
+      luck: 0.468
+      status_resist: 1.872
+      health_regen: 0.0936
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_chestplate_t1:1"
+      - "steel_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_chestplate_t3:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910523
+    display_name: "§6§lPechera de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 3
+    stats:
+      evasion: 3.12
+      max_health: 3.12
+      luck: 0.78
+      status_resist: 3.12
+      health_regen: 0.156
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_chestplate_t2:1"
+      - "cobalt_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_chestplate_t4:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910524
+    display_name: "§6§lPechera de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 4
+    stats:
+      evasion: 4.68
+      max_health: 4.68
+      luck: 1.17
+      status_resist: 4.68
+      health_regen: 0.234
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_chestplate_t3:1"
+      - "sky_ingot:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_chestplate_t5:
+    material: LEATHER_CHESTPLATE
+    custom_model_data: 910525
+    display_name: "§6§lPechera de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: chestplate
+      tier: 5
+    stats:
+      evasion: 6.76
+      max_health: 6.76
+      luck: 1.69
+      status_resist: 6.76
+      health_regen: 0.338
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_chestplate_t4:1"
+      - "dragon_core:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster
+  beastmaster_leggings_t1:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910526
+    display_name: "§6§lPantalones de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 1
+    stats:
+      evasion: 0.8
+      max_health: 0.8
+      luck: 0.2
+      status_resist: 0.8
+      health_regen: 0.04
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "LEATHER_LEGGINGS:1"
+      - "LEATHER:4"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_leggings_t2:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910527
+    display_name: "§6§lPantalones de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 2
+    stats:
+      evasion: 1.44
+      max_health: 1.44
+      luck: 0.36
+      status_resist: 1.44
+      health_regen: 0.072
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_leggings_t1:1"
+      - "steel_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_leggings_t3:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910528
+    display_name: "§6§lPantalones de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 3
+    stats:
+      evasion: 2.4
+      max_health: 2.4
+      luck: 0.6
+      status_resist: 2.4
+      health_regen: 0.12
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_leggings_t2:1"
+      - "cobalt_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_leggings_t4:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910529
+    display_name: "§6§lPantalones de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 4
+    stats:
+      evasion: 3.6
+      max_health: 3.6
+      luck: 0.9
+      status_resist: 3.6
+      health_regen: 0.18
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_leggings_t3:1"
+      - "sky_ingot:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_leggings_t5:
+    material: LEATHER_LEGGINGS
+    custom_model_data: 910530
+    display_name: "§6§lPantalones de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: leggings
+      tier: 5
+    stats:
+      evasion: 5.2
+      max_health: 5.2
+      luck: 1.3
+      status_resist: 5.2
+      health_regen: 0.26
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_leggings_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster
+  beastmaster_boots_t1:
+    material: LEATHER_BOOTS
+    custom_model_data: 910531
+    display_name: "§6§lBotas de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 1
+    stats:
+      evasion: 0.56
+      max_health: 0.56
+      luck: 0.14
+      status_resist: 0.56
+      health_regen: 0.028
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "LEATHER_BOOTS:1"
+      - "LEATHER:3"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_boots_t2:
+    material: LEATHER_BOOTS
+    custom_model_data: 910532
+    display_name: "§6§lBotas de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 2
+    stats:
+      evasion: 1.008
+      max_health: 1.008
+      luck: 0.252
+      status_resist: 1.008
+      health_regen: 0.0504
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_boots_t1:1"
+      - "steel_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_boots_t3:
+    material: LEATHER_BOOTS
+    custom_model_data: 910533
+    display_name: "§6§lBotas de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 3
+    stats:
+      evasion: 1.68
+      max_health: 1.68
+      luck: 0.42
+      status_resist: 1.68
+      health_regen: 0.084
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_boots_t2:1"
+      - "cobalt_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_boots_t4:
+    material: LEATHER_BOOTS
+    custom_model_data: 910534
+    display_name: "§6§lBotas de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 4
+    stats:
+      evasion: 2.52
+      max_health: 2.52
+      luck: 0.63
+      status_resist: 2.52
+      health_regen: 0.126
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 2
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_boots_t3:1"
+      - "sky_ingot:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_boots_t5:
+    material: LEATHER_BOOTS
+    custom_model_data: 910535
+    display_name: "§6§lBotas de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: armor
+      piece: boots
+      tier: 5
+    stats:
+      evasion: 3.64
+      max_health: 3.64
+      luck: 0.91
+      status_resist: 3.64
+      health_regen: 0.182
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 3
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_boots_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster
+  beastmaster_offhand_extra_t1:
+    material: SHIELD
+    custom_model_data: 910536
+    display_name: "§6§lObjeto Secundario de Maestro de Bestias - Nivel I"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Equipo inicial básico forjado con materiales estándar."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 1
+    stats:
+      crit_chance: 0.75
+      attack_damage: 0.2
+      execute: 0.75
+      bleed_chance: 0.9
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 1
+    sockets: 0
+    recipe:
+      station: beastmaster
+      tier: 1
+      ingredients:
+      - "SHIELD:1"
+      - "IRON_INGOT:2"
+    enchantments:
+    - type: UNBREAKING
+      level: 1
+    unbreakable: true
+    custom_data:
+      rarity: común
+      set: beastmaster
+  beastmaster_offhand_extra_t2:
+    material: SHIELD
+    custom_model_data: 910537
+    display_name: "§6§lObjeto Secundario de Maestro de Bestias - Nivel II"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Reforzado con minerales raros para resistir combate avanzado."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 2
+    stats:
+      crit_chance: 1.35
+      attack_damage: 0.36
+      execute: 1.35
+      bleed_chance: 1.62
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 5
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 2
+      ingredients:
+      - "beastmaster_offhand_extra_t1:1"
+      - "steel_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 2
+    unbreakable: true
+    custom_data:
+      rarity: "poco común"
+      set: beastmaster
+  beastmaster_offhand_extra_t3:
+    material: SHIELD
+    custom_model_data: 910538
+    display_name: "§6§lObjeto Secundario de Maestro de Bestias - Nivel III"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Imbuido con energía elemental y componentes de gran valor."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 3
+    stats:
+      crit_chance: 2.25
+      attack_damage: 0.6
+      execute: 2.25
+      bleed_chance: 2.7
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 12
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 3
+      ingredients:
+      - "beastmaster_offhand_extra_t2:1"
+      - "cobalt_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 3
+    unbreakable: true
+    custom_data:
+      rarity: raro
+      set: beastmaster
+  beastmaster_offhand_extra_t4:
+    material: SHIELD
+    custom_model_data: 910539
+    display_name: "§6§lObjeto Secundario de Maestro de Bestias - Nivel IV"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Una reliquia poderosa imbuida con la esencia de los cielos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 4
+    stats:
+      crit_chance: 3.375
+      attack_damage: 0.9
+      execute: 3.375
+      bleed_chance: 4.05
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 20
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 4
+      ingredients:
+      - "beastmaster_offhand_extra_t3:1"
+      - "sky_ingot:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 4
+    unbreakable: true
+    custom_data:
+      rarity: épico
+      set: beastmaster
+  beastmaster_offhand_extra_t5:
+    material: SHIELD
+    custom_model_data: 910540
+    display_name: "§6§lObjeto Secundario de Maestro de Bestias - Nivel V"
+    lore:
+    - "§8Set: Maestro de Bestias"
+    - "§7Un artefacto legendario impregnado con el poder del Dragón y el Cosmos."
+    - ''
+    list:
+      category: beastmaster
+      name: "Maestro de Bestias"
+      group: subclasses
+      type: offhand
+      piece: offhand_extra
+      tier: 5
+    stats:
+      crit_chance: 4.875
+      attack_damage: 1.3
+      execute: 4.875
+      bleed_chance: 5.85
+    requires:
+      subclass: maestro_de_bestias
+      subclass_level: 30
+    sockets: 1
+    recipe:
+      station: beastmaster
+      tier: 5
+      ingredients:
+      - "beastmaster_offhand_extra_t4:1"
+      - "dragon_core:1"
+    enchantments:
+    - type: UNBREAKING
+      level: 5
+    unbreakable: true
+    custom_data:
+      rarity: legendario
+      set: beastmaster

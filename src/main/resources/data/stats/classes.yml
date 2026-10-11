@@ -1,0 +1,107 @@
+# Estadísticas ganadas por cada nivel (vanilla: atributos; resto: ver Stats.java). Valores por nivel.
+defaults:
+  max_health: 0.4
+  attack_damage: 0.08
+  armor: 0.05
+classes:
+  guerrero:
+    max_health: 0.8
+    attack_damage: 0.12
+    armor: 0.15
+    knockback_resistance: 0.004
+    damage_reduction: 0.1
+    crit_damage: 0.5
+    lifesteal: 0.03
+    penetration: 0.05
+    mana_max: 0.4
+    status_resist: 0.15
+  mago:
+    max_health: 0.35
+    attack_damage: 0.06
+    armor: 0.03
+    movement_speed: 0.0008
+    luck: 0.03
+    spell_power: 0.5
+    mana_max: 1.6
+    mana_regen: 0.03
+    cooldown_reduction: 0.12
+    crit_chance: 0.04
+  cazador:
+    max_health: 0.45
+    attack_damage: 0.1
+    armor: 0.05
+    movement_speed: 0.0014
+    attack_speed: 0.002
+    crit_chance: 0.08
+    crit_damage: 0.6
+    penetration: 0.08
+    evasion: 0.04
+  picaro:
+    max_health: 0.4
+    attack_damage: 0.11
+    armor: 0.04
+    movement_speed: 0.002
+    attack_speed: 0.003
+    crit_chance: 0.1
+    crit_damage: 0.7
+    evasion: 0.08
+    penetration: 0.05
+  clerigo:
+    max_health: 0.6
+    attack_damage: 0.05
+    armor: 0.08
+    luck: 0.04
+    mana_max: 1.0
+    mana_regen: 0.04
+    damage_reduction: 0.06
+    spell_power: 0.25
+    lifesteal: 0.02
+    status_resist: 0.2
+  nigromante:
+    max_health: 0.4
+    attack_damage: 0.08
+    armor: 0.04
+    luck: 0.02
+    spell_power: 0.4
+    lifesteal: 0.08
+    mana_max: 1.2
+    cooldown_reduction: 0.08
+  druida:
+    max_health: 0.6
+    attack_damage: 0.07
+    armor: 0.08
+    movement_speed: 0.0008
+    mana_regen: 0.04
+    mana_max: 1.0
+    damage_reduction: 0.05
+    evasion: 0.03
+    spell_power: 0.25
+  artificie:
+    max_health: 0.45
+    attack_damage: 0.08
+    armor: 0.07
+    luck: 0.03
+    attack_speed: 0.0015
+    penetration: 0.1
+    crit_chance: 0.05
+    cooldown_reduction: 0.1
+    mana_max: 0.8
+  bardo:
+    max_health: 0.45
+    attack_damage: 0.05
+    armor: 0.05
+    movement_speed: 0.001
+    luck: 0.04
+    cooldown_reduction: 0.15
+    mana_regen: 0.05
+    xp_bonus: 0.08
+    mana_max: 0.9
+  brujo:
+    max_health: 0.3
+    attack_damage: 0.1
+    armor: 0.03
+    luck: 0.03
+    spell_power: 0.55
+    lifesteal: 0.05
+    mana_max: 1.3
+    penetration: 0.06

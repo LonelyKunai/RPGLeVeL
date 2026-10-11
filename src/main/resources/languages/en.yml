@@ -1,0 +1,40 @@
+# Translatable messages (per player: /language <code>). Placeholders: {0} {1} ...
+level:
+  up: "§6Your {0} §f{1} §6reached level §e{2}§6!"
+  kind_class: "class"
+  kind_subclass: "subclass"
+  title: "§6Level {0}!"
+rank:
+  up: "§6Your {0} rank in {1} §6went up to {2}§6!"
+  title_scope: "{0}"
+  permanent: "permanent"
+  season: "season"
+ability:
+  mana_low: "§cNot enough mana §7({0} needed, you have {1})"
+  cooldown: "§c{0} on cooldown: {1}s"
+  locked: "§cYou have not unlocked §f{0}§c. Unlock it in /ability."
+  zone_off: "§cAbilities are disabled in this zone."
+  cast: "§d✦ {0} §7(level {1})"
+  unlocked: "§aAbility unlocked: §f{0}§a!"
+  upgraded: "§a{0} §7reached level §e{1}§7 (-{2} ability XP)."
+  no_target: "§cNo target in sight"
+combat:
+  crit: "§c✦ Critical hit! §7{0}"
+  dodge: "§aDodged!"
+  req_returned: "§c{0}§c. The item went back to your inventory."
+mana:
+  bar: "§b✦ Mana §f{0}§7/§f{1} {2}"
+station:
+  forged: "§aYou forged §f{0}§a."
+  missing: "§cYou are missing ingredients."
+achievement:
+  unlocked: "§6★ Achievement unlocked: §e{0} §7- {1}"
+  title_new: "§7New title: {0} §7(/title)"
+  title_header: "§6★ Achievement"
+quest:
+  done: "§a✔ Quest completed: §f{0} §7(+{1} quest points)"
+  coins: "§7+§e{0} §7coins"
+language:
+  changed: "§aLanguage changed to {0}"
+  list: "§eAvailable languages: {0}"
+  usage: "§cUsage: /language <code>"

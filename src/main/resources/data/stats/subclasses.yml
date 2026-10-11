@@ -1,0 +1,282 @@
+# Estadísticas ganadas por cada nivel (vanilla: atributos; resto: ver Stats.java). Valores por nivel.
+subclasses:
+  paladin:
+    max_health: 0.4
+    armor: 0.1
+    armor_toughness: 0.03
+    damage_reduction: 0.11
+    crit_damage: 0.25
+    lifesteal: 0.015
+    penetration: 0.025
+    mana_max: 0.2
+    status_resist: 0.225
+  barbaro:
+    attack_damage: 0.1
+    max_health: 0.3
+    attack_speed: 0.002
+    damage_reduction: 0.05
+    crit_damage: 0.75
+    lifesteal: 0.015
+    penetration: 0.025
+    mana_max: 0.2
+    status_resist: 0.075
+    bleed_chance: 0.05
+  caballero_de_la_muerte:
+    attack_damage: 0.08
+    armor: 0.08
+    knockback_resistance: 0.003
+    damage_reduction: 0.05
+    crit_damage: 0.25
+    lifesteal: 0.075
+    penetration: 0.025
+    mana_max: 0.2
+    status_resist: 0.075
+    stun_chance: 0.03
+  piroamante:
+    attack_damage: 0.1
+    luck: 0.02
+    spell_power: 0.45
+    mana_max: 0.8
+    mana_regen: 0.015
+    cooldown_reduction: 0.06
+    crit_chance: 0.02
+    burn_chance: 0.12
+  criomante:
+    armor: 0.08
+    max_health: 0.2
+    attack_damage: 0.05
+    spell_power: 0.25
+    mana_max: 1.3
+    mana_regen: 0.015
+    cooldown_reduction: 0.06
+    crit_chance: 0.02
+    freeze_chance: 0.12
+  electromante:
+    attack_damage: 0.08
+    movement_speed: 0.0012
+    attack_speed: 0.002
+    spell_power: 0.25
+    mana_max: 0.8
+    mana_regen: 0.015
+    cooldown_reduction: 0.12
+    crit_chance: 0.02
+    shock_chance: 0.12
+  tirador:
+    attack_damage: 0.12
+    luck: 0.03
+    crit_chance: 0.1
+    crit_damage: 0.3
+    penetration: 0.1
+    evasion: 0.02
+  maestro_de_bestias:
+    max_health: 0.35
+    armor: 0.05
+    luck: 0.02
+    crit_chance: 0.04
+    crit_damage: 0.3
+    penetration: 0.04
+    evasion: 0.05
+    damage_reduction: 0.05
+  trampero:
+    movement_speed: 0.0012
+    luck: 0.04
+    armor: 0.04
+    crit_chance: 0.04
+    crit_damage: 0.3
+    penetration: 0.04
+    evasion: 0.02
+    stun_chance: 0.05
+    bleed_chance: 0.05
+  asesino:
+    attack_damage: 0.12
+    movement_speed: 0.0012
+    crit_chance: 0.13
+    crit_damage: 0.35
+    evasion: 0.04
+    penetration: 0.025
+    bleed_chance: 0.06
+  envenenador:
+    attack_damage: 0.07
+    luck: 0.03
+    attack_speed: 0.002
+    crit_chance: 0.05
+    crit_damage: 0.35
+    evasion: 0.04
+    penetration: 0.065
+    poison_chance: 0.12
+  duquista_sombra:
+    movement_speed: 0.002
+    attack_speed: 0.003
+    crit_chance: 0.05
+    crit_damage: 0.75
+    evasion: 0.11
+    penetration: 0.025
+  sacerdote_de_luz:
+    max_health: 0.45
+    armor: 0.05
+    luck: 0.03
+    mana_max: 0.5
+    mana_regen: 0.05
+    damage_reduction: 0.03
+    spell_power: 0.325
+    lifesteal: 0.01
+    status_resist: 0.1
+  inquisidor:
+    attack_damage: 0.09
+    armor: 0.07
+    mana_max: 0.5
+    mana_regen: 0.02
+    damage_reduction: 0.03
+    spell_power: 0.125
+    lifesteal: 0.01
+    status_resist: 0.1
+    burn_chance: 0.06
+    penetration: 0.06
+  monje:
+    movement_speed: 0.0015
+    attack_speed: 0.004
+    max_health: 0.2
+    mana_max: 0.5
+    mana_regen: 0.02
+    damage_reduction: 0.03
+    spell_power: 0.125
+    lifesteal: 0.01
+    status_resist: 0.1
+    evasion: 0.06
+    cooldown_reduction: 0.06
+  senor_de_las_sombras:
+    max_health: 0.3
+    armor: 0.05
+    attack_damage: 0.05
+    spell_power: 0.4
+    lifesteal: 0.09
+    mana_max: 0.6
+    cooldown_reduction: 0.04
+  cosechador:
+    attack_damage: 0.08
+    max_health: 0.3
+    spell_power: 0.2
+    lifesteal: 0.1
+    mana_max: 0.6
+    cooldown_reduction: 0.04
+    bleed_chance: 0.05
+  plagador:
+    attack_damage: 0.06
+    luck: 0.04
+    armor: 0.04
+    spell_power: 0.2
+    lifesteal: 0.04
+    mana_max: 0.6
+    cooldown_reduction: 0.04
+    poison_chance: 0.12
+    status_resist: 0.1
+  guardian_salvaje:
+    max_health: 0.6
+    armor: 0.12
+    knockback_resistance: 0.005
+    mana_regen: 0.02
+    mana_max: 0.5
+    damage_reduction: 0.105
+    evasion: 0.015
+    spell_power: 0.125
+    status_resist: 0.12
+  cazador_predador:
+    attack_damage: 0.09
+    movement_speed: 0.0018
+    attack_speed: 0.003
+    mana_regen: 0.02
+    mana_max: 0.5
+    damage_reduction: 0.025
+    evasion: 0.015
+    spell_power: 0.125
+    crit_chance: 0.05
+    bleed_chance: 0.06
+  chaman_terrestre:
+    max_health: 0.4
+    armor: 0.06
+    luck: 0.03
+    mana_regen: 0.05
+    mana_max: 0.5
+    damage_reduction: 0.025
+    evasion: 0.015
+    spell_power: 0.125
+    stun_chance: 0.04
+  maestro_alquimista:
+    attack_damage: 0.06
+    luck: 0.04
+    max_health: 0.2
+    penetration: 0.05
+    crit_chance: 0.025
+    cooldown_reduction: 0.05
+    mana_max: 0.4
+    poison_chance: 0.06
+    mana_regen: 0.03
+  ingeniero:
+    armor: 0.08
+    attack_damage: 0.06
+    attack_speed: 0.002
+    penetration: 0.05
+    crit_chance: 0.025
+    cooldown_reduction: 0.13
+    mana_max: 0.4
+    shock_chance: 0.05
+  demoledor:
+    attack_damage: 0.1
+    knockback_resistance: 0.003
+    armor: 0.04
+    penetration: 0.13
+    crit_chance: 0.025
+    cooldown_reduction: 0.05
+    mana_max: 0.4
+    burn_chance: 0.06
+  ladrador_del_valor:
+    attack_damage: 0.06
+    max_health: 0.3
+    armor: 0.05
+    cooldown_reduction: 0.075
+    mana_regen: 0.025
+    xp_bonus: 0.09
+    mana_max: 0.45
+    damage_reduction: 0.05
+  maestro_de_la_discordia:
+    movement_speed: 0.001
+    luck: 0.04
+    attack_damage: 0.05
+    cooldown_reduction: 0.155
+    mana_regen: 0.025
+    xp_bonus: 0.04
+    mana_max: 0.45
+    stun_chance: 0.05
+  menestral:
+    max_health: 0.4
+    luck: 0.04
+    movement_speed: 0.001
+    cooldown_reduction: 0.075
+    mana_regen: 0.065
+    xp_bonus: 0.1
+    mana_max: 0.45
+  invocador_demoniaco:
+    attack_damage: 0.09
+    max_health: 0.2
+    spell_power: 0.575
+    lifesteal: 0.025
+    mana_max: 0.65
+    penetration: 0.03
+    burn_chance: 0.08
+  maldito:
+    attack_damage: 0.07
+    luck: 0.03
+    armor: 0.04
+    spell_power: 0.275
+    lifesteal: 0.065
+    mana_max: 0.65
+    penetration: 0.03
+    poison_chance: 0.06
+  devorador_de_almas:
+    attack_damage: 0.08
+    max_health: 0.3
+    movement_speed: 0.001
+    spell_power: 0.275
+    lifesteal: 0.105
+    mana_max: 1.25
+    penetration: 0.03

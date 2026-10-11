@@ -1,0 +1,98 @@
+subclasses:
+  asesino:
+    abilities:
+      asesino_golpe_por_la_espalda:
+        name: Golpe por la Espalda
+        description: Dispara contra un objetivo (3.5 bloques)
+        icon: DIAMOND_SWORD
+        row: 0
+        col: 4
+        cost: 1
+        max_level: 5
+        cooldown: 9
+        cooldown_per_level: -0.4
+        requires:
+          level: 1
+          abilities: {}
+        effect:
+          type: bolt
+          range: 3.5
+          damage: 14
+          damage_per_level: 3.5
+          particle: CRIT
+          sound: ENTITY_PLAYER_ATTACK_CRIT
+          statuses:
+          - bleed:6:2
+      asesino_sombra_fugaz:
+        name: Sombra Fugaz
+        description: Te lanzas con impulso
+        icon: BLACK_DYE
+        row: 1
+        col: 2
+        cost: 1
+        max_level: 5
+        cooldown: 10
+        cooldown_per_level: -0.4
+        requires:
+          level: 5
+          abilities:
+            asesino_golpe_por_la_espalda: 1
+        effect:
+          type: dash
+          power: 2.0
+          damage: 5
+          damage_per_level: 1.5
+          radius: 2
+          potions:
+          - invisibility:3:0
+          particle: SMOKE
+          sound: ENTITY_PHANTOM_SWOOP
+      asesino_paso_de_muerte:
+        name: Paso de Muerte
+        description: Te teletransportas hacia adelante
+        icon: ENDER_PEARL
+        row: 1
+        col: 6
+        cost: 1
+        max_level: 5
+        cooldown: 14
+        cooldown_per_level: -0.6
+        requires:
+          level: 5
+          abilities:
+            asesino_golpe_por_la_espalda: 1
+        effect:
+          type: blink
+          distance: 10
+          distance_per_level: 1
+          potions:
+          - invisibility:4:0
+          - speed:4:1
+          particle: SMOKE
+          sound: ENTITY_ENDERMAN_TELEPORT
+      asesino_ejecucion:
+        name: Ejecución
+        description: Dispara contra un objetivo (4 bloques)
+        icon: NETHERITE_SWORD
+        row: 3
+        col: 4
+        cost: 2
+        max_level: 5
+        cooldown: 45
+        cooldown_per_level: -2
+        requires:
+          level: 15
+          abilities:
+            asesino_sombra_fugaz: 2
+            asesino_paso_de_muerte: 2
+        effect:
+          type: bolt
+          range: 4
+          damage: 20
+          damage_per_level: 6
+          particle: DAMAGE_INDICATOR
+          sound: ENTITY_PLAYER_ATTACK_CRIT
+          execute_below: 0.5
+          execute_mult: 2.5
+          statuses:
+          - bleed:6:2

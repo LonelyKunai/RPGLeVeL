@@ -1,0 +1,5 @@
+classes:
+  clerigo:
+    name: Clérigo
+    description: Clase de apoyo vital para grupos, centrada en la curación, bendiciones y purificación.
+    icon: GOLDEN_APPLE

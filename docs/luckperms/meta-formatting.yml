@@ -1,0 +1,19 @@
+# Pegar en plugins/LuckPerms/config.yml sustituyendo el bloque meta-formatting existente. Luego reiniciar.
+meta-formatting:
+  prefix:
+    format:
+      - "highest_on_track_staff"
+      - "highest_on_track_pago"
+      - "highest_on_track_clase"
+      - "highest"   # prefijo de default/Usuario si no hay rango de pago ni clase; si no, repite uno ya mostrado y se descarta
+    duplicates: first-only
+    start-spacer: ""
+    middle-spacer: " "
+    end-spacer: " "
+  suffix:
+    format:
+      - "highest"
+    duplicates: first-only
+    start-spacer: ""
+    middle-spacer: " "
+    end-spacer: ""

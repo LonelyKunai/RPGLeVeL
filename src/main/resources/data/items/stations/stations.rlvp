@@ -1,0 +1,732 @@
+items:
+  station_warrior:
+    material: SMITHING_TABLE
+    custom_model_data: 913001
+    display_name: "§6§lEstación de Guerrero"
+    lore:
+    - "§7Estación de trabajo de la clase §fGuerrero§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fGuerrero§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: warrior
+  station_mage:
+    material: SMITHING_TABLE
+    custom_model_data: 913002
+    display_name: "§6§lEstación de Mago"
+    lore:
+    - "§7Estación de trabajo de la clase §fMago§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMago§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: mage
+  station_hunter:
+    material: SMITHING_TABLE
+    custom_model_data: 913003
+    display_name: "§6§lEstación de Cazador"
+    lore:
+    - "§7Estación de trabajo de la clase §fCazador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCazador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: hunter
+  station_rogue:
+    material: SMITHING_TABLE
+    custom_model_data: 913004
+    display_name: "§6§lEstación de Pícaro"
+    lore:
+    - "§7Estación de trabajo de la clase §fPícaro§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fPícaro§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: rogue
+  station_cleric:
+    material: SMITHING_TABLE
+    custom_model_data: 913005
+    display_name: "§6§lEstación de Clérigo"
+    lore:
+    - "§7Estación de trabajo de la clase §fClérigo§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fClérigo§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: cleric
+  station_necromancer:
+    material: SMITHING_TABLE
+    custom_model_data: 913006
+    display_name: "§6§lEstación de Nigromante"
+    lore:
+    - "§7Estación de trabajo de la clase §fNigromante§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fNigromante§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: necromancer
+  station_druid:
+    material: SMITHING_TABLE
+    custom_model_data: 913007
+    display_name: "§6§lEstación de Druida"
+    lore:
+    - "§7Estación de trabajo de la clase §fDruida§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fDruida§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: druid
+  station_artificer:
+    material: SMITHING_TABLE
+    custom_model_data: 913008
+    display_name: "§6§lEstación de Artífice"
+    lore:
+    - "§7Estación de trabajo de la clase §fArtífice§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fArtífice§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: artificer
+  station_bard:
+    material: SMITHING_TABLE
+    custom_model_data: 913009
+    display_name: "§6§lEstación de Bardo"
+    lore:
+    - "§7Estación de trabajo de la clase §fBardo§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fBardo§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: bard
+  station_warlock:
+    material: SMITHING_TABLE
+    custom_model_data: 913010
+    display_name: "§6§lEstación de Brujo"
+    lore:
+    - "§7Estación de trabajo de la clase §fBrujo§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fBrujo§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: class
+      tier: 0
+    custom_data:
+      station: warlock
+  station_paladin:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913011
+    display_name: "§6§lEstación de Paladín"
+    lore:
+    - "§7Estación de trabajo de la subclase §fPaladín§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fPaladín§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: paladin
+  station_barbarian:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913012
+    display_name: "§6§lEstación de Bárbaro"
+    lore:
+    - "§7Estación de trabajo de la subclase §fBárbaro§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fBárbaro§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: barbarian
+  station_death_knight:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913013
+    display_name: "§6§lEstación de Caballero de la Muerte"
+    lore:
+    - "§7Estación de trabajo de la subclase §fCaballero de la Muerte§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCaballero de la Muerte§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: death_knight
+  station_pyromancer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913014
+    display_name: "§6§lEstación de Piroamante"
+    lore:
+    - "§7Estación de trabajo de la subclase §fPiroamante§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fPiroamante§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: pyromancer
+  station_cryomancer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913015
+    display_name: "§6§lEstación de Criomante"
+    lore:
+    - "§7Estación de trabajo de la subclase §fCriomante§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCriomante§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: cryomancer
+  station_electromancer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913016
+    display_name: "§6§lEstación de Electromante"
+    lore:
+    - "§7Estación de trabajo de la subclase §fElectromante§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fElectromante§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: electromancer
+  station_marksman:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913017
+    display_name: "§6§lEstación de Tirador"
+    lore:
+    - "§7Estación de trabajo de la subclase §fTirador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fTirador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: marksman
+  station_beastmaster:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913018
+    display_name: "§6§lEstación de Maestro de Bestias"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMaestro de Bestias§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMaestro de Bestias§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: beastmaster
+  station_trapper:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913019
+    display_name: "§6§lEstación de Trampero"
+    lore:
+    - "§7Estación de trabajo de la subclase §fTrampero§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fTrampero§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: trapper
+  station_assassin:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913020
+    display_name: "§6§lEstación de Asesino"
+    lore:
+    - "§7Estación de trabajo de la subclase §fAsesino§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fAsesino§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: assassin
+  station_venomancer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913021
+    display_name: "§6§lEstación de Envenenador"
+    lore:
+    - "§7Estación de trabajo de la subclase §fEnvenenador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fEnvenenador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: venomancer
+  station_shadow_duelist:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913022
+    display_name: "§6§lEstación de Sombra / Duelista"
+    lore:
+    - "§7Estación de trabajo de la subclase §fSombra / Duelista§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fSombra / Duelista§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: shadow_duelist
+  station_priest_of_light:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913023
+    display_name: "§6§lEstación de Sacerdote de Luz"
+    lore:
+    - "§7Estación de trabajo de la subclase §fSacerdote de Luz§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fSacerdote de Luz§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: priest_of_light
+  station_inquisitor:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913024
+    display_name: "§6§lEstación de Inquisidor"
+    lore:
+    - "§7Estación de trabajo de la subclase §fInquisidor§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fInquisidor§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: inquisitor
+  station_monk:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913025
+    display_name: "§6§lEstación de Monje"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMonje§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMonje§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: monk
+  station_shadow_lord:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913026
+    display_name: "§6§lEstación de Señor de las Sombras"
+    lore:
+    - "§7Estación de trabajo de la subclase §fSeñor de las Sombras§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fSeñor de las Sombras§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: shadow_lord
+  station_reaper:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913027
+    display_name: "§6§lEstación de Cosechador"
+    lore:
+    - "§7Estación de trabajo de la subclase §fCosechador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCosechador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: reaper
+  station_plaguer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913028
+    display_name: "§6§lEstación de Plagador"
+    lore:
+    - "§7Estación de trabajo de la subclase §fPlagador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fPlagador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: plaguer
+  station_wild_guardian:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913029
+    display_name: "§6§lEstación de Guardián Salvaje"
+    lore:
+    - "§7Estación de trabajo de la subclase §fGuardián Salvaje§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fGuardián Salvaje§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: wild_guardian
+  station_apex_hunter:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913030
+    display_name: "§6§lEstación de Cazador Depredador"
+    lore:
+    - "§7Estación de trabajo de la subclase §fCazador Depredador§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCazador Depredador§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: apex_hunter
+  station_earth_shaman:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913031
+    display_name: "§6§lEstación de Chamán Terrestre"
+    lore:
+    - "§7Estación de trabajo de la subclase §fChamán Terrestre§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fChamán Terrestre§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: earth_shaman
+  station_alchemist:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913032
+    display_name: "§6§lEstación de Maestro Alquimista"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMaestro Alquimista§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMaestro Alquimista§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: alchemist
+  station_engineer:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913033
+    display_name: "§6§lEstación de Ingeniero"
+    lore:
+    - "§7Estación de trabajo de la subclase §fIngeniero§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fIngeniero§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: engineer
+  station_demolitionist:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913034
+    display_name: "§6§lEstación de Demoledor"
+    lore:
+    - "§7Estación de trabajo de la subclase §fDemoledor§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fDemoledor§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: demolitionist
+  station_valor_herald:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913035
+    display_name: "§6§lEstación de Ladrador del Valor"
+    lore:
+    - "§7Estación de trabajo de la subclase §fLadrador del Valor§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fLadrador del Valor§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: valor_herald
+  station_discord_master:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913036
+    display_name: "§6§lEstación de Maestro de la Discordia"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMaestro de la Discordia§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMaestro de la Discordia§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: discord_master
+  station_minstrel:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913037
+    display_name: "§6§lEstación de Menestral"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMenestral§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMenestral§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: minstrel
+  station_demon_summoner:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913038
+    display_name: "§6§lEstación de Invocador Demoníaco"
+    lore:
+    - "§7Estación de trabajo de la subclase §fInvocador Demoníaco§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fInvocador Demoníaco§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: demon_summoner
+  station_cursed:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913039
+    display_name: "§6§lEstación de Maldito"
+    lore:
+    - "§7Estación de trabajo de la subclase §fMaldito§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fMaldito§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: cursed
+  station_soul_eater:
+    material: CARTOGRAPHY_TABLE
+    custom_model_data: 913040
+    display_name: "§6§lEstación de Devorador de Almas"
+    lore:
+    - "§7Estación de trabajo de la subclase §fDevorador de Almas§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fDevorador de Almas§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: subclass
+      tier: 0
+    custom_data:
+      station: soul_eater
+  station_adventurer:
+    material: FLETCHING_TABLE
+    custom_model_data: 913041
+    display_name: "§6§lEstación de Aventurero"
+    lore:
+    - "§7Estación de trabajo de equipo §fAventurero§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fAventurero§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: universal
+      tier: 0
+    custom_data:
+      station: adventurer
+  station_wanderer:
+    material: FLETCHING_TABLE
+    custom_model_data: 913042
+    display_name: "§6§lEstación de Caminante"
+    lore:
+    - "§7Estación de trabajo de equipo §fCaminante§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fCaminante§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: universal
+      tier: 0
+    custom_data:
+      station: wanderer
+  station_guardian:
+    material: FLETCHING_TABLE
+    custom_model_data: 913043
+    display_name: "§6§lEstación de Guardián"
+    lore:
+    - "§7Estación de trabajo de equipo §fGuardián§7."
+    - "§7Colócala y usa §eclic derecho §7para forjar"
+    - "§7el equipo del set §fGuardián§7."
+    list:
+      category: stations
+      name: "Estaciones de trabajo"
+      group: stations
+      type: station
+      piece: universal
+      tier: 0
+    custom_data:
+      station: guardian

@@ -1,0 +1,40 @@
+# Mensajes traducibles (por jugador: /language <código>). Placeholders: {0} {1} ...
+level:
+  up: "§6¡Tu {0} §f{1} §6subió al nivel §e{2}§6!"
+  kind_class: "clase"
+  kind_subclass: "subclase"
+  title: "§6¡Nivel {0}!"
+rank:
+  up: "§6¡Tu rango {0} de {1} §6subió a {2}§6!"
+  title_scope: "{0}"
+  permanent: "permanente"
+  season: "de temporada"
+ability:
+  mana_low: "§cManá insuficiente §7({0} necesario, tienes {1})"
+  cooldown: "§c{0} en enfriamiento: {1}s"
+  locked: "§cNo has desbloqueado §f{0}§c. Desbloquéala en /ability."
+  zone_off: "§cLas habilidades están desactivadas en esta zona."
+  cast: "§d✦ {0} §7(nivel {1})"
+  unlocked: "§a¡Habilidad desbloqueada: §f{0}§a!"
+  upgraded: "§a{0} §7subió al nivel §e{1}§7 (-{2} ability XP)."
+  no_target: "§cSin objetivo a la vista"
+combat:
+  crit: "§c✦ ¡Crítico! §7{0}"
+  dodge: "§a¡Esquivado!"
+  req_returned: "§c{0}§c. El ítem volvió a tu inventario."
+mana:
+  bar: "§b✦ Maná §f{0}§7/§f{1} {2}"
+station:
+  forged: "§aForjaste §f{0}§a."
+  missing: "§cTe faltan ingredientes."
+achievement:
+  unlocked: "§6★ Logro desbloqueado: §e{0} §7- {1}"
+  title_new: "§7Nuevo título: {0} §7(/title)"
+  title_header: "§6★ Logro"
+quest:
+  done: "§a✔ Misión completada: §f{0} §7(+{1} pts de misiones)"
+  coins: "§7+§e{0} §7monedas"
+language:
+  changed: "§aIdioma cambiado a {0}"
+  list: "§eIdiomas disponibles: {0}"
+  usage: "§cUso: /language <código>"
