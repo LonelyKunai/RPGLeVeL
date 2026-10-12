@@ -55,6 +55,16 @@ import java.util.stream.Stream;
  */
 public final class RlvpHandler {
 
+    // AnacroniCraft - Backpack tiers extension - 27/45/81/108/135 - >45 paginated GUI shared with RecipeBook
+    private static final Map<String, Integer> BACKPACK_TIERS = Map.of(
+        "backpack_t1", 27,
+        "backpack_t2", 45,
+        "backpack_t3", 81,
+        "backpack_t4", 108,
+        "backpack_t5", 135
+    );
+
+
     public static final String EXTENSION = ".rlvp";
     private static final String RESOURCE_ROOT = "data/items/";
 
@@ -383,4 +393,27 @@ public final class RlvpHandler {
         infos.clear();
         loadItems();
     }
+
+    // ===== AnacroniCraft - Backpack API =====
+    public int getBackpackSlots(String id) {
+        return BACKPACK_TIERS.getOrDefault(id.toLowerCase(java.util.Locale.ROOT), 27);
+    }
+
+    public boolean isBackpackPaginated(String id) {
+        return getBackpackSlots(id) > 45;
+    }
+
+    public int getBackpackPages(String id) {
+        return (int) Math.ceil(getBackpackSlots(id) / 45.0);
+    }
+
+    public boolean isBackpack(String id) {
+        return id != null && BACKPACK_TIERS.containsKey(id.toLowerCase(java.util.Locale.ROOT));
+    }
+
+    // Master categories for recipe book - 4 categorias + orden data/items/
+    public List<String> getMasterCategories() {
+        return List.of("clases_y_subclases", "items_base", "mecanismos_industriales", "uso_universal");
+    }
 }
+

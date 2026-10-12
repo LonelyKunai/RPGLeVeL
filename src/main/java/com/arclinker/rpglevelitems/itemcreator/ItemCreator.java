@@ -202,9 +202,37 @@ public final class ItemCreator {
     }
 
     /**
+     * AnacroniCraft - Crea mochila con tier 27/45/81/108/135 - paginada >45 usa GUI compartido
+     */
+    public ItemStack createBackpackItem(String id, int tier, int slots) {
+        Material mat = tier <= 2 ? Material.CHEST : tier <= 4 ? Material.TRAPPED_CHEST : Material.ENDER_CHEST;
+        ItemStack item = new ItemStack(mat);
+        ItemMeta meta = item.getItemMeta();
+        if (meta != null) {
+            boolean paginated = slots > 45;
+            int pages = (int) Math.ceil(slots / 45.0);
+            meta.setDisplayName("§6🎒 " + id + " T" + tier + " [" + slots + "]" + (paginated ? " [PAGINADA]" : ""));
+            meta.setLore(List.of(
+                "§7Tier " + tier + " | " + slots + " slots",
+                "§7Paginada: " + (paginated ? "Si - " + pages + "x45 GUI 54" : "No"),
+                "§7Mismo GUI que libro recetas",
+                "§7data/items/04_mecanismos_industriales.rlvp"
+            ));
+            PersistentDataContainer pdc = meta.getPersistentDataContainer();
+            pdc.set(new NamespacedKey(RPGLevelTier.KEY_NS, "backpack_tier"), org.bukkit.persistence.PersistentDataType.INTEGER, tier);
+            pdc.set(new NamespacedKey(RPGLevelTier.KEY_NS, "backpack_id"), org.bukkit.persistence.PersistentDataType.STRING, id);
+            pdc.set(new NamespacedKey(RPGLevelTier.KEY_NS, "backpack_slots"), org.bukkit.persistence.PersistentDataType.INTEGER, slots);
+            pdc.set(new NamespacedKey(RPGLevelTier.KEY_NS, "rlvp_id"), org.bukkit.persistence.PersistentDataType.STRING, id);
+            item.setItemMeta(meta);
+        }
+        return item;
+    }
+
+    /**
      * Gets the display name from an item.
      */
     public String getDisplayName(ItemStack item) {
+
         if (item == null || item.getItemMeta() == null) return null;
         return item.getItemMeta().getDisplayName();
     }
